@@ -37,7 +37,7 @@
 					</nb-step>
 					<nb-step
 						[label]="labelTwo"
-						*ngIf="appName !== 'gauzy-desktop-timer' && appName !== 'gauzy-server'"
+						*ngIf="appName !== 'worksuite-desktop-timer' && appName !== 'worksuite-server'"
 					>
 						<ng-template #labelTwo>FUNCTIONALITIES</ng-template>
 						<div class="row content-body">
@@ -100,7 +100,7 @@
 															"
 															><span
 																class="card-item-label"
-																>Gauzy Platform
+																>Worksuite Platform
 																Features</span
 															></nb-checkbox
 														>
@@ -155,11 +155,11 @@
 							</div>
 						</div>
 					</nb-step>
-					<nb-step label="CONNECTIVITY" *ngIf="appName !== 'gauzy-server'">
+					<nb-step label="CONNECTIVITY" *ngIf="appName !== 'worksuite-server'">
 						<div class="row content-body">
 							<div class="col-12 text-center margin-content">
 								<h4>
-									How are you going to use Gauzy platform?
+									How are you going to use Worksuite platform?
 								</h4>
 								<p>
 									You have to select only one of the options
@@ -174,7 +174,7 @@
 									<div
 										class="col-4 col-center"
 										*ngIf="
-											appName !== 'gauzy-desktop-timer'
+											appName !== 'worksuite-desktop-timer'
 										"
 									>
 										<nb-card class="card-small-item">
@@ -203,7 +203,7 @@
 													<div class="col-12">
 														<span
 															>Install and run
-															Gauzy Platform on
+															Worksuite Platform on
 															your local
 															computer.</span
 														>
@@ -561,14 +561,14 @@
 								</h4>
 								<p>
 									This is the final step where you can get to
-									the nitty-gritty of your Gauzy Platform.
+									the nitty-gritty of your Worksuite Platform.
 								</p>
 							</div>
 							<div
 								class="col-10 text-center margin-setting-content col-center"
 								*ngIf="connectivity.integrated"
 							>
-								<div class="col-5 col-center margin-form" *ngIf="appName !== 'gauzy-server'">
+								<div class="col-5 col-center margin-form" *ngIf="appName !== 'worksuite-server'">
 									<div class="row">
 										<div class="col-3 col-center">
 											<span class="integraion-label"
@@ -590,7 +590,7 @@
 									</div>
 								</div>
 
-								<div class="col-7 col-center margin-form" *ngIf="appName === 'gauzy-server'">
+								<div class="col-7 col-center margin-form" *ngIf="appName === 'worksuite-server'">
 									<div class="row">
 										<div class="col-4 col-center">
 											<span class="integraion-label"

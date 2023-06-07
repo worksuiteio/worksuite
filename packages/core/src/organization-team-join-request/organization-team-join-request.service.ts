@@ -2,15 +2,15 @@ import { BadRequestException, ConflictException, Injectable, HttpStatus } from '
 import { InjectRepository } from '@nestjs/typeorm';
 import { MoreThanOrEqual, Repository, SelectQueryBuilder, IsNull } from 'typeorm';
 import { JwtPayload, sign } from 'jsonwebtoken';
-import { environment } from '@gauzy/config';
-import { IAppIntegrationConfig } from '@gauzy/common';
+import { environment } from '@worksuite/config';
+import { IAppIntegrationConfig } from '@worksuite/common';
 import {
 	IOrganizationTeamJoinRequest,
 	IOrganizationTeamJoinRequestCreateInput,
 	IOrganizationTeamJoinRequestValidateInput,
 	LanguagesEnum,
 	OrganizationTeamJoinRequestStatusEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import * as moment from 'moment';
 import { TenantAwareCrudService } from './../core/crud';
 import { generateRandomInteger } from './../core/utils';

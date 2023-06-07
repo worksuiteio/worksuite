@@ -23,7 +23,7 @@ import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { TableComponentsModule } from '../../@shared/table-components/table-components.module';
 import { TranslateModule } from '../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
 import { NoDataMessageModule } from '../../@shared/no-data-message/no-data-message.module';
 
@@ -54,7 +54,7 @@ const COMPONENTS = [DocumentsComponent, UploadDocumentComponent];
 		TranslateModule,
 		HeaderTitleModule,
 		PaginationModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		NoDataMessageModule 
 	],
 	declarations: [...COMPONENTS],

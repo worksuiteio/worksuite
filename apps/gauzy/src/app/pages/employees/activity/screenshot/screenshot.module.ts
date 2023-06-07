@@ -18,7 +18,7 @@ import { SharedModule } from './../../../../@shared/shared.module';
 import { ViewTimeLogModalModule } from './../../../../@shared/timesheet/view-time-log-modal/view-time-log-modal.module';
 import { ScreenshotsItemModule } from './../../../../@shared/timesheet/screenshots/screenshots-item/screenshots-item.module';
 import { GalleryModule } from './../../../../@shared/gallery/gallery.module';
-import { GauzyFiltersModule } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.module';
+import { WorksuiteFiltersModule } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.module';
 import { DailyStatisticsModule } from 'apps/gauzy/src/app/@shared/report/daily-statistics/daily-statistics.module';
 import { NoDataMessageModule } from 'apps/gauzy/src/app/@shared/no-data-message/no-data-message.module';
 
@@ -40,7 +40,7 @@ import { NoDataMessageModule } from 'apps/gauzy/src/app/@shared/no-data-message/
 		ReactiveFormsModule,
 		ScreenshotsItemModule,
 		GalleryModule,
-		GauzyFiltersModule,
+		WorksuiteFiltersModule,
 		DailyStatisticsModule,
 		NoDataMessageModule
 	]

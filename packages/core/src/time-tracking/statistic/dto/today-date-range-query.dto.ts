@@ -1,4 +1,4 @@
-import { ITimeLogTodayFilters } from "@gauzy/contracts";
+import { ITimeLogTodayFilters } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsDateString, IsOptional } from "class-validator";
 import { IsBeforeDate } from "./../../../shared/validators";

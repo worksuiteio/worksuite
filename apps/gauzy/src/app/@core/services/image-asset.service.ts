@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { IImageAsset, IImageAssetFindInput, IPagination } from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+import { IImageAsset, IImageAssetFindInput, IPagination } from '@worksuite/contracts';
+import { toParams } from '@worksuite/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 import { CrudService } from './crud/crud.service';
 

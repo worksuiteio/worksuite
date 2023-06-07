@@ -6,7 +6,7 @@ import {
 	DEFAULT_REVENUE_BASED_BONUS,
 	IMonthAggregatedSplitExpense,
 	IDateRangePicker
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Injectable } from '@nestjs/common';
 import * as moment from 'moment';
 import { EmployeeService } from '../employee/employee.service';

@@ -4,12 +4,12 @@ import {
 	IEmployeeProposalTemplate,
 	IOrganization,
 	ISelectedEmployee
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, tap } from 'rxjs/operators';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import { CKEditor4 } from 'ckeditor4-angular/ckeditor';
 import { Store, ToastrService } from './../../../../@core/services';
 import { TranslationBaseComponent } from './../../../../@shared/language-base/translation-base.component';

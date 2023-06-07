@@ -5,13 +5,13 @@ import { TranslateService } from '@ngx-translate/core';
 import { combineLatest, Subject, firstValueFrom } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import {
 	IOrganizationExpenseCategory,
 	ComponentLayoutStyleEnum,
 	IOrganization,
 	IExpenseCategory
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	IPaginationBase,
 	PaginationFilterBaseComponent

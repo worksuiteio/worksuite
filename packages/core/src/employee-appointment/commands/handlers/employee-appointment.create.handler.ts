@@ -2,7 +2,7 @@ import { ICommandHandler, CommandHandler } from '@nestjs/cqrs';
 import { EmployeeAppointmentService } from '../../employee-appointment.service';
 import { EmployeeAppointmentCreateCommand } from '../employee-appointment.create.command';
 import { EmployeeAppointment } from '../../employee-appointment.entity';
-import { LanguagesEnum } from '@gauzy/contracts';
+import { LanguagesEnum } from '@worksuite/contracts';
 import { EmailService } from '../../../email';
 import { EmployeeService } from '../../../employee/employee.service';
 import { OrganizationService } from '../../../organization/organization.service';

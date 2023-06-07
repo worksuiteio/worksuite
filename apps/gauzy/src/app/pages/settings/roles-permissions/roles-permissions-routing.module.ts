@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NgxPermissionsGuard } from 'ngx-permissions';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 import { RolesPermissionsComponent } from './roles-permissions.component';
 
 const routes: Routes = [

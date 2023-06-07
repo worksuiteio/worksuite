@@ -3,8 +3,8 @@ import { DefaultFilter } from 'ng2-smart-table';
 import { combineLatest, Subject } from 'rxjs';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { IOrganization, IOrganizationTeam, ISelectedEmployee } from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { IOrganization, IOrganizationTeam, ISelectedEmployee } from '@worksuite/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { OrganizationTeamsService, Store } from '../../@core/services';
 
 @UntilDestroy({ checkProperties: true })

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IAppointmentEmployee } from '@gauzy/contracts';
+import { IAppointmentEmployee } from '@worksuite/contracts';
 import { firstValueFrom } from 'rxjs';
 import { Observable } from 'rxjs';
 import { API_PREFIX } from '../constants/app.constants';

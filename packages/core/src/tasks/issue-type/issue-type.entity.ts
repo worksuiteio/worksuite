@@ -13,7 +13,7 @@ import {
 	IIssueType,
 	IOrganizationProject,
 	IOrganizationTeam,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	ImageAsset,
 	OrganizationProject,

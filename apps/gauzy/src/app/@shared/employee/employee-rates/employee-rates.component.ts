@@ -5,7 +5,7 @@ import {
 	PayPeriodEnum,
 	ICandidate,
 	ICurrency
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { filter, tap } from 'rxjs';
 import {

@@ -2,7 +2,7 @@ import { Component, OnInit, Input, Output, EventEmitter, AfterViewInit } from '@
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { FileUploader, FileUploaderOptions } from 'ng2-file-upload';
 import { filter, tap } from 'rxjs/operators';
-import { IImageAsset, IUser } from '@gauzy/contracts';
+import { IImageAsset, IUser } from '@worksuite/contracts';
 import { Store } from '../../@core/services';
 import { API_PREFIX } from '../../@core/constants';
 

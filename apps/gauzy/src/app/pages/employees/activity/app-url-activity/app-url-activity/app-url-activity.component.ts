@@ -13,13 +13,13 @@ import {
 	IDailyActivity,
 	IActivity,
 	IURLMetaData
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
-import { toUTC, toLocal, isJsObject, isEmpty, distinctUntilChange } from '@gauzy/common-angular';
+import { toUTC, toLocal, isJsObject, isEmpty, distinctUntilChange } from '@worksuite/common-angular';
 import { DateRangePickerBuilderService, Store } from './../../../../../@core/services';
 import { ActivityService, TimesheetFilterService } from './../../../../../@shared/timesheet';
 import { BaseSelectorFilterComponent } from './../../../../../@shared/timesheet/gauzy-filters/base-selector-filter/base-selector-filter.component';
-import { GauzyFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
+import { WorksuiteFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
 
 @UntilDestroy({ checkProperties: true })
 @Component({
@@ -38,7 +38,7 @@ export class AppUrlActivityComponent extends BaseSelectorFilterComponent
 	}[];
 	type: 'apps' | 'urls';
 
-	@ViewChild(GauzyFiltersComponent) gauzyFiltersComponent: GauzyFiltersComponent;
+	@ViewChild(WorksuiteFiltersComponent) gauzyFiltersComponent: WorksuiteFiltersComponent;
 	datePickerConfig$: Observable<any> = this.dateRangePickerBuilderService.datePickerConfig$;
 	payloads$: BehaviorSubject<ITimeLogFilters> = new BehaviorSubject(null);
 

@@ -2,8 +2,8 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { combineLatest } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
-import { IDateRangePicker, IOrganization } from '@gauzy/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
+import { IDateRangePicker, IOrganization } from '@worksuite/contracts';
 import { DateRangePickerBuilderService, Store } from '../../../@core/services';
 
 @UntilDestroy({ checkProperties: true })

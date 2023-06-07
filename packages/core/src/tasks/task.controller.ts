@@ -22,7 +22,7 @@ import {
 	IPagination,
 	IEmployee,
 	IOrganizationTeam,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UUIDValidationPipe } from './../shared/pipes';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';
 import { Permissions } from './../shared/decorators';

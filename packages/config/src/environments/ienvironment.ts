@@ -2,7 +2,7 @@
 // MIT License, see https://github.com/xmlking/ngx-starter-kit/blob/develop/LICENSE
 // Copyright (c) 2018 Sumanth Chinthagunta
 
-import { FileStorageProviderEnum } from '@gauzy/contracts';
+import { FileStorageProviderEnum } from '@worksuite/contracts';
 import {
 	IAppIntegrationConfig,
 	IAuth0Config,
@@ -20,7 +20,7 @@ import {
 	IUnleashConfig,
 	IUpworkConfig,
 	IWasabiConfig
-} from '@gauzy/common';
+} from '@worksuite/common';
 
 export type LogLevel = 'debug' | 'info' | 'warn' | 'error';
 
@@ -36,7 +36,7 @@ export interface FileSystem {
 	name: FileStorageProviderEnum;
 }
 
-export interface IGauzyFeatures {
+export interface IWorksuiteFeatures {
 	[key: string]: boolean;
 }
 
@@ -124,7 +124,7 @@ export interface IEnvironment {
 	allowSuperAdminRole?: boolean;
 
 	/**
-	 * Endpoint for Gauzy AI API (optional), e.g.: http://localhost:3005/graphql
+	 * Endpoint for Worksuite AI API (optional), e.g.: http://localhost:3005/graphql
 	 */
 	gauzyAIGraphQLEndpoint?: string;
 	gauzyCloudEndpoint?: string;

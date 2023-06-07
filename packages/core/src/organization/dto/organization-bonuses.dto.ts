@@ -1,6 +1,6 @@
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsOptional, IsEnum, IsNumber, Min, Max, ValidateIf } from "class-validator";
-import { BonusTypeEnum, DEFAULT_PROFIT_BASED_BONUS } from "@gauzy/contracts";
+import { BonusTypeEnum, DEFAULT_PROFIT_BASED_BONUS } from "@worksuite/contracts";
 
 /**
  * Organization Bonuses DTO validation

@@ -12,7 +12,7 @@ import {
 } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { CommandBus } from '@nestjs/cqrs';
-import { RolesEnum, ICandidateTechnologies, IPagination } from '@gauzy/contracts';
+import { RolesEnum, ICandidateTechnologies, IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { RoleGuard, TenantPermissionGuard } from './../shared/guards';
 import { Roles } from './../shared/decorators';

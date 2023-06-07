@@ -1,4 +1,4 @@
-import { IWarehouse } from "@gauzy/contracts";
+import { IWarehouse } from "@worksuite/contracts";
 import { WarehouseDTO } from "./warehouse.dto";
 
 /**

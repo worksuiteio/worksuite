@@ -16,7 +16,7 @@ import {
 	IsOptional,
 	IsBoolean
 } from 'class-validator';
-import { IEmployee, IEventType, ITag } from '@gauzy/contracts';
+import { IEmployee, IEventType, ITag } from '@worksuite/contracts';
 import {
 	Employee,
 	Tag,

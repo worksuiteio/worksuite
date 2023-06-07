@@ -1,9 +1,9 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@worksuite/contracts';
 import { NbMenuItem } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { Store } from '../../@core/services';
 import { TranslationBaseComponent } from '../language-base';

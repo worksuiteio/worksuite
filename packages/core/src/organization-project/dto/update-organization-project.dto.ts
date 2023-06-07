@@ -1,5 +1,5 @@
 import { IntersectionType, PartialType } from "@nestjs/swagger";
-import { IOrganizationProjectsUpdateInput } from "@gauzy/contracts";
+import { IOrganizationProjectsUpdateInput } from "@worksuite/contracts";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";
 import { OrganizationProjectDTO } from "./organization-project.dto";
 

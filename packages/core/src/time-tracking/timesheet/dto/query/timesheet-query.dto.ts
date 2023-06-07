@@ -1,4 +1,4 @@
-import { IGetTimesheetInput } from "@gauzy/contracts";
+import { IGetTimesheetInput } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/swagger";
 import { RelationsQueryDTO, SelectorsQueryDTO } from "./../../../../shared/dto";
 

@@ -1,4 +1,4 @@
-import { IEmployee, IOrganizationTeam, IOrganizationTeamEmployee, IRole } from '@gauzy/contracts';
+import { IEmployee, IOrganizationTeam, IOrganizationTeamEmployee, IRole } from '@worksuite/contracts';
 import { Entity, Column, ManyToOne, RelationId, Index } from 'typeorm';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsBoolean, IsNotEmpty, IsOptional, IsUUID } from 'class-validator';

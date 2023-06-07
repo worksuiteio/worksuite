@@ -1,11 +1,11 @@
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 import { CanActivate, ExecutionContext, Injectable } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
 import { InjectRepository } from '@nestjs/typeorm';
 import { verify } from 'jsonwebtoken';
 import { Repository } from 'typeorm';
-import { PermissionsEnum, RolesEnum } from '@gauzy/contracts';
-import { isEmpty, PERMISSIONS_METADATA, removeDuplicates } from '@gauzy/common';
+import { PermissionsEnum, RolesEnum } from '@worksuite/contracts';
+import { isEmpty, PERMISSIONS_METADATA, removeDuplicates } from '@worksuite/common';
 import * as camelCase from 'camelcase';
 import { RequestContext } from './../../core/context';
 import { Employee } from './../../core/entities/internal';

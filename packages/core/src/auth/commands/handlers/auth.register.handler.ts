@@ -1,6 +1,6 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { UnauthorizedException, BadRequestException } from '@nestjs/common';
-import { IUser, RolesEnum } from '@gauzy/contracts';
+import { IUser, RolesEnum } from '@worksuite/contracts';
 import { AuthRegisterCommand } from '../auth.register.command';
 import { AuthService } from '../../auth.service';
 import { UserService } from '../../../user/user.service';

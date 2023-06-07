@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { ITaskStatus } from '@gauzy/contracts';
+import { ITaskStatus } from '@worksuite/contracts';
 import { OrganizationTeamTaskPriorityBulkCreateCommand } from '../organization-team-task-priority-bulk-create.command';
 import { TaskPriorityService } from './../../priority.service';
 

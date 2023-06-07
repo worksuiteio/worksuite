@@ -1,8 +1,8 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IOrganizationCreateInput } from '@gauzy/contracts';
+import { IOrganizationCreateInput } from '@worksuite/contracts';
 
-export class GauzyCloudOrganizationMigrateCommand implements ICommand {
-	static readonly type = '[Gauzy Cloud] Organization Migrate';
+export class WorksuiteCloudOrganizationMigrateCommand implements ICommand {
+	static readonly type = '[Worksuite Cloud] Organization Migrate';
 
 	constructor(
 		public readonly input: IOrganizationCreateInput,

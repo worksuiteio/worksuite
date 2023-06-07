@@ -1,9 +1,9 @@
 import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import { NbDialogRef } from '@nebular/theme';
-import { IEmailTemplate, IEmail, IOrganization, LanguagesEnum } from '@gauzy/contracts';
+import { IEmailTemplate, IEmail, IOrganization, LanguagesEnum } from '@worksuite/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import {
 	EmailService,
 	EmailTemplateService,

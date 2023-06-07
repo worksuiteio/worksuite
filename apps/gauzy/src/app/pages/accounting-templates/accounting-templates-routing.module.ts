@@ -2,7 +2,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { AccountingTemplatesComponent } from './accounting-templates.component';
 import { NgxPermissionsGuard } from 'ngx-permissions';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 
 const routes: Routes = [
 	{

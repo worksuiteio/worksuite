@@ -1,7 +1,7 @@
 import {
     ComponentType,
     RecurringExpenseDefaultCategoriesEnum
-} from "@gauzy/contracts";
+} from "@worksuite/contracts";
 
 export const DEFAULT_CATEGORIES = [
     {

@@ -1,10 +1,10 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { IOrganization, RegionsEnum } from '@gauzy/contracts';
+import { IOrganization, RegionsEnum } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { filter } from 'rxjs/operators';
 import * as moment from 'moment';
 import { Store } from '../../@core/services/store.service';
-import { isEmpty } from '@gauzy/common-angular';
+import { isEmpty } from '@worksuite/common-angular';
 
 @UntilDestroy({ checkProperties: true })
 @Pipe({

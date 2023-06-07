@@ -1,4 +1,4 @@
-import { GoalOwnershipEnum } from "@gauzy/contracts";
+import { GoalOwnershipEnum } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsEnum, IsNotEmpty, IsNumber, IsOptional } from "class-validator";
 

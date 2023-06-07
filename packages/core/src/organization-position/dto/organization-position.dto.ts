@@ -1,4 +1,4 @@
-import { IOrganizationPosition } from "@gauzy/contracts";
+import { IOrganizationPosition } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsString, IsNotEmpty } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

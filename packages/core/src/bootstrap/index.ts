@@ -11,9 +11,9 @@ import { join } from 'path';
 import { urlencoded, json } from 'express';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { EntitySubscriberInterface } from 'typeorm';
-import { IPluginConfig } from '@gauzy/common';
-import { getConfig, setConfig, environment as env } from '@gauzy/config';
-import { getEntitiesFromPlugins } from '@gauzy/plugin';
+import { IPluginConfig } from '@worksuite/common';
+import { getConfig, setConfig, environment as env } from '@worksuite/config';
+import { getEntitiesFromPlugins } from '@worksuite/plugin';
 import { coreEntities } from '../core/entities';
 import { coreSubscribers } from './../core/entities/subscribers';
 import { AppService } from '../app.service';
@@ -68,7 +68,7 @@ export async function bootstrap(
 	await service.seedDBIfEmpty();
 
 	const options = new DocumentBuilder()
-		.setTitle('Gauzy API')
+		.setTitle('Worksuite API')
 		.setVersion('1.0')
 		.addBearerAuth()
 		.build();

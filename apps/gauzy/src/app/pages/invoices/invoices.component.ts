@@ -37,8 +37,8 @@ import {
 	InvoiceTabsEnum,
 	DiscountTaxTypeEnum,
 	IDateRangePicker
-} from '@gauzy/contracts';
-import { distinctUntilChange, isNotEmpty, toUTC } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange, isNotEmpty, toUTC } from '@worksuite/common-angular';
 import { Router } from '@angular/router';
 import { first, map, filter, tap, debounceTime } from 'rxjs/operators';
 import { Subject, firstValueFrom, combineLatest, BehaviorSubject } from 'rxjs';

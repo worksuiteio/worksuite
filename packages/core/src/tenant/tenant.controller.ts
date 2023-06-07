@@ -1,4 +1,4 @@
-import { ITenant, RolesEnum } from '@gauzy/contracts';
+import { ITenant, RolesEnum } from '@worksuite/contracts';
 import {
 	BadRequestException,
 	Body,

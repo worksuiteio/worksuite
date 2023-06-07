@@ -18,10 +18,10 @@ import {
 	DefaultValueDateTypeEnum,
 	ImportTypeEnum,
 	IUserOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { environment } from './../../../environments/environment';
 import { Environment } from './../../../environments/model';
-import { ErrorHandlingService, ExportAllService, GauzyCloudService, Store, ToastrService, UsersOrganizationsService } from '../../@core/services';
+import { ErrorHandlingService, ExportAllService, WorksuiteCloudService, Store, ToastrService, UsersOrganizationsService } from '../../@core/services';
 import { TranslationBaseComponent } from '../../@shared/language-base/translation-base.component';
 
 @UntilDestroy({ checkProperties: true })
@@ -42,7 +42,7 @@ export class ImportExportComponent extends TranslationBaseComponent implements O
 
 	constructor(
 		private readonly exportAll: ExportAllService,
-		private readonly gauzyCloudService: GauzyCloudService,
+		private readonly gauzyCloudService: WorksuiteCloudService,
 		private readonly userOrganizationService: UsersOrganizationsService,
 		private readonly router: Router,
 		private readonly store: Store,
@@ -81,7 +81,7 @@ export class ImportExportComponent extends TranslationBaseComponent implements O
 	}
 
 	/*
-	* Migrate Self Hosted to Gauzy Cloud Hosted
+	* Migrate Self Hosted to Worksuite Cloud Hosted
 	*/
 	onMigrateIntoCloud(password: string) {
 		const {

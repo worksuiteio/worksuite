@@ -6,7 +6,7 @@ import * as yargs from 'yargs';
 import * as chalk from 'chalk';
 
 import { NestFactory } from '@nestjs/core';
-import { IPluginConfig } from '@gauzy/common';
+import { IPluginConfig } from '@worksuite/common';
 import { registerPluginConfig } from './../../bootstrap';
 import { SeedDataService } from './seed-data.service';
 import { SeederModule } from './seeder.module';
@@ -17,7 +17,7 @@ import { SeederModule } from './seeder.module';
 * yarn seed:module Default
 * yarn seed:module Jobs
 * yarn seed:module Reports
-* yarn seed:module Ever
+* yarn seed:module Worksuite
 *
 */
 export async function seedModule(devConfig: Partial<IPluginConfig>) {

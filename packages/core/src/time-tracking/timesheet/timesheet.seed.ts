@@ -7,11 +7,11 @@ import {
 	IEmployee,
 	ITimesheet,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import * as moment from 'moment';
 import * as _ from 'underscore';
 import * as chalk from 'chalk';
-import { IPluginConfig } from '@gauzy/common';
+import { IPluginConfig } from '@worksuite/common';
 import { createRandomTimeLogs, recalculateTimesheetActivity } from './../time-log/time-log.seed';
 import { createRandomActivities } from '../activity/activity.seed';
 import { Employee, Timesheet } from './../../core/entities/internal';

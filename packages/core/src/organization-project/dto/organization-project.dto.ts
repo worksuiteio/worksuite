@@ -1,5 +1,5 @@
 import { ApiProperty, ApiPropertyOptional, IntersectionType, PartialType, PickType } from "@nestjs/swagger";
-import { OrganizationProjectBudgetTypeEnum, ProjectBillingEnum } from "@gauzy/contracts";
+import { OrganizationProjectBudgetTypeEnum, ProjectBillingEnum } from "@worksuite/contracts";
 import { IsEnum, IsNotEmpty, IsOptional } from "class-validator";
 import { OrganizationProject } from "./../organization-project.entity";
 import { UpdateTaskModeDTO } from "./update-task-mode.dto";

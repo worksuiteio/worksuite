@@ -1,10 +1,10 @@
-# `@gauzy/core`
+# `@worksuite/core`
 
-Gauzy Core - A headless ERP/CRM/HRM framework.
+Worksuite Core - A headless ERP/CRM/HRM framework.
 
 ## Usage
 
 ```
-const core = require('@gauzy/core');
+const core = require('@worksuite/core');
 
 ```

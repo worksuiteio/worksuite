@@ -3,7 +3,7 @@ import { firstValueFrom, Observable } from 'rxjs';
 import { ServerSourceConf } from './server-source.conf';
 import { LocalDataSource } from 'ng2-smart-table';
 import { catchError, map, tap } from 'rxjs/operators';
-import { toParams } from '@gauzy/common-angular';
+import { toParams } from '@worksuite/common-angular';
 
 export class ServerDataSource extends LocalDataSource {
 

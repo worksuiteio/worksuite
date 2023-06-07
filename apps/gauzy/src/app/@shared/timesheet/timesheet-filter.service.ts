@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Query, Store, StoreConfig } from '@datorama/akita';
-import { ITimeLogFilters } from '@gauzy/contracts';
+import { ITimeLogFilters } from '@worksuite/contracts';
 
 export const ActivityLevel = {
 	start: 0,

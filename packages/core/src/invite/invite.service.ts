@@ -1,4 +1,4 @@
-import { ConfigService, environment } from '@gauzy/config';
+import { ConfigService, environment } from '@worksuite/config';
 import {
 	ICreateEmailInvitesInput,
 	ICreateEmailInvitesOutput,
@@ -21,7 +21,7 @@ import {
 	IInviteResendInput,
 	InviteActionEnum,
 	IUserRegistrationInput,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	BadRequestException,
 	Injectable,
@@ -41,7 +41,7 @@ import {
 	SelectQueryBuilder,
 } from 'typeorm';
 import { addDays } from 'date-fns';
-import { IAppIntegrationConfig, isNotEmpty } from '@gauzy/common';
+import { IAppIntegrationConfig, isNotEmpty } from '@worksuite/common';
 import { PaginationParams, TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from './../core/context';
 import { freshTimestamp, generateRandomInteger } from './../core/utils';

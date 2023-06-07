@@ -18,8 +18,8 @@ import {
 	IOrganization,
 	ITenant,
 	DEFAULT_DATE_FORMATS
-} from '@gauzy/contracts';
-import { environment as env } from '@gauzy/config';
+} from '@worksuite/contracts';
+import { environment as env } from '@worksuite/config';
 
 export const getDefaultOrganization = async (
 	dataSource: DataSource,
@@ -145,7 +145,7 @@ export const createRandomOrganizations = async (
 
 	for await (const tenant of tenants) {
 		const randomOrganizations: IOrganization[] = [];
-		if (tenant.name === 'Ever') {
+		if (tenant.name === 'Worksuite') {
 			tenantOrganizations.set(tenant, defaultOrganizationsInserted);
 		} else {
 			for (let index = 0; index < organizationsPerTenant; index++) {

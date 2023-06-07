@@ -4,7 +4,7 @@ import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { monthNames } from 'apps/gauzy/src/app/@core/utils/date';
 import { TranslateService } from '@ngx-translate/core';
-import { IMonthAggregatedEmployeeStatistics } from '@gauzy/contracts';
+import { IMonthAggregatedEmployeeStatistics } from '@worksuite/contracts';
 import { TranslationBaseComponent } from 'apps/gauzy/src/app/@shared/language-base/translation-base.component';
 
 @Component({

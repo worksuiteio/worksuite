@@ -15,7 +15,7 @@ import {
 	ValidationPipe
 } from '@nestjs/common';
 import { DeleteResult, UpdateResult } from 'typeorm';
-import { IEmployeeAward, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { IEmployeeAward, IPagination, PermissionsEnum } from '@worksuite/contracts';
 import { EmployeeAward } from './employee-award.entity';
 import { EmployeeAwardService } from './employee-award.service';
 import { CrudController, PaginationParams } from './../core/crud';

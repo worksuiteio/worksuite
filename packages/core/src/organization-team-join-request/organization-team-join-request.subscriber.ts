@@ -1,6 +1,6 @@
 import { EntitySubscriberInterface, EventSubscriber, InsertEvent, LoadEvent } from 'typeorm';
 import * as moment from 'moment';
-import { environment } from '@gauzy/config';
+import { environment } from '@worksuite/config';
 import { OrganizationTeamJoinRequest } from './organization-team-join-request.entity';
 
 @EventSubscriber()

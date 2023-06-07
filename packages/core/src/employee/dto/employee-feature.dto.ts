@@ -1,4 +1,4 @@
-import { IEmployee, IRelationalEmployee } from "@gauzy/contracts";
+import { IEmployee, IRelationalEmployee } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsObject, IsString, ValidateIf } from "class-validator";
 import { Employee } from "./../employee.entity";

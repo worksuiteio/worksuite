@@ -1,4 +1,4 @@
-import { IManualTimeInput, PermissionsEnum } from "@gauzy/contracts";
+import { IManualTimeInput, PermissionsEnum } from "@worksuite/contracts";
 import { ArgumentMetadata, Injectable, PipeTransform } from "@nestjs/common";
 import { RequestContext } from "./../../../core/context";
 

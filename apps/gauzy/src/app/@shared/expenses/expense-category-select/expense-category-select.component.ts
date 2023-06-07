@@ -11,7 +11,7 @@ import {
 	IOrganization,
 	IOrganizationExpenseCategory,
 	IOrganizationVendor
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { Subject } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';

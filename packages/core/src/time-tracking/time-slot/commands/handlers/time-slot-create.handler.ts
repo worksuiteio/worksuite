@@ -3,7 +3,7 @@ import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import * as moment from 'moment';
-import { IntegrationEntity, ITimeSlot } from '@gauzy/contracts';
+import { IntegrationEntity, ITimeSlot } from '@worksuite/contracts';
 import { TimeSlotCreateCommand } from './../time-slot-create.command';
 import { RequestContext } from './../../../../core/context';
 import { TimeSlot } from './../../../../core/entities/internal';

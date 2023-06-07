@@ -12,7 +12,7 @@ import { filter, map, Observable, of as observableOf } from 'rxjs';
 import { tap } from 'rxjs/operators';
 import { NbComponentSize } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { IRole, IUser, RolesEnum } from '@gauzy/contracts';
+import { IRole, IUser, RolesEnum } from '@worksuite/contracts';
 import { RoleService, Store } from './../../../../../@core/services';
 
 @UntilDestroy({ checkProperties: true })

@@ -1,4 +1,4 @@
-import { TimeFrameStatusEnum } from "@gauzy/contracts";
+import { TimeFrameStatusEnum } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsEnum, IsNotEmpty, IsString } from "class-validator";
 

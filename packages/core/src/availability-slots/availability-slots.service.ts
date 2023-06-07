@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { IAvailabilitySlot, IAvailabilitySlotsCreateInput } from '@gauzy/contracts';
+import { IAvailabilitySlot, IAvailabilitySlotsCreateInput } from '@worksuite/contracts';
 import { AvailabilitySlot } from './availability-slots.entity';
 import { TenantAwareCrudService } from './../core/crud';
 

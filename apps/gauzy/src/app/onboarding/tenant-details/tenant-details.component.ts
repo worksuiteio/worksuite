@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { IOrganization, IOrganizationCreateInput, IUser } from '@gauzy/contracts';
+import { IOrganization, IOrganizationCreateInput, IUser } from '@worksuite/contracts';
 import { firstValueFrom } from 'rxjs';
 import {
 	AuthService,

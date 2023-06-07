@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TimeOffComponent } from './time-off.component';
 import { TimeOffSettingsComponent } from './time-off-settings/time-off-settings.component';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 import { NgxPermissionsGuard } from 'ngx-permissions';
 import { DateRangePickerResolver } from '../../@theme/components/header/selectors/date-range-picker';
 

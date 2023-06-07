@@ -10,7 +10,7 @@ import {
 import { isPlatformBrowser } from '@angular/common';
 import { NbLayoutComponent, NbSidebarService } from '@nebular/theme';
 import { filter, tap } from 'rxjs/operators';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@worksuite/contracts';
 import { WindowModeBlockScrollService } from '../../services/window-mode-block-scroll.service';
 import { NavigationBuilderService, Store } from '../../../@core/services';
 import { DEFAULT_SIDEBARS } from '../../components/theme-sidebar/default-sidebars';

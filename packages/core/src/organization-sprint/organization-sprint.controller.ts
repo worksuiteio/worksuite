@@ -16,7 +16,7 @@ import {
 	IOrganizationSprint,
 	IOrganizationSprintUpdateInput,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { OrganizationSprint } from './organization-sprint.entity';
 import { OrganizationSprintService } from './organization-sprint.service';

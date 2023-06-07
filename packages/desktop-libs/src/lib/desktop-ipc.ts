@@ -13,7 +13,7 @@ import { LocalStore } from './desktop-store';
 import { notifyScreenshot, takeshot } from './desktop-screenshot';
 import { resetPermissions } from 'mac-screen-capture-permissions';
 import * as _ from 'underscore';
-import { timeTrackerPage } from '@gauzy/desktop-window';
+import { timeTrackerPage } from '@worksuite/desktop-window';
 // Import logging for electron and override default console logging
 import log from 'electron-log';
 import NotificationDesktop from './desktop-notifier';
@@ -390,7 +390,7 @@ export function ipcTimer(
 			) {
 				const notification = {
 					message: 'Successfully remove last screenshot and activities',
-					title: 'Gauzy',
+					title: 'Worksuite',
 				};
 				const notify = new NotificationDesktop();
 				await intervalService.remove(intervalId);
@@ -556,7 +556,7 @@ export function ipcTimer(
 		const notify = new NotificationDesktop();
 		if (appSetting) {
 			if (appSetting.simpleScreenshotNotification) {
-				notify.customNotification('Screenshot taken', 'Gauzy');
+				notify.customNotification('Screenshot taken', 'Worksuite');
 			} else if (appSetting.screenshotNotification) {
 				await notifyScreenshot(
 					notificationWindow,

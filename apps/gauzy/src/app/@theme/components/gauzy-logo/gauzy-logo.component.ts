@@ -10,16 +10,16 @@ import {
 import { NbThemeService } from '@nebular/theme';
 import { untilDestroyed, UntilDestroy } from '@ngneat/until-destroy';
 import { tap, debounceTime, filter } from 'rxjs/operators';
-import { FeatureEnum, IOrganization, PermissionsEnum } from '@gauzy/contracts';
+import { FeatureEnum, IOrganization, PermissionsEnum } from '@worksuite/contracts';
 import { Store } from '../../../@core/services';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 @UntilDestroy({ checkProperties: true })
 @Component({
 	selector: 'ngx-gauzy-logo',
 	templateUrl: './gauzy-logo.component.html',
 	styleUrls: ['./gauzy-logo.component.scss']
 })
-export class GauzyLogoComponent implements OnInit, OnDestroy {
+export class WorksuiteLogoComponent implements OnInit, OnDestroy {
 	theme: string;
 	isCollapse: boolean = true;
 	organization: IOrganization;

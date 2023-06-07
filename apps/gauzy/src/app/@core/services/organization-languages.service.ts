@@ -4,7 +4,7 @@ import {
 	IOrganizationLanguageCreateInput,
 	IOrganizationLanguage,
 	IOrganizationLanguageFindInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { firstValueFrom } from 'rxjs';
 import { API_PREFIX } from '../constants/app.constants';
 

@@ -27,8 +27,8 @@ import {
 	ITimeLog,
 	ITimeLogFilters,
 	PermissionsEnum
-} from '@gauzy/contracts';
-import { toLocal, isEmpty } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { toLocal, isEmpty } from '@worksuite/common-angular';
 import {
 	DateRangePickerBuilderService,
 	Store
@@ -39,7 +39,7 @@ import {
 	TimesheetService,
 	ViewTimeLogModalComponent
 } from './../../../../../@shared/timesheet';
-import { GauzyFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
+import { WorksuiteFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
 import { dayOfWeekAsString } from './../../../../../@theme/components/header/selectors/date-range-picker';
 import { BaseSelectorFilterComponent } from './../../../../../@shared/timesheet/gauzy-filters/base-selector-filter/base-selector-filter.component';
 
@@ -54,7 +54,7 @@ export class CalendarComponent extends BaseSelectorFilterComponent
 
 	@ViewChild('calendar', { static: true }) calendar: FullCalendarComponent;
 	@ViewChild('viewLogTemplate', { static: true }) viewLogTemplate: TemplateRef<any>;
-	@ViewChild(GauzyFiltersComponent) gauzyFiltersComponent: GauzyFiltersComponent;
+	@ViewChild(WorksuiteFiltersComponent) gauzyFiltersComponent: WorksuiteFiltersComponent;
 
 	datePickerConfig$: Observable<any> = this.dateRangePickerBuilderService.datePickerConfig$;
 

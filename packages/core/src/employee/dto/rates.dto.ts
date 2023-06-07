@@ -1,4 +1,4 @@
-import { CurrenciesEnum, PayPeriodEnum } from "@gauzy/contracts";
+import { CurrenciesEnum, PayPeriodEnum } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { Transform, TransformFnParams } from "class-transformer";
 import { IsEnum, IsNumber, IsOptional } from "class-validator";

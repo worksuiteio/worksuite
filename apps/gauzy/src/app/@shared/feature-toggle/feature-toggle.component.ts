@@ -18,7 +18,7 @@ import {
 	IFeatureToggle,
 	IOrganization,
 	IUser
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { FeatureStoreService, Store } from '../../@core/services';
 import { TranslationBaseComponent } from '../language-base/translation-base.component';
 import { CountdownConfirmationComponent } from '../user/forms';

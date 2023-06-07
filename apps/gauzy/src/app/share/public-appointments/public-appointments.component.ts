@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { IEmployee, IEventType } from '@gauzy/contracts';
+import { IEmployee, IEventType } from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { firstValueFrom } from 'rxjs';
 import { filter } from 'rxjs/operators';

@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { IExpenseCategory, IExpenseCategoryFind, IPagination } from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+import { IExpenseCategory, IExpenseCategoryFind, IPagination } from '@worksuite/contracts';
+import { toParams } from '@worksuite/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

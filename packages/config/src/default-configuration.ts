@@ -7,7 +7,7 @@ import {
 	DEFAULT_API_BASE_URL,
 	DEFAULT_GRAPHQL_API_PATH,
 	IPluginConfig
-} from '@gauzy/common';
+} from '@worksuite/common';
 import * as path from 'path';
 import { dbConnectionConfig } from './database';
 

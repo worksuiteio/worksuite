@@ -7,7 +7,7 @@ import {
 	loginPage,
 	timeTrackerPage,
 	getApiBaseUrl,
-} from '@gauzy/desktop-window';
+} from '@worksuite/desktop-window';
 import TitleOptions = Electron.TitleOptions;
 import { User, UserService } from './offline';
 
@@ -211,7 +211,7 @@ export class TrayIcon {
 			{
 				id: '7',
 				label: 'Logout',
-				visible: app.getName() === 'gauzy-desktop-timer',
+				visible: app.getName() === 'worksuite-desktop-timer',
 				click() {
 					timeTrackerWindow.webContents.send('logout');
 				},
@@ -231,7 +231,7 @@ export class TrayIcon {
 			Menu.getApplicationMenu().getMenuItemById('window-setting');
 
 		const openWindow = async () => {
-			if (app.getName() === 'gauzy-desktop-timer') {
+			if (app.getName() === 'worksuite-desktop-timer') {
 				timeTrackerWindow.show();
 				timeTrackerWindow.webContents.send('auth_success_tray_init');
 			} else {
@@ -341,7 +341,7 @@ export class TrayIcon {
 			} else {
 				if (
 					!loginPageAlreadyShow &&
-					app.getName() !== 'gauzy-desktop-timer'
+					app.getName() !== 'worksuite-desktop-timer'
 				) {
 					const serverConfig = LocalStore.getStore('configs');
 					global.variableGlobal = {

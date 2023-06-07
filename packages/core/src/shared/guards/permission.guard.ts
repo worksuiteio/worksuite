@@ -1,11 +1,11 @@
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 import { CanActivate, ExecutionContext, Injectable } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
 import { verify } from 'jsonwebtoken';
-import { isEmpty, PERMISSIONS_METADATA, removeDuplicates } from '@gauzy/common';
+import { isEmpty, PERMISSIONS_METADATA, removeDuplicates } from '@worksuite/common';
 import { RequestContext } from './../../core/context';
 import { UserService } from './../../user/user.service';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 
 @Injectable()
 export class PermissionGuard implements CanActivate {

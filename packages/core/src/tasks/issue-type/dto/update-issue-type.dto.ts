@@ -1,4 +1,4 @@
-import { IIssueTypeUpdateInput } from '@gauzy/contracts';
+import { IIssueTypeUpdateInput } from '@worksuite/contracts';
 import { IntersectionType, PartialType } from '@nestjs/swagger';
 import { IssueType } from '../issue-type.entity';
 import { TenantOrganizationBaseDTO } from '../../../core/dto';

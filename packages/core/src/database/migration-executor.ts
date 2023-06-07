@@ -2,7 +2,7 @@ import { DataSource, DataSourceOptions } from 'typeorm';
 import { camelCase } from 'typeorm/util/StringUtils';
 import * as chalk from 'chalk';
 import * as path from 'path';
-import { IPluginConfig, isNotEmpty } from '@gauzy/common';
+import { IPluginConfig, isNotEmpty } from '@worksuite/common';
 import { registerPluginConfig } from '../bootstrap';
 import { IMigrationOptions } from './migration-interface';
 import { MigrationUtils } from './migration-utils';

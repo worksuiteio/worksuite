@@ -28,7 +28,7 @@ import {
 	TenantInterceptor,
 	ErrorHandlerService,
 	ServerErrorInterceptor,
-} from '@gauzy/desktop-ui-lib';
+} from '@worksuite/desktop-ui-lib';
 import { NbCardModule, NbButtonModule } from '@nebular/theme';
 import { RouterModule } from '@angular/router';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';

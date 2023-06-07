@@ -1,4 +1,4 @@
-import { IOrganization } from '@gauzy/contracts';
+import { IOrganization } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class ReportOrganizationCreateCommand implements ICommand {

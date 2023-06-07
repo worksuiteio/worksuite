@@ -9,8 +9,8 @@ import {
 	TimerState,
 	TimeLogSourceEnum,
 	ITimerStatusInput
-} from '@gauzy/contracts';
-import { toLocal, toParams, toUTC } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { toLocal, toParams, toUTC } from '@worksuite/common-angular';
 import * as moment from 'moment';
 import { StoreConfig, Store, Query } from '@datorama/akita';
 import { Store as AppStore } from '../../@core/services/store.service';

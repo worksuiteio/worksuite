@@ -1,9 +1,9 @@
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { JwtPayload } from 'jsonwebtoken';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@worksuite/contracts';
 import { AuthService } from './../auth.service';
 
 @Injectable()

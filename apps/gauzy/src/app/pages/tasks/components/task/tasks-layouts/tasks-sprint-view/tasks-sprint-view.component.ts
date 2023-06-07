@@ -12,7 +12,7 @@ import {
 	IOrganizationSprint,
 	IOrganizationProject,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Observable } from 'rxjs';
 import { map, tap, filter, take } from 'rxjs/operators';
 import {
@@ -23,7 +23,7 @@ import {
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { GauzyEditableGridComponent } from '../../../../../../@shared/components/editable-grid/gauzy-editable-grid.component';
+import { WorksuiteEditableGridComponent } from '../../../../../../@shared/components/editable-grid/gauzy-editable-grid.component';
 import {
 	SprintStoreService,
 	Store,
@@ -37,7 +37,7 @@ import {
 	styleUrls: ['./tasks-sprint-view.component.scss']
 })
 export class TasksSprintViewComponent
-	extends GauzyEditableGridComponent<ITask>
+	extends WorksuiteEditableGridComponent<ITask>
 	implements OnInit, OnChanges
 {
 	sprints: IOrganizationSprint[] = [];

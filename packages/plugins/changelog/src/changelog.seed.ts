@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IChangelog } from '@gauzy/contracts';
+import { IChangelog } from '@worksuite/contracts';
 import { Changelog } from './changelog.entity';
 import { INITIAL_CHANGELOG_TEMPLATE } from './initial-changelog-template';
 

@@ -1,10 +1,10 @@
 import { DataSource } from 'typeorm';
 import { Tenant } from '../tenant/tenant.entity';
-import { IEmployee, IOrganization } from '@gauzy/contracts';
+import { IEmployee, IOrganization } from '@worksuite/contracts';
 import { EstimateEmail } from './estimate-email.entity';
 import { faker } from '@faker-js/faker';
 import { sign } from 'jsonwebtoken';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 
 export const createRandomEstimateEmail = async (
 	dataSource: DataSource,

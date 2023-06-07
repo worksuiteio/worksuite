@@ -2,7 +2,7 @@ import { forwardRef, Module } from '@nestjs/common';
 import { CqrsModule } from '@nestjs/cqrs';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { RouterModule } from 'nest-router';
-import { GauzyAIModule } from '@gauzy/integration-ai';
+import { WorksuiteAIModule } from '@worksuite/integration-ai';
 import { TimeLog } from './../core/entities/internal';
 import { Employee } from './employee.entity';
 import { UserModule } from './../user/user.module';
@@ -31,7 +31,7 @@ import { RoleModule } from './../role/role.module';
 		forwardRef(() => AuthModule),
 		RoleModule,
 		CqrsModule,
-		GauzyAIModule
+		WorksuiteAIModule
 	],
 	controllers: [EmployeeController],
 	providers: [EmployeeService, ...CommandHandlers],

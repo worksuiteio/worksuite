@@ -1,7 +1,7 @@
 import { Entity, Column, ManyToMany, JoinTable } from 'typeorm';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsString, IsNotEmpty } from 'class-validator';
-import { IEmployeeLevel, ITag } from '@gauzy/contracts';
+import { IEmployeeLevel, ITag } from '@worksuite/contracts';
 import { Tag, TenantOrganizationBaseEntity } from '../core/entities/internal';
 
 @Entity({ name: 'employee_level' })

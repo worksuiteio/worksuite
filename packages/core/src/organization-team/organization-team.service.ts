@@ -23,8 +23,8 @@ import {
 	PermissionsEnum,
 	IBasePerTenantAndOrganizationEntityModel,
 	IUser,
-} from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
+} from '@worksuite/contracts';
+import { isNotEmpty } from '@worksuite/common';
 import {
 	Employee,
 	OrganizationTeamEmployee,

@@ -1,4 +1,4 @@
-import { ICandidateUpdateInput } from "@gauzy/contracts";
+import { ICandidateUpdateInput } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsOptional, IsString } from "class-validator";
 import { UpdateProfileDTO } from "./../../employee/dto";

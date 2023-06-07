@@ -1,5 +1,5 @@
 import { Entity, Column, ManyToOne, JoinColumn, RelationId, Index } from 'typeorm';
-import { IProductTypeTranslation as IProductCategoryTranslation } from '@gauzy/contracts';
+import { IProductTypeTranslation as IProductCategoryTranslation } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { ProductCategory, TranslationBase } from '../core/entities/internal';
 

@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { IChangelog } from '@gauzy/contracts';
+import { IChangelog } from '@worksuite/contracts';
 import { NbSidebarService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Observable } from 'rxjs';

@@ -3,7 +3,7 @@ import {
 	RecurringExpenseDefaultCategoriesEnum,
 	EmployeeStatisticsHistoryEnum as HistoryType,
 	IEmployeeStatisticsHistory
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
@@ -15,7 +15,7 @@ import { debounceTime, tap } from 'rxjs/operators';
 import { ContactLinksComponent } from '../../table-components';
 import { PaginationFilterBaseComponent } from '../../pagination/pagination-filter-base.component';
 import { Subject } from 'rxjs/internal/Subject';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { NbDialogRef } from '@nebular/theme';
 
 @UntilDestroy({ checkProperties: true })

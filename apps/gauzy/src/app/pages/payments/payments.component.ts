@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 import { NbDialogService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { combineLatest, Subject, firstValueFrom } from 'rxjs';
-import { distinctUntilChange, toUTC } from '@gauzy/common-angular';
+import { distinctUntilChange, toUTC } from '@worksuite/common-angular';
 import * as moment from 'moment';
 import {
 	IPayment,
@@ -18,7 +18,7 @@ import {
 	ITag,
 	IOrganizationContact,
 	IDateRangePicker
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { IPaginationBase, PaginationFilterBaseComponent } from '../../@shared/pagination/pagination-filter-base.component';
 import { PaymentMutationComponent } from '../invoices/invoice-payments/payment-mutation/payment-mutation.component';
 import { DeleteConfirmationComponent } from '../../@shared/user/forms';

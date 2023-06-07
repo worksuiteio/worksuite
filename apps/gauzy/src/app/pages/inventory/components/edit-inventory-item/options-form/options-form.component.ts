@@ -4,7 +4,7 @@ import {
 	IProductOptionGroupTranslatable,
 	LanguagesEnum,
 	IProductOptionTranslatable
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { InventoryStore } from 'apps/gauzy/src/app/@core/services/inventory-store.service';
 import { FormGroup, FormBuilder } from '@angular/forms';

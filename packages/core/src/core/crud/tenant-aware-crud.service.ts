@@ -9,14 +9,14 @@ import {
 	UpdateResult
 } from 'typeorm';
 import { QueryDeepPartialEntity } from 'typeorm/query-builder/QueryPartialEntity';
-import { IPagination, IUser, PermissionsEnum } from '@gauzy/contracts';
+import { IPagination, IUser, PermissionsEnum } from '@worksuite/contracts';
 import { User } from '../../user/user.entity';
 import { RequestContext } from '../context';
 import { TenantBaseEntity } from '../entities/internal';
 import { CrudService } from './crud.service';
 import { ICrudService } from './icrud.service';
 import { ITryRequest } from './try-request';
-import { isNotEmpty } from '@gauzy/common';
+import { isNotEmpty } from '@worksuite/common';
 
 /**
  * This abstract class adds tenantId to all query filters if a user is available in the current RequestContext

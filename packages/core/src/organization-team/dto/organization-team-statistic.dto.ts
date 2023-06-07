@@ -1,8 +1,8 @@
 import { ApiPropertyOptional, IntersectionType } from '@nestjs/swagger';
 import { IsOptional } from 'class-validator';
 import { Transform, TransformFnParams } from 'class-transformer';
-import { IDateRangePicker, IOrganizationTeamStatisticInput } from '@gauzy/contracts';
-import { parseToBoolean } from '@gauzy/common';
+import { IDateRangePicker, IOrganizationTeamStatisticInput } from '@worksuite/contracts';
+import { parseToBoolean } from '@worksuite/common';
 import { DateRangeQueryDTO, RelationsQueryDTO } from './../../shared/dto';
 /**
  * Get team statistic request DTO validation

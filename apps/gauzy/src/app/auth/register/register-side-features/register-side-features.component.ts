@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IChangelog } from "@gauzy/contracts";
+import { IChangelog } from "@worksuite/contracts";
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Observable } from 'rxjs/internal/Observable';
 import { Subject } from 'rxjs/internal/Subject';

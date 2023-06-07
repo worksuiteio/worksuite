@@ -1,4 +1,4 @@
-import { IEmployee, IGoal, IKPI, IOrganizationProject, ITask } from "@gauzy/contracts";
+import { IEmployee, IGoal, IKPI, IOrganizationProject, ITask } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsNumber, IsObject, IsOptional, IsString } from "class-validator";
 import { KeyResultUpdate } from "core";

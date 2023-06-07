@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { IEmployeeProposalTemplate, IPagination } from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+import { IEmployeeProposalTemplate, IPagination } from '@worksuite/contracts';
+import { toParams } from '@worksuite/common-angular';
 import { firstValueFrom } from 'rxjs';
 import { API_PREFIX } from '../../../@core/constants';
 

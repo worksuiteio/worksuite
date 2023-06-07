@@ -7,7 +7,7 @@ import {
 	TemplateRef
 } from '@angular/core';
 import { NbDialogService } from '@nebular/theme';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@worksuite/contracts';
 
 @Component({
 	selector: 'gauzy-user-menu',

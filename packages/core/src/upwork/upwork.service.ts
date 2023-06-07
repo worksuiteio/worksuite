@@ -3,8 +3,8 @@ import { In, Between } from 'typeorm';
 import { CommandBus } from '@nestjs/cqrs';
 import * as UpworkApi from 'upwork-api';
 import { pluck, map, sortBy } from 'underscore';
-import { environment } from '@gauzy/config';
-import { isEmpty, isNotEmpty, isObject } from '@gauzy/common';
+import { environment } from '@worksuite/config';
+import { isEmpty, isNotEmpty, isObject } from '@worksuite/common';
 import {
 	IAccessTokenSecretPair,
 	IAccessToken,
@@ -32,7 +32,7 @@ import {
 	IDateRange,
 	ComponentLayoutStyleEnum,
 	ITimeLog
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	IntegrationTenantCreateCommand,
 	IntegrationTenantGetCommand
@@ -70,7 +70,7 @@ import {
 	UpworkJobService,
 	UpworkOffersService,
 	UpworkReportService
-} from '@gauzy/integration-upwork';
+} from '@worksuite/integration-upwork';
 import { TimeLogCreateCommand } from '../time-tracking/time-log/commands';
 import { ProposalCreateCommand } from '../proposal/commands/proposal-create.command';
 import {
@@ -703,7 +703,7 @@ export class UpworkService {
 		});
 
 		if (!employeeId) {
-			const employee = await this._getUpworkGauzyEmployee(
+			const employee = await this._getUpworkWorksuiteEmployee(
 				providerRefernceId,
 				integrationId,
 				organizationId,
@@ -956,7 +956,7 @@ export class UpworkService {
 		});
 	}
 
-	private async _getUpworkGauzyEmployee(
+	private async _getUpworkWorksuiteEmployee(
 		providerRefernceId: number,
 		integrationId: string,
 		organizationId: string,

@@ -17,14 +17,14 @@ import {
 	ITag,
 	IDateRangePicker,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Subject } from 'rxjs';
 import { combineLatest } from 'rxjs';
 import {
 	distinctUntilChange,
 	employeeMapper,
 	toUTC
-} from '@gauzy/common-angular';
+} from '@worksuite/common-angular';
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';

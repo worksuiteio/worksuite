@@ -25,7 +25,7 @@ import {
 	IEmployee,
 	IEmployeeAppointment,
 	IAvailabilitySlot
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslationBaseComponent } from '../../../../@shared/language-base/translation-base.component';
 import { TranslateService } from '@ngx-translate/core';
 import { EmployeesService } from '../../../../@core/services';

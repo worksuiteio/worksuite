@@ -7,12 +7,12 @@ import {
 	IProductCategoryTranslatable,
 	IProductCategoryTranslation,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { NbDialogRef } from '@nebular/theme';
 import { combineLatest } from 'rxjs';
 import { filter, tap } from 'rxjs/operators';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslationBaseComponent } from '../../language-base/translation-base.component';
 import {

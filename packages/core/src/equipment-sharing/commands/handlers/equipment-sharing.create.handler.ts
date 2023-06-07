@@ -3,7 +3,7 @@ import { EquipmentSharing } from '../../equipment-sharing.entity';
 import {
 	RequestApprovalStatusTypesEnum,
 	ApprovalPolicyTypesStringEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { EquipmentSharingCreateCommand } from '../equipment-sharing.create.command';
 import { RequestApproval } from '../../../request-approval/request-approval.entity';
 import { RequestContext } from '../../../core/context';

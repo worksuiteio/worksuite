@@ -1,5 +1,5 @@
-import { ucFirst } from '@gauzy/common';
-import { ITaskSize, TaskSizeEnum } from '@gauzy/contracts';
+import { ucFirst } from '@worksuite/common';
+import { ITaskSize, TaskSizeEnum } from '@worksuite/contracts';
 
 export const DEFAULT_GLOBAL_SIZES: ITaskSize[] = [
 	{

@@ -1,7 +1,7 @@
 import { DynamicModule, Module } from '@nestjs/common';
 import { GraphQLModule, GraphQLTypesLoader } from '@nestjs/graphql';
-import { IGraphQLApiOptions } from '@gauzy/common';
-import { ConfigService } from '@gauzy/config';
+import { IGraphQLApiOptions } from '@worksuite/common';
+import { ConfigService } from '@worksuite/config';
 import { createGraphqlModuleOptions } from './graphql-helper';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 

@@ -8,7 +8,7 @@ import {
 	IRequestApprovalFindInput,
 	IPagination,
 	IApprovalPolicyCreateInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApprovalPolicy } from './approval-policy.entity';
 import { PaginationParams, TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from './../core/context';

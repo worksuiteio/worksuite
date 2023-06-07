@@ -15,7 +15,7 @@ import {
 	IScreenshot,
 	IEmployee,
 	ITimeLog
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsNumber, IsDateString, IsUUID, IsNotEmpty, IsOptional } from 'class-validator';
 import {

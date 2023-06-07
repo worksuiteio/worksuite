@@ -1,7 +1,7 @@
 // tslint:disable: nx-enforce-module-boundaries
 import { Component, OnInit, OnDestroy, AfterViewInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { isEmpty } from '@gauzy/common-angular';
+import { isEmpty } from '@worksuite/common-angular';
 import {
 	NbDialogService,
 	NbMenuItem,
@@ -19,14 +19,14 @@ import {
 	PermissionsEnum,
 	ITimeLogFilters,
 	TimeLogSourceEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { DateRangePickerBuilderService, Store, ToastrService } from './../../../../../@core/services';
 import { TimesheetService, TimesheetFilterService } from './../../../../../@shared/timesheet';
 import { EditTimeLogModalComponent, ViewTimeLogModalComponent } from './../../../../../@shared/timesheet';
 import { ConfirmComponent } from './../../../../../@shared/dialogs';
 import { TimeTrackerService } from './../../../../../@shared/time-tracker/time-tracker.service';
 import { BaseSelectorFilterComponent } from './../../../../../@shared/timesheet/gauzy-filters/base-selector-filter/base-selector-filter.component';
-import { GauzyFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
+import { WorksuiteFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
 
 @UntilDestroy({ checkProperties: true })
 @Component({
@@ -45,7 +45,7 @@ export class DailyComponent extends BaseSelectorFilterComponent
 	timeLogs: ITimeLog[] = [];
 	contextMenus: NbMenuItem[] = [];
 
-	@ViewChild(GauzyFiltersComponent) gauzyFiltersComponent: GauzyFiltersComponent;
+	@ViewChild(WorksuiteFiltersComponent) gauzyFiltersComponent: WorksuiteFiltersComponent;
 	datePickerConfig$: Observable<any> = this.dateRangePickerBuilderService.datePickerConfig$;
 	payloads$: BehaviorSubject<ITimeLogFilters> = new BehaviorSubject(null);
 
@@ -349,7 +349,7 @@ export class DailyComponent extends BaseSelectorFilterComponent
 	}
 
 	/**
-	 * Checkbox Toggle For Every TimeLog
+	 * Checkbox Toggle For Worksuitey TimeLog
 	 *
 	 * @param checked
 	 * @param timesheet

@@ -14,10 +14,10 @@ import {
 	IUserInviteCodeConfirmationInput,
 	PermissionsEnum,
 	IUserEmailInput
-} from '@gauzy/contracts';
-import { environment } from '@gauzy/config';
-import { SocialAuthService } from '@gauzy/auth';
-import { IAppIntegrationConfig, isNotEmpty } from '@gauzy/common';
+} from '@worksuite/contracts';
+import { environment } from '@worksuite/config';
+import { SocialAuthService } from '@worksuite/auth';
+import { IAppIntegrationConfig, isNotEmpty } from '@worksuite/common';
 import * as bcrypt from 'bcrypt';
 import * as moment from 'moment';
 import { JsonWebTokenError, JwtPayload, sign, verify } from 'jsonwebtoken';

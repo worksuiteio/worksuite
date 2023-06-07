@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { IKeyResult } from '@gauzy/contracts';
+import { IKeyResult } from '@worksuite/contracts';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { firstValueFrom } from 'rxjs';

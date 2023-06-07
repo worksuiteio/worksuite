@@ -17,7 +17,7 @@ import {
 	ICandidateSkill,
 	IPagination,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { CandidateSkill } from './candidate-skill.entity';
 import { CandidateSkillService } from './candidate-skill.service';

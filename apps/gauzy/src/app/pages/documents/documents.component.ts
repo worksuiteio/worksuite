@@ -10,8 +10,8 @@ import {
 	IOrganizationDocument,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { debounceTime, filter, first, tap } from 'rxjs/operators';
 import { NbDialogRef, NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';

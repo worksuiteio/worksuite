@@ -1,4 +1,4 @@
-import { IImportHistory } from '@gauzy/contracts';
+import { IImportHistory } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class ImportHistoryCreateCommand implements ICommand {

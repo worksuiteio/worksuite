@@ -1,4 +1,4 @@
-import { TimeLogType } from '@gauzy/contracts';
+import { TimeLogType } from '@worksuite/contracts';
 
 export const TimeLogsLabel = {
 	[TimeLogType.TRACKED]: {

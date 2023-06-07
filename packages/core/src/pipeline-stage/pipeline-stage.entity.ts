@@ -1,4 +1,4 @@
-import { IPipeline, IPipelineStage as IStage } from '@gauzy/contracts';
+import { IPipeline, IPipelineStage as IStage } from '@worksuite/contracts';
 import { Column, Entity, JoinColumn, ManyToOne, RelationId } from 'typeorm';
 import { IsNotEmpty, IsNumber, IsString, Min } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';

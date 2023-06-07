@@ -1,6 +1,6 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { KeyResultBulkCreateCommand } from '../keyresult.bulk.create.command';
-import { IKeyResult } from '@gauzy/contracts';
+import { IKeyResult } from '@worksuite/contracts';
 import { KeyResultService } from '../../keyresult.service';
 
 @CommandHandler(KeyResultBulkCreateCommand)

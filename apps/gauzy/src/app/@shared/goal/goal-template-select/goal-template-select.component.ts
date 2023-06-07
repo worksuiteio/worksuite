@@ -9,7 +9,7 @@ import {
 	KeyResultWeightEnum,
 	KeyResultTypeEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { isFuture } from 'date-fns';
 import {
 	NbDialogRef,

@@ -1,6 +1,6 @@
 import { EntitySubscriberInterface, EventSubscriber, InsertEvent } from "typeorm";
 import { sign } from 'jsonwebtoken';
-import { environment } from "@gauzy/config";
+import { environment } from "@worksuite/config";
 import { Invoice } from "./invoice.entity";
 
 @EventSubscriber()

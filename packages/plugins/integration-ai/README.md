@@ -1,6 +1,6 @@
-# Integration Gauzy AI
+# Integration Worksuite AI
 
-This library provides integration with Gauzy AI project.
+This library provides integration with Worksuite AI project.
 
 ## Running unit tests
 

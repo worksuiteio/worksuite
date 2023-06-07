@@ -1,7 +1,7 @@
 import { ICommandHandler, CommandHandler } from '@nestjs/cqrs';
 import {
 	StatusTypesMapRequestApprovalEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TimeOffStatusCommand } from '../time-off.status.command';
 import { NotFoundException } from '@nestjs/common';
 import { TimeOffRequest } from '../../time-off-request.entity';

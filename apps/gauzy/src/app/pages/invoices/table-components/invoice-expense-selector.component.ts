@@ -1,6 +1,6 @@
 import { DefaultEditor } from 'ng2-smart-table';
 import { OnInit, OnDestroy, Component } from '@angular/core';
-import { ExpenseTypesEnum, IExpense, IOrganization } from '@gauzy/contracts';
+import { ExpenseTypesEnum, IExpense, IOrganization } from '@worksuite/contracts';
 import { Store } from '../../../@core/services/store.service';
 import { ExpensesService } from '../../../@core/services/expenses.service';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

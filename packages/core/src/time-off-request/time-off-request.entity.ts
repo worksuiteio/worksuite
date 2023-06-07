@@ -13,7 +13,7 @@ import {
 	ITimeOffPolicy,
 	StatusTypesEnum,
 	IImageAsset as IDocumentAsset
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	IsString,

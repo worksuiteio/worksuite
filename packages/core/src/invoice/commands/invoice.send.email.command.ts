@@ -1,4 +1,4 @@
-import { LanguagesEnum } from '@gauzy/contracts';
+import { LanguagesEnum } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class InvoiceSendEmailCommand implements ICommand {

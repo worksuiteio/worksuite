@@ -1,4 +1,4 @@
-import { ITimeLogFilters } from "@gauzy/contracts";
+import { ITimeLogFilters } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsArray, IsOptional } from "class-validator";
 import { DateRangeQueryDTO } from "./date-range-query.dto";

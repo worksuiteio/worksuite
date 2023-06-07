@@ -1,4 +1,4 @@
-import { ITag, TagEnum } from "@gauzy/contracts";
+import { ITag, TagEnum } from "@worksuite/contracts";
 
 export const DEFAULT_GLOBAL_TAGS: string[] = [
 	'VIP',

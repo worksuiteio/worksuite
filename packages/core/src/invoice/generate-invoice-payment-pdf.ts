@@ -3,7 +3,7 @@ import {
 	IOrganization,
 	IOrganizationContact,
 	IInvoice
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 
 import * as moment from 'moment';
 

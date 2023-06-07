@@ -1,4 +1,4 @@
-import { ICandidateInterviewersCreateInput } from '@gauzy/contracts';
+import { ICandidateInterviewersCreateInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class CandidateInterviewersBulkCreateCommand implements ICommand {

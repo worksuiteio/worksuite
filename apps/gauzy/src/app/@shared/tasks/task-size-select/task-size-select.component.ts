@@ -20,8 +20,8 @@ import {
 	ITaskSize,
 	ITaskSizeFindInput,
 	TaskSizeEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange, sluggable } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange, sluggable } from '@worksuite/common-angular';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Store, TaskSizesService, ToastrService } from '../../../@core/services';
 import { TranslationBaseComponent } from '../../language-base/translation-base.component';

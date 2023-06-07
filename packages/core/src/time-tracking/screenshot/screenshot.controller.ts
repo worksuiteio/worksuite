@@ -22,7 +22,7 @@ import {
 	IScreenshot,
 	PermissionsEnum,
 	UploadedFile,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Screenshot } from './screenshot.entity';
 import { ScreenshotService } from './screenshot.service';
 import { RequestContext } from './../../core/context';

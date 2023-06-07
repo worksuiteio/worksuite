@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { IOrganization, IOrganizationProject } from '@gauzy/contracts';
+import { IOrganization, IOrganizationProject } from '@worksuite/contracts';
 import { Store } from '../../../@core/services/store.service';
 import { filter, tap } from 'rxjs/operators';
 import { OrganizationProjectsService } from '../../../@core/services/organization-projects.service';

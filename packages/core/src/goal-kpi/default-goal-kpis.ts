@@ -1,4 +1,4 @@
-import { IKPI } from '@gauzy/contracts';
+import { IKPI } from '@worksuite/contracts';
 
 export const DEFAULT_GOAL_KPIS: IKPI[] = [
 	{

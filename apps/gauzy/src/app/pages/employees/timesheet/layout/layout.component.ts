@@ -3,7 +3,7 @@ import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { NbRouteTab } from '@nebular/theme';
 import { tap } from 'rxjs/operators';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 import { TranslationBaseComponent } from './../../../../@shared/language-base';
 import { Store } from './../../../../@core/services';
 

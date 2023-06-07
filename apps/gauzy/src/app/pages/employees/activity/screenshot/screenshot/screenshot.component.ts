@@ -6,12 +6,12 @@ import {
 	IScreenshotMap,
 	IScreenshot,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { Observable } from 'rxjs/internal/Observable';
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 import { Subject } from 'rxjs/internal/Subject';
-import { toLocal, isEmpty, distinctUntilChange } from '@gauzy/common-angular';
+import { toLocal, isEmpty, distinctUntilChange } from '@worksuite/common-angular';
 import { chain, indexBy, pick, sortBy } from 'underscore';
 import * as moment from 'moment';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
@@ -23,7 +23,7 @@ import { DeleteConfirmationComponent } from './../../../../../@shared/user/forms
 import { TimesheetFilterService } from './../../../../../@shared/timesheet/timesheet-filter.service';
 import { GalleryService } from './../../../../../@shared/gallery/gallery.service';
 import { BaseSelectorFilterComponent } from './../../../../../@shared/timesheet/gauzy-filters/base-selector-filter/base-selector-filter.component';
-import { GauzyFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
+import { WorksuiteFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
 
 @UntilDestroy({ checkProperties: true })
 @Component({
@@ -47,7 +47,7 @@ export class ScreenshotComponent extends BaseSelectorFilterComponent
 	allSelected = false;
 	originalTimeSlots: ITimeSlot[] = [];
 
-	@ViewChild(GauzyFiltersComponent) gauzyFiltersComponent: GauzyFiltersComponent;
+	@ViewChild(WorksuiteFiltersComponent) gauzyFiltersComponent: WorksuiteFiltersComponent;
 	datePickerConfig$: Observable<any> = this.dateRangePickerBuilderService.datePickerConfig$;
 
 	constructor(

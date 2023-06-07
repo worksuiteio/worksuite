@@ -6,10 +6,10 @@ import * as path from 'path';
 import { copyFileSync, mkdirSync } from 'fs';
 import * as rimraf from 'rimraf';
 import * as chalk from 'chalk';
-import { environment as env } from '@gauzy/config';
-import { IPluginConfig } from '@gauzy/common';
+import { environment as env } from '@worksuite/config';
+import { IPluginConfig } from '@worksuite/common';
 import { getDefaultOrganizations } from './../organization/organization.seed';
-import { IReport, IReportCategory, IReportOrganization, ITenant } from '@gauzy/contracts';
+import { IReport, IReportCategory, IReportOrganization, ITenant } from '@worksuite/contracts';
 import { ReportOrganization } from './report-organization.entity';
 import { Organization } from './../core/entities/internal';
 

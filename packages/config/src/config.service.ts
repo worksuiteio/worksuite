@@ -1,5 +1,5 @@
 import { DynamicModule, Injectable, Type, Logger } from '@nestjs/common';
-import { IPluginConfig, IApiServerOptions, IAssetOptions } from '@gauzy/common';
+import { IPluginConfig, IApiServerOptions, IAssetOptions } from '@worksuite/common';
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 import { getConfig } from './config-manager';
 import { environment } from './environments/environment';

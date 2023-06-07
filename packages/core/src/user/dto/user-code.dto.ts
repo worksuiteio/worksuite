@@ -1,4 +1,4 @@
-import { IUserCodeInput } from "@gauzy/contracts";
+import { IUserCodeInput } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsNumber } from "class-validator";
 import { CustomLength } from "./../../shared/validators";

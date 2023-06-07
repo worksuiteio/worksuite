@@ -18,7 +18,7 @@ import {
 	IOrganizationContact,
 	IOrganizationProject,
 	IUser
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	Employee,

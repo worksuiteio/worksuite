@@ -8,7 +8,7 @@ import {
 	ITaskStatusCreateInput,
 	ITaskStatusFindInput,
 	ITaskStatusUpdateInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TenantPermissionGuard } from './../../shared/guards';
 import { CountQueryDTO } from './../../shared/dto';
 import { CrudFactory, PaginationParams } from './../../core/crud';

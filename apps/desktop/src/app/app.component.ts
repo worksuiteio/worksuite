@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, NgZone, OnInit } from '@angular/core';
-import { ElectronService, Store } from '@gauzy/desktop-ui-lib';
+import { ElectronService, Store } from '@worksuite/desktop-ui-lib';
 import { AppService } from './app.service';
 
 @Component({

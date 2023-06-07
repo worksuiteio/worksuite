@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import * as PdfPrinter from 'pdfmake';
 import * as fs from 'fs';
 import * as path from 'path';
-import { ConfigService } from '@gauzy/config';
+import { ConfigService } from '@worksuite/config';
 
 @Injectable()
 export class PdfmakerService {

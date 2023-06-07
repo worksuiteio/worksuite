@@ -9,7 +9,7 @@ import {
 	ITenant,
 	OrganizationProjectBudgetTypeEnum,
 	TaskListTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { DEFAULT_ORGANIZATION_PROJECTS } from './default-organization-projects';
 import { Employee, OrganizationContact, Tag } from './../core/entities/internal';
 

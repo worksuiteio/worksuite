@@ -1,31 +1,31 @@
-import { environment } from '@gauzy/config';
+import { environment } from '@worksuite/config';
 
 export const DEFAULT_ORGANIZATION_TEAMS = [
 	{
 		name: 'Employees',
 		defaultMembers: [
 			`${environment.demoCredentialConfig.superAdminEmail}`,
-			'ruslan@ever.co',
-			'alish@ever.co',
-			'julia@ever.co'
+			'ruslan@worksuite.co',
+			'alish@worksuite.co',
+			'julia@worksuite.co'
 		],
-		manager: ['ruslan@ever.co']
+		manager: ['ruslan@worksuite.co']
 	},
 	{
 		name: 'Contractors',
 		defaultMembers: [			
 			'ckhandla94@gmail.com'
 		],
-		manager: ['ruslan@ever.co']
+		manager: ['ruslan@worksuite.co']
 	},
 	{
 		name: 'Designers',
-		defaultMembers: ['julia@ever.co'],
+		defaultMembers: ['julia@worksuite.co'],
 		manager: []
 	},
 	{
 		name: 'QA',
-		defaultMembers: ['julia@ever.co'],
+		defaultMembers: ['julia@worksuite.co'],
 		manager: []
 	}
 ];

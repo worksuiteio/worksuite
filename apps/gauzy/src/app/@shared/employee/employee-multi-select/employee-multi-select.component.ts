@@ -11,7 +11,7 @@ import { NG_VALUE_ACCESSOR, FormControl } from '@angular/forms';
 import { combineLatest, filter, Subject, tap } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { IDateRangePicker, IEmployee, IOrganization, PermissionsEnum } from '@gauzy/contracts';
+import { IDateRangePicker, IEmployee, IOrganization, PermissionsEnum } from '@worksuite/contracts';
 import {
 	DateRangePickerBuilderService,
 	EmployeesService,

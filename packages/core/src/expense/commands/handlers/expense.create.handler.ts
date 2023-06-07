@@ -1,7 +1,7 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IExpense } from '@gauzy/contracts';
+import { IExpense } from '@worksuite/contracts';
 import { BadRequestException } from '@nestjs/common';
-import { isNotEmpty } from '@gauzy/common';
+import { isNotEmpty } from '@worksuite/common';
 import { ExpenseCreateCommand } from '../expense.create.command';
 import { ExpenseService } from '../../expense.service';
 import { EmployeeService } from '../../../employee/employee.service';

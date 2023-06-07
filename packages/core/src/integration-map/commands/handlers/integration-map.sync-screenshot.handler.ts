@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler, CommandBus } from '@nestjs/cqrs';
-import { IIntegrationMap, IntegrationEntity } from '@gauzy/contracts';
+import { IIntegrationMap, IntegrationEntity } from '@worksuite/contracts';
 import { IntegrationMapSyncEntityCommand } from '../integration-map.sync-entity.command';
 import { IntegrationMapSyncScreenshotCommand } from '../integration-map.sync-screenshot.command';
 import { IntegrationMapService } from '../../integration-map.service';

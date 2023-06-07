@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import * as moment from 'moment';
-import { IOrganizationSprint } from '@gauzy/contracts';
+import { IOrganizationSprint } from '@worksuite/contracts';
 
 const DEFAULTS = {
 	name: 'Sprint',

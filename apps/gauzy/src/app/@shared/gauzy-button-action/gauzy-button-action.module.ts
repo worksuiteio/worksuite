@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { GauzyButtonActionComponent } from './gauzy-button-action.component';
+import { WorksuiteButtonActionComponent } from './gauzy-button-action.component';
 import { SharedModule } from '../shared.module';
 import { ThemeModule } from '../../@theme';
 import { NbIconModule, NbButtonModule } from '@nebular/theme';
@@ -10,9 +10,9 @@ import { TranslateModule } from '../translate/translate.module';
 
 @NgModule({
   declarations: [
-    GauzyButtonActionComponent
+    WorksuiteButtonActionComponent
   ],
-  exports:[GauzyButtonActionComponent],
+  exports:[WorksuiteButtonActionComponent],
   imports: [
     CommonModule,
     SharedModule,
@@ -22,4 +22,4 @@ import { TranslateModule } from '../translate/translate.module';
     TranslateModule
   ]
 })
-export class GauzyButtonActionModule { }
+export class WorksuiteButtonActionModule { }

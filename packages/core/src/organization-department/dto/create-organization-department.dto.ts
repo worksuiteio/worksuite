@@ -1,4 +1,4 @@
-import { IOrganizationDepartmentCreateInput, ITag } from "@gauzy/contracts";
+import { IOrganizationDepartmentCreateInput, ITag } from "@worksuite/contracts";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IsArray, IsNotEmpty, IsOptional, IsString } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

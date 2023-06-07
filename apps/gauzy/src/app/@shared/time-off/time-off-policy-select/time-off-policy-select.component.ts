@@ -3,8 +3,8 @@ import { FormControl, NG_VALUE_ACCESSOR } from "@angular/forms";
 import { filter, first, tap } from "rxjs/operators";
 import { Subject } from "rxjs/internal/Subject";
 import { UntilDestroy, untilDestroyed } from "@ngneat/until-destroy";
-import { distinctUntilChange } from "@gauzy/common-angular";
-import { IOrganization, ITimeOffPolicy } from "@gauzy/contracts";
+import { distinctUntilChange } from "@worksuite/common-angular";
+import { IOrganization, ITimeOffPolicy } from "@worksuite/contracts";
 import { Store, TimeOffService } from "../../../@core/services";
 
 

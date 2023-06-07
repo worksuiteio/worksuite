@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 import * as _ from 'underscore';
 import * as moment from 'moment';
 import { DataSource } from 'typeorm';
-import { ActivityType, ITenant, ITimeSlot } from '@gauzy/contracts';
+import { ActivityType, ITenant, ITimeSlot } from '@worksuite/contracts';
 import { Activity } from './activity.entity';
 import { OrganizationProject } from './../../core/entities/internal';
 import { Employee } from '../../employee/employee.entity';

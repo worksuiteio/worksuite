@@ -1,4 +1,4 @@
-import { IResetPasswordRequest } from "@gauzy/contracts";
+import { IResetPasswordRequest } from "@worksuite/contracts";
 import { UserEmailDTO } from "./../../user/dto";
 
 /**

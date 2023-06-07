@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IIntegration, DEFAULT_INTEGRATIONS, IIntegrationType } from '@gauzy/contracts';
+import { IIntegration, DEFAULT_INTEGRATIONS, IIntegrationType } from '@worksuite/contracts';
 import { Integration } from './integration.entity';
 
 export const createDefaultIntegrations = async (

@@ -10,8 +10,8 @@ import {
 	ITenant,
 	IUser,
 	FileStorageProviderEnum,
-} from '@gauzy/contracts';
-import { ConfigService, IEnvironment } from '@gauzy/config';
+} from '@worksuite/contracts';
+import { ConfigService, IEnvironment } from '@worksuite/config';
 import { TenantFeatureOrganizationCreateCommand } from './commands';
 import { TenantRoleBulkCreateCommand } from '../role/commands';
 import { TenantStatusBulkCreateCommand } from './../tasks/statuses/commands';

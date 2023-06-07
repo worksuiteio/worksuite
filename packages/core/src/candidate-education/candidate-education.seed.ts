@@ -1,4 +1,4 @@
-import { ICandidate, ICandidateEducation, ITenant } from '@gauzy/contracts';
+import { ICandidate, ICandidateEducation, ITenant } from '@worksuite/contracts';
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
 import { DEFAULT_CANDIDATE_EDUCATIONS } from './default-candidate-educations';

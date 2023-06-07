@@ -9,7 +9,7 @@ import {
 	finalize,
 	map
 } from 'rxjs/operators';
-import { IHubstaffOrganization, IHubstaffProject, IOrganization } from '@gauzy/contracts';
+import { IHubstaffOrganization, IHubstaffProject, IOrganization } from '@worksuite/contracts';
 import { Observable, of, firstValueFrom } from 'rxjs';
 import { filter } from 'rxjs/operators';
 import { NbDialogService, NbMenuItem, NbMenuService } from '@nebular/theme';

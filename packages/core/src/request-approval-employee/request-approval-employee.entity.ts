@@ -3,7 +3,7 @@
   - Request Approval Employee table has the many to one relationship to the RequestApproval table and the Employee table by requestApprovalId and employeeId
 */
 import { Entity, Column, ManyToOne, Index, RelationId } from 'typeorm';
-import { IEmployee, IRequestApproval, IRequestApprovalEmployee } from '@gauzy/contracts';
+import { IEmployee, IRequestApproval, IRequestApprovalEmployee } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsNotEmpty, IsNumber } from 'class-validator';
 import {

@@ -1,5 +1,5 @@
 import { Column, Entity, OneToOne } from 'typeorm';
-import { ICandidate, ICandidateSource } from '@gauzy/contracts';
+import { ICandidate, ICandidateSource } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { Candidate, TenantOrganizationBaseEntity } from '../core/entities/internal';
 

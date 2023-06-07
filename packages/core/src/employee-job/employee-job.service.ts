@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { faker } from '@faker-js/faker';
-import { environment as env } from '@gauzy/config';
-import { GauzyAIService } from '@gauzy/integration-ai';
+import { environment as env } from '@worksuite/config';
+import { WorksuiteAIService } from '@worksuite/integration-ai';
 import {
 	IApplyJobPostInput,
 	ICountry,
@@ -14,7 +14,7 @@ import {
 	JobPostSourceEnum,
 	JobPostStatusEnum,
 	JobPostTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { EmployeeService } from '../employee/employee.service';
 import { CountryService } from './../country/country.service';
 import { EmployeeJobPost } from './employee-job.entity';
@@ -24,15 +24,15 @@ import { JobPost } from './jobPost.entity';
 export class EmployeeJobPostService {
 	constructor(
 		private readonly employeeService: EmployeeService,
-		private readonly gauzyAIService: GauzyAIService,
+		private readonly gauzyAIService: WorksuiteAIService,
 		private readonly countryService: CountryService
 	) { }
 
 	/**
 	 * Updates job visibility
-	 * @param hide Should job be hidden or visible. This will set isActive field to false in Gauzy AI
-	 * @param employeeId If employeeId set, job will be set not active only for that specific employee (using EmployeeJobPost record update in Gauzy AI)
-	 * If employeeId is not set, job will be set not active for all employees (using JobPost record update in Gauzy AI)
+	 * @param hide Should job be hidden or visible. This will set isActive field to false in Worksuite AI
+	 * @param employeeId If employeeId set, job will be set not active only for that specific employee (using EmployeeJobPost record update in Worksuite AI)
+	 * If employeeId is not set, job will be set not active for all employees (using JobPost record update in Worksuite AI)
 	 * @param providerCode e.g. 'upwork'
 	 * @param providerJobId Unique job id in the provider, e.g. in Upwork
 	 */
@@ -44,7 +44,7 @@ export class EmployeeJobPostService {
 
 	/**
 	 * Updates if Employee Applied to a job
-	 * @param applied This will set isApplied and appliedDate fields in Gauzy AI
+	 * @param applied This will set isApplied and appliedDate fields in Worksuite AI
 	 * @param employeeId Employee who applied for a job
 	 * @param providerCode e.g. 'upwork'
 	 * @param providerJobId Unique job id in the provider, e.g. in Upwork
@@ -56,7 +56,7 @@ export class EmployeeJobPostService {
 	}
 
 	/**
-	 * Find all available Jobs matched to Gauzy Employees
+	 * Find all available Jobs matched to Worksuite Employees
 	 * @param data
 	 */
 	public async findAll(
@@ -71,7 +71,7 @@ export class EmployeeJobPostService {
 
 			if (result === null) {
 				if (env.production) {
-					// OK, so for some reason connection go Gauzy AI failed, we can't get jobs ...
+					// OK, so for some reason connection go Worksuite AI failed, we can't get jobs ...
 					jobs = {
 						items: [],
 						total: 0

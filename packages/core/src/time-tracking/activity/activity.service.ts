@@ -10,12 +10,12 @@ import {
 	IDailyActivity,
 	IBulkActivitiesInput,
 	IActivity
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CommandBus } from '@nestjs/cqrs';
 import { BulkActivitiesSaveCommand } from './commands/bulk-activities-save.command';
 import { indexBy, pluck } from 'underscore';
-import { isNotEmpty } from '@gauzy/common';
-import { getConfig } from '@gauzy/config';
+import { isNotEmpty } from '@worksuite/common';
+import { getConfig } from '@worksuite/config';
 import { Employee, OrganizationProject } from './../../core/entities/internal';
 const config = getConfig();
 

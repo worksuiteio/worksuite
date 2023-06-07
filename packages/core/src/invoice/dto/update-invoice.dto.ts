@@ -1,4 +1,4 @@
-import { IInvoiceUpdateInput } from "@gauzy/contracts";
+import { IInvoiceUpdateInput } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { RelationalTagDTO } from "./../../tags/dto";
 import { DiscountInvoiceDTO } from "./discount-invoice.dto";

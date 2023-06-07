@@ -12,12 +12,12 @@ import {
 	ContactType,
 	ICurrency,
 	OrganizationProjectBudgetTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 import { uniq } from 'underscore';
 import { debounceTime, filter, tap } from 'rxjs/operators';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { CKEditor4 } from 'ckeditor4-angular/ckeditor';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslationBaseComponent } from '../../../@shared/language-base/translation-base.component';

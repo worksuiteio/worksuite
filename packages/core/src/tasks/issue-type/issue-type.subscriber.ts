@@ -5,8 +5,8 @@ import {
 	LoadEvent,
 } from 'typeorm';
 import { faker } from '@faker-js/faker';
-import { sluggable } from '@gauzy/common';
-import { FileStorageProviderEnum } from '@gauzy/contracts';
+import { sluggable } from '@worksuite/common';
+import { FileStorageProviderEnum } from '@worksuite/contracts';
 import { FileStorage } from './../../core/file-storage';
 import { IssueType } from './issue-type.entity';
 

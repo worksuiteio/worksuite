@@ -4,7 +4,7 @@ import { filter } from 'rxjs/operators';
 import { tap } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute, Params } from '@angular/router';
-import { IOrganization } from '@gauzy/contracts';
+import { IOrganization } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslationBaseComponent } from '../../../../@shared/language-base';
 import { Store, UpworkStoreService } from './../../../../@core/services';

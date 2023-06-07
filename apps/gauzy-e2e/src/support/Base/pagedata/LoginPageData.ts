@@ -1,7 +1,7 @@
 export const LoginPageData = {
-	TitleText: 'Gauzy',
-	email: 'admin@ever.co',
+	TitleText: 'Worksuite',
+	email: 'admin@worksuite.co',
 	password: 'admin',
-	empEmail: 'employee@ever.co',
+	empEmail: 'employee@worksuite.co',
 	empPassword: '123456'
 };

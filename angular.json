@@ -65,7 +65,7 @@
 						"allowedCommonJsDependencies": [
 							"underscore.string",
 							"moment-timezone",
-							"@gauzy/contracts",
+							"@worksuite/contracts",
 							"cloudinary-core",
 							"angular2-chartjs",
 							"brace/mode/handlebars"
@@ -762,7 +762,7 @@
 				}
 			}
 		},
-		"gauzy-server": {
+		"worksuite-server": {
 			"projectType": "application",
 			"schematics": {
 				"@nrwl/angular:component": {
@@ -779,7 +779,7 @@
 						"customWebpackConfig": {
 							"path": "apps/server/config/custom-webpack.config.js"
 						},
-						"outputPath": "dist/apps/gauzy-server",
+						"outputPath": "dist/apps/worksuite-server",
 						"index": "apps/server/src/index.html",
 						"main": "apps/server/src/main.ts",
 						"polyfills": "apps/server/src/polyfills.ts",
@@ -883,7 +883,7 @@
 				}
 			}
 		},
-		"gauzy-server-ui": {
+		"worksuite-server-ui": {
 			"projectType": "application",
 			"schematics": {
 				"@nrwl/workspace:component": {
@@ -900,7 +900,7 @@
 						"customWebpackConfig": {
 							"path": "apps/gauzy/config/custom-webpack.config.js"
 						},
-						"outputPath": "dist/apps/gauzy-server/data/ui",
+						"outputPath": "dist/apps/worksuite-server/data/ui",
 						"index": "apps/gauzy/src/index.html",
 						"main": "apps/gauzy/src/main.ts",
 						"polyfills": "apps/gauzy/src/polyfills.ts",
@@ -963,19 +963,19 @@
 				"serve": {
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"options": {
-						"browserTarget": "gauzy-server-ui:build",
+						"browserTarget": "worksuite-server-ui:build",
 						"proxyConfig": "apps/gauzy/proxy.conf.json"
 					},
 					"configurations": {
 						"production": {
-							"browserTarget": "gauzy-server-ui:build:production",
+							"browserTarget": "worksuite-server-ui:build:production",
 							"proxyConfig": "apps/gauzy/proxy.prod.conf.json"
 						}
 					}
 				}
 			}
 		},
-		"gauzy-server-api": {
+		"worksuite-server-api": {
 			"root": "apps/api",
 			"sourceRoot": "apps/api/src",
 			"projectType": "application",
@@ -985,7 +985,7 @@
 				"build": {
 					"builder": "@nrwl/node:webpack",
 					"options": {
-						"outputPath": "dist/apps/gauzy-server/api",
+						"outputPath": "dist/apps/worksuite-server/api",
 						"main": "apps/api/src/main.ts",
 						"showCircularDependencies": false,
 						"sourceMap": true,

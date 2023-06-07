@@ -19,7 +19,7 @@ import {
 	IIncome,
 	IPagination,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { DeleteResult, FindOptionsWhere } from 'typeorm';
 import { RequestContext } from '../core/context';
 import { CrudController, PaginationParams } from './../core/crud';

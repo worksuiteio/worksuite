@@ -1,6 +1,6 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { BadRequestException } from '@nestjs/common';
-import { IntegrationEntity } from '@gauzy/contracts';
+import { IntegrationEntity } from '@worksuite/contracts';
 import { ActivityUpdateCommand } from '../activity-update.command';
 import { ActivityService } from './../../../activity/activity.service';
 

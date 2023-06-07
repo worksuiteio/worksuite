@@ -29,7 +29,7 @@ import {
 	IPagination,
 	IUser,
 	PermissionsEnum,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { UUIDValidationPipe, ParseJsonPipe } from './../shared/pipes';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';
@@ -274,7 +274,7 @@ export class UserController extends CrudController<User> {
 	}
 
 	/**
-	 * To permanently delete your account from your Gauzy app:
+	 * To permanently delete your account from your Worksuite app:
 	 *
 	 * @param id
 	 * @returns

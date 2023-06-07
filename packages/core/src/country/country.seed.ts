@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { Country } from './country.entity';
-import { ICountry } from '@gauzy/contracts';
+import { ICountry } from '@worksuite/contracts';
 import { DEFAULT_COUNTRIES } from './default-countries';
 
 export const createCountries = async (

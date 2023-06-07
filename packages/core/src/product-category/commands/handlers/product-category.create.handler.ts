@@ -1,6 +1,6 @@
 import { BadRequestException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IProductTypeTranslatable } from '@gauzy/contracts';
+import { IProductTypeTranslatable } from '@worksuite/contracts';
 import { ProductCategoryCreateCommand } from '../product-category.create.command';
 import { ProductCategoryService } from './../../product-category.service';
 

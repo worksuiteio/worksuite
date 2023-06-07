@@ -9,8 +9,8 @@ import {
 	IOrganizationTeamEmployeeUpdateInput,
 	PermissionsEnum,
 	RolesEnum,
-} from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
+} from '@worksuite/contracts';
+import { isNotEmpty } from '@worksuite/common';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from './../core/context';
 import { Role } from './../core/entities/internal';

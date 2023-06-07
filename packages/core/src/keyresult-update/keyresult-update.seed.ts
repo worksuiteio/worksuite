@@ -7,7 +7,7 @@ import {
 	KeyResultTypeEnum,
 	IOrganization,
 	ITenant
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import * as moment from 'moment';
 import { GoalTimeFrame } from '../goal-time-frame/goal-time-frame.entity';
 

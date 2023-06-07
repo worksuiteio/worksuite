@@ -31,7 +31,7 @@ import { NgxPermissionsModule } from 'ngx-permissions';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
 import { DealsService, PipelinesService } from '../../@core/services';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { StageComponent } from './stage/stage.component';
 import { NbTabsetModule } from '@nebular/theme';
 
@@ -79,7 +79,7 @@ import { NbTabsetModule } from '@nebular/theme';
 		NgxPermissionsModule.forChild(),
 		HeaderTitleModule,
 		PaginationModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		NbTabsetModule
 	]
 })

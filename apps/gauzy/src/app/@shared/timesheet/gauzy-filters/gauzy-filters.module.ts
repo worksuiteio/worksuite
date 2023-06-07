@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { GauzyFiltersComponent } from './gauzy-filters.component';
+import { WorksuiteFiltersComponent } from './gauzy-filters.component';
 import { SharedModule } from '../../shared.module';
 import { FormsModule } from '@angular/forms';
 import { NgxDaterangepickerMd } from 'ngx-daterangepicker-material';
@@ -19,10 +19,10 @@ import { ProjectSelectModule } from '../../project-select/project-select.module'
 
 @NgModule({
 	declarations: [
-		GauzyFiltersComponent
+		WorksuiteFiltersComponent
 	],
 	exports: [
-		GauzyFiltersComponent
+		WorksuiteFiltersComponent
 	],
 	imports: [
 		CommonModule,
@@ -41,4 +41,4 @@ import { ProjectSelectModule } from '../../project-select/project-select.module'
 		NbOptionModule
 	]
 })
-export class GauzyFiltersModule { }
+export class WorksuiteFiltersModule { }

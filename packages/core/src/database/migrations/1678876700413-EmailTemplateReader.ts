@@ -1,6 +1,6 @@
 
 import { MigrationInterface, QueryRunner } from "typeorm";
-import { EmailTemplateNameEnum } from '@gauzy/contracts';
+import { EmailTemplateNameEnum } from '@worksuite/contracts';
 import { EmailTemplateUtils } from './../../email-template/utils';
 
 export class EmailTemplateReader1678876700413 implements MigrationInterface {

@@ -3,7 +3,7 @@ import {
 	IUser,
 	IPipelineStage,
 	IOrganizationContact
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Column,
 	Entity,

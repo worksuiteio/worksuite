@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TitleCasePipe } from '@angular/common';
-import { IEngagement } from '@gauzy/contracts';
+import { IEngagement } from '@worksuite/contracts';
 import { Observable, of, EMPTY, firstValueFrom } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 import { NbDialogService } from '@nebular/theme';

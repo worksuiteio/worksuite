@@ -14,7 +14,7 @@ import {
 	IEquipmentSharing,
 	IEquipmentSharingPolicy,
 	IOrganizationTeam
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import {
 	Employee,

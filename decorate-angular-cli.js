@@ -9,7 +9,7 @@
  * - Updating the package.json postinstall script to give you control over this script
  *
  * The Nx CLI decorates the Angular CLI, so the Nx CLI is fully compatible with it.
- * Every command you run should work the same when using the Nx CLI, except faster.
+ * Worksuitey command you run should work the same when using the Nx CLI, except faster.
  *
  * Because of symlinking you can still type `ng build/test/lint` in the terminal. The ng command, in this case,
  * will point to nx, which will perform optimizations before invoking ng. So the Angular CLI is always invoked.

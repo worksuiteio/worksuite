@@ -11,7 +11,7 @@ import {
 	IOrganizationProject,
 	ITask,
 	ITenant
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Employee,
 	Expense,

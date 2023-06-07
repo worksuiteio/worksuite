@@ -86,7 +86,7 @@ import { SharedModule } from '../../@shared/shared.module';
 import { ContactSelectModule } from '../../@shared/contact-select/contact-select.module';
 import { CurrencyPositionPipe } from '../../@shared/pipes';
 import { NbAccordionModule } from '@nebular/theme';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { ProjectSelectModule } from '../../@shared/project-select/project-select.module';
 
 @NgModule({
@@ -133,7 +133,7 @@ import { ProjectSelectModule } from '../../@shared/project-select/project-select
 		ProjectSelectModule,
 		SharedModule,
     	NbAccordionModule,
-    	GauzyButtonActionModule
+    	WorksuiteButtonActionModule
 	],
 	providers: [
 		InvoicesService,

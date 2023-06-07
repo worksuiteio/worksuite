@@ -10,8 +10,8 @@ import {
 	IProductCategoryTranslated,
 	IOrganization,
 	ComponentLayoutStyleEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { ImageRowComponent } from '../inventory-table-components';
 import { ProductCategoryMutationComponent } from '../../../../@shared/product-mutation';
 import { DeleteConfirmationComponent } from '../../../../@shared/user/forms';

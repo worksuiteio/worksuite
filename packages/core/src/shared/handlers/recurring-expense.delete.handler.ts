@@ -3,7 +3,7 @@ import {
 	IRecurringExpenseDeleteInput,
 	RecurringExpenseDeletionEnum,
 	IRecurringExpenseModel
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { BadRequestException } from '@nestjs/common';
 import { DeleteResult, UpdateResult } from 'typeorm';
 import { CrudService, getLastDayOfMonth } from '../../core';

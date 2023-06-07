@@ -8,9 +8,9 @@ import {
 } from '@nebular/theme';
 import { Store } from '../../../@core/services/store.service';
 import { ThemeModule } from '../../../@theme/theme.module';
-import { GauzyEditableGridComponent } from './gauzy-editable-grid.component';
+import { WorksuiteEditableGridComponent } from './gauzy-editable-grid.component';
 import { TranslateModule } from '../../translate/translate.module';
-import { GauzyButtonActionModule } from '../../gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../gauzy-button-action/gauzy-button-action.module';
 
 const NbModules = [
 	NbButtonModule,
@@ -21,13 +21,13 @@ const NbModules = [
 ];
 
 const OtherModules = [
-	GauzyButtonActionModule
+	WorksuiteButtonActionModule
 ]
 
 @NgModule({
 	imports: [ThemeModule, ...NbModules, ...OtherModules, TranslateModule],
-	declarations: [GauzyEditableGridComponent],
-	exports: [GauzyEditableGridComponent],
+	declarations: [WorksuiteEditableGridComponent],
+	exports: [WorksuiteEditableGridComponent],
 	providers: [Store]
 })
-export class GauzyEditableGridModule {}
+export class WorksuiteEditableGridModule {}

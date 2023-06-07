@@ -23,7 +23,7 @@ import {
 	IRequestApprovalEmployee,
 	IRequestApprovalTeam,
 	ITag
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsString, IsNotEmpty, IsNumber, IsEnum } from 'class-validator';
 import {

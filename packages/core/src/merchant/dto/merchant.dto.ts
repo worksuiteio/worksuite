@@ -1,6 +1,6 @@
 import { IntersectionType } from "@nestjs/mapped-types";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
-import { IImageAsset, IMerchant } from "@gauzy/contracts";
+import { IImageAsset, IMerchant } from "@worksuite/contracts";
 import { IsBoolean, IsEmail, IsNotEmpty, IsOptional, IsString } from "class-validator";
 import { RelationalCurrencyDTO } from "./../../currency/dto";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

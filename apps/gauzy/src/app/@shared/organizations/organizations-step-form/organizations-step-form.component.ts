@@ -33,8 +33,8 @@ import {
 	CurrenciesEnum,
 	DEFAULT_DATE_FORMATS,
 	IImageAsset
-} from '@gauzy/contracts';
-import { retrieveNameFromEmail } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { retrieveNameFromEmail } from '@worksuite/common-angular';
 import { FormHelpers } from '../../forms';
 import { LeafletMapComponent } from '../../forms/maps';
 import { LocationFormComponent } from '../../forms/location';

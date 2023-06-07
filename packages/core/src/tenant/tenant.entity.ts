@@ -8,7 +8,7 @@ import {
 	IFeatureOrganization,
 	IImportRecord,
 	IImageAsset
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	BaseEntity,
 	FeatureOrganization,

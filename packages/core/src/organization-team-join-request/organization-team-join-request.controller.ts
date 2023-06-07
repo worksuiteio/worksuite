@@ -1,8 +1,8 @@
 import { Body, Controller, Get, HttpCode, HttpStatus, Post, Query, UseGuards, UsePipes, ValidationPipe } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
 import { CommandBus } from '@nestjs/cqrs';
-import { IOrganizationTeamJoinRequest, IPagination, LanguagesEnum, PermissionsEnum } from '@gauzy/contracts';
-import { Public } from '@gauzy/common';
+import { IOrganizationTeamJoinRequest, IPagination, LanguagesEnum, PermissionsEnum } from '@worksuite/contracts';
+import { Public } from '@worksuite/common';
 import { PaginationParams } from './../core/crud';
 import { LanguageDecorator } from './../shared/decorators';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';

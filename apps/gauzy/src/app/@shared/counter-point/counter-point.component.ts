@@ -1,6 +1,6 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { Point } from './point/point.class';
-import { progressStatus } from '@gauzy/common-angular';
+import { progressStatus } from '@worksuite/common-angular';
 import { NbThemeService } from '@nebular/theme';
 
 @Component({

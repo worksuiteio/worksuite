@@ -1,7 +1,7 @@
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { IsEnum, IsNotEmpty, IsNumber, IsOptional } from "class-validator";
-import { CandidateStatusEnum } from "@gauzy/contracts";
+import { CandidateStatusEnum } from "@worksuite/contracts";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";
 import { CandidateFeatureDTO } from "./../../candidate/dto";
 import { CandidateInterviewerFeatureDTO } from "./../../candidate-interviewers/dto";

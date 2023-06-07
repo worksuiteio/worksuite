@@ -1,4 +1,4 @@
-import { ICandidateInterviewers, IRelationalCandidateInterviewer } from "@gauzy/contracts";
+import { ICandidateInterviewers, IRelationalCandidateInterviewer } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsObject, IsString, ValidateIf } from "class-validator";
 

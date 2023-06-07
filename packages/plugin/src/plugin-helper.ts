@@ -1,5 +1,5 @@
-import { isNotEmpty } from '@gauzy/common';
-import { getConfig } from '@gauzy/config';
+import { isNotEmpty } from '@worksuite/common';
+import { getConfig } from '@worksuite/config';
 import { DynamicModule, Type } from '@nestjs/common';
 import { MODULE_METADATA } from '@nestjs/common/constants';
 import { PLUGIN_METADATA } from './constants';

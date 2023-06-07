@@ -16,7 +16,7 @@ import {
 import { ApiTags } from '@nestjs/swagger';
 import { CommandBus } from '@nestjs/cqrs';
 import { UpdateResult } from 'typeorm';
-import { IPagination, ITag, PermissionsEnum } from '@gauzy/contracts';
+import { IPagination, ITag, PermissionsEnum } from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';
 import { Permissions } from './../shared/decorators';

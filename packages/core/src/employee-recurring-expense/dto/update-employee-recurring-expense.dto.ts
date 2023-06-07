@@ -1,4 +1,4 @@
-import { IRecurringExpenseEditInput } from "@gauzy/contracts";
+import { IRecurringExpenseEditInput } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { EmployeeFeatureDTO } from "./../../employee/dto";
 import { RelationalCurrencyDTO } from "./../../currency/dto";

@@ -1,4 +1,4 @@
-import { ICandidateSkillCreateInput } from "@gauzy/contracts";
+import { ICandidateSkillCreateInput } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsNotEmpty, IsString } from "class-validator";

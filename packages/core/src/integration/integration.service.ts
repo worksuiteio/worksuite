@@ -5,7 +5,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Integration } from './integration.entity';
 import { RequestContext } from '../core/context';
 import { IntegrationTenantService } from '../integration-tenant/integration-tenant.service';
-import { IntegrationEnum } from '@gauzy/contracts';
+import { IntegrationEnum } from '@worksuite/contracts';
 
 @Injectable()
 export class IntegrationService extends CrudService<Integration> {

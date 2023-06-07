@@ -1,8 +1,8 @@
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
-import { PermissionsEnum, RolesEnum } from '@gauzy/contracts';
-import { environment as env } from '@gauzy/config';
-import { isNotEmpty, PERMISSIONS_METADATA, removeDuplicates } from '@gauzy/common';
+import { PermissionsEnum, RolesEnum } from '@worksuite/contracts';
+import { environment as env } from '@worksuite/config';
+import { isNotEmpty, PERMISSIONS_METADATA, removeDuplicates } from '@worksuite/common';
 import { RequestContext } from './../../core/context';
 import { TenantService } from './../../tenant/tenant.service';
 import { TenantBaseGuard } from './tenant-base.guard';

@@ -4,7 +4,7 @@ import { IsNotEmpty, IsString } from 'class-validator';
 import {
 	IJobPresetUpworkJobSearchCriterion,
 	JobPostTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	JobPreset,
 	JobSearchCategory,

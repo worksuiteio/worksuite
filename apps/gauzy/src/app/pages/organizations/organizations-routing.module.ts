@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 import { NgxPermissionsGuard } from 'ngx-permissions';
 import { OrganizationsComponent } from './organizations.component';
 

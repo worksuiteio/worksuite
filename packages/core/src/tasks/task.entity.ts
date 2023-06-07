@@ -25,7 +25,7 @@ import {
 	TaskPriorityEnum,
 	TaskSizeEnum,
 	TaskStatusEnum,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Activity,
 	Employee,

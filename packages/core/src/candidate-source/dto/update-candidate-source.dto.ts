@@ -1,4 +1,4 @@
-import { ICandidateSourceUpdateInput } from "@gauzy/contracts";
+import { ICandidateSourceUpdateInput } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsNotEmpty, IsString } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

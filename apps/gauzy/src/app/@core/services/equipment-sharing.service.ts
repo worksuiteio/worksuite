@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { IEquipmentSharing, IEquipmentSharingRequest } from '@gauzy/contracts';
+import { IEquipmentSharing, IEquipmentSharingRequest } from '@worksuite/contracts';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

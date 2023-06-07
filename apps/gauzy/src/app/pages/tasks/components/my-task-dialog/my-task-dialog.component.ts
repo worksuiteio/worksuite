@@ -5,7 +5,7 @@ import {
 	IEmployee,
 	ITag,
 	TaskStatusEnum,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { NbDialogRef } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';

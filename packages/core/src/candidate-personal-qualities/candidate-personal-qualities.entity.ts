@@ -4,7 +4,7 @@ import {
 	ICandidatePersonalQualities,
 	ICandidateInterview,
 	ICandidateCriterionsRating
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	CandidateCriterionsRating,
 	CandidateInterview,

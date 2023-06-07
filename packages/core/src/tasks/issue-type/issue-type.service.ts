@@ -8,7 +8,7 @@ import {
 	IOrganization,
 	IPagination,
 	ITenant,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { IssueType } from './issue-type.entity';
 import { TaskStatusPrioritySizeService } from './../task-status-priority-size.service';
 import { DEFAULT_GLOBAL_ISSUE_TYPES } from './default-global-issue-types';

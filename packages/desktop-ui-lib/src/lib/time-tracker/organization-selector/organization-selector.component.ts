@@ -7,7 +7,7 @@ import {
 	NgZone,
 	Input,
 } from '@angular/core';
-import { IOrganization, IUserOrganization } from '@gauzy/contracts';
+import { IOrganization, IUserOrganization } from '@worksuite/contracts';
 import { uniq } from 'underscore';
 import { UserOrganizationService } from './user-organization.service';
 import { ElectronService } from '../../electron/services';

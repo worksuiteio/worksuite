@@ -11,7 +11,7 @@ import {
 	AvailabilitySlotType,
 	IAvailabilitySlot,
 	IEmployee
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Employee,
 	TenantOrganizationBaseEntity

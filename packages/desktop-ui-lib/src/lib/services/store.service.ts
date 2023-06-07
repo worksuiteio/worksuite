@@ -12,7 +12,7 @@ import {
 	IFeatureOrganization,
 	FeatureEnum,
 	ComponentLayoutStyleEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Injectable } from '@angular/core';
 import { StoreConfig, Store as AkitaStore, Query } from '@datorama/akita';
 import {

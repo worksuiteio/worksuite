@@ -323,7 +323,7 @@ const showCapturedToRenderer = (
 
 	const urlpath = url.format({
 		pathname:
-			app.getName() !== 'gauzy-desktop-timer'
+			app.getName() !== 'worksuite-desktop-timer'
 				? windowPath.screenshotWindow
 				: windowPath.timeTrackerUi,
 		protocol: 'file:',
@@ -557,7 +557,7 @@ export async function notifyScreenshot(
 	global.variableGlobal.screenshotSrc = `data:image/png;base64, ${thumb.img}`;
 	const urlpath = url.format({
 		pathname:
-			app.getName() !== 'gauzy-desktop-timer'
+			app.getName() !== 'worksuite-desktop-timer'
 				? windowPath.screenshotWindow
 				: windowPath.timeTrackerUi,
 		protocol: 'file:',

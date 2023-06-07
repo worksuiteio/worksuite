@@ -1,17 +1,17 @@
 import { BadRequestException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { switchMap, catchError } from 'rxjs/operators';
-import { GauzyCloudService } from '../../gauzy-cloud.service';
-import { GauzyCloudUserMigrateCommand } from './../gauzy-cloud-user.migrate.command';
+import { WorksuiteCloudService } from '../../gauzy-cloud.service';
+import { WorksuiteCloudUserMigrateCommand } from './../gauzy-cloud-user.migrate.command';
 
-@CommandHandler(GauzyCloudUserMigrateCommand)
-export class GauzyCloudUserMigrateHandler implements ICommandHandler<GauzyCloudUserMigrateCommand> {
+@CommandHandler(WorksuiteCloudUserMigrateCommand)
+export class WorksuiteCloudUserMigrateHandler implements ICommandHandler<WorksuiteCloudUserMigrateCommand> {
 
 	constructor(
-		private readonly gauzyCloudService: GauzyCloudService
+		private readonly gauzyCloudService: WorksuiteCloudService
 	) {}
 
-	public async execute(command: GauzyCloudUserMigrateCommand): Promise<any> {
+	public async execute(command: WorksuiteCloudUserMigrateCommand): Promise<any> {
 		const { input } = command;
 		return this.gauzyCloudService.migrateUser(input).pipe(
 			switchMap((response: any) => {

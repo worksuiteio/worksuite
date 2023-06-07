@@ -3,8 +3,8 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Brackets, Repository, SelectQueryBuilder, WhereExpressionBuilder } from 'typeorm';
 import * as moment from 'moment';
 import { omit } from 'underscore';
-import { ITimeSlot, PermissionsEnum, TimeLogSourceEnum, TimeLogType } from '@gauzy/contracts';
-import { isEmpty } from '@gauzy/common';
+import { ITimeSlot, PermissionsEnum, TimeLogSourceEnum, TimeLogType } from '@worksuite/contracts';
+import { isEmpty } from '@worksuite/common';
 import { RequestContext } from '../../../../core/context';
 import {
 	Employee,
@@ -178,7 +178,7 @@ export class CreateTimeSlotHandler
 
 		console.log(`Found timelogs for time slots range employee (${user.name})`, { timeLogs: timeSlot.timeLogs });
 		/**
-		 * Update TimeLog Entry Every TimeSlot Request From Desktop Timer
+		 * Update TimeLog Entry Worksuitey TimeSlot Request From Desktop Timer
 		 */
 		for await (const timeLog of timeSlot.timeLogs) {
 			if (timeLog.isRunning) {

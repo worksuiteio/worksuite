@@ -1,7 +1,7 @@
 import { Column, Entity, Index, OneToMany } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { Exclude } from 'class-transformer';
-import { RolesEnum, IRolePermission, IRole, IUser } from '@gauzy/contracts';
+import { RolesEnum, IRolePermission, IRole, IUser } from '@worksuite/contracts';
 import { RolePermission, TenantBaseEntity, User } from '../core/entities/internal';
 
 @Entity('role')

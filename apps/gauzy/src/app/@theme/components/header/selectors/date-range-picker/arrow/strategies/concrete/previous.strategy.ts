@@ -1,5 +1,5 @@
 import * as moment from 'moment';
-import { IDateRangePicker } from "@gauzy/contracts";
+import { IDateRangePicker } from "@worksuite/contracts";
 import { IArrowStrategy } from "../arrow-strategy.interface";
 
 export class Previous implements IArrowStrategy {

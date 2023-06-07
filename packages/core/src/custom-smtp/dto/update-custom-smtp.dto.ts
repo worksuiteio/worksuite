@@ -1,4 +1,4 @@
-import { ICustomSmtp, ICustomSmtpUpdateInput } from "@gauzy/contracts";
+import { ICustomSmtp, ICustomSmtpUpdateInput } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsOptional, IsUUID } from "class-validator";
 import { CreateCustomSmtpDTO } from "./create-custom-smtp.dto";

@@ -1,5 +1,5 @@
 import { IntersectionType } from "@nestjs/swagger";
-import { IUserCodeInput, IUserEmailInput } from "@gauzy/contracts";
+import { IUserCodeInput, IUserEmailInput } from "@worksuite/contracts";
 import { UserCodeDTO, UserEmailDTO } from "../../user/dto";
 
 /**

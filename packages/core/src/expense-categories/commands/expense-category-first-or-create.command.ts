@@ -1,4 +1,4 @@
-import { IExpenseCategory } from '@gauzy/contracts';
+import { IExpenseCategory } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class ExpenseCategoryFirstOrCreateCommand implements ICommand {

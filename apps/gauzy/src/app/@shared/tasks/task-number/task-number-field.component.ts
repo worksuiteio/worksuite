@@ -10,8 +10,8 @@ import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { filter, tap } from 'rxjs/operators';
 import { Subject } from 'rxjs/internal/Subject';
-import { IOrganization } from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { IOrganization } from '@worksuite/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { TranslationBaseComponent } from '../../language-base/translation-base.component';
 import { Store, TasksService } from '../../../@core/services';
 

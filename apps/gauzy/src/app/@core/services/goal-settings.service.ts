@@ -9,7 +9,7 @@ import {
 	IGoalTimeFrameResponse,
 	IKpiResponse,
 	IGeneralSettingResponse
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { firstValueFrom } from 'rxjs';

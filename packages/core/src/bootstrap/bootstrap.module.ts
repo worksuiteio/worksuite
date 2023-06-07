@@ -4,8 +4,8 @@ import {
 	NestModule,
 	OnApplicationShutdown
 } from '@nestjs/common';
-import { ConfigModule, getConfig } from '@gauzy/config';
-import { PluginModule } from '@gauzy/plugin';
+import { ConfigModule, getConfig } from '@worksuite/config';
+import { PluginModule } from '@worksuite/plugin';
 import { AppModule } from './../app.module';
 import { HealthIndicatorModule } from '../health-indicator';
 import { Logger, LoggerModule } from '../logger';

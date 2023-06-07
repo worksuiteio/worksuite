@@ -1,7 +1,7 @@
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
 import * as Handlebars from 'handlebars';
 import * as mjml2html from 'mjml';
-import { ConfigService, environment } from '@gauzy/config';
+import { ConfigService, environment } from '@worksuite/config';
 import { EmailTemplateGeneratePreviewQuery } from '../email-template.generate-preview.query';
 import { moment } from '../../../core/moment-extend';
 import { generateRandomInteger } from './../../../core/utils';
@@ -38,7 +38,7 @@ export class EmailTemplateGeneratePreviewHandler
 			name: 'John Doe',
 			role: 'USER_ROLE',
 			host: clientBaseUrl || host,
-			hostEmail: '(alish@ever.com)',
+			hostEmail: '(alish@worksuite.com)',
 			agenda: 'This booking is for gauzy call',
 			description: 'This is a test appointment booking',
 			participantEmails: 'kdashora@gmail.com,testmail@hotmail.com',
@@ -50,8 +50,8 @@ export class EmailTemplateGeneratePreviewHandler
 			total_hours: '16',
 			average_activates: '25',
 			log_type: 'tracked',
-			projects: ['Gauzy Web Site', 'Gauzy Platform(open-source)'],
-			project: 'Gauzy Web Site',
+			projects: ['Worksuite Web Site', 'Worksuite Platform(open-source)'],
+			project: 'Worksuite Web Site',
 			timesheet_action: 'APPROVE/REJECT',
 			equipment_status: 'APPROVE/REJECT',
 			reason: 'reason for this',
@@ -76,11 +76,11 @@ export class EmailTemplateGeneratePreviewHandler
 			task_update_estimate: 'estimate',
 			task_update_due_date: moment(new Date()).add(10, 'days').toDate(),
 			task_status: 'In Progress',
-			task_update_project: 'Gauzy Project',
+			task_update_project: 'Worksuite Project',
 			task_update_assign_by: 'Ruslan Konviser',
-			task_update_url: 'https://github.com/ever-co/ever-gauzy/issues/1688',
+			task_update_url: 'https://github.com/worksuiteio/worksuite/issues/1688',
 			inviteCode: generateRandomInteger(6),
-			teams: 'Gauzy Team',
+			teams: 'Worksuite Team',
 			verificationCode: generateRandomInteger(6),
 			appName: appName,
 			appLogo: appLogo,

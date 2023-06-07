@@ -625,7 +625,7 @@
 		"TOTAL_INCOME_OR_MONTHLY_INCOME": "Total Income/Monthly Income",
 		"PROFITS": "Profits",
 		"BONUSES_PAID": "Bonuses Paid",
-		"TOTAL_HOURS_WORKED_OVER_GAUZY": "Total Hours worked over Gauzy",
+		"TOTAL_HOURS_WORKED_OVER_GAUZY": "Total Hours worked over Worksuite",
 		"MINIMUM_PROJECT_SIZE": "Minimum Project Size",
 		"PROJECTS_COUNT": "Projects Count",
 		"CLIENTS_COUNT": "Clients Count",
@@ -704,12 +704,12 @@
 			"WRONG_FILE_NAME": "Wrong file name!!!",
 			"CORRECT_FILE_NAME": "The file name should be: \"archive.zip\"",
 			"DOWNLOAD_TEMPLATES": "Download templates",
-			"MIGRATE_TO_CLOUD": "Migrate to Ever Gauzy Cloud",
-			"IMPORT_INFO": "Click \"Import\" to import your data into Gauzy DB.",
-			"EXPORT_INFO": "Click \"Export\" to export data from Gauzy DB.",
-			"DOWNLOAD_TEMPLATES_INFO": "Click \"Download Templates\" to download Zip archive with CSV templates for the format of Gauzy data.",
-			"MIGRATE_TO_CLOUD_INFO": "Click \"Migrate to Ever Gauzy Cloud\" to migrate from self-hosted to cloud edition.",
-			"MIGRATE_SUCCESSFULLY": "Gauzy Cloud migration for '{{ tenant }}' successfully!",
+			"MIGRATE_TO_CLOUD": "Migrate to Worksuite Worksuite Cloud",
+			"IMPORT_INFO": "Click \"Import\" to import your data into Worksuite DB.",
+			"EXPORT_INFO": "Click \"Export\" to export data from Worksuite DB.",
+			"DOWNLOAD_TEMPLATES_INFO": "Click \"Download Templates\" to download Zip archive with CSV templates for the format of Worksuite data.",
+			"MIGRATE_TO_CLOUD_INFO": "Click \"Migrate to Worksuite Worksuite Cloud\" to migrate from self-hosted to cloud edition.",
+			"MIGRATE_SUCCESSFULLY": "Worksuite Cloud migration for '{{ tenant }}' successfully!",
 			"ACCOUNTING_TEMPLATE": "Accounting Template",
 			"ACTIVITY": "Activity",
 			"APPROVAL_POLICY": "Approval Policy",
@@ -1012,7 +1012,7 @@
 			"DATE_RANGE_PLACEHOLDER": "Choose date between",
 			"CLIENT_ID": "Hubstaff Client ID",
 			"CLIENT_SECRET": "Hubstaff Client Secret",
-			"GRANT_PERMISSION": "Next you will be taken to Hubstaff to grant permission to Gauzy.",
+			"GRANT_PERMISSION": "Next you will be taken to Hubstaff to grant permission to Worksuite.",
 			"ENTER_CLIENT_SECRET": "Enter client secret to get access token."
 		},
 		"UPWORK_PAGE": {
@@ -1022,7 +1022,7 @@
 			"SUCCESSFULLY_AUTHORIZED": "Successfully authorized",
 			"API_KEY": "Upwork API key",
 			"SECRET": "Upwork Secret",
-			"NEXT_STEP_INFO": "Next you will be taken to Upwork to grant permission to Gauzy.",
+			"NEXT_STEP_INFO": "Next you will be taken to Upwork to grant permission to Worksuite.",
 			"CONTRACTS": "Contracts",
 			"SYNCED_CONTRACTS": "Synced Contracts",
 			"SELECT_DATE": "Select Date",
@@ -3667,7 +3667,7 @@
 			}
 		}
 	},
-	"GAUZY_MAINTENANCE": "Gauzy @ Maintenance",
+	"GAUZY_MAINTENANCE": "Worksuite @ Maintenance",
 	"LEGAL": {
 		"PRIVACY_POLICY": "Privacy Policy",
 		"TERMS_AND_CONDITIONS": "Terms & Conditions"

@@ -2,7 +2,7 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { Transform } from "class-transformer";
 import { IsEnum } from "class-validator";
-import { IManualTimeInput, TimeLogSourceEnum, TimeLogType } from "@gauzy/contracts";
+import { IManualTimeInput, TimeLogSourceEnum, TimeLogType } from "@worksuite/contracts";
 import { ManualTimeLogDTO } from "./manual-time-log.dto";
 
 export class CreateManualTimeLogDTO extends ManualTimeLogDTO implements IManualTimeInput {

@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IOrganization } from '@gauzy/contracts';
+import { IOrganization } from '@worksuite/contracts';
 import { ProductCategory } from './product-category.entity';
 import * as seed from './product-category.seed.json';
 import { faker } from '@faker-js/faker';

@@ -44,7 +44,7 @@ import {
 	serverConnectionFactory,
 	APIInterceptor,
 	ServerDownModule,
-} from '@gauzy/desktop-ui-lib';
+} from '@worksuite/desktop-ui-lib';
 import { NbCardModule, NbButtonModule } from '@nebular/theme';
 import { HttpLoaderFactory } from '../../../gauzy/src/app/@shared/translate/translate.module';
 import { NgSelectModule } from '@ng-select/ng-select';

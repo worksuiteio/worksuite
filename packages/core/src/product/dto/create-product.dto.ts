@@ -5,7 +5,7 @@ import {
     IProductOptionTranslatable,
     IProductTranslation,
     IProductTypeTranslatable
-} from "@gauzy/contracts";
+} from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import {
     IsArray,

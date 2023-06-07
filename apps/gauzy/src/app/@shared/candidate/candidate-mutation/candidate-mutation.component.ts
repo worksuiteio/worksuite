@@ -17,8 +17,8 @@ import {
 	ICandidateDocument,
 	ICandidateSource,
 	IOrganization
-} from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import {
 	CandidatesService,
 	ErrorHandlingService,

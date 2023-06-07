@@ -6,7 +6,7 @@ import {
 	IWarehouseProduct,
 	IWarehouseProductCreateInput,
 	IWarehouseProductVariant
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from './../core/context';
 import {

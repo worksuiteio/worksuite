@@ -1,4 +1,4 @@
-import { IApprovalPolicy } from '@gauzy/contracts';
+import { IApprovalPolicy } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 import { PaginationParams } from './../../core/crud';
 

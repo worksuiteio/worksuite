@@ -1,4 +1,4 @@
-import { IOrganization, IOrganizationUpdateInput } from '@gauzy/contracts';
+import { IOrganization, IOrganizationUpdateInput } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { OrganizationService } from '../../organization.service';
 import { OrganizationUpdateCommand } from '../organization.update.command';

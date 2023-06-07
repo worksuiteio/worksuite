@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { IEmployee, IOrganization, IOrganizationDepartment, ITag } from '@gauzy/contracts';
+import { IEmployee, IOrganization, IOrganizationDepartment, ITag } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { Store } from '../../../@core/services';

@@ -1,6 +1,6 @@
 import { Global, Module } from '@nestjs/common';
 import { TypeOrmModule, TypeOrmModuleAsyncOptions } from '@nestjs/typeorm';
-import { ConfigModule, ConfigService } from '@gauzy/config';
+import { ConfigModule, ConfigService } from '@worksuite/config';
 
 /**
  * Import and provide base typeorm related classes.

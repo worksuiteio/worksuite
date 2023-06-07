@@ -1,4 +1,4 @@
-import { IBaseRelationsEntityModel } from "@gauzy/contracts";
+import { IBaseRelationsEntityModel } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { Transform, TransformFnParams } from "class-transformer";
 import { IsArray, IsOptional } from "class-validator";

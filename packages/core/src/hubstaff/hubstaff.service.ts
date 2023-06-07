@@ -9,8 +9,8 @@ import { CommandBus } from '@nestjs/cqrs';
 import { DeepPartial } from 'typeorm';
 import { map, catchError, switchMap } from 'rxjs/operators';
 import * as moment from 'moment';
-import { environment as env } from '@gauzy/config';
-import { isEmpty, isNotEmpty, isObject } from '@gauzy/common';
+import { environment as env } from '@worksuite/config';
+import { isEmpty, isNotEmpty, isObject } from '@worksuite/common';
 import {
 	ICreateIntegrationDto,
 	IIntegrationTenant,
@@ -39,12 +39,12 @@ import {
 	IHubstaffTimeSlotActivity,
 	IActivity,
 	IHubstaffLogFromTimeSlots
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	DEFAULT_ENTITY_SETTINGS,
 	HUBSTAFF_AUTHORIZATION_URL,
 	PROJECT_TIED_ENTITIES
-} from '@gauzy/integration-hubstaff';
+} from '@worksuite/integration-hubstaff';
 import { firstValueFrom, lastValueFrom } from 'rxjs';
 import { IntegrationTenantService } from '../integration-tenant/integration-tenant.service';
 import { IntegrationSettingService } from '../integration-setting/integration-setting.service';

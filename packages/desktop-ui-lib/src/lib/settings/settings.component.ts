@@ -54,8 +54,8 @@ export class SettingsComponent implements OnInit, AfterViewInit {
 	menus = [];
 	gauzyIcon =
 		this.isDesktopTimer || this.isServer
-			? './assets/images/logos/logo_Gauzy.svg'
-			: '../assets/images/logos/logo_Gauzy.svg';
+			? './assets/images/logos/logo_Worksuite.svg'
+			: '../assets/images/logos/logo_Worksuite.svg';
 
 	private _monitorsOption$: BehaviorSubject<any> = new BehaviorSubject([
 		{
@@ -1109,15 +1109,15 @@ export class SettingsComponent implements OnInit, AfterViewInit {
 	}
 
 	public get isDesktopTimer(): boolean {
-		return this.appName === 'gauzy-desktop-timer';
+		return this.appName === 'worksuite-desktop-timer';
 	}
 
 	public get isDesktop(): boolean {
-		return this.appName === 'gauzy-desktop';
+		return this.appName === 'worksuite-desktop';
 	}
 
 	public get isServer(): boolean {
-		return this.appName === 'gauzy-server';
+		return this.appName === 'worksuite-server';
 	}
 
 	public get selectedMenu$(): Observable<string> {

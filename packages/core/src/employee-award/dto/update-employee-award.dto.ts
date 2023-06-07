@@ -1,4 +1,4 @@
-import { IEmployeeAwardUpdateInput } from "@gauzy/contracts";
+import { IEmployeeAwardUpdateInput } from "@worksuite/contracts";
 import { IsNotEmpty } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";
 

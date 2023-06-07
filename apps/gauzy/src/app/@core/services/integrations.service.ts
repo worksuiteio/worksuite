@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IIntegration } from '@gauzy/contracts';
+import { IIntegration } from '@worksuite/contracts';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';

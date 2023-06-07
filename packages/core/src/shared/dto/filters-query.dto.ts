@@ -1,4 +1,4 @@
-import { ITimeLogFilters, TimeLogSourceEnum, TimeLogType } from "@gauzy/contracts";
+import { ITimeLogFilters, TimeLogSourceEnum, TimeLogType } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsEnum, IsOptional } from "class-validator";
 import { IsBetweenActivty } from "./../../shared/validators";

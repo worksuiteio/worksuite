@@ -11,7 +11,7 @@ import {
 	IOrganizationTeam,
 	IUser,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { AuthService } from '../../../auth/auth.service';
 import { InviteService } from '../../invite.service';
 import { InviteAcceptEmployeeCommand } from '../invite.accept-employee.command';

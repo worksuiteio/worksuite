@@ -1,4 +1,4 @@
-import { ProductTypesIconsEnum } from "@gauzy/contracts";
+import { ProductTypesIconsEnum } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsEnum, IsOptional } from "class-validator";
 import { Product, ProductTypeTranslation } from "./../../core/entities/internal";

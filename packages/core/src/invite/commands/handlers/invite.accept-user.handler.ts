@@ -1,4 +1,4 @@
-import { InviteStatusEnum, IUser } from '@gauzy/contracts';
+import { InviteStatusEnum, IUser } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';

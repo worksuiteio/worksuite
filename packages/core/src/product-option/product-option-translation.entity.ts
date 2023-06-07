@@ -1,5 +1,5 @@
 import { Entity, Column, ManyToOne, JoinColumn, RelationId, Index } from 'typeorm';
-import { IProductOptionTranslation, LanguagesEnum } from '@gauzy/contracts';
+import { IProductOptionTranslation, LanguagesEnum } from '@worksuite/contracts';
 import {
 	TenantOrganizationBaseEntity,
 	ProductOption

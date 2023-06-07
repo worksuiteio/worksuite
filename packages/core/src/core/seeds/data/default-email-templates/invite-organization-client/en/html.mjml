@@ -4,20 +4,20 @@
 			<mj-column>
 				<mj-image
 					width="100px"
-					src="{{host}}/assets/images/logos/logo_Gauzy.png"
+					src="{{host}}/assets/images/logos/logo_Worksuite.png"
 				></mj-image>
 				<mj-divider
 					border-color="#1B005D"
 					border-width="1px"
 				></mj-divider>
 				<mj-text font-size="20px" font-family="helvetica"
-					>You've been invited to Gauzy!</mj-text
+					>You've been invited to Worksuite!</mj-text
 				>
 				<mj-text font-size="16px" font-family="helvetica">
 					<p>Dear {{name}},</p>
 					<p style="line-height: 1.5rem">
-						{{organizationName}} has invited you to join Ever®
-						Gauzy™ - Open-Source Business Management Platform
+						{{organizationName}} has invited you to join Worksuite®
+						Worksuite™ - Open-Source Business Management Platform
 						(ERP/CRM/HRM) focused on Fairness and Transparency!
 					</p>
 				</mj-text>
@@ -31,7 +31,7 @@
 				</mj-button>
 				<mj-text font-size="16px" font-family="helvetica">
 					<p>Best regards,</p>
-					<p>Gauzy Team</p>
+					<p>Worksuite Team</p>
 				</mj-text>
 				<mj-divider
 					border-color="#1B005D"
@@ -40,11 +40,11 @@
 				<mj-text align="center" font-size="12px" font-family="helvetica"
 					>© 2019,
 					<a href="https://app.gauzy.co/." style="color: #598bff"
-						>Gauzy</a
+						>Worksuite</a
 					>
 					by
 					<a href="https://ever.co/" style="color: #598bff"
-						>Ever Co. LTD.</a
+						>Worksuite Co. LTD.</a
 					>
 					All rights reserved.
 				</mj-text>

@@ -1,4 +1,4 @@
-import { IGetPaymentInput, ReportGroupFilterEnum } from "@gauzy/contracts";
+import { IGetPaymentInput, ReportGroupFilterEnum } from "@worksuite/contracts";
 import { ApiPropertyOptional, IntersectionType } from "@nestjs/swagger";
 import { IsEnum, IsOptional } from "class-validator";
 import { RelationsQueryDTO, SelectorsQueryDTO } from "./../../../shared/dto";

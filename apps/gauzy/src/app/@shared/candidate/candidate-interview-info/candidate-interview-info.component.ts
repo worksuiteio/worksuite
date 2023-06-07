@@ -4,7 +4,7 @@ import {
 	ICandidateInterview,
 	ICandidate,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CandidateInterviewersService } from '../../../@core/services/candidate-interviewers.service';
 import { EmployeesService } from '../../../@core/services';
 import { CandidateInterviewService } from '../../../@core/services/candidate-interview.service';

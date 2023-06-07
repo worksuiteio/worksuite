@@ -1,4 +1,4 @@
-import { GenericEmploymentTypes, IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { GenericEmploymentTypes, IEmployee, IOrganization, ITenant } from '@worksuite/contracts';
 import { DataSource } from 'typeorm';
 import { OrganizationEmploymentType } from './organization-employment-type.entity';
 import { DEFAULT_ORGANIZATION_TEAMS } from '../organization-team/default-organization-teams';

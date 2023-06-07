@@ -16,7 +16,7 @@ import { QueryDeepPartialEntity } from 'typeorm/query-builder/QueryPartialEntity
 import * as moment from 'moment';
 import { of as observableOf, throwError } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
-import { IPagination } from '@gauzy/contracts';
+import { IPagination } from '@worksuite/contracts';
 import { BaseEntity } from '../entities/internal';
 import { ICrudService } from './icrud.service';
 import { ITryRequest } from './try-request';

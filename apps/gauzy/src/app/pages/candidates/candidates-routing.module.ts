@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CandidatesComponent } from './candidates.component';
 import { ManageCandidateInviteComponent } from './manage-candidate-invite/manage-candidate-invite.component';
 import { InviteGuard } from '../../@core/guards';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 import { EditCandidateComponent } from './edit-candidate/edit-candidate.component';
 import { EditCandidateProfileComponent } from './edit-candidate/edit-candidate-profile/edit-candidate-profile.component';
 import { EditCandidateMainComponent } from './edit-candidate/edit-candidate-profile/edit-candidate-main/edit-candidate-main.component';

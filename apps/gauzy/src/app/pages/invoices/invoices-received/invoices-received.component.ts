@@ -13,9 +13,9 @@ import {
 	InvoiceColumnsEnum,
 	ITag,
 	IDateRangePicker
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange, toUTC } from '@gauzy/common-angular';
+import { distinctUntilChange, toUTC } from '@worksuite/common-angular';
 import { NbDialogService } from '@nebular/theme';
 import { API_PREFIX, ComponentEnum } from '../../../@core/constants';
 import { ServerDataSource } from '../../../@core/utils/smart-table';

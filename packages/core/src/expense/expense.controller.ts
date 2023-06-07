@@ -6,7 +6,7 @@ import {
 	IExpense,
 	IPagination,
 	IEmployee
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Body,
 	Controller,

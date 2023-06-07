@@ -1,7 +1,7 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FindOptionsWhere, Repository } from 'typeorm';
-import { IEmployee, IPagination } from '@gauzy/contracts';
+import { IEmployee, IPagination } from '@worksuite/contracts';
 import { Employee } from './../../core/entities/internal';
 
 @Injectable()

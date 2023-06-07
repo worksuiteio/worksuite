@@ -1,4 +1,4 @@
-import { EstimateStatusTypesEnum, InvoiceStatusEnumType, InvoiceStatusTypesEnum } from "@gauzy/contracts";
+import { EstimateStatusTypesEnum, InvoiceStatusEnumType, InvoiceStatusTypesEnum } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsBoolean, IsEnum, IsNumber, IsOptional, IsString } from "class-validator";
 

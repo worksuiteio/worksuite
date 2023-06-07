@@ -1,7 +1,7 @@
 import { DataSource } from 'typeorm';
 import { OrganizationTeam } from './organization-team.entity';
 import { OrganizationTeamEmployee } from '../organization-team-employee/organization-team-employee.entity';
-import { IEmployee, IOrganization, IRole, ITenant, RolesEnum } from '@gauzy/contracts';
+import { IEmployee, IOrganization, IRole, ITenant, RolesEnum } from '@worksuite/contracts';
 import * as _ from 'underscore';
 import { faker } from '@faker-js/faker';
 import { DEFAULT_ORGANIZATION_TEAMS } from './default-organization-teams';

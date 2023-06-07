@@ -110,7 +110,7 @@ export interface IOrganization extends IBasePerTenantEntityModel, IRelationalIma
 	activityProofDuration?: number;
 	isRemoveIdleTime?: boolean;
 	allowScreenshotCapture?: boolean;
-	/** Upwork Organization ID For Gauzy AI*/
+	/** Upwork Organization ID For Worksuite AI*/
 	upworkOrganizationId?: string;
 }
 
@@ -171,7 +171,7 @@ export interface IOrganizationCreateInput extends IContact, IRegisterAsEmployee 
 	isImporting?: boolean;
 	sourceId?: string;
 	userOrganizationSourceId?: string;
-	/** Upwork Organization ID For Gauzy AI*/
+	/** Upwork Organization ID For Worksuite AI*/
 	upworkOrganizationId?: string;
 }
 

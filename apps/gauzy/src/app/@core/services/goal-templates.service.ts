@@ -5,7 +5,7 @@ import {
 	IKeyResultTemplate,
 	IGoalKPITemplate,
 	IGoalTemplateFind
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { catchError } from 'rxjs/operators';
 import { firstValueFrom, throwError } from 'rxjs';
 import { ToastrService } from './toastr.service';

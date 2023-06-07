@@ -1,4 +1,4 @@
-import { IExpenseFindInput } from "@gauzy/contracts";
+import { IExpenseFindInput } from "@worksuite/contracts";
 import { IntersectionType, PartialType, PickType } from "@nestjs/mapped-types";
 import { EmployeeFeatureDTO } from "./../../employee/dto";
 import { ExpenseDTO } from "./expense.dto";

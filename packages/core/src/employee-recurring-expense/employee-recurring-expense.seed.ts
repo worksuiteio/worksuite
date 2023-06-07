@@ -4,10 +4,10 @@ import {
 	IOrganization,
 	ITenant,
 	RecurringExpenseDefaultCategoriesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { faker } from '@faker-js/faker';
 import * as moment from 'moment';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 import { EmployeeRecurringExpense } from './employee-recurring-expense.entity';
 
 export const createRandomEmployeeRecurringExpense = async (

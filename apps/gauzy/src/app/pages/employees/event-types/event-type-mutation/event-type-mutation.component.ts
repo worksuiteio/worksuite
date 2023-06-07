@@ -4,7 +4,7 @@ import { NbDialogRef } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { filter, tap } from 'rxjs/operators';
-import { IEventTypeViewModel, IOrganization } from '@gauzy/contracts';
+import { IEventTypeViewModel, IOrganization } from '@worksuite/contracts';
 import { TranslationBaseComponent } from '../../../../@shared/language-base/translation-base.component';
 import { Store } from './../../../../@core/services';
 

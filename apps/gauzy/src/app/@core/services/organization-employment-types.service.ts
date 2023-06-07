@@ -6,7 +6,7 @@ import {
 	IOrganizationEmploymentType,
 	IOrganizationEmploymentTypeFindInput,
 	IOrganizationEmploymentTypeCreateInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

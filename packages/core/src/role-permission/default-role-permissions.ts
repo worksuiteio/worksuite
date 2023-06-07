@@ -1,4 +1,4 @@
-import { PermissionsEnum, RolesEnum } from '@gauzy/contracts';
+import { PermissionsEnum, RolesEnum } from '@worksuite/contracts';
 
 export const DEFAULT_ROLE_PERMISSIONS = [
 	{

@@ -54,7 +54,7 @@ import { InventoryTableComponentsModule } from './components/inventory-table-com
 import { SelectAssetModule } from '../../@shared/select-asset-modal/select-asset.module';
 import { ImageAssetModule } from '../../@shared/image-asset/image-asset.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { ProductTypeSelectorModule } from '../../@shared/product-type-selector/product-type-selector.module';
 import { ProductCategorySelectorModule } from '../../@shared/product-category-selector/product-category-selector.module';
 
@@ -110,7 +110,7 @@ const NB_MODULES = [
 		TranslateModule,
 		WarehousesModule,
 		LanguageSelectorModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		ProductTypeSelectorModule,
 		ProductCategorySelectorModule,
 		NgxPermissionsModule.forChild()

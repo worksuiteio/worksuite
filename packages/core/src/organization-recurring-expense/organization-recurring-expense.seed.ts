@@ -5,9 +5,9 @@ import {
 	IOrganization,
 	ITenant,
 	RecurringExpenseDefaultCategoriesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import * as moment from 'moment';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 
 export const createDefaultOrganizationRecurringExpense = async (
 	dataSource: DataSource,

@@ -3,7 +3,7 @@ import {
 	IOrganization,
 	IOrganizationContact,
 	InvoiceTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 
 export async function generateInvoicePdfDefinition(
 	invoice: IInvoice,

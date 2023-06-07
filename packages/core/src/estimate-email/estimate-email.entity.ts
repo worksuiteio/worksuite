@@ -1,4 +1,4 @@
-import { IEstimateEmail } from '@gauzy/contracts';
+import { IEstimateEmail } from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Column, Entity } from 'typeorm';
 import { TenantOrganizationBaseEntity } from '../core/entities/internal';

@@ -1,4 +1,4 @@
-import { ITimerStatusInput, TimeLogSourceEnum } from "@gauzy/contracts";
+import { ITimerStatusInput, TimeLogSourceEnum } from "@worksuite/contracts";
 import { ApiProperty, IntersectionType, PartialType, PickType } from "@nestjs/swagger";
 import { IsEnum } from "class-validator";
 import { EmployeeFeatureDTO } from "./../../../employee/dto";

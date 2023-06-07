@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler, CommandBus } from '@nestjs/cqrs';
-import { IntegrationEntity } from '@gauzy/contracts';
+import { IntegrationEntity } from '@worksuite/contracts';
 import { IntegrationMapSyncEntityCommand } from '../integration-map.sync-entity.command';
 import { IntegrationMapSyncTimeSlotCommand } from '../integration-map.sync-time-slot.command';
 import { IntegrationMapService } from '../../integration-map.service';

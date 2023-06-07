@@ -14,8 +14,8 @@ import {
 	IPagination,
 	ITask,
 	PermissionsEnum,
-} from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
+} from '@worksuite/contracts';
+import { isNotEmpty } from '@worksuite/common';
 import { isUUID } from 'class-validator';
 import { PaginationParams, TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from '../core/context';

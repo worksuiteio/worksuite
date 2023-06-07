@@ -1,9 +1,9 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { filter, tap } from 'rxjs/operators';
-import { IEmployee, IOrganization, IOrganizationTeam, ITag } from '@gauzy/contracts';
+import { IEmployee, IOrganization, IOrganizationTeam, ITag } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import { Store } from '../../../@core/services';
 
 @UntilDestroy({ checkProperties: true })

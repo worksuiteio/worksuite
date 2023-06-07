@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
-import { ConfigService, IEnvironment } from '@gauzy/config';
+import { ConfigService, IEnvironment } from '@worksuite/config';
 import { Strategy } from 'passport-github2';
-import { IApiServerOptions } from '@gauzy/common';
+import { IApiServerOptions } from '@worksuite/common';
 
 @Injectable()
 export class GithubStrategy extends PassportStrategy(Strategy, 'github') {

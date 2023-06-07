@@ -1,20 +1,20 @@
 {
-	"name": "@gauzy/e2e",
+	"name": "@worksuite/e2e",
 	"version": "0.1.0",
-	"description": "Gauzy e2e tests",
+	"description": "Worksuite e2e tests",
 	"license": "GPL-3.0",
 	"homepage": "https://gauzy.co",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ever-co/ever-gauzy.git"
+		"url": "https://github.com/worksuiteio/worksuite.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ever-co/ever-gauzy/issues"
+		"url": "https://github.com/worksuiteio/worksuite/issues"
 	},
 	"private": true,
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
+		"name": "Worksuite Co. LTD",
+		"email": "ever@worksuite.co",
 		"url": "https://ever.co"
 	},
 	"dependencies": {

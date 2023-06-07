@@ -3,7 +3,7 @@ import {
 	IOrganizationRecurringExpenseForEmployeeOutput,
 	IRecurringExpenseEditInput,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Body,
 	Controller,

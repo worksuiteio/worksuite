@@ -7,7 +7,7 @@ import {
     RemoveEvent,
     UpdateEvent
 } from "typeorm";
-import { retrieveNameFromEmail, sluggable } from "@gauzy/common";
+import { retrieveNameFromEmail, sluggable } from "@worksuite/common";
 import { Employee } from "./employee.entity";
 import { getUserDummyImage } from "./../core/utils";
 import { Organization } from "./../core/entities/internal";

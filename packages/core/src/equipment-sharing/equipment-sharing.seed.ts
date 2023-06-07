@@ -1,7 +1,7 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
 import { addDays } from 'date-fns';
-import { IEmployee, IEquipmentSharing, IOrganization, ITenant } from '@gauzy/contracts';
+import { IEmployee, IEquipmentSharing, IOrganization, ITenant } from '@worksuite/contracts';
 import { EquipmentSharing } from './equipment-sharing.entity';
 import { Equipment } from './../core/entities/internal';
 

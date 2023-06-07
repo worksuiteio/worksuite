@@ -2,7 +2,7 @@ import { Observable, from, of } from 'rxjs';
 import { NbAuthResult, NbAuthStrategy } from '@nebular/auth';
 import { catchError, map } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
-import { IAuthResponse } from '@gauzy/contracts';
+import { IAuthResponse } from '@worksuite/contracts';
 import { NbAuthStrategyClass } from '@nebular/auth/auth.options';
 import { AuthService } from './auth.service';
 import { Store } from '../../services';

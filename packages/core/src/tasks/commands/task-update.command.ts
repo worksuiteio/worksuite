@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { ITask, ITaskUpdateInput } from '@gauzy/contracts';
+import { ITask, ITaskUpdateInput } from '@worksuite/contracts';
 
 export class TaskUpdateCommand implements ICommand {
 	static readonly type = '[Tasks] Update Task';

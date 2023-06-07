@@ -7,13 +7,13 @@ import {
 	IMonthAggregatedEmployeeStatistics,
 	IOrganization,
 	ISelectedEmployee
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { combineLatest } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { Subject } from 'rxjs/internal/Subject';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange, toUTC } from '@gauzy/common-angular';
+import { distinctUntilChange, toUTC } from '@worksuite/common-angular';
 import { DateRangePickerBuilderService, EmployeeStatisticsService, Store } from '../../../@core/services';
 import { ProfitHistoryComponent, RecordsHistoryComponent } from '../../../@shared/dashboard';
 

@@ -1,6 +1,6 @@
 import { OnInit, OnDestroy, Component, Input, ViewChild } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { IEmployee, ICandidate } from '@gauzy/contracts';
+import { IEmployee, ICandidate } from '@worksuite/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { LatLng } from 'leaflet';

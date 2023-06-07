@@ -2,7 +2,7 @@ import { ApiProperty } from '@nestjs/swagger';
 import { Entity, Column } from 'typeorm';
 import { IsDate } from 'class-validator';
 import { Exclude } from 'class-transformer';
-import { IImportHistory } from '@gauzy/contracts';
+import { IImportHistory } from '@worksuite/contracts';
 import { TenantBaseEntity } from '../../core/entities/internal';
 
 @Entity('import-history')

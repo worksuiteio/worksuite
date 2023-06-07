@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
-import { ICountry, IOrganization, ITenant, IWarehouse } from '@gauzy/contracts';
+import { ICountry, IOrganization, ITenant, IWarehouse } from '@worksuite/contracts';
 import {
     Country,
     Warehouse,

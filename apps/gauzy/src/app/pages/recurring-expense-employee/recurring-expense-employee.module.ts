@@ -16,7 +16,7 @@ import { RecurringExpenseBlockModule } from '../../@shared/expenses/recurring-ex
 import { NgxPermissionsModule } from 'ngx-permissions';
 import { TranslateModule } from '../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { NoDataMessageModule } from '../../@shared/no-data-message/no-data-message.module';
 
 @NgModule({
@@ -35,7 +35,7 @@ import { NoDataMessageModule } from '../../@shared/no-data-message/no-data-messa
 		TranslateModule,
 		NgxPermissionsModule.forChild(),
 		HeaderTitleModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		NoDataMessageModule
 	],
 	declarations: [RecurringExpensesEmployeeComponent]

@@ -1,4 +1,4 @@
-import { IHelpCenterAuthor } from '@gauzy/contracts';
+import { IHelpCenterAuthor } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { ArticleAuthorsBulkCreateCommand } from '..';
 import { HelpCenterAuthorService } from '../../help-center-author.service';

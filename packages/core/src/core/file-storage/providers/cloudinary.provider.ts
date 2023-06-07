@@ -7,9 +7,9 @@ import * as streamifier from 'streamifier';
 import axios from 'axios';
 import { ConfigOptions, UploadApiErrorResponse, UploadApiResponse, v2 as cloudinary } from 'cloudinary';
 import { CloudinaryStorage } from 'multer-storage-cloudinary';
-import { environment } from '@gauzy/config';
-import { FileStorageOption, FileStorageProviderEnum, FileSystem, UploadedFile } from "@gauzy/contracts";
-import { ICloudinaryConfig, isNotEmpty } from '@gauzy/common';
+import { environment } from '@worksuite/config';
+import { FileStorageOption, FileStorageProviderEnum, FileSystem, UploadedFile } from "@worksuite/contracts";
+import { ICloudinaryConfig, isNotEmpty } from '@worksuite/common';
 import { Provider } from './provider';
 import { RequestContext } from './../../../core/context';
 

@@ -1,6 +1,6 @@
 import { BadRequestException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IOrganizationProject } from '@gauzy/contracts';
+import { IOrganizationProject } from '@worksuite/contracts';
 import { OrganizationProjectUpdateCommand } from '../organization-project.update.command';
 import { OrganizationProjectService } from '../../organization-project.service';
 

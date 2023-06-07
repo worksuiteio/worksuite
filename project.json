@@ -28,13 +28,13 @@
 		"desktop-timer": {
 			"tags": []
 		},
-		"gauzy-server": {
+		"worksuite-server": {
 			"tags": []
 		},
-		"gauzy-server-ui": {
+		"worksuite-server-ui": {
 			"tags": []
 		},
-		"gauzy-server-api": {
+		"worksuite-server-api": {
 			"tags": []
 		}
 	}

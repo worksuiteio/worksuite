@@ -11,7 +11,7 @@ import {
 	IOrganization,
 	IOrganizationContact,
 	PermissionsEnum,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { map, Observable, Subject } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';

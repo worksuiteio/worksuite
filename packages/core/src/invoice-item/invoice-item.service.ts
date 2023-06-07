@@ -3,7 +3,7 @@ import { InvoiceItem } from './invoice-item.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Injectable } from '@nestjs/common';
-import { IInvoiceItemCreateInput } from '@gauzy/contracts';
+import { IInvoiceItemCreateInput } from '@worksuite/contracts';
 
 @Injectable()
 export class InvoiceItemService extends TenantAwareCrudService<InvoiceItem> {

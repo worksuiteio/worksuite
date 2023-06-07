@@ -2,9 +2,9 @@ import { QueryRunner } from 'typeorm';
 import { v4 as uuidV4 } from 'uuid';
 import * as chalk from 'chalk';
 import * as moment from 'moment';
-import { environment } from '@gauzy/config';
-import { PermissionsEnum } from '@gauzy/contracts';
-import { isEmpty } from '@gauzy/common';
+import { environment } from '@worksuite/config';
+import { PermissionsEnum } from '@worksuite/contracts';
+import { isEmpty } from '@worksuite/common';
 import { DEFAULT_ROLE_PERMISSIONS } from './default-role-permissions';
 
 /**

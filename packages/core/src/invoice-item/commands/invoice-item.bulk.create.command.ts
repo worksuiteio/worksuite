@@ -1,4 +1,4 @@
-import { IInvoiceItemCreateInput } from '@gauzy/contracts';
+import { IInvoiceItemCreateInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class InvoiceItemBulkCreateCommand implements ICommand {

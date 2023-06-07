@@ -1,4 +1,4 @@
-import { IPasswordResetFindInput } from '@gauzy/contracts';
+import { IPasswordResetFindInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class PasswordResetGetCommand implements ICommand {

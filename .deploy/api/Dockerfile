@@ -1,4 +1,4 @@
-# Ever Gauzy Platform API (Core)
+# Worksuite Worksuite Platform API (Core)
 
 ARG NODE_OPTIONS
 ARG NODE_ENV
@@ -62,8 +62,8 @@ ARG PM2_MACHINE_NAME
 
 FROM node:18-alpine3.16 AS dependencies
 
-LABEL maintainer="ever@ever.co"
-LABEL org.opencontainers.image.source https://github.com/ever-co/ever-gauzy
+LABEL maintainer="ever@worksuite.co"
+LABEL org.opencontainers.image.source https://github.com/worksuiteio/worksuite
 
 ENV CI=true
 

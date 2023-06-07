@@ -1,6 +1,6 @@
-import { isNotEmpty } from "@gauzy/common";
+import { isNotEmpty } from "@worksuite/common";
 import { Injectable } from "@nestjs/common";
-import { IIssueTypeFindInput, IPagination, ITaskPriorityFindInput, ITaskSizeFindInput, ITaskStatusFindInput } from "@gauzy/contracts";
+import { IIssueTypeFindInput, IPagination, ITaskPriorityFindInput, ITaskSizeFindInput, ITaskStatusFindInput } from "@worksuite/contracts";
 import { Brackets, Repository, SelectQueryBuilder, WhereExpressionBuilder } from "typeorm";
 import { TenantBaseEntity } from "../core/entities/internal";
 import { RequestContext } from "../core/context";

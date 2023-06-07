@@ -14,7 +14,7 @@ import {
 	ITag,
 	ComponentLayoutStyleEnum,
 	EmploymentTypeTabsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { takeUntil } from 'rxjs/operators';
 import { NbDialogService } from '@nebular/theme';
 import { Store } from '../../@core/services/store.service';
@@ -31,7 +31,7 @@ import {
 	IPaginationBase,
 	PaginationFilterBaseComponent
 } from '../../@shared/pagination/pagination-filter-base.component';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 
 @UntilDestroy({ checkProperties: true })
 @Component({

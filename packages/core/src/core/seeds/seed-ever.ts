@@ -2,7 +2,7 @@
 // MIT License, see https://github.com/alexitaylor/angular-graphql-nestjs-postgres-starter-kit/blob/master/LICENSE
 // Copyright (c) 2019 Alexi Taylor
 
-import { IPluginConfig } from '@gauzy/common';
+import { IPluginConfig } from '@worksuite/common';
 import { NestFactory } from '@nestjs/core';
 import { registerPluginConfig } from '../../bootstrap';
 import { SeedDataService } from './seed-data.service';
@@ -17,7 +17,7 @@ import { SeederModule } from './seeder.module';
 * If environment.production config is set to true, then the seeding process will only generate default roles and 2 default users.
 *
 */
-export async function seedEver(devConfig: Partial<IPluginConfig>) {
+export async function seedWorksuite(devConfig: Partial<IPluginConfig>) {
 	await registerPluginConfig(devConfig);
 
 	NestFactory.createApplicationContext(SeederModule.forPlugins(), {
@@ -26,7 +26,7 @@ export async function seedEver(devConfig: Partial<IPluginConfig>) {
 		.then((app) => {
 			const seeder = app.get(SeedDataService);
 			seeder
-				.runEverSeed()
+				.runWorksuiteSeed()
 				.then(() => {})
 				.catch((error) => {
 					throw error;

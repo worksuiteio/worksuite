@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, Resolve, Router } from '@angular/router';
 import { debounceTime, EMPTY, Observable, of as observableOf } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
-import { IOrganization } from '@gauzy/contracts';
-import { isEmpty } from '@gauzy/common-angular';
+import { IOrganization } from '@worksuite/contracts';
+import { isEmpty } from '@worksuite/common-angular';
 import { OrganizationsService, Store } from '../../../@core/services';
 
 @Injectable({

@@ -26,7 +26,7 @@ import { CommonModule } from '@angular/common';
 import { NgxPermissionsModule } from 'ngx-permissions';
 import { TranslateModule } from '../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
 
 @NgModule({
@@ -53,7 +53,7 @@ import { PaginationModule } from '../../@shared/pagination/pagination.module';
 		TranslateModule,
 		NgxPermissionsModule.forChild(),
 		HeaderTitleModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		PaginationModule
 	],
 	declarations: [ApprovalsComponent, RequestApprovalActionComponent],

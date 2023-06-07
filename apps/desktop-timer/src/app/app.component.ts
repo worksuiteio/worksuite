@@ -1,8 +1,8 @@
 import { Component, NgZone, OnInit, AfterViewInit } from '@angular/core';
-import { ElectronService, Store, AuthStrategy } from '@gauzy/desktop-ui-lib';
+import { ElectronService, Store, AuthStrategy } from '@worksuite/desktop-ui-lib';
 import { AppService } from './app.service';
 import { TranslateService } from '@ngx-translate/core';
-import { LanguagesEnum } from '@gauzy/contracts';
+import { LanguagesEnum } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { NbToastrService } from '@nebular/theme';
 import * as _ from 'underscore';

@@ -11,7 +11,7 @@ import { IntegrationType } from './integration-type.entity';
 import { ApiResponse, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { CommandBus } from '@nestjs/cqrs';
 import { IntegrationTypeGetCommand, IntegrationGetCommand } from './commands';
-import { IntegrationEnum } from '@gauzy/contracts';
+import { IntegrationEnum } from '@worksuite/contracts';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';
 
 @ApiTags('Integrations')

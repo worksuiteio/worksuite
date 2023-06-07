@@ -1,4 +1,4 @@
-import { IEstimateEmailFindInput } from "@gauzy/contracts";
+import { IEstimateEmailFindInput } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsEmail, IsNotEmpty, IsString } from "class-validator";
 import { RelationsQueryDTO } from "./../../shared/dto";

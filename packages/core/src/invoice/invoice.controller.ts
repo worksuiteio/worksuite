@@ -26,7 +26,7 @@ import {
 	IInvoice,
 	LanguagesEnum,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudController, OptionParams, PaginationParams } from './../core/crud';
 import { Invoice } from './invoice.entity';
 import { InvoiceService } from './invoice.service';

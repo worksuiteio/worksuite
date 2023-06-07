@@ -4,7 +4,7 @@ import {
 	IRecurringExpenseEditInput,
 	IEmployeeRecurringExpense,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	BadRequestException,
 	Body,

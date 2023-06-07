@@ -4,8 +4,8 @@
 
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { getEntitiesFromPlugins } from '@gauzy/plugin';
-import { getConfig } from '@gauzy/config';
+import { getEntitiesFromPlugins } from '@worksuite/plugin';
+import { getConfig } from '@worksuite/config';
 import { FactoryResetService } from './factory-reset.service';
 import { coreEntities } from '../../core/entities';
 

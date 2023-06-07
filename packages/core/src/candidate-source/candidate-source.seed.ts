@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { ICandidate, ICandidateSource, IOrganization, ITenant } from '@gauzy/contracts';
+import { ICandidate, ICandidateSource, IOrganization, ITenant } from '@worksuite/contracts';
 import { DEFAULT_CANDIDATE_SOURCES } from './default-candidate-sources';
 import { CandidateSource } from './../core/entities/internal';
 

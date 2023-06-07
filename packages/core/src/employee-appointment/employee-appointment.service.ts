@@ -2,8 +2,8 @@ import { EmployeeAppointment } from './employee-appointment.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Injectable } from '@nestjs/common';
-import { IEmployeeAppointmentCreateInput } from '@gauzy/contracts';
-import { environment as env } from '@gauzy/config';
+import { IEmployeeAppointmentCreateInput } from '@worksuite/contracts';
+import { environment as env } from '@worksuite/config';
 import { sign, decode } from 'jsonwebtoken';
 import { TenantAwareCrudService } from './../core/crud';
 

@@ -1,5 +1,5 @@
 import { Entity, Column, ManyToMany, JoinTable } from 'typeorm';
-import { IEmployee, IOrganization, ISkill } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ISkill } from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	Employee,

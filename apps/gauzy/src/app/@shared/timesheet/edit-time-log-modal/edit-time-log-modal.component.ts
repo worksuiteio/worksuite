@@ -15,8 +15,8 @@ import {
 	ISelectedEmployee,
 	TimeLogType,
 	TimeLogSourceEnum
-} from '@gauzy/contracts';
-import { toUTC, toLocal, distinctUntilChange } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { toUTC, toLocal, distinctUntilChange } from '@worksuite/common-angular';
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { NbDialogRef } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

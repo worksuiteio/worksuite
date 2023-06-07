@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, Resolve } from '@angular/router';
 import { catchError, Observable, of } from 'rxjs';
 import { tap } from 'rxjs/operators';
-import { ITimesheet } from '@gauzy/contracts';
+import { ITimesheet } from '@worksuite/contracts';
 import { TimesheetService } from './../../../../@shared/timesheet';
 
 @Injectable({

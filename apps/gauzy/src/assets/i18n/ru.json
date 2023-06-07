@@ -699,7 +699,7 @@
 		"TOTAL_INCOME_OR_MONTHLY_INCOME": "Общий доход за месяц",
 		"PROFITS": "Прибыль",
 		"BONUSES_PAID": "Бонусы выплачены",
-		"TOTAL_HOURS_WORKED_OVER_GAUZY": "Всего часов работы над Gauzy",
+		"TOTAL_HOURS_WORKED_OVER_GAUZY": "Всего часов работы над Worksuite",
 		"MINIMUM_PROJECT_SIZE": "Минимальный размер проекта",
 		"PROJECTS_COUNT": "Количество проектов",
 		"CLIENTS_COUNT": "Количество клиентов",
@@ -783,12 +783,12 @@
 			"WRONG_FILE_NAME": "Неправильное имя файла!!!",
 			"CORRECT_FILE_NAME": "Имя файла должно быть: \"archive.zip\"",
 			"DOWNLOAD_TEMPLATES": "Скачать шаблоны",
-			"MIGRATE_TO_CLOUD": "Миграция в облако Ever Gauzy",
-			"IMPORT_INFO": "Нажмите кнопку \"Import\" для импорта данных в БД Gauzy.",
-			"EXPORT_INFO": "Нажмите кнопку \"Экспорт\" для экспорта данных из базы данных Gauzy.",
-			"DOWNLOAD_TEMPLATES_INFO": "Нажмите \"Скачать шаблоны\" для загрузки Zip архива с шаблонами CSV для формата Gauzy данных.",
-			"MIGRATE_TO_CLOUD_INFO": "Нажмите \"Migrate to Ever Gauzy Cloud\", чтобы перейти с собственного хостинга на облачное издание.",
-			"MIGRATE_SUCCESSFULLY": "Миграция с облаком Gauzy для '{{ tenant }}' успешно завершена!",
+			"MIGRATE_TO_CLOUD": "Миграция в облако Worksuite Worksuite",
+			"IMPORT_INFO": "Нажмите кнопку \"Import\" для импорта данных в БД Worksuite.",
+			"EXPORT_INFO": "Нажмите кнопку \"Экспорт\" для экспорта данных из базы данных Worksuite.",
+			"DOWNLOAD_TEMPLATES_INFO": "Нажмите \"Скачать шаблоны\" для загрузки Zip архива с шаблонами CSV для формата Worksuite данных.",
+			"MIGRATE_TO_CLOUD_INFO": "Нажмите \"Migrate to Worksuite Worksuite Cloud\", чтобы перейти с собственного хостинга на облачное издание.",
+			"MIGRATE_SUCCESSFULLY": "Миграция с облаком Worksuite для '{{ tenant }}' успешно завершена!",
 			"ACCOUNTING_TEMPLATE": "Шаблон бухгалтерского учета",
 			"ACTIVITY": "Активность",
 			"APPROVAL_POLICY": "Политика одобрения",
@@ -1008,7 +1008,7 @@
 		"MATERIAL_LIGHT_THEME": "Материальный фонарь",
 		"MATERIAL_DARK_THEME": "Тёмный материал",
 		"GAUZY_LIGHT": "Гаузивый свет",
-		"GAUZY_DARK": "Gauzy Dark",
+		"GAUZY_DARK": "Worksuite Dark",
 		"LANGUAGE": "Язык",
 		"ENGLISH": "Russian",
 		"BULGARIAN": "Болгарский",
@@ -1026,7 +1026,7 @@
 	"CHANGELOG_MENU": {
 		"HEADER": "Что нового?",
 		"LEARN_MORE_URL": "Узнать больше",
-		"GAUZY_FEATURES": "Функции Gauzy"
+		"GAUZY_FEATURES": "Функции Worksuite"
 	},
 	"REPORT_PAGE": {
 		"MEMBERS_WORKED": "Участники Раболи",
@@ -1090,7 +1090,7 @@
 			"MANUAL_ACTIVITY": "Записи не найдены. Пожалуйста, выберите диапазон дат, сотрудник или проект.",
 			"AMOUNT_OWED": "Недостаточно сумм",
 			"WEEKLY_TIME_AND_ACTIVITY": "Вы еще не отслеживали время и активность в этот день.",
-			"DAILY_TIME_AND_ACTIVITY": "В этот день еще не отслеживается время и активность. Пожалуйста, используйте <a href=\"https://web.gauzy.co/downloads\" rel=\"noopener\" target=\"_blank\">Gauzy Desktop Timer App</a>.",
+			"DAILY_TIME_AND_ACTIVITY": "В этот день еще не отслеживается время и активность. Пожалуйста, используйте <a href=\"https://web.gauzy.co/downloads\" rel=\"noopener\" target=\"_blank\">Worksuite Desktop Timer App</a>.",
 			"PROJECT_BUDGET": "Вы не создали ни одного проекта с бюджетом.",
 			"CLIENT_BUDGET": "Вы не создали ни одного клиента с бюджетом."
 		}
@@ -3943,7 +3943,7 @@
 			}
 		}
 	},
-	"GAUZY_MAINTENANCE": "Обслуживание Gauzy @",
+	"GAUZY_MAINTENANCE": "Обслуживание Worksuite @",
 	"LEGAL": {
 		"PRIVACY_POLICY": "Политика конфиденциальности",
 		"TERMS_AND_CONDITIONS": "Условия использования"

@@ -6,7 +6,7 @@ import {
 	ICandidateInterviewersCreateInput,
 	ICandidateInterviewers,
 	ICandidateInterviewersDeleteInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

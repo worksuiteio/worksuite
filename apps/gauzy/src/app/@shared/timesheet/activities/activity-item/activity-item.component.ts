@@ -6,8 +6,8 @@ import {
 	Output,
 	EventEmitter
 } from '@angular/core';
-import { progressStatus } from '@gauzy/common-angular';
-import { IDailyActivity } from '@gauzy/contracts';
+import { progressStatus } from '@worksuite/common-angular';
+import { IDailyActivity } from '@worksuite/contracts';
 
 @Component({
 	selector: 'ngx-activity-item',

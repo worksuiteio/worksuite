@@ -1,7 +1,7 @@
 import { DataSource } from 'typeorm';
 import { IntegrationSetting } from './integration-setting.entity';
 import { faker } from '@faker-js/faker';
-import { ITenant } from '@gauzy/contracts';
+import { ITenant } from '@worksuite/contracts';
 import { IntegrationTenant, Organization } from './../core/entities/internal';
 
 export const createRandomIntegrationSetting = async (

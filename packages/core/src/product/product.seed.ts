@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
-import { IOrganization, ITenant, LanguagesEnum } from '@gauzy/contracts';
+import { IOrganization, ITenant, LanguagesEnum } from '@worksuite/contracts';
 import { Product, ProductCategory, ProductTranslation, ProductType } from './../core/entities/internal';
 
 export const createDefaultProducts = async (

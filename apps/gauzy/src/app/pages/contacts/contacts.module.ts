@@ -25,7 +25,7 @@ import { HeaderTitleModule } from '../../@shared/components/header-title/header-
 import { EmployeeMultiSelectModule } from '../../@shared/employee/employee-multi-select/employee-multi-select.module';
 import { FileUploaderModule } from '../../@shared/file-uploader-input/file-uploader-input.module';
 import { LeafletMapModule, LocationFormModule } from '../../@shared/forms';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { ImageUploaderModule } from '../../@shared/image-uploader/image-uploader.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
 import { SharedModule } from '../../@shared/shared.module';
@@ -67,7 +67,7 @@ const COMPONENTS = [
 		ContactsRoutingModule,
 		EmployeeMultiSelectModule,
 		FileUploaderModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		HeaderTitleModule,
 		ImageUploaderModule,
 		LeafletMapModule,

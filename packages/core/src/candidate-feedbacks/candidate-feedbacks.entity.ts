@@ -16,7 +16,7 @@ import {
 	ICandidateCriterionsRating,
 	ICandidate,
 	ICandidateInterview
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ColumnNumericTransformerPipe } from './../shared/pipes';
 import {
 	Candidate,

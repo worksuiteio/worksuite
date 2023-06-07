@@ -1,4 +1,4 @@
-import { ICandidateCreateInput, ICandidateDocument } from "@gauzy/contracts";
+import { ICandidateCreateInput, ICandidateDocument } from "@worksuite/contracts";
 import { ApiProperty, IntersectionType } from "@nestjs/swagger";
 import { Type } from "class-transformer";
 import {

@@ -3,7 +3,7 @@ import {
 	StatusTypesMapRequestApprovalEnum,
 	ApprovalPolicyTypesStringEnum,
 	RequestApprovalStatusTypesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { BadRequestException } from '@nestjs/common';
 import { TimeOffRequest } from '../../time-off-request.entity';
 import { InjectRepository } from '@nestjs/typeorm';

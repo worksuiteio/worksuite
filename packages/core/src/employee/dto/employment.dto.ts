@@ -3,7 +3,7 @@ import {
     IOrganizationEmploymentType,
     IOrganizationPosition,
     ISkill
-} from "@gauzy/contracts";
+} from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsArray, IsBoolean, IsDateString, IsOptional, IsString, ValidateNested } from "class-validator";
 import { Type } from 'class-transformer';

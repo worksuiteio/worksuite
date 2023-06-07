@@ -11,8 +11,8 @@ import {
 	IRolePermissionMigrateInput,
 	IPagination,
 	PermissionsEnum
-} from '@gauzy/contracts';
-import { environment } from '@gauzy/config';
+} from '@worksuite/contracts';
+import { environment } from '@worksuite/config';
 import { pluck } from 'underscore';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from './../core/context';

@@ -31,7 +31,7 @@ import {
 	IAccountingTemplate,
 	IReportOrganization,
 	IImageAsset
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	AccountingTemplate,
 	Contact,

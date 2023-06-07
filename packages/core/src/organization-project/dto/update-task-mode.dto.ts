@@ -1,6 +1,6 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsEnum } from "class-validator";
-import { IOrganizationProjectsUpdateInput, TaskListTypeEnum } from "@gauzy/contracts";
+import { IOrganizationProjectsUpdateInput, TaskListTypeEnum } from "@worksuite/contracts";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";
 
 /**

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IProductOptionTranslatable, LanguagesEnum } from '@gauzy/contracts';
+import { IProductOptionTranslatable, LanguagesEnum } from '@worksuite/contracts';
 import { Router } from '@angular/router';
 import { InventoryStore } from 'apps/gauzy/src/app/@core/services/inventory-store.service';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

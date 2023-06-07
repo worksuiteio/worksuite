@@ -10,7 +10,7 @@ import {
 	IProductOptionTranslatable,
 	IProductTranslatable,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ProductService, Store, TranslatableService } from './../../../../@core/services';
 import { GalleryComponent, GalleryService } from './../../../../@shared/gallery';
 import { TranslationBaseComponent } from './../../../../@shared/language-base';

@@ -1,7 +1,7 @@
 import { Entity, Index, Column, AfterLoad } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import * as moment from 'moment';
-import { IPasswordReset } from '@gauzy/contracts';
+import { IPasswordReset } from '@worksuite/contracts';
 import { BaseEntity } from './../core/entities/base.entity';
 
 @Entity('password_reset')

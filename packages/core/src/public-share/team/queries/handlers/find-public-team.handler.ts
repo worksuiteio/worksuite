@@ -1,5 +1,5 @@
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
-import { IOrganizationTeam } from '@gauzy/contracts';
+import { IOrganizationTeam } from '@worksuite/contracts';
 import { FindPublicTeamQuery } from '../find-public-team.query';
 import { PublicTeamService } from './../../public-team.service';
 

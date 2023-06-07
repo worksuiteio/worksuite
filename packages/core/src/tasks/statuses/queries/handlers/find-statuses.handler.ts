@@ -1,5 +1,5 @@
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
-import { IPagination, ITaskStatus } from '@gauzy/contracts';
+import { IPagination, ITaskStatus } from '@worksuite/contracts';
 import { TaskStatusService } from '../../status.service';
 import { FindStatusesQuery } from '../find-statuses.query';
 

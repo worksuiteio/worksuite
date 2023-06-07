@@ -23,13 +23,13 @@ import { TimerPickerModule } from './../../../../@shared/timer-picker/timer-pick
 import { ProjectSelectModule } from './../../../../@shared/project-select/project-select.module';
 import { EmployeeSelectorsModule } from './../../../../@theme/components/header/selectors/employee/employee.module';
 import { EditTimeLogModalModule } from './../../../../@shared/timesheet/edit-time-log-modal/edit-time-log-modal.module';
-import { GauzyFiltersModule } from 'apps/gauzy/src/app/@shared/timesheet/gauzy-filters/gauzy-filters.module';
+import { WorksuiteFiltersModule } from 'apps/gauzy/src/app/@shared/timesheet/gauzy-filters/gauzy-filters.module';
 import { ViewTimeLogModule } from './../../../../@shared/timesheet/view-time-log/view-time-log.module';
 import { ViewTimeLogModalModule } from './../../../../@shared/timesheet/view-time-log-modal/view-time-log-modal.module';
 import { TaskSelectModule } from './../../../../@shared/tasks/task-select/task-select.module';
 import { DialogsModule } from './../../../../@shared/dialogs';
 import { TableComponentsModule } from 'apps/gauzy/src/app/@shared';
-import { GauzyButtonActionModule } from 'apps/gauzy/src/app/@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from 'apps/gauzy/src/app/@shared/gauzy-button-action/gauzy-button-action.module';
 import { NoDataMessageModule } from 'apps/gauzy/src/app/@shared/no-data-message/no-data-message.module';
 
 @NgModule({
@@ -57,11 +57,11 @@ import { NoDataMessageModule } from 'apps/gauzy/src/app/@shared/no-data-message/
 		EditTimeLogModalModule,
 		ViewTimeLogModalModule,
 		EmployeeSelectorsModule,
-		GauzyFiltersModule,
+		WorksuiteFiltersModule,
 		ViewTimeLogModule,
 		DialogsModule,
 		TableComponentsModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		NoDataMessageModule
 	]
 })

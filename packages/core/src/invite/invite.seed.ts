@@ -1,8 +1,8 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
-import { InviteStatusEnum, IOrganization, ITenant, IUser } from '@gauzy/contracts';
+import { InviteStatusEnum, IOrganization, ITenant, IUser } from '@worksuite/contracts';
 import { sign } from 'jsonwebtoken';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 import * as moment from 'moment';
 import { Invite } from './invite.entity';
 import { Role } from './../core/entities/internal';

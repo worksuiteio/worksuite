@@ -7,7 +7,7 @@ import {
 	UseGuards
 } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { IPagination } from '@gauzy/contracts';
+import { IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { Deal } from './deal.entity';
 import { DealService } from './deal.service';

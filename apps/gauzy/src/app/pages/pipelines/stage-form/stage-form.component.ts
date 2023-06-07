@@ -6,7 +6,7 @@ import {
 	FormGroup,
 	Validators
 } from '@angular/forms';
-import { IPipelineStageUpdateInput } from '@gauzy/contracts';
+import { IPipelineStageUpdateInput } from '@worksuite/contracts';
 import { CdkDragDrop } from '@angular/cdk/drag-drop';
 import { NbDialogService } from '@nebular/theme';
 import { DeleteConfirmationComponent } from '../../../@shared/user/forms/delete-confirmation/delete-confirmation.component';

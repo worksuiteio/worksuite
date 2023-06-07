@@ -8,7 +8,7 @@ import { NbDialogRef } from '@nebular/theme';
 import { Observable } from 'rxjs';
 import * as moment from 'moment';
 import { tap } from 'rxjs/operators';
-import { IDateRangeActivityFilter, IntegrationEntity } from '@gauzy/contracts';
+import { IDateRangeActivityFilter, IntegrationEntity } from '@worksuite/contracts';
 import { HubstaffService } from './../../../../@core/services/hubstaff.service';
 
 @Component({

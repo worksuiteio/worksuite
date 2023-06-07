@@ -6,7 +6,7 @@ import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { FindOptionsOrder, FindOptionsRelations, FindOptionsSelect, FindOptionsWhere } from 'typeorm';
 import { Transform, TransformFnParams, Type } from 'class-transformer';
 import { IsNotEmpty, IsOptional, Max, Min, ValidateNested } from 'class-validator';
-import { isClassInstance, isObject, parseToBoolean } from '@gauzy/common';
+import { isClassInstance, isObject, parseToBoolean } from '@worksuite/common';
 import { TenantOrganizationBaseDTO } from './../../core/dto';
 
 /**

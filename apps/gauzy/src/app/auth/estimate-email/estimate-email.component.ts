@@ -4,7 +4,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { IEstimateEmail, EstimateStatusTypesEnum } from '@gauzy/contracts';
+import { IEstimateEmail, EstimateStatusTypesEnum } from '@worksuite/contracts';
 import { InvoicesService, ToastrService } from '../../@core/services';
 import { TranslationBaseComponent } from '../../@shared/language-base/translation-base.component';
 

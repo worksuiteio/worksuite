@@ -1,4 +1,4 @@
-import { ICandidate } from '@gauzy/contracts';
+import { ICandidate } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class CandidateRejectedCommand implements ICommand {

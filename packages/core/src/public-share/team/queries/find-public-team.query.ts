@@ -1,4 +1,4 @@
-import { IDateRangePicker, IOrganizationTeamStatisticInput } from '@gauzy/contracts';
+import { IDateRangePicker, IOrganizationTeamStatisticInput } from '@worksuite/contracts';
 import { IQuery } from '@nestjs/cqrs';
 import { FindOptionsWhere } from 'typeorm';
 import { OrganizationTeam } from '../../../core/entities/internal';

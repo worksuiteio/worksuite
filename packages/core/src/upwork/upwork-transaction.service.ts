@@ -14,7 +14,7 @@ import {
 	OrganizationVendorEnum,
 	ExpenseCategoriesEnum,
 	IncomeTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Expense } from '../expense/expense.entity';
 import { Income } from '../income/income.entity';
 import { reflect } from '../core';

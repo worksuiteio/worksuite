@@ -1,5 +1,5 @@
 import { fork } from 'child_process';
-import { LocalStore } from '@gauzy/desktop-libs';
+import { LocalStore } from '@worksuite/desktop-libs';
 
 export interface IEnvApi {
     IS_ELECTRON: string,

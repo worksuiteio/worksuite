@@ -1,5 +1,5 @@
 import { IntersectionType, PartialType, PickType } from "@nestjs/swagger";
-import { IGetJobPresetInput } from "@gauzy/contracts";
+import { IGetJobPresetInput } from "@worksuite/contracts";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";
 import { EmployeeFeatureDTO } from "./../../employee/dto";
 

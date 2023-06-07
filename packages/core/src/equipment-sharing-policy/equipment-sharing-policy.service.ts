@@ -2,7 +2,7 @@ import { TenantAwareCrudService } from './../core/crud';
 import { BadRequestException, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { IEquipmentSharingPolicy } from '@gauzy/contracts';
+import { IEquipmentSharingPolicy } from '@worksuite/contracts';
 import { EquipmentSharingPolicy } from './equipment-sharing-policy.entity';
 
 @Injectable()

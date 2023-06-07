@@ -8,13 +8,13 @@ import {
 	ComponentLayoutStyleEnum,
 	IOrganization,
 	IDateRangePicker
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { debounceTime, filter, first, tap, finalize } from 'rxjs/operators';
 import { combineLatest, Subject } from 'rxjs';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange, toUTC } from '@gauzy/common-angular';
+import { distinctUntilChange, toUTC } from '@worksuite/common-angular';
 import * as moment from 'moment';
 import { API_PREFIX, ComponentEnum } from '../../@core/constants';
 import {

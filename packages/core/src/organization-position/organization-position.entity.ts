@@ -1,7 +1,7 @@
 import { Column, Entity, Index, ManyToMany, JoinTable } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsString } from 'class-validator';
-import { IOrganizationPosition, ITag } from '@gauzy/contracts';
+import { IOrganizationPosition, ITag } from '@worksuite/contracts';
 import { Tag, TenantOrganizationBaseEntity } from '../core/entities/internal';
 
 @Entity('organization_position')

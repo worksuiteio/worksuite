@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { RouterModule } from 'nest-router';
-import { GauzyAIModule } from '@gauzy/integration-ai';
+import { WorksuiteAIModule } from '@worksuite/integration-ai';
 import { EmployeeJobPostService } from './employee-job.service';
 import { EmployeeJobPostController } from './employee-job.controller';
 import { EmployeeModule } from './../employee/employee.module';
@@ -13,7 +13,7 @@ import { CountryModule } from './../country/country.module';
 		]),
 		CountryModule,
 		EmployeeModule,
-		GauzyAIModule
+		WorksuiteAIModule
 	],
 	controllers: [EmployeeJobPostController],
 	providers: [EmployeeJobPostService],

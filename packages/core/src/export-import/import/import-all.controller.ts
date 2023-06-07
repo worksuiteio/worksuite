@@ -11,7 +11,7 @@ import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { FileInterceptor } from '@nestjs/platform-express';
 import * as path from 'path';
 import { CommandBus } from '@nestjs/cqrs';
-import { IImportHistory, ImportStatusEnum, ImportTypeEnum, IPagination, PermissionsEnum, UploadedFile } from '@gauzy/contracts';
+import { IImportHistory, ImportStatusEnum, ImportTypeEnum, IPagination, PermissionsEnum, UploadedFile } from '@worksuite/contracts';
 import { ImportAllService } from './import-all.service';
 import { RequestContext } from './../../core/context';
 import { FileStorage, UploadedFileStorage } from '../../core/file-storage';

@@ -25,7 +25,7 @@ import { AddEditProposalTemplateComponent } from './add-edit-proposal-template/a
 import { CKEditorModule } from 'ckeditor4-angular';
 import { HeaderTitleModule } from '../../../@shared/components/header-title/header-title.module';
 import { NbTabsetModule } from '@nebular/theme';
-import { GauzyButtonActionModule } from '../../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { PaginationModule } from '../../../@shared/pagination/pagination.module';
 
 @NgModule({
@@ -54,7 +54,7 @@ import { PaginationModule } from '../../../@shared/pagination/pagination.module'
 		CKEditorModule,
 		HeaderTitleModule,
 		NbTabsetModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		PaginationModule
 	]
 })

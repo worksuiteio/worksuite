@@ -1,5 +1,5 @@
 
-import { IOrganizationVendor } from "@gauzy/contracts";
+import { IOrganizationVendor } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsObject, IsOptional, IsString } from "class-validator";
 

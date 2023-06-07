@@ -1,6 +1,6 @@
 import { Entity, Column, RelationId, ManyToOne, JoinColumn } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
-import { IReport, IReportOrganization } from '@gauzy/contracts';
+import { IReport, IReportOrganization } from '@worksuite/contracts';
 import { Report, TenantOrganizationBaseEntity } from '../core/entities/internal';
 
 @Entity('report_organization')

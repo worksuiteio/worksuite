@@ -6,8 +6,8 @@ import {
 	ValidatorConstraint,
 	ValidatorConstraintInterface
 } from "class-validator";
-import { IEmployee } from "@gauzy/contracts";
-import { isEmpty } from "@gauzy/common";
+import { IEmployee } from "@worksuite/contracts";
+import { isEmpty } from "@worksuite/common";
 import { Employee } from "./../../../core/entities/internal";
 import { RequestContext } from "./../../../core/context";
 

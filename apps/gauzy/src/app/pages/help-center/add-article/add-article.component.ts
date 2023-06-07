@@ -3,7 +3,7 @@ import {
 	IEmployee,
 	IHelpCenterAuthor,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Component, OnDestroy, OnInit, Input } from '@angular/core';
 import { NbDialogRef } from '@nebular/theme';
 import { Subject } from 'rxjs';

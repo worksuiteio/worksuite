@@ -2,7 +2,7 @@ import { ICommandHandler, CommandBus, CommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, SelectQueryBuilder } from 'typeorm';
 import * as moment from 'moment';
-import { ITimeLog, ITimesheet, TimeLogSourceEnum } from '@gauzy/contracts';
+import { ITimeLog, ITimesheet, TimeLogSourceEnum } from '@worksuite/contracts';
 import { TimeLog } from './../../time-log.entity';
 import { TimeLogUpdateCommand } from '../time-log-update.command';
 import {

@@ -1,7 +1,7 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
-import { IOrganization, ITenant } from '@gauzy/contracts';
-import { environment as env } from '@gauzy/config';
+import { IOrganization, ITenant } from '@worksuite/contracts';
+import { environment as env } from '@worksuite/config';
 import { DEFAULT_RANDOM_EQUIPMENTS } from './default-equipments';
 import { Equipment, Organization, Tag } from './../core/entities/internal';
 

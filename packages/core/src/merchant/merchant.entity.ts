@@ -5,7 +5,7 @@ import {
 	ITag,
 	IWarehouse,
 	IContact
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Entity,
 	Column,

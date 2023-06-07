@@ -12,7 +12,7 @@ import {
 	KeyResultUpdateStatusEnum,
 	IKPI,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { KeyResultUpdateComponent } from '../keyresult-update/keyresult-update.component';
 import { takeUntil } from 'rxjs/operators';
 import { KeyResultService } from '../../../@core/services/keyresult.service';

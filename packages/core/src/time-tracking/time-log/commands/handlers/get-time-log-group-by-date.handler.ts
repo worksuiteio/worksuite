@@ -1,8 +1,8 @@
 import { ICommandHandler, CommandHandler } from '@nestjs/cqrs';
 import { chain, pluck, reduce } from 'underscore';
 import * as moment from 'moment';
-import { ArraySum } from '@gauzy/common';
-import { IReportDayGroupByDate, ITimeLog, ITimeSlot } from '@gauzy/contracts';
+import { ArraySum } from '@worksuite/common';
+import { IReportDayGroupByDate, ITimeLog, ITimeSlot } from '@worksuite/contracts';
 import { GetTimeLogGroupByDateCommand } from '../get-time-log-group-by-date.command';
 
 @CommandHandler(GetTimeLogGroupByDateCommand)

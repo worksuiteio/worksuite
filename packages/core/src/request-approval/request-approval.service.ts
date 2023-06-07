@@ -16,8 +16,8 @@ import {
 	IOrganizationTeam,
 	IEmployee,
 	IRequestApprovalTeam
-} from '@gauzy/contracts';
-import { getConfig } from '@gauzy/config';
+} from '@worksuite/contracts';
+import { getConfig } from '@worksuite/config';
 import { RequestContext } from '../core/context';
 import {
 	Employee,

@@ -1,6 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { ITaskPriority } from "@gauzy/contracts";
+import { ITaskPriority } from "@worksuite/contracts";
 import { CrudService } from "../crud/crud.service";
 import { API_PREFIX } from "../../constants";
 

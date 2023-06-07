@@ -1,7 +1,7 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
 import { OrganizationSprint } from './organization-sprint.entity';
-import { IOrganization, ITenant, SprintStartDayEnum } from '@gauzy/contracts';
+import { IOrganization, ITenant, SprintStartDayEnum } from '@worksuite/contracts';
 import { OrganizationProject } from '../organization-project/organization-project.entity';
 import * as moment from 'moment';
 import { Task } from '../tasks/task.entity';

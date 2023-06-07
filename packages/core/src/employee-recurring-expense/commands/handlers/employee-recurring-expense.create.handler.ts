@@ -1,4 +1,4 @@
-import { IEmployeeRecurringExpense, PermissionsEnum } from '@gauzy/contracts';
+import { IEmployeeRecurringExpense, PermissionsEnum } from '@worksuite/contracts';
 import { BadRequestException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { RequestContext } from './../../../core/context';

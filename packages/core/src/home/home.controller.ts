@@ -1,6 +1,6 @@
 import { Controller, Get, HttpCode, HttpStatus } from '@nestjs/common';
 import * as moment from 'moment';
-import { Public } from '@gauzy/common';
+import { Public } from '@worksuite/common';
 
 @Controller()
 export class HomeController {
@@ -11,7 +11,7 @@ export class HomeController {
 	async home() {
 		return new Object({
 			status: HttpStatus.OK,
-			message: `Gauzy API`
+			message: `Worksuite API`
 		});
 	}
 

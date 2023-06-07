@@ -2,8 +2,8 @@ import { Controller, Get, HttpStatus, Param, Query, UseInterceptors, ValidationP
 import { QueryBus } from '@nestjs/cqrs';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { FindOptionsWhere } from 'typeorm';
-import { IEmployee, IPagination } from '@gauzy/contracts';
-import { Public } from '@gauzy/common';
+import { IEmployee, IPagination } from '@worksuite/contracts';
+import { Public } from '@worksuite/common';
 import { TenantOrganizationBaseDTO } from './../../core/dto';
 import { Employee } from './../../core/entities/internal';
 import { FindOnePublicEmployeeQuery, FindPublicEmployeesByOrganizationQuery } from './queries';

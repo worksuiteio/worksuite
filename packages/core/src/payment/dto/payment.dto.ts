@@ -3,7 +3,7 @@ import {
     IOrganizationContact,
     IOrganizationProject,
     PaymentMethodEnum
-} from "@gauzy/contracts";
+} from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsBoolean, IsEnum, IsNotEmpty, IsObject, IsOptional, IsString } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

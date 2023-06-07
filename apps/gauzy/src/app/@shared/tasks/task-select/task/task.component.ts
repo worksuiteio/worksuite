@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy, Input, forwardRef } from '@angular/core';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
-import { IOrganization, ITask, PermissionsEnum, TaskStatusEnum } from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { IOrganization, ITask, PermissionsEnum, TaskStatusEnum } from '@worksuite/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Subject, firstValueFrom, Observable } from 'rxjs';
 import { filter, tap } from 'rxjs/operators';

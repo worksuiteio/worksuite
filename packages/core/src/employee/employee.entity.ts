@@ -28,7 +28,7 @@ import {
 	IEmployeeAward,
 	IEquipmentSharing,
 	IEmployeePhone
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { ColumnNumericTransformerPipe } from './../shared/pipes';
 import {

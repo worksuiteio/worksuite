@@ -16,8 +16,8 @@ import {
 	IApprovalPolicy,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { ApprovalPolicyMutationComponent } from '../../@shared/approval-policy';
 import { DeleteConfirmationComponent } from '../../@shared/user/forms';
 import { API_PREFIX, ComponentEnum } from '../../@core/constants';

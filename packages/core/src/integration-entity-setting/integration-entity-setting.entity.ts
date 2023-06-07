@@ -13,7 +13,7 @@ import {
 	IIntegrationEntitySetting,
 	IIntegrationEntitySettingTied,
 	IIntegrationTenant
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	IntegrationEntitySettingTied,
 	IntegrationTenant,

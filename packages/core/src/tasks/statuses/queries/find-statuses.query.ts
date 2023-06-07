@@ -1,5 +1,5 @@
 import { IQuery } from '@nestjs/cqrs';
-import { ITaskStatusFindInput } from '@gauzy/contracts';
+import { ITaskStatusFindInput } from '@worksuite/contracts';
 
 export class FindStatusesQuery implements IQuery {
 	static readonly type = '[Task Statuses] Query All';

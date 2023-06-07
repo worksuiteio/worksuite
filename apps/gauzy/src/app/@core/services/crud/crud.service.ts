@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
-import { IPagination } from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+import { IPagination } from '@worksuite/contracts';
+import { toParams } from '@worksuite/common-angular';
 import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
 import { ICrudService } from './icrud.service';

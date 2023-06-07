@@ -6,7 +6,7 @@ import {
 	PermissionsEnum,
 	IOrganization,
 	TimeLogSourceEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { EditTimeLogModalComponent } from './../edit-time-log-modal';
 import { TimesheetService } from '../timesheet.service';

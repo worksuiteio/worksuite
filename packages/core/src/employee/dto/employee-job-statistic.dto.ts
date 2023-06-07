@@ -1,4 +1,4 @@
-import { UpdateEmployeeJobsStatistics } from "@gauzy/contracts";
+import { UpdateEmployeeJobsStatistics } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsBoolean } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

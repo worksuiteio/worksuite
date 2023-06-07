@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { ICandidateInterviewers, ICandidateInterviewersCreateInput } from '@gauzy/contracts';
+import { ICandidateInterviewers, ICandidateInterviewersCreateInput } from '@worksuite/contracts';
 import { CandidateInterviewersBulkCreateCommand } from '../candidate-interviewers.bulk.create.command';
 import { CandidateInterviewersService } from '../../candidate-interviewers.service';
 

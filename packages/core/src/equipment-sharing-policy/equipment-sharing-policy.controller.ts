@@ -13,7 +13,7 @@ import {
 	UsePipes,
 	ValidationPipe
 } from '@nestjs/common';
-import { IEquipmentSharingPolicy, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { IEquipmentSharingPolicy, IPagination, PermissionsEnum } from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { EquipmentSharingPolicy } from './equipment-sharing-policy.entity';
 import { EquipmentSharingPolicyService } from './equipment-sharing-policy.service';

@@ -2,7 +2,7 @@ import { CommandBus, CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Between, Brackets, Repository, SelectQueryBuilder, WhereExpressionBuilder } from 'typeorm';
 import * as moment from 'moment';
-import { ITimesheet } from '@gauzy/contracts';
+import { ITimesheet } from '@worksuite/contracts';
 import { Employee, Timesheet } from './../../../../core/entities/internal';
 import { RequestContext } from './../../../../core/context';
 import { TimesheetFirstOrCreateCommand } from './../timesheet-first-or-create.command';

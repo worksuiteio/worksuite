@@ -3,8 +3,8 @@ import { Injectable } from '@angular/core';
 import {
 	IUserOrganization,
 	IUserOrganizationFindInput,
-} from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { toParams } from '@worksuite/common-angular';
 import { firstValueFrom, map, shareReplay } from 'rxjs';
 import { OrganizationsCacheService } from '../../services/organizations-cache.service';
 import { UserOrganizationCacheService } from '../../services/user-organization-cache.service';

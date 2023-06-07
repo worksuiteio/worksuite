@@ -2,7 +2,7 @@ import { Component, Input, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import {
 	IMonthAggregatedEmployeeStatistics,
 	ITimeLogFilters
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbThemeService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { ChartComponent } from 'angular2-chartjs';

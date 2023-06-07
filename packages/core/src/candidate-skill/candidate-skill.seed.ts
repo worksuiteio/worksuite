@@ -1,4 +1,4 @@
-import { ISkill, ICandidate, IOrganization, ITenant } from '@gauzy/contracts';
+import { ISkill, ICandidate, IOrganization, ITenant } from '@worksuite/contracts';
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
 import { CandidateSkill } from './candidate-skill.entity';

@@ -1,4 +1,4 @@
-import { IOrganizationTeamEmployeeUpdateInput } from "@gauzy/contracts";
+import { IOrganizationTeamEmployeeUpdateInput } from "@worksuite/contracts";
 import { IntersectionType, PickType } from "@nestjs/swagger";
 import { OrganizationTeamEmployee } from "./../../core/entities/internal";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

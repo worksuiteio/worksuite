@@ -1,4 +1,4 @@
-import { IEmployeeUpdateInput } from "@gauzy/contracts";
+import { IEmployeeUpdateInput } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsBoolean, IsOptional } from "class-validator";

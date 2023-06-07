@@ -1,7 +1,7 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
-import { IIntegrationEntitySettingTied, IntegrationEntity, ITenant } from '@gauzy/contracts';
-import { PROJECT_TIED_ENTITIES } from '@gauzy/integration-hubstaff';
+import { IIntegrationEntitySettingTied, IntegrationEntity, ITenant } from '@worksuite/contracts';
+import { PROJECT_TIED_ENTITIES } from '@worksuite/integration-hubstaff';
 import { IntegrationEntitySetting, IntegrationTenant, Organization } from './../core/entities/internal';
 import { IntegrationEntitySettingTied } from './integration-entity-setting-tied.entity';
 

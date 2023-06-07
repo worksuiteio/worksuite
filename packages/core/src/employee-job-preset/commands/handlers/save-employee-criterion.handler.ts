@@ -1,5 +1,5 @@
-import { GauzyAIService } from '@gauzy/integration-ai';
-import { IMatchingCriterions } from '@gauzy/contracts';
+import { WorksuiteAIService } from '@worksuite/integration-ai';
+import { IMatchingCriterions } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
@@ -18,7 +18,7 @@ export class SaveEmployeeCriterionHandler
 		@InjectRepository(EmployeeUpworkJobsSearchCriterion)
 		private readonly employeeUpworkJobsSearchCriterionRepository: Repository<EmployeeUpworkJobsSearchCriterion>,
 
-		private readonly gauzyAIService: GauzyAIService
+		private readonly gauzyAIService: WorksuiteAIService
 	) { }
 
 	public async execute(
@@ -51,7 +51,7 @@ export class SaveEmployeeCriterionHandler
 			employeeId: input.employeeId,
 			jobPresetId: input.jobPresetId
 		})
-		this.gauzyAIService.syncGauzyEmployeeJobSearchCriteria(
+		this.gauzyAIService.syncWorksuiteEmployeeJobSearchCriteria(
 			employee,
 			criteria
 		);

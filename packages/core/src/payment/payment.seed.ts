@@ -1,9 +1,9 @@
 import { DataSource } from 'typeorm';
-import { IEmployee, IOrganization, ITenant, PaymentMethodEnum } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ITenant, PaymentMethodEnum } from '@worksuite/contracts';
 import { Payment } from './payment.entity';
 import { faker } from '@faker-js/faker';
 import * as moment from 'moment';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 import { Invoice, OrganizationProject, Tag, User } from './../core/entities/internal';
 import * as _ from 'underscore';
 

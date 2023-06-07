@@ -1,4 +1,4 @@
-import { IProposalCreateInput } from "@gauzy/contracts";
+import { IProposalCreateInput } from "@worksuite/contracts";
 import { IntersectionType, OmitType, PartialType } from "@nestjs/mapped-types";
 import { RelationalTagDTO } from "./../../tags/dto";
 import { ProposalDTO } from "./proposal.dto";

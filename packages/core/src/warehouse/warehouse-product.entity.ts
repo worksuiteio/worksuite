@@ -12,7 +12,7 @@ import {
 	IWarehouse,
 	IWarehouseProduct,
 	IWarehouseProductVariant
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	Product,

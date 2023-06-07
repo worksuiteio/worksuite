@@ -1,5 +1,5 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
-import {IOrganization, IProductTranslated, LanguagesEnum} from '@gauzy/contracts';
+import {IOrganization, IProductTranslated, LanguagesEnum} from '@worksuite/contracts';
 import {UntilDestroy, untilDestroyed} from '@ngneat/until-destroy';
 import {API_PREFIX, ProductService, Store} from 'apps/gauzy/src/app/@core';
 import {TranslateService} from '@ngx-translate/core';
@@ -14,7 +14,7 @@ import {
 	PaginationFilterBaseComponent
 } from "../../../../../@shared/pagination/pagination-filter-base.component";
 import {debounceTime} from "rxjs";
-import {distinctUntilChange} from "@gauzy/common-angular";
+import {distinctUntilChange} from "@worksuite/common-angular";
 
 export interface SelectedRowEvent {
 	data: IProductTranslated,

@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { CommandBus } from '@nestjs/cqrs';
-import { IIntegrationEntitySetting, IPagination } from '@gauzy/contracts';
+import { IIntegrationEntitySetting, IPagination } from '@worksuite/contracts';
 import { IntegrationEntitySetting } from './integration-entity-setting.entity';
 import { TenantPermissionGuard } from './../shared/guards';
 import { UUIDValidationPipe } from './../shared/pipes';

@@ -12,7 +12,7 @@ import {
 } from '@nestjs/common';
 import { CommandBus } from '@nestjs/cqrs';
 import { ApiTags } from '@nestjs/swagger';
-import { IExpenseCategory, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { IExpenseCategory, IPagination, PermissionsEnum } from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { ExpenseCategoriesService } from './expense-categories.service';
 import { ExpenseCategory } from './expense-category.entity';

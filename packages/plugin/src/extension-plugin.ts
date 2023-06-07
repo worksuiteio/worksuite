@@ -5,7 +5,7 @@ import {
 	IOnPluginBootstrap,
 	IOnPluginDestroy,
 	IPluginMetaData
-} from '@gauzy/common';
+} from '@worksuite/common';
 import { PLUGIN_METADATA } from './constants';
 
 export interface OnBasicPluginSeed {

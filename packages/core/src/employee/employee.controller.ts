@@ -3,7 +3,7 @@ import {
 	LanguagesEnum,
 	IPagination,
 	IEmployee,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	BadRequestException,
 	Body,

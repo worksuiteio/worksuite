@@ -1,4 +1,4 @@
-import { ITask } from '@gauzy/contracts';
+import { ITask } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { BadRequestException } from '@nestjs/common';
 import { TaskCreateCommand } from './../task-create.command';

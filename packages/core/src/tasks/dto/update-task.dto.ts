@@ -1,4 +1,4 @@
-import { ITaskUpdateInput } from "@gauzy/contracts";
+import { ITaskUpdateInput } from "@worksuite/contracts";
 import { CreateTaskDTO } from "./create-task.dto";
 
 /**

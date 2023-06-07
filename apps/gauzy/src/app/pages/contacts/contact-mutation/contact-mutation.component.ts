@@ -15,13 +15,13 @@ import {
 	IOrganization,
 	OrganizationContactBudgetTypeEnum,
 	IOrganizationContact
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbStepperComponent } from '@nebular/theme';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 import { LatLng } from 'leaflet';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { TranslationBaseComponent } from '../../../@shared/language-base/translation-base.component';
 import { LocationFormComponent } from '../../../@shared/forms/location';
 import { FilterArrayPipe } from '../../../@shared/pipes/filter-array.pipe';

@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { HttpModule } from '@nestjs/axios';
 import { CqrsModule } from '@nestjs/cqrs';
 import { RouterModule } from 'nest-router';
-import { HUBSTAFF_API_URL } from '@gauzy/integration-hubstaff';
+import { HUBSTAFF_API_URL } from '@worksuite/integration-hubstaff';
 import { HubstaffService } from './hubstaff.service';
 import { HubstaffController } from './hubstaff.controller';
 import { UserModule } from '../user/user.module';

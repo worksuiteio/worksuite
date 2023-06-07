@@ -1,6 +1,6 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IEmployee } from '@gauzy/contracts';
-import { GauzyAIService } from '@gauzy/integration-ai';
+import { IEmployee } from '@worksuite/contracts';
+import { WorksuiteAIService } from '@worksuite/integration-ai';
 import { UpdateResult } from 'typeorm';
 import { RequestContext } from './../../../core/context';
 import { EmployeeService } from '../../employee.service';
@@ -12,7 +12,7 @@ export class UpdateEmployeeJobSearchStatusHandler
 {
 	constructor(
 		private readonly employeeService: EmployeeService,
-		private readonly gauzyAIService: GauzyAIService
+		private readonly gauzyAIService: WorksuiteAIService
 	) { }
 
 	public async execute(

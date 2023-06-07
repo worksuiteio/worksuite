@@ -3,7 +3,7 @@ import { TranslationBaseComponent } from '../../../@shared/language-base/transla
 import { firstValueFrom, Subject } from 'rxjs';
 import { Router, ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
-import { IEventType, IEmployee } from '@gauzy/contracts';
+import { IEventType, IEmployee } from '@worksuite/contracts';
 import { takeUntil } from 'rxjs/operators';
 import { EmployeesService } from '../../../@core/services';
 

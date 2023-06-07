@@ -4,7 +4,7 @@ import { IsOptional, IsString } from 'class-validator';
 import {
 	IOrganization,
 	IBasePerTenantAndOrganizationEntityModel
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Organization, TenantBaseEntity } from '../entities/internal';
 
 export abstract class TenantOrganizationBaseEntity

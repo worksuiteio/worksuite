@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { IUser, IUserFindInput, IUserUpdateInput } from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+import { IUser, IUserFindInput, IUserUpdateInput } from '@worksuite/contracts';
+import { toParams } from '@worksuite/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

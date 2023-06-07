@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IIntegrationMapSyncScreenshot } from '@gauzy/contracts';
+import { IIntegrationMapSyncScreenshot } from '@worksuite/contracts';
 
 export class IntegrationMapSyncScreenshotCommand implements ICommand {
 	static readonly type = '[Integration Map] Sync Screenshot';

@@ -1,4 +1,4 @@
-import { IAccountingTemplateFindInput } from "@gauzy/contracts";
+import { IAccountingTemplateFindInput } from "@worksuite/contracts";
 import { OmitType } from "@nestjs/mapped-types";
 import { SaveAccountingTemplateDTO } from "./save-accounting-template.dto";
 

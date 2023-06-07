@@ -5,8 +5,8 @@ import * as mjml2html from 'mjml';
 import { v4 as uuidV4 } from 'uuid';
 import * as chalk from 'chalk';
 import * as moment from 'moment';
-import { EmailTemplateNameEnum } from '@gauzy/contracts';
-import { isNotEmpty } from "@gauzy/common";
+import { EmailTemplateNameEnum } from '@worksuite/contracts';
+import { isNotEmpty } from "@worksuite/common";
 
 /**
  * Email templates utils functions.

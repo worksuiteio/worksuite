@@ -7,7 +7,7 @@ import {
 	IRequestApprovalCreateInput,
 	RequestApprovalStatusTypesEnum,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Query,
 	HttpStatus,

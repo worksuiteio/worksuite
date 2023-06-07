@@ -18,7 +18,7 @@ import {
 	IUserUpdateInput,
 	RolesEnum,
 	IImageAsset
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Subject, firstValueFrom } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';

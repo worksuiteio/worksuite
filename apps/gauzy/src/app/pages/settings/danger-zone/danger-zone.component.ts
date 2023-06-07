@@ -4,7 +4,7 @@ import { NbDialogService } from '@nebular/theme';
 import { Router } from '@angular/router';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { filter, tap } from 'rxjs/operators';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@worksuite/contracts';
 import { TranslationBaseComponent } from '../../../@shared/language-base/translation-base.component';
 import { DangerZoneMutationComponent } from '../../../@shared/settings/danger-zone-mutation/danger-zone-mutation.component';
 import { environment } from '../../../../environments/environment';

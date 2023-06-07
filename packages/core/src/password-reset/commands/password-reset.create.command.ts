@@ -1,4 +1,4 @@
-import { IPasswordReset } from '@gauzy/contracts';
+import { IPasswordReset } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class PasswordResetCreateCommand implements ICommand {

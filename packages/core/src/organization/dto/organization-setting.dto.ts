@@ -1,4 +1,4 @@
-import { DefaultValueDateTypeEnum, DEFAULT_INVITE_EXPIRY_PERIOD, WeekDaysEnum } from "@gauzy/contracts";
+import { DefaultValueDateTypeEnum, DEFAULT_INVITE_EXPIRY_PERIOD, WeekDaysEnum } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { Transform, TransformFnParams } from "class-transformer";
 import { IsOptional, IsEnum, IsString } from "class-validator";

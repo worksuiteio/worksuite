@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { IInvoice } from '@gauzy/contracts';
+import { IInvoice } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { tap } from 'rxjs/operators';

@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ComponentLayoutStyleEnum, IUser, IUserUpdateInput } from '@gauzy/contracts';
+import { ComponentLayoutStyleEnum, IUser, IUserUpdateInput } from '@worksuite/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { UsersService } from './../../../../../../@core';

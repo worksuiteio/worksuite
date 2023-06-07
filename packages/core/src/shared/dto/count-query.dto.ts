@@ -1,6 +1,6 @@
 import { ApiProperty, PickType } from "@nestjs/swagger";
 import { IsNotEmpty, IsUUID } from "class-validator";
-import { IBasePerTenantAndOrganizationEntityModel, IOrganization } from "@gauzy/contracts";
+import { IBasePerTenantAndOrganizationEntityModel, IOrganization } from "@worksuite/contracts";
 import { TenantBaseDTO } from "./../../core/dto";
 import { IsOrganizationBelongsToUser } from "./../../shared/validators";
 

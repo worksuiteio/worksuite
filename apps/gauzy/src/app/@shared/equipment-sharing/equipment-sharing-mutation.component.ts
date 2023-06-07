@@ -16,9 +16,9 @@ import {
 	IOrganization,
 	IEquipmentSharingRequest,
 	EquipmentSharingParticipantEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogRef } from '@nebular/theme';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import { filter } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslationBaseComponent } from '../language-base/translation-base.component';

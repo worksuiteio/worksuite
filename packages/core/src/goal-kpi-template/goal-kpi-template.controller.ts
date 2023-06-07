@@ -8,7 +8,7 @@ import {
 	Query
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IGoalKPITemplate, IPagination } from '@gauzy/contracts';
+import { IGoalKPITemplate, IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { GoalKPITemplate } from './goal-kpi-template.entity';
 import { GoalKpiTemplateService } from './goal-kpi-template.service';

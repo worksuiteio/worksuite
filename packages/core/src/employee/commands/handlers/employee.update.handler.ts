@@ -1,4 +1,4 @@
-import { IEmployee, PermissionsEnum } from '@gauzy/contracts';
+import { IEmployee, PermissionsEnum } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { BadRequestException, ForbiddenException } from '@nestjs/common';
 import { EmployeeUpdateCommand } from './../employee.update.command';

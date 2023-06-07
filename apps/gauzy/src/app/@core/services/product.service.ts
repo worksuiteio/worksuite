@@ -8,7 +8,7 @@ import {
 	IProductTranslatable,
 	IProductTranslated,
 	IImageAsset
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

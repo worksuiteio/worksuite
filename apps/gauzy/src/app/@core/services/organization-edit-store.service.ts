@@ -1,4 +1,4 @@
-import { IOrganization, IOrganizationStoreState } from '@gauzy/contracts';
+import { IOrganization, IOrganizationStoreState } from '@worksuite/contracts';
 import { BehaviorSubject } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { Query, Store as AkitaStore, StoreConfig } from '@datorama/akita';

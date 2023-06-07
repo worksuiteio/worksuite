@@ -1,4 +1,4 @@
-import { OrganizationVendorEnum, IOrganization, IOrganizationVendor, ITenant } from '@gauzy/contracts';
+import { OrganizationVendorEnum, IOrganization, IOrganizationVendor, ITenant } from '@worksuite/contracts';
 import { DataSource } from 'typeorm';
 import { OrganizationVendor } from './../core/entities/internal';
 

@@ -1,5 +1,5 @@
 import { Entity, Column, OneToOne, JoinColumn } from 'typeorm';
-import { IProductVariantSetting } from '@gauzy/contracts';
+import { IProductVariantSetting } from '@worksuite/contracts';
 import { ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	ProductVariant,

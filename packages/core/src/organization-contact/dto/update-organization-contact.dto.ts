@@ -1,4 +1,4 @@
-import { IOrganizationContactUpdateInput } from "@gauzy/contracts";
+import { IOrganizationContactUpdateInput } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/swagger";
 import { RelationalTagDTO } from "./../../tags/dto";
 import { OrganizationContactDTO } from "./organization-contact.dto";

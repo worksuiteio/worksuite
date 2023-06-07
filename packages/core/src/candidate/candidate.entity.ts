@@ -16,7 +16,7 @@ import {
 	ITag,
 	IUser,
 	IEmployee
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	Column,

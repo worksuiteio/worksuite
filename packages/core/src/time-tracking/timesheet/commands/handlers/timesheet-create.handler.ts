@@ -1,6 +1,6 @@
 import { BadRequestException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { ITimesheet } from '@gauzy/contracts';
+import { ITimesheet } from '@worksuite/contracts';
 import { TimesheetCreateCommand } from '..';
 import { TimeSheetService } from './../../timesheet.service';
 import { RequestContext } from '../../../../core/context';

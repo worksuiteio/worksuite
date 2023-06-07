@@ -1,7 +1,7 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { IIntegration } from '@gauzy/contracts';
+import { IIntegration } from '@worksuite/contracts';
 import { IntegrationGetCommand } from './../integration.get.command';
 import { Integration } from '../../integration.entity';
 

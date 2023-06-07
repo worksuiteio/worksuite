@@ -1,4 +1,4 @@
-import { GauzyAIService } from '@gauzy/integration-ai';
+import { WorksuiteAIService } from '@worksuite/integration-ai';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { In, Repository } from 'typeorm';
@@ -11,7 +11,7 @@ import { SaveEmployeePresetCommand } from '../save-employee-preset.command';
 export class SaveEmployeePresetHandler
 	implements ICommandHandler<SaveEmployeePresetCommand> {
 	constructor(
-		private readonly gauzyAIService: GauzyAIService,
+		private readonly gauzyAIService: WorksuiteAIService,
 
 		@InjectRepository(JobPreset)
 		private readonly jobPresetRepository: Repository<JobPreset>,
@@ -64,7 +64,7 @@ export class SaveEmployeePresetHandler
 			employeeCriterions
 		);
 
-		this.gauzyAIService.syncGauzyEmployeeJobSearchCriteria(
+		this.gauzyAIService.syncWorksuiteEmployeeJobSearchCriteria(
 			employee,
 			employeeCriterions
 		);

@@ -2,8 +2,8 @@ import { Component, OnInit, OnDestroy, ViewChild, Input, AfterViewInit } from '@
 import { ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { LatLng } from 'leaflet';
-import { IOrganization, CrudActionEnum } from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common-angular';
+import { IOrganization, CrudActionEnum } from '@worksuite/contracts';
+import { isNotEmpty } from '@worksuite/common-angular';
 import { debounceTime, filter, map, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

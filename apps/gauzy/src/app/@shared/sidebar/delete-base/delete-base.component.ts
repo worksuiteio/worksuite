@@ -1,7 +1,7 @@
 import { Component, OnDestroy, Input, ErrorHandler } from '@angular/core';
 import { NbDialogRef } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
-import { IHelpCenter } from '@gauzy/contracts';
+import { IHelpCenter } from '@worksuite/contracts';
 import { TranslationBaseComponent } from '../../language-base/translation-base.component';
 import { HelpCenterService } from '../../../@core/services';
 

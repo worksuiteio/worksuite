@@ -20,9 +20,9 @@ import {
 	IManualTimesStatistics,
 	TimeLogType,
 	ITask
-} from '@gauzy/contracts';
-import { ArraySum, isNotEmpty } from '@gauzy/common';
-import { ConfigService } from '@gauzy/config';
+} from '@worksuite/contracts';
+import { ArraySum, isNotEmpty } from '@worksuite/common';
+import { ConfigService } from '@worksuite/config';
 import { RequestContext } from '../../core/context';
 import {
 	Activity,

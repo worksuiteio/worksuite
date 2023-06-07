@@ -1,10 +1,10 @@
 {
-	"name": "@gauzy/product-reviews",
+	"name": "@worksuite/product-reviews",
 	"version": "0.1.0",
-	"description": "Ever Gauzy Platform Product Reviews plugin",
+	"description": "Worksuite Worksuite Platform Product Reviews plugin",
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
+		"name": "Worksuite Co. LTD",
+		"email": "ever@worksuite.co",
 		"url": "https://ever.co"
 	},
 	"license": "AGPL-3.0",
@@ -28,7 +28,7 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@gauzy/plugin": "^0.1.0",
+		"@worksuite/plugin": "^0.1.0",
 		"apollo-server-core": "^3.10.1",
 		"typeorm": "0.3.7",
 		"typeorm-aurora-data-api-driver": "^2.4.4"

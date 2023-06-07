@@ -4,7 +4,7 @@ import {
 	PermissionsEnum,
 	ICandidate,
 	ICandidateInterview
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject, firstValueFrom } from 'rxjs';
 import { Store } from '../../../@core/services/store.service';

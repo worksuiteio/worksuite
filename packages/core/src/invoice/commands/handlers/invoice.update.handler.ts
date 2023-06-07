@@ -1,4 +1,4 @@
-import { IInvoice } from '@gauzy/contracts';
+import { IInvoice } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InvoiceService } from '../../invoice.service';
 import { InvoiceUpdateCommand } from '../invoice.update.command';

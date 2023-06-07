@@ -1,4 +1,4 @@
-import { IEmailUpdateInput } from '@gauzy/contracts';
+import { IEmailUpdateInput } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsOptional } from 'class-validator';
 import { TenantOrganizationBaseDTO } from './../../core/dto';

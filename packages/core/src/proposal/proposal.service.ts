@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, FindManyOptions, Between, Raw } from 'typeorm';
 import * as moment from 'moment';
 import { Proposal } from './proposal.entity';
-import { IProposalCreateInput, IProposal, IPagination } from '@gauzy/contracts';
+import { IProposalCreateInput, IProposal, IPagination } from '@worksuite/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 
 @Injectable()

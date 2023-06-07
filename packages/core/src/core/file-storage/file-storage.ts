@@ -1,6 +1,6 @@
-import { FileStorageOption, FileStorageProviderEnum } from '@gauzy/contracts';
-import { environment } from '@gauzy/config';
-import { isEmpty, isNotEmpty } from '@gauzy/common';
+import { FileStorageOption, FileStorageProviderEnum } from '@worksuite/contracts';
+import { environment } from '@worksuite/config';
+import { isEmpty, isNotEmpty } from '@worksuite/common';
 import * as Providers from './providers';
 import { Provider } from './providers/provider';
 import { RequestContext } from './../../core/context';

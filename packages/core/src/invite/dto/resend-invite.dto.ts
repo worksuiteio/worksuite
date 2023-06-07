@@ -1,4 +1,4 @@
-import { IInvite, IInviteResendInput } from "@gauzy/contracts";
+import { IInvite, IInviteResendInput } from "@worksuite/contracts";
 import { ApiProperty, IntersectionType, PickType } from "@nestjs/swagger";
 import { IsUUID } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

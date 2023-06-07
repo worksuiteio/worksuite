@@ -1,4 +1,4 @@
-import { ITaskStatusUpdateInput } from '@gauzy/contracts';
+import { ITaskStatusUpdateInput } from '@worksuite/contracts';
 import { IntersectionType, PartialType } from '@nestjs/swagger';
 import { TenantOrganizationBaseDTO } from './../../../core/dto';
 import { TaskStatus } from '../status.entity';

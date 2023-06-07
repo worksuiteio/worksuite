@@ -11,7 +11,7 @@ import {
 	UpdateResult
 } from 'typeorm';
 import { QueryDeepPartialEntity } from 'typeorm/query-builder/QueryPartialEntity';
-import { IPagination } from '@gauzy/contracts';
+import { IPagination } from '@worksuite/contracts';
 import { ITryRequest } from './try-request';
 
 export interface ICrudService<T> {

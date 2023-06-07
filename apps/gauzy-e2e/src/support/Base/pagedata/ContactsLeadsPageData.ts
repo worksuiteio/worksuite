@@ -1,5 +1,5 @@
 export const ContactsLeadsPageData = {
-	defaultProject: 'Gauzy Web Site',
+	defaultProject: 'Worksuite Web Site',
 	defaultPhone: '00359878561239',
 	country: 'Bulgaria',
 	hours: 12,

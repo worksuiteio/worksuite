@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IEmailTemplateSaveInput } from '@gauzy/contracts';
+import { IEmailTemplateSaveInput } from '@worksuite/contracts';
 
 export class EmailTemplateSaveCommand implements ICommand {
 	static readonly type = '[EmailTemplate] Save';

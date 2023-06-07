@@ -2,7 +2,7 @@ import { forwardRef, Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CqrsModule } from '@nestjs/cqrs';
 import { RouterModule } from 'nest-router';
-import { TenantModule } from '@gauzy/core';
+import { TenantModule } from '@worksuite/core';
 import { Changelog } from './changelog.entity';
 import { ChangelogController } from './changelog.controller';
 import { ChangelogService } from './changelog.service';

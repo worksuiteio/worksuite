@@ -8,7 +8,7 @@ import {
 	Query
 } from '@nestjs/common';
 import { ApiTags, ApiResponse, ApiOperation } from '@nestjs/swagger';
-import { IGoalTemplate, IPagination } from '@gauzy/contracts';
+import { IGoalTemplate, IPagination } from '@worksuite/contracts';
 import { GoalTemplateService } from './goal-template.service';
 import { CrudController } from './../core/crud';
 import { GoalTemplate } from './goal-template.entity';

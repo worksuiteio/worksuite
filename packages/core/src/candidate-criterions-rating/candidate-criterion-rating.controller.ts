@@ -14,7 +14,7 @@ import {
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { CommandBus } from '@nestjs/cqrs';
-import { ICandidateCriterionsRating, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { ICandidateCriterionsRating, IPagination, PermissionsEnum } from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { CandidateCriterionsRatingService } from './candidate-criterion-rating.service';
 import { CandidateCriterionsRating } from './candidate-criterion-rating.entity';

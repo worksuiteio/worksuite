@@ -8,7 +8,7 @@ import {
 	ITag,
 	ICandidate,
 	IEmployeeLevel
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import {

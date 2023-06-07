@@ -9,7 +9,7 @@ import { ModuleRef } from '@nestjs/core';
 import { DataSource, DataSourceOptions } from 'typeorm';
 import * as chalk from 'chalk';
 import * as moment from 'moment';
-import { environment as env, ConfigService } from '@gauzy/config';
+import { environment as env, ConfigService } from '@worksuite/config';
 import {
 	IEmployee,
 	IOrganization,
@@ -17,12 +17,12 @@ import {
 	IRole,
 	ITenant,
 	IUser,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	getPluginModules,
 	hasLifecycleMethod,
 	PluginLifecycleMethods,
-} from '@gauzy/plugin';
+} from '@worksuite/plugin';
 import { createRoles } from '../../role/role.seed';
 import { createDefaultSkills } from '../../skills/skill.seed';
 import { createLanguages } from '../../language/language.seed';
@@ -423,9 +423,9 @@ export class SeedDataService {
 	}
 
 	/**
-	 * Seed Default Ever Data
+	 * Seed Default Worksuite Data
 	 */
-	public async runEverSeed() {
+	public async runWorksuiteSeed() {
 		try {
 			this.seedType = SeederTypeEnum.EVER;
 
@@ -446,7 +446,7 @@ export class SeedDataService {
 			// Disconnect to database
 			await this.closeConnection();
 
-			console.log('Database Ever Seed Completed');
+			console.log('Database Worksuite Seed Completed');
 		} catch (error) {
 			this.handleError(error);
 		}
@@ -691,10 +691,10 @@ export class SeedDataService {
 		);
 
 		if (this.seedType !== SeederTypeEnum.DEFAULT) {
-			const { defaultEverEmployeeUsers, defaultCandidateUsers } =
+			const { defaultWorksuiteEmployeeUsers, defaultCandidateUsers } =
 				await createDefaultUsers(this.dataSource, this.tenant);
 			this.defaultCandidateUsers.push(...defaultCandidateUsers);
-			defaultEmployeeUsers.push(...defaultEverEmployeeUsers);
+			defaultEmployeeUsers.push(...defaultWorksuiteEmployeeUsers);
 		}
 
 		const defaultUsers = [

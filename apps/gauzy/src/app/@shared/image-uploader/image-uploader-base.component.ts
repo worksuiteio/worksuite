@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { FileUploader, FileUploaderOptions } from 'ng2-file-upload';
 import { Subject } from 'rxjs/internal/Subject';

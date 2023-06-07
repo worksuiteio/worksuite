@@ -1,4 +1,4 @@
-# Ever Gauzy WakaTime integration
+# Worksuite Worksuite WakaTime integration
 
 See more information about [WakaTime](https://wakatime.com).
 

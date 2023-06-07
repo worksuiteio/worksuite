@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { TranslationBaseComponent } from '../../../@shared/language-base/translation-base.component';
 import { firstValueFrom } from 'rxjs';
-import { IEmployee, IEventType } from '@gauzy/contracts';
+import { IEmployee, IEventType } from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { AppointmentComponent } from '../../../pages/employees/appointment/appointment.component';

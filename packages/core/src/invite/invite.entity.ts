@@ -7,7 +7,7 @@ import {
 	IUser,
 	IRole,
 	IOrganizationTeam
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Exclude } from 'class-transformer';
 import {

@@ -15,8 +15,8 @@ import {
 	IGetJobPresetCriterionInput,
 	IJobPreset,
 	IMatchingCriterions
-} from '@gauzy/contracts';
-import { GauzyAIService } from '@gauzy/integration-ai';
+} from '@worksuite/contracts';
+import { WorksuiteAIService } from '@worksuite/integration-ai';
 import { JobPresetService } from './job-preset.service';
 import { JobPreset } from './job-preset.entity';
 import { JobPresetUpworkJobSearchCriterion } from './job-preset-upwork-job-search-criterion.entity';
@@ -31,7 +31,7 @@ export class JobSearchPresetController {
 	constructor(
 		private readonly jobPresetService: JobPresetService,
 		private readonly employeeService: EmployeeService,
-		private readonly gauzyAIService: GauzyAIService
+		private readonly gauzyAIService: WorksuiteAIService
 	) { }
 
 	@ApiOperation({ summary: 'Find all employee job posts' })

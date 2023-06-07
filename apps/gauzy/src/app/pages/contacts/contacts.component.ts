@@ -19,14 +19,14 @@ import {
 	ICountry,
 	ContactType,
 	ContactOrganizationInviteStatus
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { combineLatest, Subject, firstValueFrom } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { InviteContactComponent } from './invite-contact/invite-contact.component';
 import {
 	CountryService,

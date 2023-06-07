@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { IOrganization, ITenant, IUser, IUserOrganization, RolesEnum } from '@gauzy/contracts';
+import { IOrganization, ITenant, IUser, IUserOrganization, RolesEnum } from '@worksuite/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { Organization } from './../core/entities/internal';
 import { UserOrganization } from './user-organization.entity';

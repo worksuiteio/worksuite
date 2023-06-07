@@ -1,4 +1,4 @@
-import { ITimeSlot } from '@gauzy/contracts';
+import { ITimeSlot } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class TimeSlotMergeCommand implements ICommand {

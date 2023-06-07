@@ -1,7 +1,7 @@
-import { FileStorageProviderEnum, ITenant } from "@gauzy/contracts";
+import { FileStorageProviderEnum, ITenant } from "@worksuite/contracts";
 import { TenantSetting } from "core";
 import { DataSource } from "typeorm";
-import { environment } from "@gauzy/config";
+import { environment } from "@worksuite/config";
 
 export const createDefaultTenantSetting = async (
 	dataSource: DataSource,

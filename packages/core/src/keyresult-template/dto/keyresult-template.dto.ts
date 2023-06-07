@@ -1,4 +1,4 @@
-import { KeyResultDeadlineEnum, KeyResultTypeEnum } from "@gauzy/contracts";
+import { KeyResultDeadlineEnum, KeyResultTypeEnum } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsEnum, IsNotEmpty, IsNumber, IsOptional, IsString } from "class-validator";
 

@@ -5,9 +5,9 @@ import {
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Brackets, Repository, WhereExpressionBuilder } from 'typeorm';
-import { IEquipmentSharing, IPagination, PermissionsEnum } from '@gauzy/contracts';
-import { ConfigService } from '@gauzy/config';
-import { isNotEmpty } from '@gauzy/common';
+import { IEquipmentSharing, IPagination, PermissionsEnum } from '@worksuite/contracts';
+import { ConfigService } from '@worksuite/config';
+import { isNotEmpty } from '@worksuite/common';
 import { EquipmentSharing } from './equipment-sharing.entity';
 import { RequestContext } from '../core/context';
 import { TenantAwareCrudService } from './../core/crud';

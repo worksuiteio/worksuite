@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IIntegrationEntitySetting, IPagination } from '@gauzy/contracts';
+import { IIntegrationEntitySetting, IPagination } from '@worksuite/contracts';
 import { IntegrationEntitySettingGetCommand } from './../integration-entity-setting.get.command';
 import { IntegrationEntitySettingService } from './../../integration-entity-setting.service';
 

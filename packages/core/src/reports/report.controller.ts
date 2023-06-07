@@ -2,7 +2,7 @@ import {
 	GetReportMenuItemsInput,
 	IPagination,
 	UpdateReportMenuInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Body,
 	Controller,

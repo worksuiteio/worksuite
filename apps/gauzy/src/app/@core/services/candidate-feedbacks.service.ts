@@ -5,7 +5,7 @@ import {
 	ICandidateFeedback,
 	ICandidateFeedbackFindInput,
 	ICandidateFeedbackCreateInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

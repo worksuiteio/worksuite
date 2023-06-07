@@ -8,7 +8,7 @@ import { EmployeesService } from '../../@core/services';
 import { ErrorHandlingService } from '../../@core/services/error-handling.service';
 import { catchError } from 'rxjs/operators';
 import { EMPTY, Observable } from 'rxjs';
-import { IEmployee } from '@gauzy/contracts';
+import { IEmployee } from '@worksuite/contracts';
 
 @Injectable({
 	providedIn: 'root'

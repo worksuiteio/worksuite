@@ -3,7 +3,7 @@ import { Proposal } from './proposal.entity';
 import { faker } from '@faker-js/faker';
 import * as moment from 'moment';
 import { Tag } from '../tags/tag.entity';
-import { IEmployee, IOrganization, ITenant, ProposalStatusEnum } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ITenant, ProposalStatusEnum } from '@worksuite/contracts';
 import { OrganizationContact } from './../core/entities/internal';
 
 export const createDefaultProposals = async (

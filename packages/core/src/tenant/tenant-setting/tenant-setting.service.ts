@@ -1,4 +1,4 @@
-import { ITenantSetting, IWasabiFileStorageProviderConfig } from '@gauzy/contracts';
+import { ITenantSetting, IWasabiFileStorageProviderConfig } from '@worksuite/contracts';
 import { HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FindManyOptions, In, Repository } from 'typeorm';

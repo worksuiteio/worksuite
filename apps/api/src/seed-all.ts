@@ -1,4 +1,4 @@
-import { seedAll } from '@gauzy/core';
+import { seedAll } from '@worksuite/core';
 import { pluginConfig } from './plugin-config';
 
 seedAll(pluginConfig).catch((error: any) => {

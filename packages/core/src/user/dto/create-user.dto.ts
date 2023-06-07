@@ -1,7 +1,7 @@
 import { ApiProperty, ApiPropertyOptional, IntersectionType, PartialType } from "@nestjs/swagger";
 import { IsOptional } from "class-validator";
 import { Transform, TransformFnParams } from "class-transformer";
-import { IUserCreateInput } from "@gauzy/contracts";
+import { IUserCreateInput } from "@worksuite/contracts";
 import { RoleFeatureDTO } from "./../../role/dto";
 import { UserEmailDTO } from "./user-email.dto";
 

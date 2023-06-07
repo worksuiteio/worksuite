@@ -13,7 +13,7 @@ import {
 	IOrganizationContact,
 	ITimeSlot,
 	IOrganizationTeam
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Employee,
 	OrganizationContact,

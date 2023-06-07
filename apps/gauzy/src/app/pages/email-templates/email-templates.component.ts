@@ -12,7 +12,7 @@ import {
 	EmailTemplateNameEnum,
 	IOrganization,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbThemeService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
@@ -21,7 +21,7 @@ import 'brace/ext/language_tools';
 import 'brace/mode/handlebars';
 import 'brace/theme/sqlserver';
 import 'brace/theme/tomorrow_night';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { combineLatest, Subject } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { AceEditorComponent } from 'ngx-ace-editor-wrapper';

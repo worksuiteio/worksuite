@@ -6,7 +6,7 @@ import {
 	PermissionsEnum,
 	IPagination,
 	ITask
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Observable } from 'rxjs';
 import { map, tap, switchMap, take } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

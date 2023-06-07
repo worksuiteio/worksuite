@@ -1,7 +1,7 @@
 import { Entity, Column } from 'typeorm';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
-import { ICustomSmtp } from '@gauzy/contracts';
-import { ISMTPConfig } from '@gauzy/common';
+import { ICustomSmtp } from '@worksuite/contracts';
+import { ISMTPConfig } from '@worksuite/common';
 import { IsBoolean, IsEmail, IsNumber, IsOptional, IsString } from 'class-validator';
 import { Exclude, Expose } from 'class-transformer';
 import { TenantOrganizationBaseEntity } from '../core/entities/internal';

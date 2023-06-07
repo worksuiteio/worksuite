@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { ICandidateCreateInput, LanguagesEnum } from '@gauzy/contracts';
+import { ICandidateCreateInput, LanguagesEnum } from '@worksuite/contracts';
 
 export class CandidateCreateCommand implements ICommand {
 	static readonly type = '[Candidate] Create';

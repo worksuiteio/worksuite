@@ -1,5 +1,5 @@
 import { Entity, Column, ManyToOne, Index, RelationId } from 'typeorm';
-import { IEmployee, IKPI, KpiMetricEnum } from '@gauzy/contracts';
+import { IEmployee, IKPI, KpiMetricEnum } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsEnum, IsOptional, IsString } from 'class-validator';
 import {

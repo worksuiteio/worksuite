@@ -1,7 +1,7 @@
 import {
 	PermissionsEnum,
 	IRolePermission
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Column, Entity, Index, ManyToOne, RelationId } from 'typeorm';
 import { Role, TenantBaseEntity } from '../core/entities/internal';

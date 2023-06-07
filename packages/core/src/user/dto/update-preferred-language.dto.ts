@@ -1,6 +1,6 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsNotEmpty, IsEnum } from "class-validator";
-import { IUserUpdateInput, LanguagesEnum } from "@gauzy/contracts";
+import { IUserUpdateInput, LanguagesEnum } from "@worksuite/contracts";
 
 export class UpdatePreferredLanguageDTO implements IUserUpdateInput {
 

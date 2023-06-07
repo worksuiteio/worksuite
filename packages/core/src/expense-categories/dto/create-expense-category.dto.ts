@@ -1,4 +1,4 @@
-import { IExpenseCategory } from "@gauzy/contracts";
+import { IExpenseCategory } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { RelationalTagDTO } from "../../tags/dto";
 import { ExpenseCategoryDTO } from "./expense-category.dto";

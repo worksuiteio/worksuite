@@ -1,4 +1,4 @@
-import { ISkill } from '@gauzy/contracts';
+import { ISkill } from '@worksuite/contracts';
 
 export const DEFAULT_CANDIDATE_SKILLS: ISkill[] = [
 	{

@@ -2,7 +2,7 @@ import {
 	ContactOrganizationInviteStatus,
 	ContactType,
 	OrganizationContactBudgetTypeEnum
-} from "@gauzy/contracts";
+} from "@worksuite/contracts";
 import { ApiProperty, ApiPropertyOptional, IntersectionType, PickType } from "@nestjs/swagger";
 import { Transform, TransformFnParams } from "class-transformer";
 import {

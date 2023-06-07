@@ -15,8 +15,8 @@ import {
 	ApprovalPolicyTypesStringEnum,
 	IPagination,
 	ITimeOffFindInput
-} from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
+} from '@worksuite/contracts';
+import { isNotEmpty } from '@worksuite/common';
 import { TimeOffRequest } from './time-off-request.entity';
 import { RequestApproval } from '../request-approval/request-approval.entity';
 import { TenantAwareCrudService } from './../core/crud';

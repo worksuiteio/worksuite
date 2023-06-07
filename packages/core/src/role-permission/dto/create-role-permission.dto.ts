@@ -1,6 +1,6 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsBoolean, IsEnum, IsNotEmpty, ValidateIf } from "class-validator";
-import { IRole, IRolePermissionCreateInput, PermissionsEnum } from "@gauzy/contracts";
+import { IRole, IRolePermissionCreateInput, PermissionsEnum } from "@worksuite/contracts";
 import { IsRoleShouldExist } from "./../../shared/validators";
 import { TenantBaseDTO } from "./../../core/dto";
 

@@ -1,20 +1,20 @@
 {
-	"name": "@gauzy/desktop-timer",
+	"name": "@worksuite/desktop-timer",
 	"version": "0.1.0",
-	"description": "Gauzy Desktop Timer App",
+	"description": "Worksuite Desktop Timer App",
 	"license": "AGPL-3.0",
 	"homepage": "https://gauzy.co",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ever-co/ever-gauzy.git"
+		"url": "https://github.com/worksuiteio/worksuite.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ever-co/ever-gauzy/issues"
+		"url": "https://github.com/worksuiteio/worksuite/issues"
 	},
 	"private": true,
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
+		"name": "Worksuite Co. LTD",
+		"email": "ever@worksuite.co",
 		"url": "https://ever.co"
 	},
 	"scripts": {},
@@ -40,8 +40,8 @@
 		"@electron/remote": "^2.0.8",
 		"@datorama/akita": "^7.1.1",
 		"@datorama/akita-ngdevtools": "^7.0.0",
-		"@gauzy/contracts": "^0.1.0",
-		"@gauzy/desktop-ui-lib": "^0.1.0",
+		"@worksuite/contracts": "^0.1.0",
+		"@worksuite/desktop-ui-lib": "^0.1.0",
 		"@grpc/grpc-js": "^1.6.7",
 		"@nebular/auth": "^9.0.3",
 		"@nebular/bootstrap": "^9.0.3",

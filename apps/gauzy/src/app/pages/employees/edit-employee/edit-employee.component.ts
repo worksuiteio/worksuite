@@ -7,10 +7,10 @@ import {
 	ISelectedEmployee,
 	IUser,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { debounceTime } from 'rxjs';
 import { filter, tap } from 'rxjs/operators';
 import { Store } from '../../../@core/services';

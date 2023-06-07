@@ -1,4 +1,4 @@
-import { ICandidateCriterionsRating } from '@gauzy/contracts';
+import { ICandidateCriterionsRating } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { CandidateCriterionsRatingService } from '../../candidate-criterion-rating.service';
 import { CandidateCriterionsRatingBulkUpdateCommand } from '../candidate-criterions-rating.bulk.update.command';

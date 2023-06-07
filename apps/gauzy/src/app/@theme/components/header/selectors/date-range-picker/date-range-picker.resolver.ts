@@ -3,7 +3,7 @@ import { ActivatedRouteSnapshot, Resolve } from "@angular/router";
 import { of as observableOf } from 'rxjs';
 import { Observable } from "rxjs/internal/Observable";
 import * as moment from 'moment';
-import { IDateRangePicker } from "@gauzy/contracts";
+import { IDateRangePicker } from "@worksuite/contracts";
 import { IDatePickerConfig } from "./../../../../../@core/services/selector-builder/date-range-picker-builder.service";
 
 @Injectable({

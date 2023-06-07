@@ -1,6 +1,6 @@
 import { Column, Entity, Index, ManyToOne, RelationId } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
-import { IEmployee, IEmployeePhone } from '@gauzy/contracts';
+import { IEmployee, IEmployeePhone } from '@worksuite/contracts';
 import { Employee, TenantOrganizationBaseEntity } from '../core/entities/internal';
 
 @Entity('employee_phone')

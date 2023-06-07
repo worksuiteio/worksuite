@@ -7,7 +7,7 @@ import {
 	ICandidateTechnologies,
 	ICandidatePersonalQualities,
 	ICandidate
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Candidate,
 	CandidateFeedback,

@@ -1,5 +1,5 @@
 import { CommandBus, CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IAvailabilitySlot } from '@gauzy/contracts';
+import { IAvailabilitySlot } from '@worksuite/contracts';
 import { AvailabilitySlotsBulkCreateCommand } from '../availability-slots.bulk.create.command';
 import { AvailabilitySlot } from '../../availability-slots.entity';
 import { RequestContext } from '../../../core/context';

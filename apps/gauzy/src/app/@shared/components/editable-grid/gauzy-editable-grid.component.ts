@@ -22,7 +22,7 @@ export type ItemActionType = 'create' | 'edit' | 'delete';
 	templateUrl: './gauzy-editable-grid.component.html',
 	styleUrls: ['./gauzy-editable-grid.component.scss']
 })
-export class GauzyEditableGridComponent<T extends { id?: string }>
+export class WorksuiteEditableGridComponent<T extends { id?: string }>
 	extends TranslationBaseComponent
 	implements OnInit, OnDestroy {
 	@Input() items: T[];

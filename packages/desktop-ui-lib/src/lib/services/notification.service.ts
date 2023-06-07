@@ -13,7 +13,7 @@ export abstract class NotificationService {
 
 	constructor() {
 		this._notification = {
-			title: 'Gauzy Desktop Timer',
+			title: 'Worksuite Desktop Timer',
 			message: ''
 		}
 	}

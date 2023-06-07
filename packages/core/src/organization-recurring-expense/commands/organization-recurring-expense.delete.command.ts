@@ -1,4 +1,4 @@
-import { IRecurringExpenseDeleteInput } from '@gauzy/contracts';
+import { IRecurringExpenseDeleteInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class OrganizationRecurringExpenseDeleteCommand implements ICommand {

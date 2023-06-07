@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Column, Entity, Index } from 'typeorm';
-import { AccountingTemplateTypeEnum, IAccountingTemplate } from '@gauzy/contracts';
+import { AccountingTemplateTypeEnum, IAccountingTemplate } from '@worksuite/contracts';
 import { TenantOrganizationBaseEntity } from '../core/entities/internal';
 
 @Entity('accounting_template')

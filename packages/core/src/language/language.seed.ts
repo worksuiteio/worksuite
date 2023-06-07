@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { ILanguage, LanguagesEnum } from '@gauzy/contracts';
+import { ILanguage, LanguagesEnum } from '@worksuite/contracts';
 import { faker } from '@faker-js/faker';
 import { Language } from './language.entity';
 import allLanguages from './all-languages';

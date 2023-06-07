@@ -16,7 +16,7 @@ import { ShareModule } from './../../../../share/share.module';
 import { EmployeeSelectorsModule } from './../../../../@theme/components/header/selectors/employee/employee.module';
 import { SharedModule } from './../../../../@shared/shared.module';
 import { EditTimeLogModalModule, ViewTimeLogModalModule } from './../../../../@shared/timesheet';
-import { GauzyFiltersModule } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.module';
+import { WorksuiteFiltersModule } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.module';
 
 @NgModule({
 	declarations: [CalendarComponent],
@@ -35,7 +35,7 @@ import { GauzyFiltersModule } from './../../../../@shared/timesheet/gauzy-filter
 		SharedModule,
 		EditTimeLogModalModule,
 		ViewTimeLogModalModule,
-		GauzyFiltersModule,
+		WorksuiteFiltersModule,
 	]
 })
 export class CalendarModule {}

@@ -6,7 +6,7 @@ import {
 	ICandidateEducation,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import { DateViewComponent } from './../../../../../../@shared/table-components';
 import { ComponentEnum } from './../../../../../../@core/constants';

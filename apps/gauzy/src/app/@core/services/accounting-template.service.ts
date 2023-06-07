@@ -3,9 +3,9 @@ import { HttpClient } from '@angular/common/http';
 import {
 	IAccountingTemplateFindInput,
 	IAccountingTemplate
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { firstValueFrom } from 'rxjs';
-import { toParams } from '@gauzy/common-angular';
+import { toParams } from '@worksuite/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

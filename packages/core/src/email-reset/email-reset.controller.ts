@@ -9,7 +9,7 @@ import {
 	ValidationPipe
 } from '@nestjs/common';
 import { ApiBearerAuth } from '@nestjs/swagger';
-import { LanguagesEnum, PermissionsEnum } from '@gauzy/contracts';
+import { LanguagesEnum, PermissionsEnum } from '@worksuite/contracts';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';
 import { LanguageDecorator, Permissions } from './../shared/decorators';
 import { EmailResetService } from './email-reset.service';

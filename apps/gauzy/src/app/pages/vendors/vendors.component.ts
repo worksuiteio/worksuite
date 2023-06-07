@@ -10,7 +10,7 @@ import {
 	ITag,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Router,
 	RouterEvent,
@@ -40,7 +40,7 @@ import {
 	IPaginationBase,
 	PaginationFilterBaseComponent
 } from '../../@shared/pagination/pagination-filter-base.component';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { ExternalLinkComponent } from '../../@shared/table-components/external-link/external-link.component';
 import { HttpClient } from '@angular/common/http';
 import { ServerDataSource } from '../../@core/utils/smart-table';

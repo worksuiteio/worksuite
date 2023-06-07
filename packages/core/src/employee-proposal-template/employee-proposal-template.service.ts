@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { IEmployeeProposalTemplate } from '@gauzy/contracts';
+import { IEmployeeProposalTemplate } from '@worksuite/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { EmployeeProposalTemplate } from './employee-proposal-template.entity';
 

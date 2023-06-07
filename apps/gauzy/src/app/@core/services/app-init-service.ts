@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@worksuite/contracts';
 import { Router } from '@angular/router';
 import { NgxPermissionsService } from 'ngx-permissions';
 import { UsersService } from '../../@core/services';

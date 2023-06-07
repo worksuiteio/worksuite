@@ -15,7 +15,7 @@ import {
 	IProductTranslated,
 	LanguagesEnum,
 	TranslatePropertyInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { Product } from './product.entity';
 import { ProductTranslation } from './product-translation.entity';

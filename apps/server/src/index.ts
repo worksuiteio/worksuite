@@ -24,7 +24,7 @@ import { environment } from './environments/environment';
 require('module').globalPaths.push(path.join(__dirname, 'node_modules'));
 require('sqlite3');
 
-app.setName('gauzy-server');
+app.setName('worksuite-server');
 
 console.log('Node Modules Path', path.join(__dirname, 'node_modules'));
 
@@ -33,13 +33,13 @@ import {
 	apiServer,
 	AppMenu,
 	DesktopUpdater,
-} from '@gauzy/desktop-libs';
+} from '@worksuite/desktop-libs';
 import {
 	createSetupWindow,
 	createServerWindow,
 	createSettingsWindow,
 	SplashScreen,
-} from '@gauzy/desktop-window';
+} from '@worksuite/desktop-window';
 import { initSentry } from './sentry';
 import { readFileSync, writeFileSync, accessSync, constants } from 'fs';
 import * as remoteMain from '@electron/remote/main';
@@ -47,7 +47,7 @@ import { autoUpdater } from 'electron-updater';
 remoteMain.initialize();
 
 // the folder where all app data will be stored (e.g. sqlite DB, settings, cache, etc)
-// C:\Users\USERNAME\AppData\Roaming\gauzy-server
+// C:\Users\USERNAME\AppData\Roaming\worksuite-server
 
 process.env.GAUZY_USER_PATH = app.getPath('userData');
 log.info(`GAUZY_USER_PATH: ${process.env.GAUZY_USER_PATH}`);
@@ -65,8 +65,8 @@ let tray: Tray;
 let isServerRun: boolean;
 
 const updater = new DesktopUpdater({
-	repository: 'ever-gauzy-server',
-	owner: 'ever-co',
+	repository: 'worksuite-server',
+	owner: 'worksuiteio',
 	typeRelease: 'releases',
 });
 
@@ -248,7 +248,7 @@ const contextMenu = () => {
 	const serverMenu: MenuItemConstructorOptions[] = [
 		{
 			id: 'server_browser',
-			label: 'Open Gauzy In Browser',
+			label: 'Open Worksuite In Browser',
 			click() {
 				const config = LocalStore.getStore('configs');
 				shell.openExternal(`http://localhost:${config.portUi}`);
@@ -315,7 +315,7 @@ ipcMain.on('start_server', async (event, arg) => {
 });
 
 ipcMain.on('run_gauzy_server', (event, arg) => {
-	console.log('run Gauzy Server');
+	console.log('run Worksuite Server');
 	runServer(false);
 });
 

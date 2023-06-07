@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
-import { ConfigService, IEnvironment } from '@gauzy/config';
+import { ConfigService, IEnvironment } from '@worksuite/config';
 import { ExtractJwt } from 'passport-jwt';
 import { Strategy } from 'passport-twitter';
-import { IApiServerOptions } from '@gauzy/common';
+import { IApiServerOptions } from '@worksuite/common';
 
 @Injectable()
 export class TwitterStrategy extends PassportStrategy(Strategy, 'twitter') {

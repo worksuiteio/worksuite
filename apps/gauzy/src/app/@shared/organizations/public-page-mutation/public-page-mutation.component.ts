@@ -10,7 +10,7 @@ import {
 	IOrganizationLanguage,
 	ClientFocusEnum,
 	MinimumProjectSizeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { CKEditor4 } from 'ckeditor4-angular/ckeditor';
 import * as moment from 'moment';

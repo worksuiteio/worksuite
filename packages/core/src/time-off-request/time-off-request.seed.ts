@@ -2,7 +2,7 @@ import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
 import { addDays } from 'date-fns';
 import * as _ from 'underscore';
-import { IEmployee, IOrganization, ITenant, ITimeOff as ITimeOffRequest, StatusTypesEnum } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ITenant, ITimeOff as ITimeOffRequest, StatusTypesEnum } from '@worksuite/contracts';
 import { TimeOffRequest } from './time-off-request.entity';
 import { TimeOffPolicy } from '../time-off-policy/time-off-policy.entity';
 

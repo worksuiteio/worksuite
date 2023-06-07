@@ -11,8 +11,8 @@ import {
 	IOrganization,
 	ICurrency,
 	ISelectedEmployee
-} from '@gauzy/contracts';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';

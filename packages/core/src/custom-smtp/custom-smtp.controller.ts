@@ -16,8 +16,8 @@ import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import {
 	ICustomSmtp,
 	PermissionsEnum
-} from '@gauzy/contracts';
-import { ISMTPConfig } from '@gauzy/common';
+} from '@worksuite/contracts';
+import { ISMTPConfig } from '@worksuite/common';
 import { Permissions } from './../shared/decorators';
 import { UUIDValidationPipe } from './../shared/pipes';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';

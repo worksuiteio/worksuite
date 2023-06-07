@@ -1,4 +1,4 @@
-import { IIncomeUpdateInput } from "@gauzy/contracts";
+import { IIncomeUpdateInput } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { RelationalCurrencyDTO } from "./../../currency/dto";
 import { RelationalTagDTO } from "./../../tags/dto";

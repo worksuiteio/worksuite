@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IEmailResetCreateInput } from '@gauzy/contracts';
+import { IEmailResetCreateInput } from '@worksuite/contracts';
 
 export class EmailResetCreateCommand implements ICommand {
 	static readonly type = '[Email Reset] Create';

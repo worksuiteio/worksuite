@@ -4,7 +4,7 @@ import {
 	IApprovalPolicy,
 	IApprovalPolicyCreateInput,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';

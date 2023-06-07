@@ -1,8 +1,8 @@
 import { forwardRef, Inject, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { IFeature, IFeatureOrganization, IFeatureOrganizationUpdateInput, ITenant } from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
+import { IFeature, IFeatureOrganization, IFeatureOrganizationUpdateInput, ITenant } from '@worksuite/contracts';
+import { isNotEmpty } from '@worksuite/common';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from './../core/context';
 import { FeatureOrganization } from './feature-organization.entity';

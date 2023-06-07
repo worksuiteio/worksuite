@@ -4,7 +4,7 @@ import {
 	IOrganizationDepartmentCreateInput,
 	IPagination,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Body,
 	Controller,

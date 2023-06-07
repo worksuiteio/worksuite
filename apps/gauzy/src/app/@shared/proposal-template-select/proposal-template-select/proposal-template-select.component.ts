@@ -7,9 +7,9 @@ import {
 	Output
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { IEmployeeProposalTemplate, IOrganization } from '@gauzy/contracts';
+import { IEmployeeProposalTemplate, IOrganization } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { Subject } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { Store } from '../../../@core/services/store.service';

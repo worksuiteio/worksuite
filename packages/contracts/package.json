@@ -1,10 +1,10 @@
 {
-	"name": "@gauzy/contracts",
+	"name": "@worksuite/contracts",
 	"version": "0.1.0",
-	"description": "Ever Gauzy Platform Contracts module",
+	"description": "Worksuite Worksuite Platform Contracts module",
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
+		"name": "Worksuite Co. LTD",
+		"email": "ever@worksuite.co",
 		"url": "https://ever.co"
 	},
 	"license": "AGPL-3.0",

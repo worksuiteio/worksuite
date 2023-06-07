@@ -21,7 +21,7 @@ import {
 	IEmployeeAppointmentUpdateInput,
 	IEmployeeAppointment,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { EmployeeAppointmentService } from './employee-appointment.service';
 import {
 	EmployeeAppointmentCreateCommand,

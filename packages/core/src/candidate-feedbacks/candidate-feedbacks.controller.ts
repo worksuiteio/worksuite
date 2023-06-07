@@ -20,7 +20,7 @@ import {
 	ICandidateFeedbackCreateInput,
 	IPagination,
 	ICandidateFeedback
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { CandidateFeedback } from './candidate-feedbacks.entity';
 import { CandidateFeedbacksService } from './candidate-feedbacks.service';

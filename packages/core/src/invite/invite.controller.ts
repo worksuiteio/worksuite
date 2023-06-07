@@ -8,7 +8,7 @@ import {
 	IPagination,
 	IInvite,
 	InviteActionEnum,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Body,
 	Controller,
@@ -31,7 +31,7 @@ import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { DeleteResult, UpdateResult } from 'typeorm';
 import { Request } from 'express';
 import { I18nLang } from 'nestjs-i18n';
-import { Public } from '@gauzy/common';
+import { Public } from '@worksuite/common';
 import { Invite } from './invite.entity';
 import { InviteService } from './invite.service';
 import { LanguageDecorator, Permissions } from './../shared/decorators';

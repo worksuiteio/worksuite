@@ -1,7 +1,7 @@
 import { ApiPropertyOptional, IntersectionType, PartialType, PickType } from '@nestjs/swagger';
 import { IsEnum, IsOptional } from 'class-validator';
 import { Transform, TransformFnParams } from 'class-transformer';
-import { IDateRangePicker, IOrganizationTeamStatisticInput } from '@gauzy/contracts';
+import { IDateRangePicker, IOrganizationTeamStatisticInput } from '@worksuite/contracts';
 import { DateRangeQueryDTO } from './../../../shared/dto';
 import { OrganizationTeamStatisticDTO } from './../../../organization-team/dto';
 import { TimerStatusQueryDTO } from './../../../time-tracking/timer/dto';

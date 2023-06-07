@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { TenantAwareCrudService } from './../core/crud';
 import { CandidateTechnologies } from './candidate-technologies.entity';
-import { ICandidateTechnologies, ICandidateTechnologiesCreateInput } from '@gauzy/contracts';
+import { ICandidateTechnologies, ICandidateTechnologiesCreateInput } from '@worksuite/contracts';
 
 @Injectable()
 export class CandidateTechnologiesService extends TenantAwareCrudService<CandidateTechnologies> {

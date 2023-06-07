@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020 Ever Co. LTD
+// Copyright (c) 2019-2020 Worksuite Co. LTD
 
 // Modified code from https://github.com/xmlking/ngx-starter-kit.
 // Originally MIT Licensed
@@ -11,7 +11,7 @@ import {
 	NestModule
 } from '@nestjs/common';
 import * as path from 'path';
-import { ConfigService, environment } from '@gauzy/config';
+import { ConfigService, environment } from '@worksuite/config';
 import { RequestContextMiddleware } from './context';
 import { FileStorageModule } from './file-storage';
 import { GraphqlModule } from '../graphql/graphql.module';

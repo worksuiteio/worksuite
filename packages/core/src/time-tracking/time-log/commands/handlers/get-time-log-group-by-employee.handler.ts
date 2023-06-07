@@ -5,8 +5,8 @@ import {
 	IReportDayGroupByEmployee,
 	ITimeLog,
 	ITimeSlot
-} from '@gauzy/contracts';
-import { ArraySum } from '@gauzy/common';
+} from '@worksuite/contracts';
+import { ArraySum } from '@worksuite/common';
 import { GetTimeLogGroupByEmployeeCommand } from '../get-time-log-group-by-employee.command';
 
 @CommandHandler(GetTimeLogGroupByEmployeeCommand)

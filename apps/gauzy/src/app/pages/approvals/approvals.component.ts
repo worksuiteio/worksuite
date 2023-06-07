@@ -11,7 +11,7 @@ import {
 	ComponentLayoutStyleEnum,
 	IOrganization,
 	IApprovalsData
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { RequestApprovalService } from '../../@core/services/request-approval.service';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import { combineLatest, firstValueFrom } from 'rxjs';
@@ -22,7 +22,7 @@ import { ApprovalPolicyComponent } from './table-components/approval-policy/appr
 import { RequestApprovalMutationComponent } from '../../@shared/approvals/approvals-mutation.component';
 import { ComponentEnum } from '../../@core/constants/layout.constants';
 import { PictureNameTagsComponent } from '../../@shared/table-components/picture-name-tags/picture-name-tags.component';
-import { RequestApprovalStatusTypesEnum } from '@gauzy/contracts';
+import { RequestApprovalStatusTypesEnum } from '@worksuite/contracts';
 import { StatusBadgeComponent } from '../../@shared/status-badge/status-badge.component';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { ToastrService } from '../../@core/services/toastr.service';
@@ -36,7 +36,7 @@ import {
 	PaginationFilterBaseComponent,
 	IPaginationBase
 } from '../../@shared/pagination/pagination-filter-base.component';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { Subject } from 'rxjs/internal/Subject';
 import { DateViewComponent } from '../../@shared/table-components/date-view/date-view.component';
 import { DeleteConfirmationComponent } from '../../@shared/user/forms';

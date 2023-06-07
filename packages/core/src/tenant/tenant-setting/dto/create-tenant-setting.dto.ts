@@ -1,7 +1,7 @@
 import { ApiProperty, IntersectionType } from "@nestjs/swagger";
 import { Transform, TransformFnParams } from "class-transformer";
 import { IsEnum, IsNotEmpty } from "class-validator";
-import { FileStorageProviderEnum } from "@gauzy/contracts";
+import { FileStorageProviderEnum } from "@worksuite/contracts";
 import { AwsS3ProviderConfigDTO } from "./aws-s3-provider-config.dto";
 import { WasabiS3ProviderConfigDTO } from "./wasabi-s3-provider-config.dto";
 import { CloudinaryProviderConfigDTO } from "./cloudinary-provider-config.dto";

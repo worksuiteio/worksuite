@@ -15,7 +15,7 @@ import {
 	ITag,
 	IOrganizationContact,
 	ProposalStatusEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Employee,
 	OrganizationContact,

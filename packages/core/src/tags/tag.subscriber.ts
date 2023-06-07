@@ -5,7 +5,7 @@ import {
     LoadEvent,
 } from 'typeorm';
 import { faker } from '@faker-js/faker';
-import { FileStorageProviderEnum } from '@gauzy/contracts';
+import { FileStorageProviderEnum } from '@worksuite/contracts';
 import { FileStorage } from './../core/file-storage';
 import { Tag } from './tag.entity';
 

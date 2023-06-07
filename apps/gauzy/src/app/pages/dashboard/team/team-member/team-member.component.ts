@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { IOrganizationTeamEmployee } from '@gauzy/contracts';
-import { progressStatus } from '@gauzy/common-angular';
+import { IOrganizationTeamEmployee } from '@worksuite/contracts';
+import { progressStatus } from '@worksuite/common-angular';
 import * as moment from 'moment';
 import { TimesheetStatisticsService } from '../../../../@shared/timesheet';
 

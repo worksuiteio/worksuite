@@ -20,7 +20,7 @@ import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { CardGridModule } from '../../@shared/card-grid/card-grid.module';
 import { TranslateModule } from '../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { NoDataMessageModule } from '../../@shared/no-data-message/no-data-message.module';
 
 @NgModule({
@@ -45,7 +45,7 @@ import { NoDataMessageModule } from '../../@shared/no-data-message/no-data-messa
 		TranslateModule,
 		HeaderTitleModule,
 		NbTooltipModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		NoDataMessageModule,
 		NbSpinnerModule
 	],

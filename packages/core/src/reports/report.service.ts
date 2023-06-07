@@ -5,7 +5,7 @@ import {
 	IReport,
 	IReportOrganization,
 	UpdateReportMenuInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';

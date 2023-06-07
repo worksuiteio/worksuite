@@ -13,20 +13,20 @@ import {
 	ITimeLogFilters,
 	ReportGroupByFilter,
 	ReportGroupFilterEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, tap } from 'rxjs/operators';
 import { Observable } from 'rxjs/internal/Observable';
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 import { pluck } from 'underscore';
-import { distinctUntilChange, isEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isEmpty } from '@worksuite/common-angular';
 import { BaseSelectorFilterComponent } from './../../../../@shared/timesheet/gauzy-filters/base-selector-filter/base-selector-filter.component';
 import { IChartData } from './../../../../@shared/report/charts/line-chart/line-chart.component';
 import { ChartUtil } from './../../../../@shared/report/charts/line-chart/chart-utils';
 import { DateRangePickerBuilderService, PaymentService, Store } from './../../../../@core/services';
 import { TimesheetFilterService } from './../../../../@shared/timesheet';
-import { GauzyFiltersComponent } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
+import { WorksuiteFiltersComponent } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
 
 @UntilDestroy({ checkProperties: true })
 @Component({
@@ -42,7 +42,7 @@ export class PaymentReportComponent extends BaseSelectorFilterComponent
 	groupBy: ReportGroupByFilter = ReportGroupFilterEnum.date;
 	filters: IGetPaymentInput;
 
-	@ViewChild(GauzyFiltersComponent) gauzyFiltersComponent: GauzyFiltersComponent;
+	@ViewChild(WorksuiteFiltersComponent) gauzyFiltersComponent: WorksuiteFiltersComponent;
 	datePickerConfig$: Observable<any> = this.dateRangePickerBuilderService.datePickerConfig$;
 	payloads$: BehaviorSubject<ITimeLogFilters> = new BehaviorSubject(null);
 
@@ -97,7 +97,7 @@ export class PaymentReportComponent extends BaseSelectorFilterComponent
 	}
 
 	/**
-	 * Gauzy timesheet default filters
+	 * Worksuite timesheet default filters
 	 *
 	 * @param filters
 	 */

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SMSProviderEnum } from '@gauzy/contracts';
+import { SMSProviderEnum } from '@worksuite/contracts';
 
 @Component({
 	selector: 'ga-sms-gateway',

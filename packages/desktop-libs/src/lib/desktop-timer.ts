@@ -6,7 +6,7 @@ import { LocalStore } from './desktop-store';
 import NotificationDesktop from './desktop-notifier';
 import { detectActiveWindow, getScreenshot } from './desktop-screenshot';
 import log from 'electron-log';
-import { ActivityType, TimeLogSourceEnum } from '@gauzy/contracts';
+import { ActivityType, TimeLogSourceEnum } from '@worksuite/contracts';
 import { DesktopEventCounter } from './desktop-event-counter';
 import { DesktopActiveWindow } from './desktop-active-window';
 import { DesktopOfflineModeHandler, Timer, TimerService } from './offline';
@@ -100,7 +100,7 @@ export default class TimerHandler {
 				const projectInfo = LocalStore.getStore('project');
 				const appSetting = LocalStore.getStore('appSetting');
 				await this.createQueue(
-					'sqlite-queue-gauzy-desktop-timer',
+					'sqlite-queue-worksuite-desktop-timer',
 					{
 						type: 'update-duration-timer',
 						data: {

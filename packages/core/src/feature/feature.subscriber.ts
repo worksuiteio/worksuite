@@ -1,5 +1,5 @@
-import { gauzyToggleFeatures } from "@gauzy/config";
-import { FeatureStatusEnum, FileStorageProviderEnum } from "@gauzy/contracts";
+import { gauzyToggleFeatures } from "@worksuite/config";
+import { FeatureStatusEnum, FileStorageProviderEnum } from "@worksuite/contracts";
 import { EntitySubscriberInterface, EventSubscriber, LoadEvent } from "typeorm";
 import { shuffle } from 'underscore';
 import { FileStorage } from "./../core/file-storage";

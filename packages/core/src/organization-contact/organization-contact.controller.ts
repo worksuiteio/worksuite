@@ -20,7 +20,7 @@ import {
 	IOrganizationContact,
 	IPagination,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { TenantOrganizationBaseDTO } from './../core/dto';
 import {

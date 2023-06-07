@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, In, SelectQueryBuilder } from 'typeorm';
 import * as moment from 'moment';
 import * as _ from 'underscore';
-import { IActivity, IScreenshot, ITimeLog } from '@gauzy/contracts';
+import { IActivity, IScreenshot, ITimeLog } from '@worksuite/contracts';
 import { TimeSlotMergeCommand } from '../time-slot-merge.command';
 import { Activity, Screenshot, TimeSlot } from './../../../../core/entities/internal';
 import { RequestContext } from './../../../../core/context';
@@ -155,7 +155,7 @@ export class TimeSlotMergeHandler
 					});
 
 					/**
-					 * Update TimeLog Entry Every TimeSlot Request From Desktop Timer
+					 * Update TimeLog Entry Worksuitey TimeSlot Request From Desktop Timer
 					 * RECALCULATE timesheet activity
 					 */
 					for await (const timeLog of newTimeSlot.timeLogs) {

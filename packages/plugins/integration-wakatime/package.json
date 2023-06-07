@@ -1,10 +1,10 @@
 {
-	"name": "@gauzy/integration-wakatime",
+	"name": "@worksuite/integration-wakatime",
 	"version": "0.1.0",
-	"description": "Ever Gauzy Platform plugin for integration with Wakatime APIs",
+	"description": "Worksuite Worksuite Platform plugin for integration with Wakatime APIs",
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
+		"name": "Worksuite Co. LTD",
+		"email": "ever@worksuite.co",
 		"url": "https://ever.co"
 	},
 	"license": "AGPL-3.0",
@@ -28,7 +28,7 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@gauzy/contracts": "^0.1.0",
+		"@worksuite/contracts": "^0.1.0",
 		"@nestjs/common": "^9.2.1",
 		"@nestjs/typeorm": "^9.0.1",
 		"typeorm": "0.3.7",

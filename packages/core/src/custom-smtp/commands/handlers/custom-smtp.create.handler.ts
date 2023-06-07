@@ -1,4 +1,4 @@
-import { ICustomSmtp } from '@gauzy/contracts';
+import { ICustomSmtp } from '@worksuite/contracts';
 import { BadRequestException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { CustomSmtpService } from '../../custom-smtp.service';

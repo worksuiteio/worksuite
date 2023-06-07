@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IImageAsset } from '@gauzy/contracts';
+import { IImageAsset } from '@worksuite/contracts';
 import { ImageAssetCreateCommand } from '../image-asset.create.command';
 import { ImageAssetService } from '../../image-asset.service';
 

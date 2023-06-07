@@ -2,19 +2,19 @@ import { forwardRef, Module } from '@nestjs/common';
 import { CqrsModule } from '@nestjs/cqrs';
 import { HttpModule } from '@nestjs/axios';
 import { RouterModule } from 'nest-router';
-import { ConfigModule, ConfigService } from '@gauzy/config';
+import { ConfigModule, ConfigService } from '@worksuite/config';
 import { TenantModule } from './../tenant/tenant.module';
 import { RoleModule } from './../role/role.module';
 import { UserModule } from './../user/user.module';
 import { RolePermissionModule } from './../role-permission/role-permission.module';
-import { GauzyCloudController } from './gauzy-cloud.controller';
-import { GauzyCloudService } from './gauzy-cloud.service';
+import { WorksuiteCloudController } from './gauzy-cloud.controller';
+import { WorksuiteCloudService } from './gauzy-cloud.service';
 import { CommandHandlers } from './commands/handlers';
 
 @Module({
 	imports: [
 		RouterModule.forRoutes([
-			{ path: '/cloud/migrate', module: GauzyCloudModule },
+			{ path: '/cloud/migrate', module: WorksuiteCloudModule },
 		]),
 		HttpModule.registerAsync({
 			imports: [ConfigModule],
@@ -34,8 +34,8 @@ import { CommandHandlers } from './commands/handlers';
 		RoleModule,
 		RolePermissionModule,
 	],
-	controllers: [GauzyCloudController],
-	providers: [GauzyCloudService, ...CommandHandlers],
+	controllers: [WorksuiteCloudController],
+	providers: [WorksuiteCloudService, ...CommandHandlers],
 	exports: [],
 })
-export class GauzyCloudModule {}
+export class WorksuiteCloudModule {}

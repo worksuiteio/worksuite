@@ -1,3 +1,3 @@
-# `@gauzy/auth`
+# `@worksuite/auth`
 
-Gauzy Auth
+Worksuite Auth

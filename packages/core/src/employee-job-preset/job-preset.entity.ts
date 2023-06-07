@@ -12,7 +12,7 @@ import {
 	IEmployeeUpworkJobsSearchCriterion,
 	IJobPresetUpworkJobSearchCriterion,
 	IJobPreset
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Employee,
 	EmployeeUpworkJobsSearchCriterion,

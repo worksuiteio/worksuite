@@ -1,7 +1,7 @@
 import * as seed from './product-type.seed.json';
 import { DataSource } from 'typeorm';
 import { Tenant } from '../tenant/tenant.entity';
-import { IOrganization, ProductTypesIconsEnum } from '@gauzy/contracts';
+import { IOrganization, ProductTypesIconsEnum } from '@worksuite/contracts';
 import { ProductType } from './product-type.entity';
 import { faker } from '@faker-js/faker';
 import { ProductCategory } from '../product-category/product-category.entity';

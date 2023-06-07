@@ -7,12 +7,12 @@ import {
 	ContactType,
 	OrganizationContactBudgetTypeEnum,
 	IIncome
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import * as fs from 'fs';
 import * as csv from 'csv-parser';
 import * as path from 'path';
 import * as moment from 'moment';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 import { Income, OrganizationContact, Tag } from './../core/entities/internal';
 import { getDummyImage } from './../core/utils';
 import { chain } from 'underscore';

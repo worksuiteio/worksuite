@@ -1,4 +1,4 @@
-import { GoalOwnershipEnum, IOrganization, ITenant } from '@gauzy/contracts';
+import { GoalOwnershipEnum, IOrganization, ITenant } from '@worksuite/contracts';
 import { DataSource } from 'typeorm';
 import { GoalGeneralSetting } from './goal-general-setting.entity';
 

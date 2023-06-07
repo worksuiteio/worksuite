@@ -9,7 +9,7 @@ import {
 	ITimeSlotStatistics,
 	IManualTimesStatistics,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Permissions } from './../../shared/decorators';
 import { PermissionGuard, TenantPermissionGuard } from './../../shared/guards';
 import { TimeTrackingStatisticQueryDTO } from './dto';

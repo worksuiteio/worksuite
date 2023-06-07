@@ -28,7 +28,7 @@ import { SharedModule } from '../../shared.module';
 import { CardGridModule } from '../../card-grid/card-grid.module';
 import { TranslateModule } from '../../translate/translate.module';
 import { HeaderTitleModule } from '../../components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../gauzy-button-action/gauzy-button-action.module';
 import { PaginationModule } from '../../pagination/pagination.module';
 
 const COMPONENTS = [
@@ -64,7 +64,7 @@ const COMPONENTS = [
 		UserFormsModule,
 		CardGridModule,
 		HeaderTitleModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		PaginationModule,
 	],
 	declarations: [...COMPONENTS],

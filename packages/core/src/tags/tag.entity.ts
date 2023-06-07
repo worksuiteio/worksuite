@@ -29,7 +29,7 @@ import {
 	ITask,
 	IUser,
 	IWarehouse
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Candidate,
 	Employee,

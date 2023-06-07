@@ -4,7 +4,7 @@ import { FormGroup, FormBuilder } from '@angular/forms';
 import {
 	IProductCategoryTranslatable,
 	IProductOptionGroupTranslatable
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 
 import { TranslateService } from '@ngx-translate/core';
 import { NbDialogRef } from '@nebular/theme';

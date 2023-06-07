@@ -1,4 +1,4 @@
-import { IContact } from "@gauzy/contracts";
+import { IContact } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsObject, IsOptional, IsString } from "class-validator";
 

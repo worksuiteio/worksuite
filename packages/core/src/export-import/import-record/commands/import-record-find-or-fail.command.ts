@@ -1,6 +1,6 @@
 import { ICommand } from '@nestjs/cqrs';
 import { FindOptionsWhere } from 'typeorm';
-import { IImportRecordFind } from '@gauzy/contracts';
+import { IImportRecordFind } from '@worksuite/contracts';
 
 export class ImportRecordFindOrFailCommand implements ICommand {
 	static readonly type = '[Find Or Fail] Import Record';

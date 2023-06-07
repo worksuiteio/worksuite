@@ -24,7 +24,7 @@ import {
 	IEmployee,
 	ITag,
 	IOrganizationContact
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Employee,
 	OrganizationContact,

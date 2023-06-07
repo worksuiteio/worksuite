@@ -1,1 +1,1 @@
-# Ever Gauzy Plugins
+# Worksuite Worksuite Plugins

@@ -3,7 +3,7 @@ import {
 	JobPostSourceEnum,
 	JobPostStatusEnum,
 	JobPostTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Employee, JobPost, Model } from '../core/entities/internal';
 
 export class EmployeeJobPost extends Model implements IEmployeeJobPost {

@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2023 Ever Co. LTD
+// Copyright (c) 2019-2023 Worksuite Co. LTD
 
 // Modified code from https://github.com/urish/ngx-moment.
 // Originally MIT Licensed

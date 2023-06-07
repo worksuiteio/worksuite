@@ -1,4 +1,4 @@
-import { IntegrationEntity } from '@gauzy/contracts';
+import { IntegrationEntity } from '@worksuite/contracts';
 
 export const DEFAULT_ENTITY_SETTINGS = [
 	{

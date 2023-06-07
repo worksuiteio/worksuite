@@ -1,4 +1,4 @@
-import { IOrganizationSprintUpdateInput } from '@gauzy/contracts';
+import { IOrganizationSprintUpdateInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class OrganizationSprintUpdateCommand implements ICommand {

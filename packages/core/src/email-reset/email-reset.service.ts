@@ -16,7 +16,7 @@ import {
 	IEmailReset,
 	IEmailResetFindInput,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { RequestContext } from '../core/context';
 import { UserService } from '../user/user.service';
 import { TenantAwareCrudService } from '../core/crud';

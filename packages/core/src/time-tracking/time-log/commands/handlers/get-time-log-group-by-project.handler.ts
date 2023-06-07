@@ -5,9 +5,9 @@ import {
 	IReportDayGroupByProject,
 	ITimeLog,
 	ITimeSlot
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { GetTimeLogGroupByProjectCommand } from '../get-time-log-group-by-project.command';
-import { ArraySum } from '@gauzy/common';
+import { ArraySum } from '@worksuite/common';
 
 @CommandHandler(GetTimeLogGroupByProjectCommand)
 export class GetTimeLogGroupByProjectHandler

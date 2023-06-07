@@ -1,4 +1,4 @@
-import { IEmailResetFindInput } from '@gauzy/contracts';
+import { IEmailResetFindInput } from '@worksuite/contracts';
 import { IQuery } from '@nestjs/cqrs';
 
 export class EmailResetGetQuery implements IQuery {

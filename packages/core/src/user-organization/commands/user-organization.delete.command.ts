@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IUserOrganizationDeleteInput } from '@gauzy/contracts';
+import { IUserOrganizationDeleteInput } from '@worksuite/contracts';
 
 export class UserOrganizationDeleteCommand implements ICommand {
 	static readonly type = '[UserOrganization] Delete';

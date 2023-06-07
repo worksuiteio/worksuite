@@ -1,4 +1,4 @@
-import { IOrganizationContact, IPagination } from '@gauzy/contracts';
+import { IOrganizationContact, IPagination } from '@worksuite/contracts';
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
 import { FindPublicClientsByOrganizationQuery } from './../find-public-clients-by-organization.query';
 import { PublicOrganizationService } from './../../public-organization.service';

@@ -7,7 +7,7 @@ import { Employee } from '../employee/employee.entity';
 import {
 	ITimeOffPolicyCreateInput,
 	ITimeOffPolicyUpdateInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 
 @Injectable()
 export class TimeOffPolicyService extends TenantAwareCrudService<TimeOffPolicy> {

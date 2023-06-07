@@ -1,5 +1,5 @@
 
-import { IInvoiceCreateInput, InvoiceTypeEnum, IOrganization } from "@gauzy/contracts";
+import { IInvoiceCreateInput, InvoiceTypeEnum, IOrganization } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import {

@@ -2,7 +2,7 @@ import { NotFoundException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { PasswordResetGetCommand } from './../password-reset.get.command';
 import { PasswordResetService } from './../../password-reset.service';
-import { IPasswordReset } from '@gauzy/contracts';
+import { IPasswordReset } from '@worksuite/contracts';
 
 @CommandHandler(PasswordResetGetCommand)
 export class PasswordResetGetHandler

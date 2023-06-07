@@ -7,7 +7,7 @@ import {
 	IOrganizationTeamJoinRequest,
 	IUser,
 	OrganizationTeamJoinRequestStatusEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { OrganizationTeam, TenantOrganizationBaseEntity, User } from '../core/entities/internal';
 
 @Entity('organization_team_join_request')

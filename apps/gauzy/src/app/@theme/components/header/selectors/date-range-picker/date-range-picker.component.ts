@@ -8,8 +8,8 @@ import {
 	LocaleConfig
 } from 'ngx-daterangepicker-material';
 import * as moment from 'moment';
-import { IDateRangePicker, IOrganization, ITimeLogFilters, WeekDaysEnum } from '@gauzy/contracts';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { IDateRangePicker, IOrganization, ITimeLogFilters, WeekDaysEnum } from '@worksuite/contracts';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import { TranslateService } from '@ngx-translate/core';
 import {
 	DateRangePickerBuilderService,

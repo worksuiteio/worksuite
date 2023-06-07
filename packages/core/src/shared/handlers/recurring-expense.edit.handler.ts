@@ -2,7 +2,7 @@ import {
 	IRecurringExpenseEditInput,
 	IRecurringExpenseModel,
 	StartDateUpdateTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { BadRequestException } from '@nestjs/common';
 import {
 	Between,

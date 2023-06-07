@@ -1,4 +1,4 @@
-import { IKeyResult } from "@gauzy/contracts";
+import { IKeyResult } from "@worksuite/contracts";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IsNotEmpty, IsNumber, IsObject, IsOptional, IsString } from "class-validator";
 import { TenantOrganizationBaseDTO } from "core/dto";

@@ -3,7 +3,7 @@ import {
 	IGoalKPITemplate,
 	KpiMetricEnum,
 	IEmployee
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsEnum, IsOptional } from 'class-validator';
 import {

@@ -1,4 +1,4 @@
-import { IApprovalPolicy, IApprovalPolicyUpdateInput } from '@gauzy/contracts';
+import { IApprovalPolicy, IApprovalPolicyUpdateInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class ApprovalPolicyUpdateCommand implements ICommand {

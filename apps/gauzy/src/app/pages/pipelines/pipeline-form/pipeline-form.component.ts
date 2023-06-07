@@ -3,7 +3,7 @@ import {
 	IOrganization,
 	IPipelineCreateInput,
 	IUserOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UsersOrganizationsService } from '../../../@core/services/users-organizations.service';
 import { Store } from '../../../@core/services/store.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';

@@ -6,7 +6,7 @@ import {
 	JoinColumn,
 	Index
 } from 'typeorm';
-import { IEmployee, ITimesheet, IUser, TimesheetStatus } from '@gauzy/contracts';
+import { IEmployee, ITimesheet, IUser, TimesheetStatus } from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	Employee,

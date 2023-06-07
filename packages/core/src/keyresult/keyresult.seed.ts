@@ -8,7 +8,7 @@ import {
 	KeyResultDeadlineEnum,
 	KeyResultTypeEnum,
 	KeyResultWeightEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { KeyResultUpdate } from '../keyresult-update/keyresult-update.entity';
 import { compareAsc } from 'date-fns';
 import * as moment from 'moment';

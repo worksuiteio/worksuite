@@ -6,7 +6,7 @@ import { CandidateCriterionsRating } from './candidate-criterion-rating.entity';
 import {
 	ICandidateCriterionsRating,
 	ICandidateCriterionsRatingCreateInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 
 @Injectable()
 export class CandidateCriterionsRatingService extends TenantAwareCrudService<CandidateCriterionsRating> {

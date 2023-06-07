@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@worksuite/contracts';
 import { ApprovalPolicy } from './approval-policy.entity';
 import { DEFAULT_APPROVAL_POLICIES } from './default-approval-policies';
 

@@ -1,6 +1,6 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { GauzyAIService } from '@gauzy/integration-ai';
-import { IEmployee, IPagination } from '@gauzy/contracts';
+import { WorksuiteAIService } from '@worksuite/integration-ai';
+import { IEmployee, IPagination } from '@worksuite/contracts';
 import { indexBy } from 'underscore';
 import { EmployeeService } from '../../employee.service';
 import { GetEmployeeJobStatisticsCommand } from '../get-employee-job-statistics.command';
@@ -10,7 +10,7 @@ export class GetEmployeeJobStatisticsHandler
 	implements ICommandHandler<GetEmployeeJobStatisticsCommand> {
 	constructor(
 		private readonly employeeService: EmployeeService,
-		private readonly gauzyAIService: GauzyAIService
+		private readonly gauzyAIService: WorksuiteAIService
 	) {}
 
 	public async execute(command: GetEmployeeJobStatisticsCommand): Promise<IPagination<IEmployee>> {

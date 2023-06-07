@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IContactCreateInput } from '@gauzy/contracts';
+import { IContactCreateInput } from '@worksuite/contracts';
 
 export class ContactCreateCommand implements ICommand {
 	static readonly type = '[Contact] Create Contact';

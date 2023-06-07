@@ -13,7 +13,7 @@ import {
 	UsePipes,
 	ValidationPipe
 } from '@nestjs/common';
-import { IEquipment, IPagination } from '@gauzy/contracts';
+import { IEquipment, IPagination } from '@worksuite/contracts';
 import { Equipment } from './equipment.entity';
 import { EquipmentService } from './equipment.service';
 import { TenantPermissionGuard } from './../shared/guards';

@@ -1,4 +1,4 @@
-import { IRole, IUser } from "@gauzy/contracts";
+import { IRole, IUser } from "@worksuite/contracts";
 import { IsNotEmptyObject, IsObject } from "class-validator";
 import { CreateUserDTO } from "./../../user/dto";
 

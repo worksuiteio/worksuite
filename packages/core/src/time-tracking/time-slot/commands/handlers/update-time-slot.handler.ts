@@ -2,7 +2,7 @@ import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import * as moment from 'moment';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 import { RequestContext } from '../../../../core/context';
 import { Activity } from '../../../activity/activity.entity';
 import { UpdateTimeSlotCommand } from '../update-time-slot.command';

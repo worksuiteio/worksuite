@@ -1,5 +1,5 @@
 import { EntitySubscriberInterface, EventSubscriber, LoadEvent } from "typeorm";
-import { FileStorageProviderEnum } from "@gauzy/contracts";
+import { FileStorageProviderEnum } from "@worksuite/contracts";
 import { Report } from "./report.entity";
 import { FileStorage } from "./../core/file-storage";
 

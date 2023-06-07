@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { IHelpCenter } from '@gauzy/contracts';
-import { TenantAwareCrudService } from '@gauzy/core';
-import { isNotEmpty } from '@gauzy/common';
+import { IHelpCenter } from '@worksuite/contracts';
+import { TenantAwareCrudService } from '@worksuite/core';
+import { isNotEmpty } from '@worksuite/common';
 import { HelpCenter } from './help-center.entity';
 
 @Injectable()

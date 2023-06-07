@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import * as moment from 'moment';
 import { catchError, map, shareReplay, tap } from 'rxjs/operators';
 import { firstValueFrom, throwError } from 'rxjs';
-import { toUTC, toParams } from '@gauzy/common-angular';
+import { toUTC, toParams } from '@worksuite/common-angular';
 import {
 	TimeLogSourceEnum,
 	TimeLogType,
@@ -12,7 +12,7 @@ import {
 	IOrganizationProject,
 	IOrganizationContactCreateInput,
 	IOrganizationContact,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ClientCacheService } from '../services/client-cache.service';
 import { TaskCacheService } from '../services/task-cache.service';
 import { ProjectCacheService } from '../services/project-cache.service';

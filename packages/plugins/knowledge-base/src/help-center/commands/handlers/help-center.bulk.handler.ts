@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IHelpCenter } from '@gauzy/contracts';
+import { IHelpCenter } from '@worksuite/contracts';
 import { HelpCenter } from '../../help-center.entity';
 import { HelpCenterService } from '../../help-center.service';
 import { HelpCenterUpdateCommand } from '../help-center.bulk.command';

@@ -15,7 +15,7 @@ import {
 	PermissionsEnum,
 	TimeLogSourceEnum,
 	TimeLogType
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Subject } from 'rxjs';
 import { debounceTime, take, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
@@ -29,7 +29,7 @@ import { TranslationBaseComponent } from '../../language-base';
 	templateUrl: './gauzy-filters.component.html',
 	styleUrls: ['./gauzy-filters.component.scss']
 })
-export class GauzyFiltersComponent extends TranslationBaseComponent implements AfterViewInit, OnInit, OnDestroy {
+export class WorksuiteFiltersComponent extends TranslationBaseComponent implements AfterViewInit, OnInit, OnDestroy {
 
 	// declaration of variables
 	public PermissionsEnum = PermissionsEnum;

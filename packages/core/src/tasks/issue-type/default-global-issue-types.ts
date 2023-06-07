@@ -1,4 +1,4 @@
-import { IIssueType } from '@gauzy/contracts';
+import { IIssueType } from '@worksuite/contracts';
 
 export const DEFAULT_GLOBAL_ISSUE_TYPES: IIssueType[] = [
 	{

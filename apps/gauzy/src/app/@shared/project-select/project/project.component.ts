@@ -13,7 +13,7 @@ import {
 	IOrganizationProject,
 	CrudActionEnum,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { map, Observable, Subject } from 'rxjs';
 import { filter, tap } from 'rxjs/operators';
@@ -22,7 +22,7 @@ import {
 	distinctUntilChange,
 	isEmpty,
 	isNotEmpty
-} from '@gauzy/common-angular';
+} from '@worksuite/common-angular';
 import { ALL_PROJECT_SELECTED } from './default-project';
 import {
 	OrganizationProjectsService,

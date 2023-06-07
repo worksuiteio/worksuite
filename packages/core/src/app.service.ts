@@ -1,5 +1,5 @@
 import { forwardRef, Inject, Injectable } from '@nestjs/common';
-import { ConfigService } from '@gauzy/config';
+import { ConfigService } from '@worksuite/config';
 import { SeedDataService } from './core/seeds/seed-data.service';
 import { UserService } from './user/user.service';
 import * as chalk from 'chalk';

@@ -1,5 +1,5 @@
 import { StorageEngine } from 'multer';
-import { FileStorageOption, FileStorageProviderEnum, FileSystem, UploadedFile } from '@gauzy/contracts';
+import { FileStorageOption, FileStorageProviderEnum, FileSystem, UploadedFile } from '@worksuite/contracts';
 
 export abstract class Provider<T> {
 	static instance: any;

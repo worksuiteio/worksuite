@@ -9,7 +9,7 @@ import {
 import { ApiProperty } from '@nestjs/swagger';
 import { IsEmail } from 'class-validator';
 import { Exclude } from 'class-transformer';
-import { IEmailReset, IUser } from '@gauzy/contracts';
+import { IEmailReset, IUser } from '@worksuite/contracts';
 import { TenantBaseEntity, User } from '../core/entities/internal';
 
 @Entity('email_reset')

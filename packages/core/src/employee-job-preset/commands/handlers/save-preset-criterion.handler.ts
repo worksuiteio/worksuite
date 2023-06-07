@@ -1,4 +1,4 @@
-import { IMatchingCriterions } from '@gauzy/contracts';
+import { IMatchingCriterions } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';

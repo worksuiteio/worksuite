@@ -17,14 +17,14 @@ import {
 	ComponentLayoutStyleEnum,
 	ISelectedEmployee,
 	IUser
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogRef, NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { combineLatest, firstValueFrom, Subject } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import {
 	PaginationFilterBaseComponent,
 	IPaginationBase

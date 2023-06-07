@@ -1,5 +1,5 @@
 import { ICommandHandler, CommandBus, CommandHandler } from '@nestjs/cqrs';
-import { TimeLogType, TimeLogSourceEnum, ITimeSlot } from '@gauzy/contracts';
+import { TimeLogType, TimeLogSourceEnum, ITimeSlot } from '@worksuite/contracts';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as moment from 'moment';
 import { Repository } from 'typeorm';

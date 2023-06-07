@@ -22,9 +22,9 @@ import {
 	IUpworkApiConfig,
 	IUpworkClientSecretPair,
 	IPagination
-} from '@gauzy/contracts';
-import { ConfigService } from '@gauzy/config';
-import { Public } from '@gauzy/common';
+} from '@worksuite/contracts';
+import { ConfigService } from '@worksuite/config';
+import { Public } from '@worksuite/common';
 import { UpworkTransactionService } from './upwork-transaction.service';
 import { UpworkService } from './upwork.service';
 import { Expense, Income } from './../core/entities/internal';

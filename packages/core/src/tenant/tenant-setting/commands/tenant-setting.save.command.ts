@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { ITenantSetting } from '@gauzy/contracts';
+import { ITenantSetting } from '@worksuite/contracts';
 
 export class TenantSettingSaveCommand implements ICommand {
 	static readonly type = '[Tenant] Setting Save';

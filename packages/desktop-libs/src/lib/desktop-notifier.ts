@@ -35,7 +35,7 @@ export default class NotificationDesktop {
 
 	public timerActionNotification(isStart) {
 		const notification = new Notification({
-			title: 'Gauzy',
+			title: 'Worksuite',
 			body: isStart ? 'Time Tracking Started' : 'Time Tracking Stopped',
 			icon: this._iconNativePath,
 			closeButtonText: 'Close',

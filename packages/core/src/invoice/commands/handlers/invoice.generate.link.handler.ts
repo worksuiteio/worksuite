@@ -1,4 +1,4 @@
-import { IInvoice } from '@gauzy/contracts';
+import { IInvoice } from '@worksuite/contracts';
 import { BadRequestException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InvoiceService } from '../../invoice.service';

@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@worksuite/contracts';
 import { EquipmentSharingPolicy } from './equipment-sharing-policy.entity';
 
 export const createDefaultEquipmentSharingPolicy = async (

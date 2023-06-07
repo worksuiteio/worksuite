@@ -1,6 +1,6 @@
 import { DynamicModule, Module } from '@nestjs/common';
-import { getDynamicPluginsModules } from '@gauzy/plugin';
-import { ConfigModule } from '@gauzy/config';
+import { getDynamicPluginsModules } from '@worksuite/plugin';
+import { ConfigModule } from '@worksuite/config';
 import { SeedDataService } from './seed-data.service';
 import { DatabaseModule } from './../../database/database.module';
 

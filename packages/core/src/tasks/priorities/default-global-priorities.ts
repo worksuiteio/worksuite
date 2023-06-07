@@ -1,5 +1,5 @@
-import { ucFirst } from '@gauzy/common';
-import { ITaskPriority, TaskPriorityEnum } from '@gauzy/contracts';
+import { ucFirst } from '@worksuite/common';
+import { ITaskPriority, TaskPriorityEnum } from '@worksuite/contracts';
 
 export const DEFAULT_GLOBAL_PRIORITIES: ITaskPriority[] = [
 	{

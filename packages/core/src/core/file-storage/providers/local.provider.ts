@@ -2,8 +2,8 @@ import * as multer from 'multer';
 import * as fs from 'fs';
 import { basename, join, resolve } from 'path';
 import * as moment from 'moment';
-import { FileStorageOption, FileStorageProviderEnum, UploadedFile } from '@gauzy/contracts';
-import { environment, getConfig } from '@gauzy/config';
+import { FileStorageOption, FileStorageProviderEnum, UploadedFile } from '@worksuite/contracts';
+import { environment, getConfig } from '@worksuite/config';
 import { Provider } from './provider';
 
 const config = getConfig();

@@ -22,7 +22,7 @@ import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { SharedModule } from '../../@shared/shared.module';
 import { TranslateModule } from '../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { NoDataMessageModule } from '../../@shared/no-data-message/no-data-message.module';
 
@@ -49,7 +49,7 @@ import { NoDataMessageModule } from '../../@shared/no-data-message/no-data-messa
 		NbDialogModule.forChild(),
 		TranslateModule,
 		HeaderTitleModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		NbSpinnerModule,
 		InfiniteScrollModule,
 		NoDataMessageModule

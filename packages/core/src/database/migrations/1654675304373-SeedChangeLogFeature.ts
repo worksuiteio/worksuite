@@ -12,7 +12,7 @@ export class SeedChangeLogFeature1654675304373 implements MigrationInterface {
                 title: 'New CRM',
                 date: new Date(),
                 isFeature: true,
-                content: 'Now you can read latest features changelog directly in Gauzy',
+                content: 'Now you can read latest features changelog directly in Worksuite',
                 learnMoreUrl: '',
                 imageUrl: 'assets/images/features/macbook-2.png'
             },

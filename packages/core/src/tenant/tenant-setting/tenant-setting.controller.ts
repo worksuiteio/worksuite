@@ -1,4 +1,4 @@
-import { ITenantSetting, PermissionsEnum } from '@gauzy/contracts';
+import { ITenantSetting, PermissionsEnum } from '@worksuite/contracts';
 import {
 	Body,
 	Controller,

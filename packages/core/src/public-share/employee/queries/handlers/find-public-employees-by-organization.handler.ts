@@ -1,4 +1,4 @@
-import { IEmployee, IPagination } from '@gauzy/contracts';
+import { IEmployee, IPagination } from '@worksuite/contracts';
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
 import { FindPublicEmployeesByOrganizationQuery } from '../find-public-employees-by-organization.query';
 import { PublicEmployeeService } from '../../public-employee.service';

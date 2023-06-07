@@ -9,11 +9,11 @@ import {
 	PermissionsEnum,
 	LanguagesEnum,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ExtractJwt } from 'passport-jwt';
 import { JsonWebTokenError, verify } from 'jsonwebtoken';
-import { environment as env } from '@gauzy/config';
-import { isNotEmpty } from '@gauzy/common';
+import { environment as env } from '@worksuite/config';
+import { isNotEmpty } from '@worksuite/common';
 
 export class RequestContext {
 	readonly id: number;

@@ -1,6 +1,6 @@
 import { NotFoundException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IOrganizationSprint } from '@gauzy/contracts';
+import { IOrganizationSprint } from '@worksuite/contracts';
 import { OrganizationSprintService } from '../../organization-sprint.service';
 import { OrganizationSprintUpdateCommand } from '../organization-sprint.update.command';
 

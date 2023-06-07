@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { InvitationTypeEnum } from '@gauzy/contracts';
+import { InvitationTypeEnum } from '@worksuite/contracts';
 
 @Component({
 	selector: 'ga-manage-candidate-invite',

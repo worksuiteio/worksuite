@@ -1,4 +1,4 @@
-import { Public } from '@gauzy/common';
+import { Public } from '@worksuite/common';
 import { Controller, Get } from '@nestjs/common';
 import { HealthCheckService, TypeOrmHealthIndicator } from '@nestjs/terminus';
 

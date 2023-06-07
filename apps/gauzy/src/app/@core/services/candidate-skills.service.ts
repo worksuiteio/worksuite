@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { ICandidateSkillCreateInput, ISkill, ICandidateSkillFindInput, IPagination } from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+import { ICandidateSkillCreateInput, ISkill, ICandidateSkillFindInput, IPagination } from '@worksuite/contracts';
+import { toParams } from '@worksuite/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

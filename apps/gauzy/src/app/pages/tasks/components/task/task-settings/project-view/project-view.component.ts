@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
-import { CrudActionEnum, IOrganizationProject, TaskListTypeEnum } from '@gauzy/contracts';
+import { CrudActionEnum, IOrganizationProject, TaskListTypeEnum } from '@worksuite/contracts';
 import { OrganizationProjectsService, OrganizationProjectStore, Store } from '../../../../../../@core/services';
 
 export interface TaskViewMode {

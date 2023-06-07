@@ -1,4 +1,4 @@
-import { IGoalKPITemplate } from "@gauzy/contracts";
+import { IGoalKPITemplate } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsObject, IsOptional, IsString } from "class-validator";
 

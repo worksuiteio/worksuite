@@ -5,7 +5,7 @@ import {
 	IReport,
 	IReportCategory,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Store } from 'apps/gauzy/src/app/@core/services/store.service';
 import { filter } from 'rxjs/operators';

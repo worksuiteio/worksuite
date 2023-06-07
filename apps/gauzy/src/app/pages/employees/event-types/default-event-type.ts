@@ -1,4 +1,4 @@
-import { IEventTypeViewModel } from "@gauzy/contracts";
+import { IEventTypeViewModel } from "@worksuite/contracts";
 
 export const DEFAULT_EVENT_TYPE: IEventTypeViewModel[] = [
     {

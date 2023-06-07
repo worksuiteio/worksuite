@@ -3,9 +3,9 @@ import {
 	IOrganizationTeam,
 	IOrganizationTeamEmployee,
 	IOrganizationTeamStatisticInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { parseToBoolean } from '@gauzy/common';
+import { parseToBoolean } from '@worksuite/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FindOptionsWhere, Repository } from 'typeorm';
 import { OrganizationTeam } from './../../core/entities/internal';

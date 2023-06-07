@@ -1,6 +1,6 @@
 import { NotFoundException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IOrganizationVendor } from '@gauzy/contracts';
+import { IOrganizationVendor } from '@worksuite/contracts';
 import { RequestContext } from './../../../core/context';
 import { OrganizationVendorFirstOrCreateCommand } from './../organization-vendor-first-or-create.command';
 import { OrganizationVendorService } from './../../organization-vendor.service';

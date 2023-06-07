@@ -14,15 +14,15 @@ import {
 	IInviteTeamMemberModel,
 	IOrganizationTeam,
 	IOrganizationTeamJoinRequest
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { BadRequestException, forwardRef, Inject, Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as Email from 'email-templates';
 import * as Handlebars from 'handlebars';
 import * as nodemailer from 'nodemailer';
 import { Repository, IsNull, FindManyOptions } from 'typeorm';
-import { environment as env } from '@gauzy/config';
-import { deepMerge, IAppIntegrationConfig, isEmpty, ISMTPConfig } from '@gauzy/common';
+import { environment as env } from '@worksuite/config';
+import { deepMerge, IAppIntegrationConfig, isEmpty, ISMTPConfig } from '@worksuite/common';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from '../core/context';
 import { EmailTemplate, Organization } from './../core/entities/internal';
@@ -145,7 +145,7 @@ export class EmailService extends TenantAwareCrudService<EmailEntity> {
 		}
 		const config: Email.EmailConfig<any> = {
 			message: {
-				from: smtpConfig.fromAddress || 'noreply@gauzy.co'
+				from: smtpConfig.fromAddress || 'noreply@worksuite.co'
 			},
 
 			// if you want to send emails in development or test environments, set options.send to true.
@@ -1088,7 +1088,7 @@ export class EmailService extends TenantAwareCrudService<EmailEntity> {
 		// 	}
 		// });
 		const info = await transporter.sendMail({
-			from: 'Gauzy',
+			from: 'Worksuite',
 			to: user.email,
 			subject: 'Forgotten Password',
 			text: 'Forgot Password',

@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ViewCell } from 'ng2-smart-table';
-import { IDeal } from '@gauzy/contracts';
+import { IDeal } from '@worksuite/contracts';
 
 @Component({
 	selector: 'ga-pipeline-deal-probability',

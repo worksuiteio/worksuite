@@ -1,10 +1,10 @@
-import { IGraphQLApiOptions, isNotEmpty } from '@gauzy/common';
+import { IGraphQLApiOptions, isNotEmpty } from '@worksuite/common';
 import { GqlModuleOptions, GraphQLTypesLoader } from '@nestjs/graphql';
 import { ApolloDriver } from '@nestjs/apollo';
 import { buildSchema, extendSchema, printSchema } from 'graphql';
 import * as path from 'path';
-import { ConfigService } from '@gauzy/config';
-import { getPluginExtensions } from '@gauzy/plugin';
+import { ConfigService } from '@worksuite/config';
+import { getPluginExtensions } from '@worksuite/plugin';
 
 export async function createGraphqlModuleOptions(
 	configService: ConfigService,

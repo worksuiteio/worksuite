@@ -13,9 +13,9 @@ import {
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { FeatureInterface } from 'unleash-client/lib/feature';
 import { getFeatureToggleDefinitions } from 'unleash-client';
-import { FeatureEnum, IFeature, IFeatureOrganization, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { FeatureEnum, IFeature, IFeatureOrganization, IPagination, PermissionsEnum } from '@worksuite/contracts';
 import { CommandBus } from '@nestjs/cqrs';
-import { Public } from '@gauzy/common';
+import { Public } from '@worksuite/common';
 import { Feature } from './feature.entity';
 import { FeatureService } from './feature.service';
 import { FeatureOrganizationService } from './feature-organization.service';
@@ -25,7 +25,7 @@ import { RelationsQueryDTO } from './../shared/dto';
 import { FeatureToggleUpdateCommand } from './commands';
 import { CreateFeatureToggleDTO } from './dto';
 import { FeatureOrganizationQueryDTO } from './dto/feature-organization-query.dto';
-import { environment } from '@gauzy/config';
+import { environment } from '@worksuite/config';
 
 const { unleashConfig } = environment;
 

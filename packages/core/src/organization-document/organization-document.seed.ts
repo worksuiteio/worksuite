@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IOrganization, IOrganizationDocument, ITenant } from '@gauzy/contracts';
+import { IOrganization, IOrganizationDocument, ITenant } from '@worksuite/contracts';
 import { OrganizationDocument } from './organization-document.entity';
 
 export const createOrganizationDocuments = async (

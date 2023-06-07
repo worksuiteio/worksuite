@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { ActivatedRouteSnapshot, Resolve } from "@angular/router";
 import { catchError, debounceTime, of } from "rxjs";
 import { Observable } from "rxjs/internal/Observable";
-import { isEmpty } from "@gauzy/common-angular";
+import { isEmpty } from "@worksuite/common-angular";
 import { EmployeesService, Store } from "../services";
 
 @Injectable({

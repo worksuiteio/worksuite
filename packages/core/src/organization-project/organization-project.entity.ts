@@ -32,7 +32,7 @@ import {
 	ProjectBillingEnum,
 	ProjectOwnerEnum,
 	TaskListTypeEnum,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Activity,
 	Employee,

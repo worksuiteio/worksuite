@@ -1,7 +1,7 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsEmail, IsNotEmpty } from "class-validator";
 import { Transform, TransformFnParams } from "class-transformer";
-import { IUserEmailInput } from "@gauzy/contracts";
+import { IUserEmailInput } from "@worksuite/contracts";
 
 /**
  * User email input DTO validation

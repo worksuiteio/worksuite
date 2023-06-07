@@ -5,12 +5,12 @@ pipeline {
 
     environment {
         DOCKER_BUILDKIT = 1 // Experimental faster build system
-        REPO_NAME = "ever-gauzy"
-        IMAGE_API = "gauzy-api"
-        IMAGE_WEBAPP = "gauzy-webapp"
+        REPO_NAME = "worksuite"
+        IMAGE_API = "worksuite-api"
+        IMAGE_WEBAPP = "worksuite-webapp"
         GITHUB_DOCKER_USERNAME = credentials('github-docker-username')
         GITHUB_DOCKER_PASSWORD = credentials('github-docker-password')
-        GITHUB_DOCKER_REPO = "docker.pkg.github.com/ever-co/ever-gauzy"
+        GITHUB_DOCKER_REPO = "docker.pkg.github.com/worksuiteio/worksuite"
         GITHUB_DISPATCH_TOKEN = credentials('github-dispatch-token')
         GITHUB_TOKEN = credentials('github-token')
         CI_URL = "ci.ever.co"
@@ -26,7 +26,7 @@ pipeline {
             returnStdout: true
         )}"""
         WORKFLOW_ID = """${sh(
-            script: "curl --silent -X GET -H 'Accept: application/vnd.github.v3+json' https://api.github.com/repos/ever-co/$REPO_NAME-pulumi/actions/workflows/pulumi.yml | tr -s ' ' | tr -d '\r' | tr -d '\n' | grep -Eo '[0-9]{5,9}' | uniq",
+            script: "curl --silent -X GET -H 'Accept: application/vnd.github.v3+json' https://api.github.com/repos/worksuiteio/$REPO_NAME-pulumi/actions/workflows/pulumi.yml | tr -s ' ' | tr -d '\r' | tr -d '\n' | grep -Eo '[0-9]{5,9}' | uniq",
             returnStdout: true
         )}"""
     }
@@ -35,10 +35,10 @@ pipeline {
         stage("Clone") {
             steps{
                 git branch: 'develop',
-                    url: 'https://github.com/ever-co/ever-gauzy.git'
+                    url: 'https://github.com/worksuiteio/worksuite.git'
 
                 sh """
-                    curl 'https://api.github.com/repos/ever-co/${REPO_NAME}/statuses/$GIT_COMMIT' -H 'Authorization: token ${GITHUB_TOKEN}' -H 'Content-Type: application/json' -X POST -d '{"state": "pending", "context": "Jenkins", "description": "Jenkins pipeline is running", "target_url": "https://$CI_URL/job/${JOB_NAME}/$BUILD_NUMBER/console"}'
+                    curl 'https://api.github.com/repos/worksuiteio/${REPO_NAME}/statuses/$GIT_COMMIT' -H 'Authorization: token ${GITHUB_TOKEN}' -H 'Content-Type: application/json' -X POST -d '{"state": "pending", "context": "Jenkins", "description": "Jenkins pipeline is running", "target_url": "https://$CI_URL/job/${JOB_NAME}/$BUILD_NUMBER/console"}'
                 """
             }
             post {
@@ -65,7 +65,7 @@ pipeline {
                         }
                     }
                 }
-                stage("Gauzy WebApp Image") {
+                stage("Worksuite WebApp Image") {
                     steps {
                         sh "docker build -t ${env.IMAGE_WEBAPP} -f .deploy/webapp/Dockerfile ."
                     }
@@ -158,22 +158,22 @@ pipeline {
         stage ("Pulumi Update") {
             steps {
                 sh """
-                    curl -sX POST 'https://api.github.com/repos/ever-co/${REPO_NAME}-pulumi/actions/workflows/2319005/dispatches' -H 'Accept: application/vnd.github.v3+json' -H 'Authorization: token ${GITHUB_DISPATCH_TOKEN}' -d '{"ref": "master"}'
+                    curl -sX POST 'https://api.github.com/repos/worksuiteio/${REPO_NAME}-pulumi/actions/workflows/2319005/dispatches' -H 'Accept: application/vnd.github.v3+json' -H 'Authorization: token ${GITHUB_DISPATCH_TOKEN}' -d '{"ref": "master"}'
                 """
             }
         }
     }
     post {
         success {
-            echo "Gauzy CI/CD pipeline executed successfully!"
+            echo "Worksuite CI/CD pipeline executed successfully!"
             sh """
-                curl 'https://api.github.com/repos/ever-co/${REPO_NAME}/statuses/$GIT_COMMIT' -H 'Authorization: token ${GITHUB_TOKEN}' -H 'Content-Type: application/json' -X POST -d '{"state": "success", "context": "Jenkins", "description": "Jenkins pipeline succeeded", "target_url": "https://$CI_URL/job/${JOB_NAME}/$BUILD_NUMBER/console"}'
+                curl 'https://api.github.com/repos/worksuiteio/${REPO_NAME}/statuses/$GIT_COMMIT' -H 'Authorization: token ${GITHUB_TOKEN}' -H 'Content-Type: application/json' -X POST -d '{"state": "success", "context": "Jenkins", "description": "Jenkins pipeline succeeded", "target_url": "https://$CI_URL/job/${JOB_NAME}/$BUILD_NUMBER/console"}'
             """
 		}
         failure {
-            echo "Gauzy CI/CD pipeline failed..."
+            echo "Worksuite CI/CD pipeline failed..."
 			sh """
-                curl 'https://api.github.com/repos/ever-co/${REPO_NAME}/statuses/$GIT_COMMIT' -H 'Authorization: token ${GITHUB_TOKEN}' -H 'Content-Type: application/json' -X POST -d '{"state": "failure", "context": "Jenkins", "description": "Jenkins pipeline failed", "target_url": "https://$CI_URL/job/${JOB_NAME}/$BUILD_NUMBER/console"}'
+                curl 'https://api.github.com/repos/worksuiteio/${REPO_NAME}/statuses/$GIT_COMMIT' -H 'Authorization: token ${GITHUB_TOKEN}' -H 'Content-Type: application/json' -X POST -d '{"state": "failure", "context": "Jenkins", "description": "Jenkins pipeline failed", "target_url": "https://$CI_URL/job/${JOB_NAME}/$BUILD_NUMBER/console"}'
             """
         }
     }

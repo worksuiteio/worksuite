@@ -8,7 +8,7 @@ import {
 	ICandidateFeedback,
 	ICandidateTechnologies,
 	ICandidatePersonalQualities
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CandidateFeedbacksService } from 'apps/gauzy/src/app/@core/services/candidate-feedbacks.service';
 
 @Component({

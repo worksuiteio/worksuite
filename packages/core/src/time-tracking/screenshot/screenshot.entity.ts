@@ -6,7 +6,7 @@ import {
 	Index,
 	JoinColumn
 } from 'typeorm';
-import { FileStorageProviderEnum, IScreenshot, ITimeSlot } from '@gauzy/contracts';
+import { FileStorageProviderEnum, IScreenshot, ITimeSlot } from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsString, IsOptional, IsDateString, IsUUID, IsNotEmpty, IsEnum } from 'class-validator';
 import { Exclude } from 'class-transformer';

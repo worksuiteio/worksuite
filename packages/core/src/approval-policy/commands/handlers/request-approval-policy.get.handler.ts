@@ -1,4 +1,4 @@
-import { IApprovalPolicy, IPagination } from '@gauzy/contracts';
+import { IApprovalPolicy, IPagination } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { ApprovalPolicyService } from '../../approval-policy.service';
 import { RequestApprovalPolicyGetCommand } from '../request-approval-policy.get.command';

@@ -1,7 +1,7 @@
 export const OrganizationProjectsPageData = {
-	name: 'Gauzy Web Site',
+	name: 'Worksuite Web Site',
 	hours: 12,
-	editName: 'Ever',
+	editName: 'Worksuite',
 	description:
 		'Open-Source Business Management Platform focused on Fairness and Transparency.',
 	color: '#195e83',

@@ -1,4 +1,4 @@
-import { AccountingTemplateTypeEnum, IAccountingTemplateUpdateInput, LanguagesEnum } from "@gauzy/contracts";
+import { AccountingTemplateTypeEnum, IAccountingTemplateUpdateInput, LanguagesEnum } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsEnum, IsNotEmpty } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

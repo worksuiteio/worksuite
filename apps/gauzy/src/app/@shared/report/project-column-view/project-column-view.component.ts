@@ -1,5 +1,5 @@
 import { Component, Input } from "@angular/core";
-import { IOrganizationProject } from "@gauzy/contracts";
+import { IOrganizationProject } from "@worksuite/contracts";
 import { DEFAULT_SVG } from "../../../@core/constants";
 
 @Component({

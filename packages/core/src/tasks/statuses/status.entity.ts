@@ -1,6 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Column, Entity, Index, ManyToOne, RelationId } from 'typeorm';
-import { IOrganizationProject, IOrganizationTeam, ITaskStatus } from '@gauzy/contracts';
+import { IOrganizationProject, IOrganizationTeam, ITaskStatus } from '@worksuite/contracts';
 import { IsNotEmpty, IsOptional, IsString, IsUUID } from 'class-validator';
 import {
 	OrganizationProject,

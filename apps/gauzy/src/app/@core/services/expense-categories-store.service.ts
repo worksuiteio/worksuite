@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { IExpenseCategory, IExpenseCategoryFind } from '@gauzy/contracts';
+import { IExpenseCategory, IExpenseCategoryFind } from '@worksuite/contracts';
 import { tap } from 'rxjs/operators';
 import { ExpenseCategoriesService } from './expense-categories.service';
 

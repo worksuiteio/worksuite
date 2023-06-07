@@ -1,8 +1,8 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IUserRegistrationInput } from '@gauzy/contracts';
+import { IUserRegistrationInput } from '@worksuite/contracts';
 
-export class GauzyCloudUserMigrateCommand implements ICommand {
-	static readonly type = '[Gauzy Cloud] User Migrate';
+export class WorksuiteCloudUserMigrateCommand implements ICommand {
+	static readonly type = '[Worksuite Cloud] User Migrate';
 
 	constructor(public readonly input: IUserRegistrationInput) {}
 }

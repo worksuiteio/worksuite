@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NbDialogRef } from '@nebular/theme';
-import { RecurringExpenseDeletionEnum } from '@gauzy/contracts';
+import { RecurringExpenseDeletionEnum } from '@worksuite/contracts';
 
 @Component({
 	selector: 'ga-delete-confirmation',

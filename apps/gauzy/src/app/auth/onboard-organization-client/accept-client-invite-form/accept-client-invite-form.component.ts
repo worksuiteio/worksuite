@@ -17,7 +17,7 @@ import {
 	ITenant,
 	IOrganizationCreateInput,
 	ITag
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { firstValueFrom } from 'rxjs';

@@ -1,8 +1,8 @@
 import { ICommand } from '@nestjs/cqrs';
-import { ITenantCreateInput } from '@gauzy/contracts';
+import { ITenantCreateInput } from '@worksuite/contracts';
 
-export class GauzyCloudTenantMigrateCommand implements ICommand {
-	static readonly type = '[Gauzy Cloud] Tenant Migrate';
+export class WorksuiteCloudTenantMigrateCommand implements ICommand {
+	static readonly type = '[Worksuite Cloud] Tenant Migrate';
 
 	constructor(
 		public readonly input: ITenantCreateInput,

@@ -10,9 +10,9 @@ import * as rimraf from 'rimraf';
 import * as _ from 'lodash';
 import * as path from 'path';
 import * as chalk from 'chalk';
-import { ConfigService } from '@gauzy/config';
-import { getEntitiesFromPlugins } from '@gauzy/plugin';
-import { isFunction, isNotEmpty } from '@gauzy/common';
+import { ConfigService } from '@worksuite/config';
+import { getEntitiesFromPlugins } from '@worksuite/plugin';
+import { isFunction, isNotEmpty } from '@worksuite/common';
 import { convertToDatetime } from './../../core/utils';
 import { FileStorage } from './../../core/file-storage';
 import {

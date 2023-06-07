@@ -1,7 +1,7 @@
 import { BadRequestException } from '@nestjs/common';
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
-import { IDateRangePicker, IOrganizationTeam, IOrganizationTeamEmployee, IOrganizationTeamStatisticInput } from '@gauzy/contracts';
-import { parseToBoolean } from '@gauzy/common';
+import { IDateRangePicker, IOrganizationTeam, IOrganizationTeamEmployee, IOrganizationTeamStatisticInput } from '@worksuite/contracts';
+import { parseToBoolean } from '@worksuite/common';
 import { GetOrganizationTeamStatisticQuery } from '../get-organization-team-statistic.query';
 import { OrganizationTeamService } from '../../organization-team.service';
 import { TimerService } from '../../../time-tracking/timer/timer.service';

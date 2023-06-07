@@ -1,4 +1,4 @@
-import { IExpenseCategory } from "@gauzy/contracts";
+import { IExpenseCategory } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsNotEmpty, IsString } from "class-validator";

@@ -5,7 +5,7 @@ import {
 	DiscountTaxTypeEnum,
 	IInvoice,
 	InvoiceTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { tap } from 'rxjs/operators';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

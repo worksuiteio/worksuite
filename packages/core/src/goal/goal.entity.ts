@@ -1,4 +1,4 @@
-import { IGoal, GoalLevelEnum, IKeyResult, IOrganizationTeam, IEmployee } from '@gauzy/contracts';
+import { IGoal, GoalLevelEnum, IKeyResult, IOrganizationTeam, IEmployee } from '@worksuite/contracts';
 import { Entity, Column, OneToMany, ManyToOne, Index, RelationId } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsOptional, IsEnum, IsString } from 'class-validator';

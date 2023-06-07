@@ -1,6 +1,6 @@
 import { BadRequestException } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { ITask, ITaskUpdateInput } from '@gauzy/contracts';
+import { ITask, ITaskUpdateInput } from '@worksuite/contracts';
 import { TaskService } from '../../task.service';
 import { TaskUpdateCommand } from '../task-update.command';
 

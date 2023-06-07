@@ -18,7 +18,7 @@ import {
 	OrganizationPermissionsEnum,
 	IEmployee,
 	IUser
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import * as moment from 'moment';
 import { Subject } from 'rxjs';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
@@ -30,7 +30,7 @@ import {
 	TimesheetFilterService
 } from '../timesheet-filter.service';
 import { debounceTime, filter, take, tap } from 'rxjs/operators';
-import { isEmpty } from '@gauzy/common-angular';
+import { isEmpty } from '@worksuite/common-angular';
 import { NbCalendarRange } from '@nebular/theme';
 
 @UntilDestroy({ checkProperties: true })

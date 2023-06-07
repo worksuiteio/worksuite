@@ -1,8 +1,8 @@
 import { Entity, Column, ManyToOne, RelationId, Index } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString } from 'class-validator';
-import { IEmployee, IHelpCenterArticle, IHelpCenterAuthor } from '@gauzy/contracts';
-import { Employee, TenantOrganizationBaseEntity } from '@gauzy/core';
+import { IEmployee, IHelpCenterArticle, IHelpCenterAuthor } from '@worksuite/contracts';
+import { Employee, TenantOrganizationBaseEntity } from '@worksuite/core';
 import { HelpCenterArticle } from './../entities';
 
 @Entity('knowledge_base_author')

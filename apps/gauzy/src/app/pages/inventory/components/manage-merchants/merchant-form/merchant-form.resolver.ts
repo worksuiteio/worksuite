@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, Resolve, Router } from '@angular/router';
 import { catchError, EMPTY, from, Observable, of as observableOf } from 'rxjs';
-import { IMerchant } from '@gauzy/contracts';
+import { IMerchant } from '@worksuite/contracts';
 import { MerchantService } from './../../../../../@core/services';
 
 @Injectable({

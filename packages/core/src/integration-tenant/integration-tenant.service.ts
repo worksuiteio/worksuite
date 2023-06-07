@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { IIntegrationTenant } from '@gauzy/contracts';
+import { IIntegrationTenant } from '@worksuite/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { IntegrationTenant } from './integration-tenant.entity';
 import { RequestContext } from './../core/context';

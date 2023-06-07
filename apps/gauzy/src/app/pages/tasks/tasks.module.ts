@@ -35,7 +35,7 @@ import { TeamTaskDialogComponent } from './components/team-task-dialog/team-task
 import { CardGridModule } from '../../@shared/card-grid/card-grid.module';
 import { TaskSettingsComponent } from './components/task/task-settings/task-settings.component';
 import { ProjectViewComponent } from './components/task/task-settings/project-view/project-view.component';
-import { GauzyEditableGridModule } from '../../@shared/components/editable-grid/gauzy-editable-grid.module';
+import { WorksuiteEditableGridModule } from '../../@shared/components/editable-grid/gauzy-editable-grid.module';
 import { TasksSprintViewComponent } from './components/task/tasks-layouts/tasks-sprint-view/tasks-sprint-view.component';
 import { SprintTaskComponent } from './components/task/tasks-layouts/tasks-sprint-view/task/task.component';
 import { BackNavigationModule } from '../../@shared/back-navigation/back-navigation.module';
@@ -47,7 +47,7 @@ import { TableFiltersModule } from '../../@shared/table-filters/table-filters.mo
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
 import { ProjectSelectModule } from '../../@shared/project-select/project-select.module';
 import { TaskStatusSelectModule } from '../../@shared/tasks/task-status-select/task-status-select.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { TaskNumberFieldModule } from '../../@shared/tasks/task-number/task-number-field.module';
 import { TaskPrioritySelectModule } from '../../@shared/tasks/task-priority-select/task-priority-select.module';
 import { TaskSizeSelectModule } from '../../@shared/tasks/task-size-select/task-size-select.module';
@@ -93,7 +93,7 @@ import { TaskSizeSelectModule } from '../../@shared/tasks/task-size-select/task-
 		NbSpinnerModule,
 		NbDatepickerModule,
 		EmployeeMultiSelectModule,
-		GauzyEditableGridModule,
+		WorksuiteEditableGridModule,
 		DragDropModule,
 		BackNavigationModule,
 		TasksSprintSettingsViewModule,
@@ -104,7 +104,7 @@ import { TaskSizeSelectModule } from '../../@shared/tasks/task-size-select/task-
 		TaskPrioritySelectModule,
 		TaskSizeSelectModule,
 		TaskStatusSelectModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		TaskNumberFieldModule,
 		NgxPermissionsModule.forChild()
 	]

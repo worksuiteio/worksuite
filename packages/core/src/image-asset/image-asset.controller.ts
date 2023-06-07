@@ -21,7 +21,7 @@ import { v4 as uuid } from 'uuid';
 import * as path from 'path';
 import * as fs from 'fs';
 import * as Jimp from 'jimp';
-import { IImageAsset, IPagination, PermissionsEnum, UploadedFile } from '@gauzy/contracts';
+import { IImageAsset, IPagination, PermissionsEnum, UploadedFile } from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { FileStorage, UploadedFileStorage } from './../core/file-storage';
 import { LazyFileInterceptor } from './../core/interceptors';

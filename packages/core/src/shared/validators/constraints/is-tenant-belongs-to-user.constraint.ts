@@ -4,7 +4,7 @@ import {
 	ValidatorConstraint,
 	ValidatorConstraintInterface
 } from "class-validator";
-import { ITenant } from "@gauzy/contracts";
+import { ITenant } from "@worksuite/contracts";
 import { isEmpty } from "underscore";
 import { RequestContext } from "./../../../core/context";
 

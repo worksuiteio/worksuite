@@ -1,6 +1,6 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { ArrayNotEmpty } from "class-validator";
-import { IDeleteTimeSlot } from "@gauzy/contracts";
+import { IDeleteTimeSlot } from "@worksuite/contracts";
 import { TenantOrganizationBaseDTO } from "./../../../core/dto";
 
 export class DeleteTimeSlotDTO extends TenantOrganizationBaseDTO

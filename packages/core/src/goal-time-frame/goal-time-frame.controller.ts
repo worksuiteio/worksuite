@@ -14,7 +14,7 @@ import {
 	UsePipes,
 	ValidationPipe
 } from '@nestjs/common';
-import { IGoalTimeFrame, IPagination } from '@gauzy/contracts';
+import { IGoalTimeFrame, IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { GoalTimeFrame } from './goal-time-frame.entity';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';

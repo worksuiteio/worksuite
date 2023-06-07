@@ -11,8 +11,8 @@ import {
 	IDateRangePicker,
 	IOrganization,
 	ISelectedEmployee
-} from '@gauzy/contracts';
-import { distinctUntilChange, isEmpty } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange, isEmpty } from '@worksuite/common-angular';
 import { ALL_EMPLOYEES_SELECTED } from '../../../@theme/components/header/selectors/employee';
 import {
 	DateRangePickerBuilderService,

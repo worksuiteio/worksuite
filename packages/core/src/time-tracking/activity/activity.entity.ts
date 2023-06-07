@@ -17,7 +17,7 @@ import {
 	ITask,
 	ITimeSlot,
 	IOrganizationProject
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	IsString,
@@ -27,7 +27,7 @@ import {
 	IsDateString,
 	IsUUID
 } from 'class-validator';
-import { getConfig } from '@gauzy/config';
+import { getConfig } from '@worksuite/config';
 import {
 	Employee,
 	OrganizationProject,

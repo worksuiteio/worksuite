@@ -1,6 +1,6 @@
 import { Controller, HttpStatus, Get, Query, UseGuards } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IEmployeeSetting, IPagination } from '@gauzy/contracts';
+import { IEmployeeSetting, IPagination } from '@worksuite/contracts';
 import { EmployeeSettingService } from './employee-setting.service';
 import { EmployeeSetting } from './employee-setting.entity';
 import { CrudController } from './../core/crud';

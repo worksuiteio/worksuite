@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IAppointmentEmployee, IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { IAppointmentEmployee, IEmployee, IOrganization, ITenant } from '@worksuite/contracts';
 import { AppointmentEmployee } from './appointment-employees.entity';
 import { faker } from '@faker-js/faker';
 

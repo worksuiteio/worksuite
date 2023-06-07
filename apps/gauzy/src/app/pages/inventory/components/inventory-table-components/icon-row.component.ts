@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { ViewCell } from 'ng2-smart-table';
-import { IProductTypeTranslated } from '@gauzy/contracts';
+import { IProductTypeTranslated } from '@worksuite/contracts';
 
 @Component({
 	template: `

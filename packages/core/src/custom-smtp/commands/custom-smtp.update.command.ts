@@ -1,4 +1,4 @@
-import { ICustomSmtpUpdateInput } from '@gauzy/contracts';
+import { ICustomSmtpUpdateInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class CustomSmtpUpdateCommand implements ICommand {

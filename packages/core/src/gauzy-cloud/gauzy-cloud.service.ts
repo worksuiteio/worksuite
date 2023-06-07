@@ -11,10 +11,10 @@ import {
 	ITenant,
 	IRolePermissionMigrateInput,
 	IUserLoginInput,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 
 @Injectable()
-export class GauzyCloudService {
+export class WorksuiteCloudService {
 	constructor(private readonly _http: HttpService) {}
 
 	/**

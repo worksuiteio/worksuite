@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IChangelog } from "@gauzy/contracts";
+import { IChangelog } from "@worksuite/contracts";
 
 @Component({
 	selector: 'ngx-register-side-single-feature',

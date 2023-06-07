@@ -7,11 +7,11 @@ import {
 	IOrganization,
 	StatusTypesEnum,
 	IImageAsset as IDocumentAsset
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { debounceTime, filter, first, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import { EmployeeSelectorComponent } from '../../../@theme/components/header/selectors/employee/employee.component';
 import { OrganizationDocumentsService, Store, } from '../../../@core/services';
 import { CompareDateValidator } from '../../../@core/validators';

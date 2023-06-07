@@ -3,7 +3,7 @@ import { IntegrationType } from './integration-type.entity';
 import {
 	IntegrationTypeGroupEnum,
 	IntegrationTypeNameEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 
 const DEFAULT_INTEGRATION_TYPES = [
 	{

@@ -1,4 +1,4 @@
-import { IEmployeeProposalTemplate } from "@gauzy/contracts";
+import { IEmployeeProposalTemplate } from "@worksuite/contracts";
 import { ProposalTemplateDTO } from "./proposal-template.dto";
 
 /**

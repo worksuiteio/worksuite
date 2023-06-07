@@ -1,4 +1,4 @@
-import { ITaskCreateInput } from "@gauzy/contracts";
+import { ITaskCreateInput } from "@worksuite/contracts";
 import { IntersectionType, OmitType } from "@nestjs/swagger";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";
 import { Task } from "./../task.entity";

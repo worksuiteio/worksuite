@@ -4,7 +4,7 @@ import {
 	IUserFindInput,
 	IEmployeeStoreState,
 	IUserUpdateInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { BehaviorSubject } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { Query, Store as AkitaStore, StoreConfig } from '@datorama/akita';

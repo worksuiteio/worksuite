@@ -15,14 +15,14 @@ import {
 	ComponentLayoutStyleEnum,
 	IOrganization,
 	ITag
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogRef, NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, tap } from 'rxjs/operators';
 import { debounceTime, firstValueFrom, Subject } from 'rxjs';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { ComponentEnum } from '../../@core/constants/layout.constants';
 import {
 	EmployeeWithLinksComponent,

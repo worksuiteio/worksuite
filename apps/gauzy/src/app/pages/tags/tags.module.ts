@@ -28,7 +28,7 @@ import { TagsColorComponent } from './tags-color/tags-color.component';
 import { CardGridModule } from '../../@shared/card-grid/card-grid.module';
 import { TranslateModule } from '../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
 
 @NgModule({
@@ -58,7 +58,7 @@ import { PaginationModule } from '../../@shared/pagination/pagination.module';
 		TranslateModule,
 		NbSpinnerModule,
 		HeaderTitleModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		PaginationModule,
 		NgxPermissionsModule.forChild()
 	],

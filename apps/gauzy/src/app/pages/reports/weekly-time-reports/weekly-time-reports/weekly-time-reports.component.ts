@@ -9,21 +9,21 @@ import {
 	IGetTimeLogReportInput,
 	ITimeLogFilters,
 	ReportDayData
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { filter, tap } from 'rxjs/operators';
 import { pluck, pick } from 'underscore';
 import { TranslateService } from '@ngx-translate/core';
 import * as randomColor from 'randomcolor';
-import { distinctUntilChange, isEmpty, progressStatus } from '@gauzy/common-angular';
+import { distinctUntilChange, isEmpty, progressStatus } from '@worksuite/common-angular';
 import { moment } from './../../../../@core/moment-extend';
 import { DateRangePickerBuilderService, Store } from './../../../../@core/services';
 import { TimesheetService } from './../../../../@shared/timesheet/timesheet.service';
 import { BaseSelectorFilterComponent } from './../../../../@shared/timesheet/gauzy-filters/base-selector-filter/base-selector-filter.component';
 import { IChartData } from './../../../../@shared/report/charts/line-chart/line-chart.component';
 import { ChartUtil } from './../../../../@shared/report/charts/line-chart/chart-utils';
-import { GauzyFiltersComponent } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
+import { WorksuiteFiltersComponent } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
 import { TimesheetFilterService } from './../../../../@shared/timesheet';
 
 @UntilDestroy({ checkProperties: true })
@@ -41,7 +41,7 @@ export class WeeklyTimeReportsComponent extends BaseSelectorFilterComponent
 	loading: boolean = false;
 	chartData: IChartData;
 
-	@ViewChild(GauzyFiltersComponent) gauzyFiltersComponent: GauzyFiltersComponent;
+	@ViewChild(WorksuiteFiltersComponent) gauzyFiltersComponent: WorksuiteFiltersComponent;
 	datePickerConfig$: Observable<any> = this.dateRangePickerBuilderService.datePickerConfig$;
 	payloads$: BehaviorSubject<ITimeLogFilters> = new BehaviorSubject(null);
 
@@ -103,7 +103,7 @@ export class WeeklyTimeReportsComponent extends BaseSelectorFilterComponent
 	}
 
 	/**
-	 * Gauzy timesheet default filters
+	 * Worksuite timesheet default filters
 	 *
 	 * @param filters
 	 */

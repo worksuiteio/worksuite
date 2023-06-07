@@ -1,4 +1,4 @@
-import { ICandidateEducation } from '@gauzy/contracts';
+import { ICandidateEducation } from '@worksuite/contracts';
 
 export const DEFAULT_CANDIDATE_EDUCATIONS: ICandidateEducation[] = [
 	{

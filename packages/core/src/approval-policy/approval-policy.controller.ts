@@ -4,7 +4,7 @@ import {
 	IApprovalPolicy,
 	IListQueryInput,
 	IRequestApprovalFindInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Query,
 	HttpStatus,

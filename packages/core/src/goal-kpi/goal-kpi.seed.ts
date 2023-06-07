@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ITenant } from '@worksuite/contracts';
 import { GoalKPI } from './goal-kpi.entity';
 import { faker } from '@faker-js/faker';
 import { DEFAULT_GOAL_KPIS } from './default-goal-kpis';

@@ -1,10 +1,10 @@
 {
-	"name": "@gauzy/integration-ai",
+	"name": "@worksuite/integration-ai",
 	"version": "0.1.0",
-	"description": "Ever Gauzy Platform plugin for integration with Gauzy AI",
+	"description": "Worksuite Worksuite Platform plugin for integration with Worksuite AI",
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
+		"name": "Worksuite Co. LTD",
+		"email": "ever@worksuite.co",
 		"url": "https://ever.co"
 	},
 	"license": "AGPL-3.0",

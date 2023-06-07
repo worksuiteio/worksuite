@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { FormGroup } from '@angular/forms';
-import { GoalLevelEnum, IOrganizationTeam, IEmployee } from '@gauzy/contracts';
+import { GoalLevelEnum, IOrganizationTeam, IEmployee } from '@worksuite/contracts';
 import { OrganizationTeamsService, Store } from '../../../@core';
 
 @Component({

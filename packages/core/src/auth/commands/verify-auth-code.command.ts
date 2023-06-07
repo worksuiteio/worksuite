@@ -1,4 +1,4 @@
-import { IUserInviteCodeConfirmationInput } from '@gauzy/contracts';
+import { IUserInviteCodeConfirmationInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class VerifyAuthCodeCommand implements ICommand {

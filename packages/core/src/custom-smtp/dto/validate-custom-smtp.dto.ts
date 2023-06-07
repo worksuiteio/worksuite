@@ -1,4 +1,4 @@
-import { ICustomSmtpValidateInput } from "@gauzy/contracts";
+import { ICustomSmtpValidateInput } from "@worksuite/contracts";
 import { CreateCustomSmtpDTO } from "./create-custom-smtp.dto";
 
 /**

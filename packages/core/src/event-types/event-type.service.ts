@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { IPagination } from '@gauzy/contracts';
+import { IPagination } from '@worksuite/contracts';
 import { Repository, FindManyOptions } from 'typeorm';
 import { EventType } from './event-type.entity';
 import { TenantAwareCrudService } from './../core/crud';

@@ -10,7 +10,7 @@ import { DialogsModule } from './../../../../@shared/dialogs';
 import { SharedModule } from './../../../../@shared/shared.module';
 import { TranslateModule } from './../../../../@shared/translate/translate.module';
 import { DateRangeTitleModule } from './../../../../@shared/components/date-range-title/date-range-title.module';
-import { GauzyButtonActionModule } from 'apps/gauzy/src/app/@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from 'apps/gauzy/src/app/@shared/gauzy-button-action/gauzy-button-action.module';
 
 @NgModule({
 	declarations: [ViewComponent],
@@ -27,7 +27,7 @@ import { GauzyButtonActionModule } from 'apps/gauzy/src/app/@shared/gauzy-button
 		EditTimeLogModalModule,
 		DateRangeTitleModule,
 		NbCheckboxModule,
-		GauzyButtonActionModule
+		WorksuiteButtonActionModule
 	]
 })
 export class ViewModule {}

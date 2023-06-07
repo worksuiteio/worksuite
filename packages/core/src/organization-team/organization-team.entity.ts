@@ -23,7 +23,7 @@ import {
 	ITaskSize,
 	ITaskStatus,
 	IUser,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	IsBoolean,

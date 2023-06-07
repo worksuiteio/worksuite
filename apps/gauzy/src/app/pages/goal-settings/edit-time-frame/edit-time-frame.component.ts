@@ -5,7 +5,7 @@ import {
 	IGoalTimeFrame,
 	IOrganization,
 	TimeFrameStatusEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import {

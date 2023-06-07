@@ -4,7 +4,7 @@
  * Approval Policy table has the many to one relationship to the Organization table and Tenant by organizationId and tenantId
  */
 import { Entity, Index, Column, OneToMany } from 'typeorm';
-import { IEquipmentSharing, IEquipmentSharingPolicy } from '@gauzy/contracts';
+import { IEquipmentSharing, IEquipmentSharingPolicy } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsNotEmpty } from 'class-validator';
 import { EquipmentSharing, TenantOrganizationBaseEntity } from '../core/entities/internal';

@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IProductCreateInput } from '@gauzy/contracts';
+import { IProductCreateInput } from '@worksuite/contracts';
 
 export class ProductUpdateCommand implements ICommand {
 	static readonly type = '[Product] Update';

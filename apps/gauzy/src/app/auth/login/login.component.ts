@@ -12,7 +12,7 @@ import {
 	NbLoginComponent,
 	NB_AUTH_OPTIONS,
 } from '@nebular/auth';
-import { RolesEnum } from '@gauzy/contracts';
+import { RolesEnum } from '@worksuite/contracts';
 import { environment } from './../../../environments/environment';
 import { CookieService } from 'ngx-cookie-service';
 import { ElectronService } from '../../@core/auth/electron.service';

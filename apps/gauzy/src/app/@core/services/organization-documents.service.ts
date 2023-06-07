@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import {
 	IOrganizationDocument,
 	IOrganizationDocumentFindInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

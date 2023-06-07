@@ -2,7 +2,7 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { filter, tap } from 'rxjs/operators';
-import { compareDate, isNotEmpty } from '@gauzy/common-angular';
+import { compareDate, isNotEmpty } from '@worksuite/common-angular';
 import {
 	IInvoice,
 	IPayment,
@@ -12,7 +12,7 @@ import {
 	IOrganizationProject,
 	ITag,
 	ICurrency
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { NbDialogRef } from '@nebular/theme';
 import * as moment from 'moment';

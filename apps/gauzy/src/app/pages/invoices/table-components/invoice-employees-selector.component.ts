@@ -1,9 +1,9 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { IEmployee, IOrganization } from '@gauzy/contracts';
+import { IEmployee, IOrganization } from '@worksuite/contracts';
 import { DefaultEditor } from 'ng2-smart-table';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { isNotEmpty } from '@gauzy/common-angular';
+import { isNotEmpty } from '@worksuite/common-angular';
 import { DateRangePickerBuilderService, EmployeesService, Store } from '../../../@core/services';
 
 @UntilDestroy({ checkProperties: true })

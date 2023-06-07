@@ -3,7 +3,7 @@ import {
 	IEmployeeStatistics,
 	IMonthAggregatedEmployeeStatistics,
 	IEmployeeStatisticsHistory
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Controller,
 	Get,

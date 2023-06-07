@@ -91,13 +91,13 @@ export class SetupComponent implements OnInit {
 	awAPI: String = 'http://localhost:5600';
 	buttonSave = false;
 	gauzyIcon =
-		this.appName === 'gauzy-desktop-timer' ||
-		this.appName === 'gauzy-server'
-			? './assets/images/logos/logo_Gauzy.svg'
-			: '../assets/images/logos/logo_Gauzy.svg';
+		this.appName === 'worksuite-desktop-timer' ||
+		this.appName === 'worksuite-server'
+			? './assets/images/logos/logo_Worksuite.svg'
+			: '../assets/images/logos/logo_Worksuite.svg';
 	desktopFeatures: any = {
-		gauzyPlatform: this.appName === 'gauzy-desktop-timer' ? false : true,
-		timeTracking: this.appName === 'gauzy-server' ? false : true,
+		gauzyPlatform: this.appName === 'worksuite-desktop-timer' ? false : true,
+		timeTracking: this.appName === 'worksuite-server' ? false : true,
 	};
 
 	connectivity: any = {
@@ -185,10 +185,10 @@ export class SetupComponent implements OnInit {
 
 	runApp: boolean = false;
 	welcomeTitle: string =
-		'Welcome to Ever® Gauzy™ - Open-Source Business Management Platform (ERP/CRM/HRM)';
+		'Welcome to Worksuite® Worksuite™ - Open-Source Business Management Platform (ERP/CRM/HRM)';
 	welcomeLabel: string = `
-		Gauzy Desktop App provides the full
-		functionality of the Gauzy Platform
+		Worksuite Desktop App provides the full
+		functionality of the Worksuite Platform
 		available directly on your desktop
 		computer or a laptop. In addition,
 		it allows tracking work time,
@@ -199,11 +199,11 @@ export class SetupComponent implements OnInit {
 
 	welcomeText() {
 		switch (this.appName) {
-			case 'gauzy-server':
+			case 'worksuite-server':
 				this.welcomeTitle = 'GAUZY SERVER INSTALLATION WIZARD';
 				this.welcomeLabel = `
-					Gauzy Desktop App provides the full
-					functionality of the Gauzy Platform
+					Worksuite Desktop App provides the full
+					functionality of the Worksuite Platform
 					available directly on your desktop
 					computer or a laptop. In addition,
 					it allows tracking work time,
@@ -497,6 +497,6 @@ export class SetupComponent implements OnInit {
 	}
 
 	private get _isServer(): boolean {
-		return this.appName === 'gauzy-server';
+		return this.appName === 'worksuite-server';
 	}
 }

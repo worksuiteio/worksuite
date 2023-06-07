@@ -18,13 +18,13 @@ import {
 	IChangelogCreateInput,
 	IChangelogUpdateInput,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	AuthGuard,
 	CrudController,
 	UUIDValidationPipe
-} from '@gauzy/core';
-import { Public } from '@gauzy/common';
+} from '@worksuite/core';
+import { Public } from '@worksuite/common';
 import { Changelog } from './changelog.entity';
 import { ChangelogService } from './changelog.service';
 import { ChangelogCreateCommand, ChangelogUpdateCommand } from './commands';

@@ -6,7 +6,7 @@ import {
     InvoiceStatusTypesEnum,
     IOrganizationContact,
     IPayment
-} from "@gauzy/contracts";
+} from "@worksuite/contracts";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { Type } from "class-transformer";
 import {

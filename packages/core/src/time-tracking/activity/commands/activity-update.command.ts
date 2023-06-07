@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IActivity } from '@gauzy/contracts';
+import { IActivity } from '@worksuite/contracts';
 
 export class ActivityUpdateCommand implements ICommand {
 	static readonly type = '[Activity] Update';

@@ -1,8 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router, UrlSerializer } from '@angular/router';
 import { Location } from '@angular/common';
-import { IInvoice } from '@gauzy/contracts';
-import { __prepareExternalUrlLocation } from '@gauzy/common-angular';
+import { IInvoice } from '@worksuite/contracts';
+import { __prepareExternalUrlLocation } from '@worksuite/common-angular';
 import { NbDialogRef } from '@nebular/theme';
 import { ClipboardService } from 'ngx-clipboard';
 import { InvoicesService } from '../../../@core/services';

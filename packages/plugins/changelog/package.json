@@ -1,10 +1,10 @@
 {
-	"name": "@gauzy/changelog",
+	"name": "@worksuite/changelog",
 	"version": "0.1.0",
-	"description": "Ever Gauzy Platform ChangeLog plugin",
+	"description": "Worksuite Worksuite Platform ChangeLog plugin",
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
+		"name": "Worksuite Co. LTD",
+		"email": "ever@worksuite.co",
 		"url": "https://ever.co"
 	},
 	"license": "AGPL-3.0",
@@ -29,10 +29,10 @@
 	"keywords": [],
 	"dependencies": {
 		"@faker-js/faker": "8.0.0-alpha.0",
-		"@gauzy/common": "^0.1.0",
-		"@gauzy/contracts": "^0.1.0",
-		"@gauzy/core": "^0.1.0",
-		"@gauzy/plugin": "^0.1.0",
+		"@worksuite/common": "^0.1.0",
+		"@worksuite/contracts": "^0.1.0",
+		"@worksuite/core": "^0.1.0",
+		"@worksuite/plugin": "^0.1.0",
 		"@nestjs/common": "^9.2.1",
 		"@nestjs/cqrs": "^9.0.3",
 		"@nestjs/passport": "^9.0.3",
@@ -42,7 +42,7 @@
 		"nest-router": "^1.0.9",
 		"typeorm": "0.3.7",
 		"typeorm-aurora-data-api-driver": "^2.4.4",
-		"typeorm-express-query-builder": "https://github.com/ever-co/typeorm-express-query-builder.git"
+		"typeorm-express-query-builder": "https://github.com/worksuiteio/typeorm-express-query-builder.git"
 	},
 	"devDependencies": {
 		"@types/node": "^17.0.33",

@@ -20,7 +20,7 @@ import { PipelineService } from './pipeline.service';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';
 import { DeepPartial } from 'typeorm';
 import { QueryDeepPartialEntity } from 'typeorm/query-builder/QueryPartialEntity';
-import { IDeal, IPagination, IPipeline, PermissionsEnum } from '@gauzy/contracts';
+import { IDeal, IPagination, IPipeline, PermissionsEnum } from '@worksuite/contracts';
 import { Permissions } from './../shared/decorators';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';
 

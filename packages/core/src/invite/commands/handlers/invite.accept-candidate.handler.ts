@@ -6,7 +6,7 @@ import {
 	InviteStatusEnum,
 	IUser,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { AuthService } from '../../../auth/auth.service';
 import { InviteService } from '../../invite.service';
 import { InviteAcceptCandidateCommand } from '../invite.accept-candidate.command';

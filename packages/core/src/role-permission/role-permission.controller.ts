@@ -2,7 +2,7 @@ import {
 	IPagination,
 	IRolePermission,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Body,
 	Controller,

@@ -2,7 +2,7 @@ import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { CandidateTechnologiesBulkCreateCommand } from '../candidate-technologies.bulk.create.command';
 import { CandidateTechnologiesService } from '../../candidate-technologies.service';
 import { CandidateTechnologies } from '../../candidate-technologies.entity';
-import { ICandidateTechnologiesCreateInput } from '@gauzy/contracts';
+import { ICandidateTechnologiesCreateInput } from '@worksuite/contracts';
 
 @CommandHandler(CandidateTechnologiesBulkCreateCommand)
 export class CandidateTechnologiesBulkCreateHandler

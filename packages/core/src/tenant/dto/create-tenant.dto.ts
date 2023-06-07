@@ -1,4 +1,4 @@
-import { ITenantCreateInput } from "@gauzy/contracts";
+import { ITenantCreateInput } from "@worksuite/contracts";
 import { ApiHideProperty } from "@nestjs/swagger";
 import { IsBoolean, IsOptional } from "class-validator";
 import { TenantDTO } from "./tenant.dto";

@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Column, Entity, Index, JoinColumn, ManyToOne, RelationId } from 'typeorm';
-import { IFeature, IFeatureOrganization } from '@gauzy/contracts';
+import { IFeature, IFeatureOrganization } from '@worksuite/contracts';
 import {
 	Feature,
 	TenantOrganizationBaseEntity

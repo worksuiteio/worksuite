@@ -1,4 +1,4 @@
-import { IOrganizationDepartmentCreateInput } from '@gauzy/contracts';
+import { IOrganizationDepartmentCreateInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class OrganizationDepartmentUpdateCommand implements ICommand {

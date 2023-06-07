@@ -5,7 +5,7 @@ import {
 	IPagination,
 	IProductCategoryTranslatable,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { PaginationParams, TenantAwareCrudService } from './../core/crud';
 import { ProductCategory } from './product-category.entity';
 

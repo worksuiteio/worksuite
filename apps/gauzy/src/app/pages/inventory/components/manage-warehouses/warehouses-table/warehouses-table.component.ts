@@ -19,8 +19,8 @@ import {
 	IOrganization,
 	IWarehouse,
 	PermissionsEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { DeleteConfirmationComponent } from './../../../../../@shared/user/forms';
 import { API_PREFIX, ComponentEnum } from './../../../../../@core/constants';
 import {

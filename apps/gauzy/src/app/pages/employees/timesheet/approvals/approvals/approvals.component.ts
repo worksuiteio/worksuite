@@ -6,17 +6,17 @@ import {
 	IUpdateTimesheetStatusInput,
 	PermissionsEnum,
 	TimesheetStatus
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbMenuItem, NbMenuService } from '@nebular/theme';
 import { debounceTime, filter, map, tap } from 'rxjs/operators';
 import { Observable } from 'rxjs/internal/Observable';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
-import { isEmpty } from '@gauzy/common-angular';
+import { isEmpty } from '@worksuite/common-angular';
 import { TimesheetService } from './../../../../../@shared/timesheet';
 import { BaseSelectorFilterComponent } from './../../../../../@shared/timesheet/gauzy-filters/base-selector-filter/base-selector-filter.component';
 import { DateRangePickerBuilderService, Store, ToastrService } from './../../../../../@core/services';
-import { GauzyFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
+import { WorksuiteFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
 
 @UntilDestroy({ checkProperties: true })
 @Component({
@@ -36,7 +36,7 @@ export class ApprovalsComponent extends BaseSelectorFilterComponent implements
 
 	TimesheetStatus = TimesheetStatus;
 
-	@ViewChild(GauzyFiltersComponent) gauzyFiltersComponent: GauzyFiltersComponent;
+	@ViewChild(WorksuiteFiltersComponent) gauzyFiltersComponent: WorksuiteFiltersComponent;
 	datePickerConfig$: Observable<any> = this.dateRangePickerBuilderService.datePickerConfig$;
 
 	selectedTimesheet: {
@@ -226,7 +226,7 @@ export class ApprovalsComponent extends BaseSelectorFilterComponent implements
 	}
 
 	/**
-	 * Checkbox Toggle For Every Timesheet
+	 * Checkbox Toggle For Worksuitey Timesheet
 	 *
 	 * @param checked
 	 * @param timesheet

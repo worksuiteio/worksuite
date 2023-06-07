@@ -3,7 +3,7 @@ import {
 	Product,
 	TenantOrganizationBaseEntity
 } from '../core/entities/internal';
-import { IProductOptionGroupTranslatable } from '@gauzy/contracts';
+import { IProductOptionGroupTranslatable } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsOptional, IsString } from 'class-validator';
 import {

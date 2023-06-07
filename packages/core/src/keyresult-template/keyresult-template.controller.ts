@@ -10,7 +10,7 @@ import {
 	ValidationPipe
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IKeyResultTemplate, IPagination } from '@gauzy/contracts';
+import { IKeyResultTemplate, IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { KeyResultTemplate } from './keyresult-template.entity';
 import { KeyresultTemplateService } from './keyresult-template.service';

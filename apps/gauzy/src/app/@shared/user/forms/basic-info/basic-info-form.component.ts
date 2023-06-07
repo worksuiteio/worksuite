@@ -19,10 +19,10 @@ import {
 	ICandidateCreateInput,
 	ICandidate,
 	IImageAsset
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { filter, firstValueFrom, tap } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslationBaseComponent } from '../../../language-base/translation-base.component';
 import { AuthService, CandidatesService, EmployeesService, RoleService, Store } from './../../../../@core/services';

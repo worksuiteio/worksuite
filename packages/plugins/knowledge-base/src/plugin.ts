@@ -1,10 +1,10 @@
-import { SeederModule } from '@gauzy/core';
-import { IOnPluginBootstrap, IOnPluginDestroy } from '@gauzy/common';
+import { SeederModule } from '@worksuite/core';
+import { IOnPluginBootstrap, IOnPluginDestroy } from '@worksuite/common';
 import {
 	ExtensionPlugin,
 	OnDefaultPluginSeed,
 	OnRandomPluginSeed
-} from '@gauzy/plugin';
+} from '@worksuite/plugin';
 import { HelpCenterAuthor, HelpCenterAuthorModule } from './help-center-author';
 import { HelpCenter, HelpCenterModule } from './help-center';
 import {

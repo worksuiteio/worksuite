@@ -21,7 +21,7 @@ import {
 	ApiNotFoundResponse
 } from '@nestjs/swagger';
 import { UpdateResult } from 'typeorm';
-import { IEmail, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { IEmail, IPagination, PermissionsEnum } from '@worksuite/contracts';
 import { Email } from './email.entity';
 import { EmailService } from './email.service';
 import { Permissions } from './../shared/decorators';

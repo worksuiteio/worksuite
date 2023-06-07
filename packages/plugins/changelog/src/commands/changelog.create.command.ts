@@ -1,4 +1,4 @@
-import { IChangelogCreateInput } from '@gauzy/contracts';
+import { IChangelogCreateInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class ChangelogCreateCommand implements ICommand {

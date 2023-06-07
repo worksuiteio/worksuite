@@ -22,7 +22,7 @@ import { StatusBadgeModule } from '../../../@shared/status-badge/status-badge.mo
 import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { DialogsModule } from '../../../@shared/dialogs';
 import { HeaderTitleModule } from '../../../@shared/components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { NbTabsetModule } from '@nebular/theme';
 import { PaginationModule } from '../../../@shared/pagination/pagination.module';
 
@@ -49,7 +49,7 @@ import { PaginationModule } from '../../../@shared/pagination/pagination.module'
 		StatusBadgeModule,
 		NbToggleModule,
 		HeaderTitleModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		NbTabsetModule,
 		PaginationModule
 	]

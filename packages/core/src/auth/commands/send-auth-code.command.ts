@@ -1,6 +1,6 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IUserEmailInput } from '@gauzy/contracts';
-import { IAppIntegrationConfig } from '@gauzy/common';
+import { IUserEmailInput } from '@worksuite/contracts';
+import { IAppIntegrationConfig } from '@worksuite/common';
 
 export class SendAuthCodeCommand implements ICommand {
 

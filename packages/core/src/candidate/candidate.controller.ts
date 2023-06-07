@@ -21,7 +21,7 @@ import {
 	LanguagesEnum,
 	ICandidate,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { FindOptionsWhere } from 'typeorm';
 import { CrudController, OptionParams, PaginationParams} from './../core/crud';
 import { CandidateService } from './candidate.service';

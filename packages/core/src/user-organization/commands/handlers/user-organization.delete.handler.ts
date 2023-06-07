@@ -5,7 +5,7 @@ import { UserService } from '../../../user/user.service';
 import { UserOrganizationService } from '../../user-organization.services';
 import { DeleteResult } from 'typeorm';
 import { RoleService } from '../../../role/role.service';
-import { RolesEnum, LanguagesEnum, IUser } from '@gauzy/contracts';
+import { RolesEnum, LanguagesEnum, IUser } from '@worksuite/contracts';
 import { UnauthorizedException, BadRequestException } from '@nestjs/common';
 import { I18nService } from 'nestjs-i18n';
 

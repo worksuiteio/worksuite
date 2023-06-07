@@ -1,15 +1,15 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { GauzyCloudService } from '../../gauzy-cloud.service';
-import { GauzyCloudOrganizationMigrateCommand } from './../gauzy-cloud-organization.migrate.command';
+import { WorksuiteCloudService } from '../../gauzy-cloud.service';
+import { WorksuiteCloudOrganizationMigrateCommand } from './../gauzy-cloud-organization.migrate.command';
 
-@CommandHandler(GauzyCloudOrganizationMigrateCommand)
-export class GauzyCloudOrganizationMigrateHandler implements ICommandHandler<GauzyCloudOrganizationMigrateCommand> {
+@CommandHandler(WorksuiteCloudOrganizationMigrateCommand)
+export class WorksuiteCloudOrganizationMigrateHandler implements ICommandHandler<WorksuiteCloudOrganizationMigrateCommand> {
 
 	constructor(
-		private readonly gauzyCloudService: GauzyCloudService
+		private readonly gauzyCloudService: WorksuiteCloudService
 	) {}
 
-	public async execute(command: GauzyCloudOrganizationMigrateCommand): Promise<any> {
+	public async execute(command: WorksuiteCloudOrganizationMigrateCommand): Promise<any> {
 		const { input, token } = command;
 		return this.gauzyCloudService.migrateOrganization(input, token);
 	}

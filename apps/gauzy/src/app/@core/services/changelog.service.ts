@@ -1,10 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { IChangelog, IChangelogFindInput, IPagination } from '@gauzy/contracts';
+import { IChangelog, IChangelogFindInput, IPagination } from '@worksuite/contracts';
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
-import { toParams } from '@gauzy/common-angular';
+import { toParams } from '@worksuite/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewCell } from 'ng2-smart-table';
-import { IEmployee } from '@gauzy/contracts';
+import { IEmployee } from '@worksuite/contracts';
 
 @Component({
 	selector: 'ngx-employees-merged-teams',

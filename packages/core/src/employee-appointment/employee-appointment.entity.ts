@@ -1,4 +1,4 @@
-import { IEmployee, IEmployeeAppointment } from '@gauzy/contracts';
+import { IEmployee, IEmployeeAppointment } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import {
 	IsNotEmpty,

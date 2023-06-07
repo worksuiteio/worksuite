@@ -3,7 +3,7 @@ import {
 	IStartUpdateTypeInfo,
 	IRecurringExpenseModel,
 	StartDateUpdateTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Between, FindManyOptions, Not } from 'typeorm';
 import { CrudService, getLastDayOfMonth } from '../../core';
 

@@ -1,7 +1,7 @@
 import { Column, Entity, ManyToMany, JoinTable, OneToMany } from 'typeorm';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsNotEmpty, IsString } from 'class-validator';
-import { IExpense, IExpenseCategory, ITag } from '@gauzy/contracts';
+import { IExpense, IExpenseCategory, ITag } from '@worksuite/contracts';
 import { Expense, Tag, TenantOrganizationBaseEntity } from '../core/entities/internal';
 
 @Entity('expense_category')

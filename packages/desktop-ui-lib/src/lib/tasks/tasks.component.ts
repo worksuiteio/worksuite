@@ -7,7 +7,7 @@ import {
 	ITag,
 	IUserOrganization,
 	TaskStatusEnum,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbToastrService } from '@nebular/theme';
 import { Color, rgbString } from '@kurkle/color';
 import * as moment from 'moment';
@@ -189,7 +189,7 @@ export class TasksComponent implements OnInit {
 			);
 
 			this.projects = this.projects.concat([project]);
-			this.toastrService.success('Project added successfully', 'Gauzy');
+			this.toastrService.success('Project added successfully', 'Worksuite');
 		} catch (error) {
 			this.toastrService.danger(error);
 		}

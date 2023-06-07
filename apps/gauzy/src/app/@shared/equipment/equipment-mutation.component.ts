@@ -1,6 +1,6 @@
 import { OnInit, Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { IEquipment, ITag, IOrganization, IImageAsset } from '@gauzy/contracts';
+import { IEquipment, ITag, IOrganization, IImageAsset } from '@worksuite/contracts';
 import { NbDialogRef, NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject, firstValueFrom, filter, tap } from 'rxjs';

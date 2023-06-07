@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IOrganization, ITenant, JobPostSourceEnum } from '@gauzy/contracts';
+import { IOrganization, ITenant, JobPostSourceEnum } from '@worksuite/contracts';
 import { JobSearchOccupation } from './job-search-occupation.entity';
 
 export const createDefaultJobSearchOccupations = async (

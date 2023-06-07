@@ -15,7 +15,7 @@ import { PaymentReportGridModule } from '../../../@shared/report/payment-report-
 import { LineChartModule } from '../../../@shared/report/charts/line-chart/line-chart.module';
 import { HeaderTitleModule } from '../../../@shared/components/header-title/header-title.module';
 import { DateRangeTitleModule } from '../../../@shared/components/date-range-title/date-range-title.module';
-import { GauzyFiltersModule } from '../../../@shared/timesheet/gauzy-filters/gauzy-filters.module';
+import { WorksuiteFiltersModule } from '../../../@shared/timesheet/gauzy-filters/gauzy-filters.module';
 import { ContactSelectModule } from '../../../@shared/contact-select/contact-select.module';
 import { CurrencyModule } from '../../../@shared/currency/currency.module';
 
@@ -35,7 +35,7 @@ import { CurrencyModule } from '../../../@shared/currency/currency.module';
 		PaymentReportGridModule,
 		HeaderTitleModule,
 		DateRangeTitleModule,
-    	GauzyFiltersModule,
+    	WorksuiteFiltersModule,
 		ContactSelectModule,
 		CurrencyModule
 	]

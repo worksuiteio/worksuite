@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { IPagination, ITask, TaskListTypeEnum } from '@gauzy/contracts';
+import { IPagination, ITask, TaskListTypeEnum } from '@worksuite/contracts';
 import { map, tap } from 'rxjs/operators';
 import { TasksService } from './tasks.service';
 

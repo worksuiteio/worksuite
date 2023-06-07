@@ -1,4 +1,4 @@
-import { IDeleteTimeLog } from "@gauzy/contracts";
+import { IDeleteTimeLog } from "@worksuite/contracts";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { ArrayNotEmpty, IsBoolean, IsOptional } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../../core/dto";

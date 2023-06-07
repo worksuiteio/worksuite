@@ -1,4 +1,4 @@
-import { ITimeLog } from '@gauzy/contracts';
+import { ITimeLog } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class GetTimeLogGroupByDateCommand implements ICommand {

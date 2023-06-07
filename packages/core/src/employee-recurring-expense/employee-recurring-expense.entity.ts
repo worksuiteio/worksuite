@@ -1,4 +1,4 @@
-import { CurrenciesEnum, IEmployee, IEmployeeRecurringExpense } from '@gauzy/contracts';
+import { CurrenciesEnum, IEmployee, IEmployeeRecurringExpense } from '@worksuite/contracts';
 import { Optional } from '@nestjs/common';
 import { ApiProperty } from '@nestjs/swagger';
 import {

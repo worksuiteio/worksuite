@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 import { NgxPermissionsGuard } from 'ngx-permissions';
 import { FileStorageComponent } from './file-storage.component';
 

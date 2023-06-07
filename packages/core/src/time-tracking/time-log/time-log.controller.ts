@@ -18,7 +18,7 @@ import {
 	ITimeLog,
 	PermissionsEnum,
 	IGetTimeLogConflictInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TimeLogService } from './time-log.service';
 import { Permissions } from './../../shared/decorators';
 import { OrganizationPermissionGuard, PermissionGuard, TenantBaseGuard } from './../../shared/guards';

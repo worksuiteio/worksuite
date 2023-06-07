@@ -1,4 +1,4 @@
-import { IOrganization, IOrganizationContact, IPagination } from '@gauzy/contracts';
+import { IOrganization, IOrganizationContact, IPagination } from '@worksuite/contracts';
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FindOptionsWhere, Repository } from 'typeorm';

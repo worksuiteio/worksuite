@@ -40,7 +40,7 @@ import { CKEditorModule } from 'ckeditor4-angular';
 import { CurrencyModule } from '../../@shared/currency/currency.module';
 import { TranslateModule } from '../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
 import { CardGridModule } from '../../@shared/card-grid/card-grid.module';
 
@@ -82,7 +82,7 @@ import { CardGridModule } from '../../@shared/card-grid/card-grid.module';
 		CKEditorModule,
 		CurrencyModule,
 		HeaderTitleModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		NbTooltipModule,
 		PaginationModule,
 		CardGridModule

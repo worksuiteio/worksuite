@@ -7,7 +7,7 @@ import {
 	ServerDashboardComponent,
 	AboutComponent,
 	SplashScreenComponent
-} from '@gauzy/desktop-ui-lib';
+} from '@worksuite/desktop-ui-lib';
 
 const routes: Routes = [
 	{

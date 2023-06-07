@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { IKeyResultUpdate } from '@gauzy/contracts';
+import { IKeyResultUpdate } from '@worksuite/contracts';
 import { firstValueFrom, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { ToastrService } from './toastr.service';

@@ -1,8 +1,8 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsBoolean, IsDate, IsOptional, IsString } from 'class-validator';
 import { Column, Entity } from 'typeorm';
-import { IChangelog } from '@gauzy/contracts';
-import { TenantOrganizationBaseEntity } from '@gauzy/core';
+import { IChangelog } from '@worksuite/contracts';
+import { TenantOrganizationBaseEntity } from '@worksuite/core';
 
 @Entity('changelog')
 export class Changelog

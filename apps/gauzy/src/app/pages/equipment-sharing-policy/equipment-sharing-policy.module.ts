@@ -25,7 +25,7 @@ import { EquipmentSharingPolicyRoutingModule } from './equipment-sharing-policy.
 import { EquipmentSharingPolicyMutationModule } from '../../@shared/equipment-sharing-policy/equipment-sharing-policy-mutation.module';
 import { TranslateModule } from '../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
 import { TableComponentsModule } from '../../@shared/table-components/table-components.module';
 
@@ -54,7 +54,7 @@ import { TableComponentsModule } from '../../@shared/table-components/table-comp
 		EquipmentSharingPolicyRoutingModule,
 		TranslateModule,
 		HeaderTitleModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		PaginationModule,
 		TableComponentsModule
 	],

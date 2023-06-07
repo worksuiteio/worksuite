@@ -1,8 +1,8 @@
-import { IHelpCenter } from '@gauzy/contracts';
+import { IHelpCenter } from '@worksuite/contracts';
 
 export const DEFAULT_HELP_CENTER_MENUS: IHelpCenter[] = [
 	{
-		name: 'Gauzy Platform',
+		name: 'Worksuite Platform',
 		icon: 'book-open-outline',
 		flag: 'base',
 		privacy: 'eye-outline',
@@ -35,7 +35,7 @@ export const DEFAULT_HELP_CENTER_MENUS: IHelpCenter[] = [
 				icon: 'book-open-outline',
 				privacy: 'eye-off-outline',
 				name: 'Privacy',
-				description: 'Gauzy Privacy Statement',
+				description: 'Worksuite Privacy Statement',
 				data: 'Usage Information',
 				language: 'en',
 				color: '#d53636',
@@ -46,7 +46,7 @@ export const DEFAULT_HELP_CENTER_MENUS: IHelpCenter[] = [
 				icon: 'book-open-outline',
 				privacy: 'eye-off-outline',
 				name: 'Testing',
-				description: 'Gauzy Testing',
+				description: 'Worksuite Testing',
 				language: 'en',
 				color: '#d53636',
 				index: 3
@@ -54,7 +54,7 @@ export const DEFAULT_HELP_CENTER_MENUS: IHelpCenter[] = [
 		]
 	},
 	{
-		name: 'Ever Platform',
+		name: 'Worksuite Platform',
 		icon: 'book-open-outline',
 		flag: 'base',
 		privacy: 'eye-off-outline',

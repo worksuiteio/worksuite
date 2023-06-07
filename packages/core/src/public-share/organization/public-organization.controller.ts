@@ -1,9 +1,9 @@
-import { IOrganization, IOrganizationContact, IPagination } from '@gauzy/contracts';
+import { IOrganization, IOrganizationContact, IPagination } from '@worksuite/contracts';
 import { Controller, Get, HttpStatus, Param, Query, UseInterceptors, UsePipes, ValidationPipe } from '@nestjs/common';
 import { QueryBus } from '@nestjs/cqrs';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { FindOptionsWhere } from 'typeorm';
-import { Public } from '@gauzy/common';
+import { Public } from '@worksuite/common';
 import { Organization, OrganizationContact, OrganizationProject } from './../../core/entities/internal';
 import { TenantOrganizationBaseDTO } from './../../core/dto';
 import { PublicTransformInterceptor } from './../public-transform.interceptor';

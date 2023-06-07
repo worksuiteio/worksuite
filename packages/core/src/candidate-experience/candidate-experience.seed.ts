@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { Tenant } from '../tenant/tenant.entity';
-import { ICandidate } from '@gauzy/contracts';
+import { ICandidate } from '@worksuite/contracts';
 import { faker } from '@faker-js/faker';
 import { CandidateExperience } from './candidate-experience.entity';
 import { Organization } from '../organization/organization.entity';

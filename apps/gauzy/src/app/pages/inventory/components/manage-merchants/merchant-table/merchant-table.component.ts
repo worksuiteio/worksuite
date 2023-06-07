@@ -7,13 +7,13 @@ import { debounceTime, filter, tap } from 'rxjs/operators';
 import { Subject, firstValueFrom } from 'rxjs';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';
 import { NbDialogService } from '@nebular/theme';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import {
 	IMerchant,
 	IOrganization,
 	ComponentLayoutStyleEnum,
 	IWarehouse
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { API_PREFIX, ComponentEnum } from './../../../../../@core/constants';
 import {
 	MerchantService,

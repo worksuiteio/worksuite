@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GauzyRangePickerComponent } from './gauzy-filters.component';
+import { WorksuiteRangePickerComponent } from './gauzy-filters.component';
 
-describe('GauzyRangePickerComponent', () => {
-  let component: GauzyRangePickerComponent;
-  let fixture: ComponentFixture<GauzyRangePickerComponent>;
+describe('WorksuiteRangePickerComponent', () => {
+  let component: WorksuiteRangePickerComponent;
+  let fixture: ComponentFixture<WorksuiteRangePickerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GauzyRangePickerComponent ]
+      declarations: [ WorksuiteRangePickerComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GauzyRangePickerComponent);
+    fixture = TestBed.createComponent(WorksuiteRangePickerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

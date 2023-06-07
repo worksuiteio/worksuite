@@ -1,7 +1,7 @@
 import { GoalTimeFrame } from './goal-time-frame.entity';
 import { DataSource } from 'typeorm';
 import * as moment from 'moment';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@worksuite/contracts';
 
 export const createDefaultTimeFrames = async (
 	dataSource: DataSource,

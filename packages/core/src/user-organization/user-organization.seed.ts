@@ -5,8 +5,8 @@ import {
 	IUserOrganization,
 	ISeedUsers,
 	ITenant
-} from '@gauzy/contracts';
-import { chunks } from '@gauzy/common';
+} from '@worksuite/contracts';
+import { chunks } from '@worksuite/common';
 import { UserOrganization } from './user-organization.entity';
 
 export const createDefaultUsersOrganizations = async (

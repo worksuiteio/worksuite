@@ -1,5 +1,5 @@
-import { isJsObject } from "@gauzy/common";
-import { getConfig } from "@gauzy/config";
+import { isJsObject } from "@worksuite/common";
+import { getConfig } from "@worksuite/config";
 import {
     DataSourceOptions,
     EntitySubscriberInterface,

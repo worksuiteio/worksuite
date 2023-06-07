@@ -2,13 +2,13 @@ import { Component, OnInit, ViewChild, OnDestroy } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Router, NavigationEnd, RouterEvent } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import {
 	IEquipmentSharing,
 	ComponentLayoutStyleEnum,
 	IEquipmentSharingPolicy,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';
 import { FormGroup } from '@angular/forms';
 import { NbDialogService } from '@nebular/theme';

@@ -4,7 +4,7 @@ import { InventoryComponent } from './components/inventory.component';
 import { ProductFormComponent } from './components/edit-inventory-item/product-form.component';
 import { TableInventoryComponent } from './components/table-inventory-items/table-inventory.component';
 import { InventoryVariantFormComponent } from './components/edit-inventory-item-variant/variant-form.component';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 import { NgxPermissionsGuard } from 'ngx-permissions';
 import { InventoryItemViewComponent } from './components/view-inventory-item/view-inventory-item.component';
 

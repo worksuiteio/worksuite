@@ -6,7 +6,7 @@ import { TimeAndActivitiesComponent } from './time-and-activities/time-and-activ
 import { DailyGridModule } from './../../../../@shared/report/daily-grid/daily-grid.module';
 import { SharedModule } from './../../../../@shared/shared.module';
 import { DailyStatisticsModule } from './../../../../@shared/report/daily-statistics/daily-statistics.module';
-import { GauzyFiltersModule } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.module';
+import { WorksuiteFiltersModule } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.module';
 
 @NgModule({
 	declarations: [TimeAndActivitiesComponent],
@@ -16,7 +16,7 @@ import { GauzyFiltersModule } from './../../../../@shared/timesheet/gauzy-filter
 		DailyGridModule,
 		DailyStatisticsModule,
 		SharedModule,
-		GauzyFiltersModule
+		WorksuiteFiltersModule
 	]
 })
 export class TimeAndActivitiesModule {}

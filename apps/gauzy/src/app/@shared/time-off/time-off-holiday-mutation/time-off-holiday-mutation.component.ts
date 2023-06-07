@@ -7,12 +7,12 @@ import {
 	IOrganization,
 	StatusTypesEnum,
 	IUser
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { debounceTime, filter, first, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import * as moment from 'moment';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import {
 	EmployeesService,
 	Store,

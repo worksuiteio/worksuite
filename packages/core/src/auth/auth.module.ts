@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CqrsModule } from '@nestjs/cqrs';
 import { RouterModule } from 'nest-router';
-import { SocialAuthModule } from '@gauzy/auth';
+import { SocialAuthModule } from '@worksuite/auth';
 import { Organization, UserOrganization } from './../core/entities/internal';
 import { EmailModule } from './../email/email.module';
 import { AuthController } from './auth.controller';

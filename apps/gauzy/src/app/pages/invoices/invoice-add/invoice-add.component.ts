@@ -17,9 +17,9 @@ import {
 	IInvoiceItemCreateInput,
 	IProductTranslatable,
 	ExpenseStatusesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { filter, tap } from 'rxjs/operators';
-import { compareDate, isEmpty, isNotEmpty } from '@gauzy/common-angular';
+import { compareDate, isEmpty, isNotEmpty } from '@worksuite/common-angular';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import { Observable, firstValueFrom } from 'rxjs';
 import { Router } from '@angular/router';

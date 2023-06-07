@@ -33,7 +33,7 @@ import {
 	ITimeLogFilters,
 	IUser,
 	ITimeLogTodayFilters
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { BehaviorSubject, combineLatest, firstValueFrom, of, Subject, Subscription, switchMap, timer } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { indexBy, range, reduce } from 'underscore';
@@ -42,7 +42,7 @@ import {
 	isNotEmpty,
 	progressStatus,
 	toUTC
-} from '@gauzy/common-angular';
+} from '@worksuite/common-angular';
 import * as moment from 'moment';
 import { NgxPermissionsService } from 'ngx-permissions';
 import { TranslateService } from '@ngx-translate/core';

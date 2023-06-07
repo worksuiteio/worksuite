@@ -1,4 +1,4 @@
-import { ExpenseCategoriesEnum, IExpenseCategory, IOrganization, ITenant } from '@gauzy/contracts';
+import { ExpenseCategoriesEnum, IExpenseCategory, IOrganization, ITenant } from '@worksuite/contracts';
 import { DataSource } from 'typeorm';
 import { ExpenseCategory } from './expense-category.entity';
 

@@ -7,7 +7,7 @@ import {
 	IOrganizationDepartment,
 	IOrganization,
 	IOrganizationTeam
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, tap } from 'rxjs/operators';

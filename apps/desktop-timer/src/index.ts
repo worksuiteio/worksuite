@@ -34,7 +34,7 @@ log.catchErrors({
 			.then((result) => {
 				if (result.response === 1) {
 					submitIssue(
-						'https://github.com/ever-co/ever-gauzy-desktop-timer/issues/new',
+						'https://github.com/worksuiteio/worksuite-desktop-timer/issues/new',
 						{
 							title: `Automatic error report for Desktop Timer App ${versions.app}`,
 							body:
@@ -59,7 +59,7 @@ log.catchErrors({
 require('module').globalPaths.push(path.join(__dirname, 'node_modules'));
 require('sqlite3');
 
-app.setName('gauzy-desktop-timer');
+app.setName('worksuite-desktop-timer');
 
 console.log('Node Modules Path', path.join(__dirname, 'node_modules'));
 
@@ -78,7 +78,7 @@ import {
 	removeMainListener,
 	removeTimerListener,
 	ProviderFactory,
-} from '@gauzy/desktop-libs';
+} from '@worksuite/desktop-libs';
 import {
 	createSetupWindow,
 	createTimeTrackerWindow,
@@ -86,17 +86,17 @@ import {
 	createUpdaterWindow,
 	createImageViewerWindow,
 	SplashScreen,
-} from '@gauzy/desktop-window';
+} from '@worksuite/desktop-window';
 import { fork } from 'child_process';
 import { autoUpdater } from 'electron-updater';
 import { initSentry } from './sentry';
 
-// Can be like this: import fetch from '@gauzy/desktop-libs' for v3 of node-fetch;
+// Can be like this: import fetch from '@worksuite/desktop-libs' for v3 of node-fetch;
 
 initSentry();
 
 // the folder where all app data will be stored (e.g. sqlite DB, settings, cache, etc)
-// C:\Users\USERNAME\AppData\Roaming\gauzy-desktop-timer
+// C:\Users\USERNAME\AppData\Roaming\worksuite-desktop-timer
 
 process.env.GAUZY_USER_PATH = app.getPath('userData');
 log.info(`GAUZY_USER_PATH: ${process.env.GAUZY_USER_PATH}`);
@@ -113,10 +113,10 @@ const store = new Store();
 
 const args = process.argv.slice(1);
 const notificationWindow: BrowserWindow = null;
-const serverGauzy = null;
+const serverWorksuite = null;
 const updater = new DesktopUpdater({
-	repository: 'ever-gauzy-desktop-timer',
-	owner: 'ever-co',
+	repository: 'worksuite-desktop-timer',
+	owner: 'worksuiteio',
 	typeRelease: 'releases',
 });
 args.some((val) => val === '--serve');
@@ -439,7 +439,7 @@ ipcMain.on('restart_app', async (event, arg) => {
 			pathWindow.timeTrackerUi
 		);
 	}
-	if (serverGauzy) serverGauzy.kill();
+	if (serverWorksuite) serverWorksuite.kill();
 	if (gauzyWindow) {
 		gauzyWindow.destroy();
 		gauzyWindow = null;
@@ -496,7 +496,7 @@ ipcMain.on('restart_and_update', () => {
 		app.removeAllListeners('window-all-closed');
 		autoUpdater.quitAndInstall(false);
 		if (serverDesktop) serverDesktop.kill();
-		if (serverGauzy) serverGauzy.kill();
+		if (serverWorksuite) serverWorksuite.kill();
 		app.exit(0);
 	});
 });
@@ -588,7 +588,7 @@ app.on('before-quit', (e) => {
 		} catch (e) { }
 		app.exit(0);
 		if (serverDesktop) serverDesktop.kill();
-		if (serverGauzy) serverGauzy.kill();
+		if (serverWorksuite) serverWorksuite.kill();
 	}
 });
 

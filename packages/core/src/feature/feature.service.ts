@@ -5,8 +5,8 @@ import {
 	FeatureEnum,
 	IFeature,
 	IPagination
-} from '@gauzy/contracts';
-import { gauzyToggleFeatures } from '@gauzy/config';
+} from '@worksuite/contracts';
+import { gauzyToggleFeatures } from '@worksuite/config';
 import { Feature } from './feature.entity';
 import { CrudService } from '../core/crud/crud.service';
 

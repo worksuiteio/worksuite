@@ -17,9 +17,9 @@ import {
 	ITag,
 	PermissionsEnum,
 	IEmployee
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange, toUTC } from '@gauzy/common-angular';
+import { distinctUntilChange, toUTC } from '@worksuite/common-angular';
 import {
 	ContactLinksComponent,
 	DateViewComponent,

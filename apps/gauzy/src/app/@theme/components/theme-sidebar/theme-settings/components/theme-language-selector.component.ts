@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy, AfterViewInit, ChangeDetectorRef } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { ILanguage, IUser, IUserUpdateInput, LanguagesEnum } from '@gauzy/contracts';
+import { ILanguage, IUser, IUserUpdateInput, LanguagesEnum } from '@worksuite/contracts';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { NbLayoutDirection, NbLayoutDirectionService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';

@@ -3,8 +3,8 @@
 // Copyright (c) 2019 Alexi Taylor
 
 import { DataSource } from 'typeorm';
-import { IRole, ITenant, IRolePermission, PermissionsEnum } from '@gauzy/contracts';
-import { environment } from '@gauzy/config';
+import { IRole, ITenant, IRolePermission, PermissionsEnum } from '@worksuite/contracts';
+import { environment } from '@worksuite/config';
 import { DEFAULT_ROLE_PERMISSIONS } from './default-role-permissions';
 import { RolePermission } from './role-permission.entity';
 

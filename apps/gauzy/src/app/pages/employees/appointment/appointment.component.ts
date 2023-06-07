@@ -27,7 +27,7 @@ import {
 	IEmployee,
 	IAvailabilitySlot,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { Store } from '../../../@core/services/store.service';
@@ -37,7 +37,7 @@ import { AppointmentEmployeesService } from '../../../@core/services/appointment
 import { TimezoneSelectorComponent } from './timezone-selector/timezone-selector.component';
 import { TimeOffService } from '../../../@core/services/time-off.service';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { convertLocalToTimezone } from '@gauzy/common-angular';
+import { convertLocalToTimezone } from '@worksuite/common-angular';
 import { ToastrService } from '../../../@core/services/toastr.service';
 
 @UntilDestroy({ checkProperties: true })

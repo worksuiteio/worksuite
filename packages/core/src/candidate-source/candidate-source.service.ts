@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { ICandidateSource } from '@gauzy/contracts';
+import { ICandidateSource } from '@worksuite/contracts';
 import { Repository } from 'typeorm';
 import { TenantAwareCrudService } from './../core/crud';
 import { CandidateSource } from './candidate-source.entity';

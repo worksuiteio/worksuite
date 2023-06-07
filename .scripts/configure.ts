@@ -73,15 +73,15 @@ if (!env.IS_DOCKER) {
 		API_BASE_URL: API_BASE_URL,
 		CLIENT_BASE_URL: CLIENT_BASE_URL,
 
-		COMPANY_NAME: 'Ever Co. LTD',
-		COMPANY_SITE: 'Gauzy',
+		COMPANY_NAME: 'Worksuite Co. LTD',
+		COMPANY_SITE: 'Worksuite',
 		COMPANY_LINK: 'https://ever.co/',
 		COMPANY_SITE_LINK: 'https://gauzy.co',
-		COMPANY_GITHUB_LINK: 'https://github.com/ever-co',
-		COMPANY_GITLAB_LINK: 'https://gitlab.com/ever-co',
+		COMPANY_GITHUB_LINK: 'https://github.com/worksuiteio',
+		COMPANY_GITLAB_LINK: 'https://gitlab.com/worksuiteio',
 		COMPANY_FACEBOOK_LINK: 'https://www.facebook.com/gauzyplatform',
 		COMPANY_TWITTER_LINK: 'https://twitter.com/gauzyplatform',
-		COMPANY_LINKEDIN_LINK: 'https://www.linkedin.com/company/ever-co.',
+		COMPANY_LINKEDIN_LINK: 'https://www.linkedin.com/company/worksuiteio.',
 
 		CLOUDINARY_CLOUD_NAME: '${env.CLOUDINARY_CLOUD_NAME}',
 		CLOUDINARY_API_KEY: '${env.CLOUDINARY_API_KEY}',
@@ -94,7 +94,7 @@ if (!env.IS_DOCKER) {
 		MICROSOFT_AUTH_LINK: API_BASE_URL + '/api/auth/microsoft',
 		AUTH0_AUTH_LINK: API_BASE_URL + '/api/auth/auth0',
 
-		NO_INTERNET_LOGO: 'assets/images/logos/logo_Gauzy.svg',
+		NO_INTERNET_LOGO: 'assets/images/logos/logo_Worksuite.svg',
 
 		SENTRY_DSN: '${env.SENTRY_DSN}',
 
@@ -159,15 +159,15 @@ if (!env.IS_DOCKER) {
 		API_BASE_URL: API_BASE_URL,
 		CLIENT_BASE_URL: CLIENT_BASE_URL,
 
-		COMPANY_NAME: 'Ever Co. LTD',
-		COMPANY_SITE: 'Gauzy',
+		COMPANY_NAME: 'Worksuite Co. LTD',
+		COMPANY_SITE: 'Worksuite',
 		COMPANY_LINK: 'https://ever.co/',
 		COMPANY_SITE_LINK: 'https://gauzy.co',
-		COMPANY_GITHUB_LINK: 'https://github.com/ever-co',
-		COMPANY_GITLAB_LINK: 'https://gitlab.com/ever-co',
+		COMPANY_GITHUB_LINK: 'https://github.com/worksuiteio',
+		COMPANY_GITLAB_LINK: 'https://gitlab.com/worksuiteio',
 		COMPANY_FACEBOOK_LINK: 'https://www.facebook.com/gauzyplatform',
 		COMPANY_TWITTER_LINK: 'https://twitter.com/gauzyplatform',
-		COMPANY_LINKEDIN_LINK: 'https://www.linkedin.com/company/ever-co.',
+		COMPANY_LINKEDIN_LINK: 'https://www.linkedin.com/company/worksuiteio.',
 
 		CLOUDINARY_CLOUD_NAME: 'DOCKER_CLOUDINARY_CLOUD_NAME',
 		CLOUDINARY_API_KEY: 'DOCKER_CLOUDINARY_API_KEY',
@@ -180,7 +180,7 @@ if (!env.IS_DOCKER) {
 		MICROSOFT_AUTH_LINK: API_BASE_URL + '/api/auth/microsoft',
 		AUTH0_AUTH_LINK: API_BASE_URL + '/api/auth/auth0',
 
-		NO_INTERNET_LOGO: 'assets/images/logos/logo_Gauzy.svg',
+		NO_INTERNET_LOGO: 'assets/images/logos/logo_Worksuite.svg',
 
 		SENTRY_DSN: 'DOCKER_SENTRY_DSN',
 

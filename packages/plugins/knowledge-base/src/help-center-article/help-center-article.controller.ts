@@ -1,5 +1,5 @@
 import { HelpCenterArticle } from './help-center-article.entity';
-import { PermissionsEnum, IHelpCenterArticle } from '@gauzy/contracts';
+import { PermissionsEnum, IHelpCenterArticle } from '@worksuite/contracts';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import {
 	Controller,
@@ -17,7 +17,7 @@ import {
 	TenantPermissionGuard,
 	PermissionGuard,
 	UUIDValidationPipe
-} from '@gauzy/core';
+} from '@worksuite/core';
 import { AuthGuard } from '@nestjs/passport';
 import { CommandBus } from '@nestjs/cqrs';
 import { HelpCenterArticleService } from './help-center-article.service';

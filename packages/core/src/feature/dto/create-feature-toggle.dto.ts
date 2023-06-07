@@ -1,4 +1,4 @@
-import { IFeatureOrganizationUpdateInput, IOrganization } from "@gauzy/contracts";
+import { IFeatureOrganizationUpdateInput, IOrganization } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsString,IsNotEmpty, IsBoolean, IsOptional, IsObject } from "class-validator";
 import { IsOrganizationBelongsToUser } from "./../../shared/validators";

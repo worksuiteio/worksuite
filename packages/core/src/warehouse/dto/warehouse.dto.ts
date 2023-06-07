@@ -1,4 +1,4 @@
-import { IImageAsset, IWarehouse } from "@gauzy/contracts";
+import { IImageAsset, IWarehouse } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IsBoolean, IsEmail, IsNotEmpty, IsOptional, IsString } from "class-validator";

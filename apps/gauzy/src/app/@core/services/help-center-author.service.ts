@@ -2,7 +2,7 @@ import {
 	IHelpCenterAuthor,
 	IHelpCenterAuthorCreate,
 	IHelpCenterAuthorFind
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { Injectable } from '@angular/core';

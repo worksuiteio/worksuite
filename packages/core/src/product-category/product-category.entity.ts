@@ -1,7 +1,7 @@
 import { Entity, Column, OneToMany, ManyToOne, JoinColumn, RelationId, Index } from 'typeorm';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsOptional, IsString, IsUUID } from 'class-validator';
-import { IImageAsset, IProductCategoryTranslatable } from '@gauzy/contracts';
+import { IImageAsset, IProductCategoryTranslatable } from '@worksuite/contracts';
 import {
 	ImageAsset,
 	Product,

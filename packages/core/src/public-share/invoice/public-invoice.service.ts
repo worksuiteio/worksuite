@@ -2,8 +2,8 @@ import { BadRequestException, ForbiddenException, Injectable } from '@nestjs/com
 import { InjectRepository } from '@nestjs/typeorm';
 import { FindOptionsWhere, Repository, UpdateResult } from 'typeorm';
 import { verify } from 'jsonwebtoken';
-import { IInvoice, IInvoiceUpdateInput } from '@gauzy/contracts';
-import { environment } from '@gauzy/config';
+import { IInvoice, IInvoiceUpdateInput } from '@worksuite/contracts';
+import { environment } from '@worksuite/config';
 import { Invoice } from './../../core/entities/internal';
 
 @Injectable()

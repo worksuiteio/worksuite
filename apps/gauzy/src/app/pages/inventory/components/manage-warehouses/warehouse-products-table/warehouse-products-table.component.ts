@@ -2,8 +2,8 @@ import {AfterViewInit, Component, Input, OnInit, ViewChild} from '@angular/core'
 import {
 	IWarehouse,
 	IOrganization
-} from '@gauzy/contracts';
-import {distinctUntilChange} from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import {distinctUntilChange} from '@worksuite/common-angular';
 import {TranslateService} from '@ngx-translate/core';
 import {UntilDestroy, untilDestroyed} from '@ngneat/until-destroy';
 import {LocalDataSource, Ng2SmartTableComponent} from 'ng2-smart-table';

@@ -1,6 +1,6 @@
 import { NotFoundException } from '@nestjs/common';
 import { QueryHandler, IQueryHandler } from '@nestjs/cqrs';
-import { IEmailReset } from '@gauzy/contracts';
+import { IEmailReset } from '@worksuite/contracts';
 import { EmailResetGetQuery } from '../email-reset.get.query';
 import { EmailResetService } from '../../email-reset.service';
 

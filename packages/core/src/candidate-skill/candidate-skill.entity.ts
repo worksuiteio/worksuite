@@ -1,6 +1,6 @@
 import { Column, Entity, ManyToOne, RelationId } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
-import { ICandidateSkill, ICandidate } from '@gauzy/contracts';
+import { ICandidateSkill, ICandidate } from '@worksuite/contracts';
 import {
 	Candidate,
 	TenantOrganizationBaseEntity

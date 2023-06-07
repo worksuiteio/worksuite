@@ -13,12 +13,12 @@ import {
 	FormControl,
 	NG_VALUE_ACCESSOR
 } from '@angular/forms';
-import { ICurrency, IOrganization } from '@gauzy/contracts';
+import { ICurrency, IOrganization } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import { CurrencyService, Store } from '../../@core/services';
 import { TranslationBaseComponent } from '../language-base/translation-base.component';
 import { environment as ENV } from './../../../environments/environment';

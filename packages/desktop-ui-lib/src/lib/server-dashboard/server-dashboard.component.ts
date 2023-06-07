@@ -18,7 +18,7 @@ export class ServerDashboardComponent implements OnInit {
 	@ViewChild('logBox') logBox: ElementRef;
 	@ViewChild('logServer') logAccordion;
 	active_index: any;
-	gauzyIcon = './assets/images/logos/logo_Gauzy.svg';
+	gauzyIcon = './assets/images/logos/logo_Worksuite.svg';
 	running = false;
 	loading = false;
 	btn: any = {

@@ -1,7 +1,7 @@
 import { Entity, Index, Column, OneToMany } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsNotEmpty } from 'class-validator';
-import { IReport, IReportCategory } from '@gauzy/contracts';
+import { IReport, IReportCategory } from '@worksuite/contracts';
 import { BaseEntity, Report } from '../core/entities/internal';
 
 @Entity('report_category')

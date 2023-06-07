@@ -1,7 +1,7 @@
 import { BrowserWindow, Menu, shell } from 'electron';
 import { LocalStore } from './desktop-store';
 import { TimerData } from './desktop-timer-activity';
-import { createSettingsWindow, createAboutWindow } from '@gauzy/desktop-window';
+import { createSettingsWindow, createAboutWindow } from '@worksuite/desktop-window';
 export class AppMenu {
 	constructor(
 		timeTrackerWindow,
@@ -15,7 +15,7 @@ export class AppMenu {
 		const isZoomEnabled = isZoomVisible;
 		const menu = Menu.buildFromTemplate([
 			{
-				label: 'Gauzy',
+				label: 'Worksuite',
 				submenu: [
 					{
 						id: 'gauzy-about',

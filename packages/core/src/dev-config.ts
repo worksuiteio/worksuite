@@ -4,8 +4,8 @@ import {
     DEFAULT_API_PORT,
     DEFAULT_GRAPHQL_API_PATH,
     IPluginConfig
-} from "@gauzy/common";
-import { dbConnectionConfig, environment } from "@gauzy/config";
+} from "@worksuite/common";
+import { dbConnectionConfig, environment } from "@worksuite/config";
 
 export const devConfig: IPluginConfig = {
 	apiConfigOptions: {

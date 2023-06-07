@@ -5,8 +5,8 @@
 import * as dotenv from 'dotenv'; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config();
 
-import { FileStorageProviderEnum } from '@gauzy/contracts';
-import { IEnvironment, IGauzyFeatures } from './ienvironment';
+import { FileStorageProviderEnum } from '@worksuite/contracts';
+import { IEnvironment, IWorksuiteFeatures } from './ienvironment';
 
 if (process.env.IS_ELECTRON && process.env.GAUZY_USER_PATH) {
 	require('app-root-path').setPath(process.env.GAUZY_USER_PATH);
@@ -179,7 +179,7 @@ export const environment: IEnvironment = {
 	allowSuperAdminRole: process.env.ALLOW_SUPER_ADMIN_ROLE === 'false' ? false : true,
 
 	/**
-	 * Endpoint for Gauzy AI API (optional), e.g.: http://localhost:3005/graphql
+	 * Endpoint for Worksuite AI API (optional), e.g.: http://localhost:3005/graphql
 	 */
 	gauzyAIGraphQLEndpoint: process.env.GAUZY_AI_GRAPHQL_ENDPOINT,
 	gauzyCloudEndpoint: process.env.GAUZY_CLOUD_ENDPOINT,
@@ -211,25 +211,25 @@ export const environment: IEnvironment = {
 	 * Email Template Config
 	 */
 	appIntegrationConfig: {
-		appName: process.env.APP_NAME || 'Gauzy',
-		appLogo: process.env.APP_LOGO || `${process.env.CLIENT_BASE_URL}/assets/images/logos/logo_Gauzy.png`,
-		appSignature: process.env.APP_SIGNATURE || 'Gauzy Team',
+		appName: process.env.APP_NAME || 'Worksuite',
+		appLogo: process.env.APP_LOGO || `${process.env.CLIENT_BASE_URL}/assets/images/logos/logo_Worksuite.png`,
+		appSignature: process.env.APP_SIGNATURE || 'Worksuite Team',
 		appLink: process.env.APP_LINK || 'http://localhost:4200/',
 		appEmailConfirmationUrl: process.env.APP_EMAIL_CONFIRMATION_URL || 'http://localhost:4200/#/auth/confirm-email'
 	},
 
 	demo: process.env.DEMO === 'true' ? true : false,
 	demoCredentialConfig: {
-		superAdminEmail: process.env.DEMO_SUPER_ADMIN_EMAIL || `admin@ever.co`,
+		superAdminEmail: process.env.DEMO_SUPER_ADMIN_EMAIL || `admin@worksuite.co`,
 		superAdminPassword: process.env.DEMO_SUPER_ADMIN_PASSWORD || `admin`,
-		adminEmail: process.env.DEMO_ADMIN_EMAIL || `local.admin@ever.co`,
+		adminEmail: process.env.DEMO_ADMIN_EMAIL || `local.admin@worksuite.co`,
 		adminPassword: process.env.DEMO_ADMIN_PASSWORD || `admin`,
-		employeeEmail: process.env.DEMO_EMPLOYEE_EMAIL || `employee@ever.co`,
+		employeeEmail: process.env.DEMO_EMPLOYEE_EMAIL || `employee@worksuite.co`,
 		employeePassword: process.env.DEMO_EMPLOYEE_PASSWORD || `123456`
 	}
 };
 
-export const gauzyToggleFeatures: IGauzyFeatures = {
+export const gauzyToggleFeatures: IWorksuiteFeatures = {
 	FEATURE_DASHBOARD: process.env.FEATURE_DASHBOARD === 'false' ? false : true,
 	FEATURE_TIME_TRACKING: process.env.FEATURE_TIME_TRACKING === 'false' ? false : true,
 	FEATURE_ESTIMATE: process.env.FEATURE_ESTIMATE === 'false' ? false : true,

@@ -10,7 +10,7 @@ import {
 	BadRequestException
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IOrganizationEmploymentType, IPagination } from '@gauzy/contracts';
+import { IOrganizationEmploymentType, IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { OrganizationEmploymentType } from './organization-employment-type.entity';
 import { OrganizationEmploymentTypeService } from './organization-employment-type.service';

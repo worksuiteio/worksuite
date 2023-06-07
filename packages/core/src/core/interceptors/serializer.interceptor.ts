@@ -9,8 +9,8 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { instanceToPlain } from 'class-transformer';
 import { verify } from 'jsonwebtoken';
-import { environment } from '@gauzy/config';
-import { RolesEnum } from '@gauzy/contracts';
+import { environment } from '@worksuite/config';
+import { RolesEnum } from '@worksuite/contracts';
 import { RequestContext } from './../../core/context';
 
 @Injectable()

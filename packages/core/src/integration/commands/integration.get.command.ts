@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IIntegrationFilter } from '@gauzy/contracts';
+import { IIntegrationFilter } from '@worksuite/contracts';
 
 export class IntegrationGetCommand implements ICommand {
 	static readonly type = '[Integration] Get Integrations';

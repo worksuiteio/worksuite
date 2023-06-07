@@ -6,7 +6,7 @@ import {
 	RelationId,
 	ManyToOne
 } from 'typeorm';
-import { IUser, IUserOrganization } from '@gauzy/contracts';
+import { IUser, IUserOrganization } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsNotEmpty } from 'class-validator';
 import { TenantOrganizationBaseEntity, User } from '../core/entities/internal';

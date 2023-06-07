@@ -4,7 +4,7 @@ import {
 	IOrganizationSprint,
 	IGetSprintsOptions,
 	ITask
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { SprintService } from './../../@core/services/organization-sprint.service';
 import { tap, take, map, switchMap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

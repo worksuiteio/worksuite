@@ -6,7 +6,7 @@ import {
 	PermissionsEnum,
 	IOrganizationContact,
 	IEmployee
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogService, NbTabComponent, NbTabsetComponent } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Observable, of as observableOf, Subject } from 'rxjs';

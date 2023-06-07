@@ -1,7 +1,7 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
 import * as moment from 'moment';
-import { AvailabilitySlotType, IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { AvailabilitySlotType, IEmployee, IOrganization, ITenant } from '@worksuite/contracts';
 import { AvailabilitySlot } from './availability-slots.entity';
 
 export const createDefaultAvailabilitySlots = async (

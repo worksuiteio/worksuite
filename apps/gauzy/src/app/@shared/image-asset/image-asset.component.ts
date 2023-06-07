@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { IImageAsset } from '@gauzy/contracts';
+import { IImageAsset } from '@worksuite/contracts';
 import { NbDialogRef } from '@nebular/theme';
 
 import { UntilDestroy } from '@ngneat/until-destroy';

@@ -1,5 +1,5 @@
-import { IChangelog, IPagination } from '@gauzy/contracts';
-import { CrudService } from '@gauzy/core';
+import { IChangelog, IPagination } from '@worksuite/contracts';
+import { CrudService } from '@worksuite/core';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FindManyOptions, Repository } from 'typeorm';

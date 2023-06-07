@@ -1,4 +1,4 @@
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@worksuite/contracts';
 import { DataSource } from 'typeorm';
 import { DEFAULT_GOAL_KPI_TEMPLATES } from './default-goal-kpi-templates';
 import { GoalKPITemplate } from './goal-kpi-template.entity';

@@ -2,7 +2,7 @@ import { DataSource } from 'typeorm';
 import { Tenant } from './tenant.entity';
 import { faker } from '@faker-js/faker';
 import { DEFAULT_EVER_TENANT } from './default-tenants';
-import { ITenant } from '@gauzy/contracts';
+import { ITenant } from '@worksuite/contracts';
 
 export const getDefaultTenant = async (
 	dataSource: DataSource,

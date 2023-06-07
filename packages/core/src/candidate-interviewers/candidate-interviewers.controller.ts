@@ -17,7 +17,7 @@ import {
 	ICandidateInterviewersCreateInput,
 	ICandidateInterviewers,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { CandidateInterviewersService } from './candidate-interviewers.service';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';

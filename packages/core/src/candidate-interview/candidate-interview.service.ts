@@ -1,4 +1,4 @@
-import { ICandidate, ICandidateInterview } from '@gauzy/contracts';
+import { ICandidate, ICandidateInterview } from '@worksuite/contracts';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { RequestContext } from 'core';

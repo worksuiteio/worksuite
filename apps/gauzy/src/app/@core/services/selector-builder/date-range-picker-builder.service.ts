@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import * as moment from 'moment';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { isNotEmpty } from '@gauzy/common-angular';
-import { IDateRangePicker } from '@gauzy/contracts';
+import { isNotEmpty } from '@worksuite/common-angular';
+import { IDateRangePicker } from '@worksuite/contracts';
 
 export interface IDatePickerConfig {
 	readonly unitOfTime: moment.unitOfTime.Base,

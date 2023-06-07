@@ -5,7 +5,7 @@ import {
 	IInvoice,
 	InvoiceStatusTypesEnum,
 	IInvoiceItem
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { NbDialogRef } from '@nebular/theme';

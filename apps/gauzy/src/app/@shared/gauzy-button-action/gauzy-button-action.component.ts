@@ -6,7 +6,7 @@ import { ComponentEnum } from '../../@core/constants/layout.constants';
 	templateUrl: './gauzy-button-action.component.html',
 	styleUrls: ['./gauzy-button-action.component.scss']
 })
-export class GauzyButtonActionComponent implements OnInit {
+export class WorksuiteButtonActionComponent implements OnInit {
 
 	@Input() isDisable: boolean = true;
 	@Input() hasLayoutSelector: boolean = true;

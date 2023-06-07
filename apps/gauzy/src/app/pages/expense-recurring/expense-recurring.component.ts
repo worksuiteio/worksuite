@@ -7,7 +7,7 @@ import {
 	IOrganizationRecurringExpense,
 	RecurringExpenseDefaultCategoriesEnum,
 	RecurringExpenseDeletionEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import {
@@ -19,7 +19,7 @@ import {
 } from 'rxjs';
 import { filter } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { TranslationBaseComponent } from '../../@shared/language-base';
 import {
 	DateRangePickerBuilderService,

@@ -6,7 +6,7 @@ import {
 	EventEmitter,
 	OnDestroy
 } from '@angular/core';
-import { ITag, IOrganization, PermissionsEnum, ITagCreateInput } from '@gauzy/contracts';
+import { ITag, IOrganization, PermissionsEnum, ITagCreateInput } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { firstValueFrom } from 'rxjs';
 import { filter, map, tap } from 'rxjs/operators';
@@ -15,7 +15,7 @@ import { Subject } from 'rxjs/internal/Subject';
 import { NbThemeService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import * as randomColor from 'randomcolor';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { Store, TagsService } from '../../../@core/services';
 import { PictureNameTagsComponent } from '../../table-components';
 

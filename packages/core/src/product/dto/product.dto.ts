@@ -1,4 +1,4 @@
-import { IImageAsset, IProduct, IProductCategoryTranslatable, IProductTypeTranslatable, IProductVariant, ITag } from "@gauzy/contracts";
+import { IImageAsset, IProduct, IProductCategoryTranslatable, IProductTypeTranslatable, IProductVariant, ITag } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsBoolean, IsNotEmpty, IsOptional, IsString } from "class-validator";
 

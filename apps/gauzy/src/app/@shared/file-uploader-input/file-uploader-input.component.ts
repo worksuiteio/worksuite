@@ -7,7 +7,7 @@ import {
 	OnInit
 } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { IImageAsset } from '@gauzy/contracts';
+import { IImageAsset } from '@worksuite/contracts';
 import { Store } from '../../@core/services';
 import { ImageUploaderBaseComponent } from '../image-uploader/image-uploader-base.component';
 

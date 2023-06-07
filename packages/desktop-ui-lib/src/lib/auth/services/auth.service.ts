@@ -6,7 +6,7 @@ import {
 	IUserRegistrationInput,
 	PermissionsEnum,
 	IAuthResponse
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Observable, firstValueFrom } from 'rxjs';
 import { API_PREFIX } from '../../constants/app.constants';
 

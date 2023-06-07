@@ -1,4 +1,4 @@
-import { CurrenciesEnum, IOrganizationCreateInput } from "@gauzy/contracts";
+import { CurrenciesEnum, IOrganizationCreateInput } from "@worksuite/contracts";
 import { ApiProperty, IntersectionType, PickType } from "@nestjs/swagger";
 import { IsEnum, IsNotEmpty, IsString } from "class-validator";
 import { Organization } from "./../organization.entity";

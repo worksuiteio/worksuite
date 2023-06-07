@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@worksuite/contracts';
 import { of as ObservableOf } from 'rxjs';
 import { filter, map } from 'rxjs/operators';
 import { Observable } from 'rxjs/internal/Observable';

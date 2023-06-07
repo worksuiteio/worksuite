@@ -4,7 +4,7 @@ import {
 	ActivatedRouteSnapshot,
 	Router
 } from '@angular/router';
-import { IOrganization } from '@gauzy/contracts';
+import { IOrganization } from '@worksuite/contracts';
 import { EMPTY, Observable } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { ErrorHandlingService, OrganizationsService } from '../../@core/services';

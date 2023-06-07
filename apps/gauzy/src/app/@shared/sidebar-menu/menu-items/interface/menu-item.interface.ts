@@ -1,5 +1,5 @@
 import { NbMenuItem } from '@nebular/theme';
-import { FeatureEnum, PermissionsEnum } from '@gauzy/contracts';
+import { FeatureEnum, PermissionsEnum } from '@worksuite/contracts';
 
 export interface IMenuItem extends NbMenuItem {
 	class?: string;

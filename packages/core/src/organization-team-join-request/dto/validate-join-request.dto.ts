@@ -1,5 +1,5 @@
 import { ApiProperty, IntersectionType, PickType } from "@nestjs/swagger";
-import { IOrganizationTeamJoinRequestValidateInput } from "@gauzy/contracts";
+import { IOrganizationTeamJoinRequestValidateInput } from "@worksuite/contracts";
 import { IsNumber, IsString, ValidateIf } from "class-validator";
 import { Transform, TransformFnParams } from "class-transformer";
 import { CustomLength } from "../../shared/validators";

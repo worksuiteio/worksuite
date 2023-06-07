@@ -5,9 +5,9 @@ import {
 	ITenant,
 	IUser,
 	PayPeriodEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { faker } from '@faker-js/faker';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 import * as moment from 'moment';
 import { Employee } from './../core/entities/internal';
 import { getDefaultOrganization } from './../organization/organization.seed';

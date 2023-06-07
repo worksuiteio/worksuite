@@ -29,7 +29,7 @@ import {
 	IOrganizationProject,
 	IOrganizationContact,
 	ExpenseStatusesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Employee,
 	ExpenseCategory,

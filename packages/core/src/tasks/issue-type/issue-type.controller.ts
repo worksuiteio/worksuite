@@ -1,4 +1,4 @@
-import { IIssueType, IIssueTypeCreateInput, IIssueTypeFindInput, IIssueTypeUpdateInput, IPagination, IPaginationParam } from '@gauzy/contracts';
+import { IIssueType, IIssueTypeCreateInput, IIssueTypeFindInput, IIssueTypeUpdateInput, IPagination, IPaginationParam } from '@worksuite/contracts';
 import { Controller, Get, HttpCode, HttpStatus, Query, UseGuards, UsePipes, ValidationPipe } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { CountQueryDTO } from './../../shared/dto';

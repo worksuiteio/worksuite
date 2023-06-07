@@ -1,4 +1,4 @@
-import { IOrganizationTeamCreateInput } from "@gauzy/contracts";
+import { IOrganizationTeamCreateInput } from "@worksuite/contracts";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IsNotEmpty, IsOptional, IsString } from "class-validator";
 import { IsTeamAlreadyExist } from "./../../shared/validators";

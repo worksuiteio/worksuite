@@ -44,7 +44,7 @@ const windowSetting = () => {
 		},
 		width: 700,
 		height: 600,
-		title: 'Gauzy Updater',
+		title: 'Worksuite Updater',
 		maximizable: false,
 		show: false
 	};

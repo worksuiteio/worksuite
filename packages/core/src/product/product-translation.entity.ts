@@ -1,4 +1,4 @@
-import { IProduct, IProductTranslation, LanguagesEnum } from '@gauzy/contracts';
+import { IProduct, IProductTranslation, LanguagesEnum } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsEnum, IsOptional, IsString } from 'class-validator';
 import { Column, Entity, Index, JoinColumn, ManyToOne, RelationId } from 'typeorm';

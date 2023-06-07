@@ -15,7 +15,7 @@ import {
 	UsePipes
 } from '@nestjs/common';
 import { ApiResponse, ApiOperation } from '@nestjs/swagger';
-import { IMerchant, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { IMerchant, IPagination, PermissionsEnum } from '@worksuite/contracts';
 import { FindOptionsWhere } from 'typeorm';
 import { CrudController, PaginationParams } from './../core/crud';
 import { Merchant } from './merchant.entity';

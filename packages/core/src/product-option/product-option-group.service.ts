@@ -6,7 +6,7 @@ import { Repository } from 'typeorm';
 import {
 	IProductOptionGroupTranslation,
 	IProductOptionGroupTranslatable
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ProductOptionGroup } from './product-option-group.entity';
 
 @Injectable()

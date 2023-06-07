@@ -8,13 +8,13 @@ import {
 	IEmployee,
 	IOrganization,
 	IExpenseCategory
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { debounceTime, filter, firstValueFrom, tap } from 'rxjs';
 import * as moment from 'moment';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import {
 	DateRangePickerBuilderService,
 	EmployeeRecurringExpenseService,

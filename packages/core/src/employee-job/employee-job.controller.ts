@@ -15,7 +15,7 @@ import {
 	IGetEmployeeJobPostInput,
 	IPagination,
 	IVisibilityJobPostInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { EmployeeJobPostService } from './employee-job.service';
 import { EmployeeJobPost } from './employee-job.entity';
 

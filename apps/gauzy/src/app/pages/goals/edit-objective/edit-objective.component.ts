@@ -13,7 +13,7 @@ import {
 	GoalOwnershipEnum,
 	IOrganization,
 	IUser
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	GoalSettingsService,
 	OrganizationTeamsService,

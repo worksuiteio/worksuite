@@ -1,4 +1,4 @@
-import { IRelationalRole, IRole } from "@gauzy/contracts";
+import { IRelationalRole, IRole } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsNotEmpty, ValidateIf } from "class-validator";
 import { IsRoleShouldExist } from "./../../shared/validators";

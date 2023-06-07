@@ -3,10 +3,10 @@ import {
 	IEmployee,
 	LanguagesEnum,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CommandBus, CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { environment } from '@gauzy/config';
-import { isEmpty } from '@gauzy/common';
+import { environment } from '@worksuite/config';
+import { isEmpty } from '@worksuite/common';
 import { RequestContext } from './../../../core/context';
 import { AuthService } from '../../../auth/auth.service';
 import { UserOrganizationService } from '../../../user-organization/user-organization.services';

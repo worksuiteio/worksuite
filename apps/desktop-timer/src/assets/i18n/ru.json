@@ -625,7 +625,7 @@
 		"TOTAL_INCOME_OR_MONTHLY_INCOME": "Общий доход за месяц",
 		"PROFITS": "Прибыль",
 		"BONUSES_PAID": "Бонусы выплачены",
-		"TOTAL_HOURS_WORKED_OVER_GAUZY": "Всего часов работы над Gauzy",
+		"TOTAL_HOURS_WORKED_OVER_GAUZY": "Всего часов работы над Worksuite",
 		"MINIMUM_PROJECT_SIZE": "Минимальный размер проекта",
 		"PROJECTS_COUNT": "Количество проектов",
 		"CLIENTS_COUNT": "Количество клиентов",
@@ -704,12 +704,12 @@
 			"WRONG_FILE_NAME": "Неправильное имя файла!!!",
 			"CORRECT_FILE_NAME": "Имя файла должно быть: \"archive.zip\"",
 			"DOWNLOAD_TEMPLATES": "Скачать шаблоны",
-			"MIGRATE_TO_CLOUD": "Миграция в облако Ever Gauzy",
-			"IMPORT_INFO": "Нажмите кнопку \"Import\" для импорта данных в БД Gauzy.",
-			"EXPORT_INFO": "Нажмите кнопку \"Экспорт\" для экспорта данных из базы данных Gauzy.",
-			"DOWNLOAD_TEMPLATES_INFO": "Нажмите \"Скачать шаблоны\" для загрузки Zip архива с шаблонами CSV для формата Gauzy данных.",
-			"MIGRATE_TO_CLOUD_INFO": "Нажмите \"Migrate to Ever Gauzy Cloud\", чтобы перейти с собственного хостинга на облачное издание.",
-			"MIGRATE_SUCCESSFULLY": "Миграция с облаком Gauzy для '{{ tenant }}' успешно завершена!",
+			"MIGRATE_TO_CLOUD": "Миграция в облако Worksuite Worksuite",
+			"IMPORT_INFO": "Нажмите кнопку \"Import\" для импорта данных в БД Worksuite.",
+			"EXPORT_INFO": "Нажмите кнопку \"Экспорт\" для экспорта данных из базы данных Worksuite.",
+			"DOWNLOAD_TEMPLATES_INFO": "Нажмите \"Скачать шаблоны\" для загрузки Zip архива с шаблонами CSV для формата Worksuite данных.",
+			"MIGRATE_TO_CLOUD_INFO": "Нажмите \"Migrate to Worksuite Worksuite Cloud\", чтобы перейти с собственного хостинга на облачное издание.",
+			"MIGRATE_SUCCESSFULLY": "Миграция с облаком Worksuite для '{{ tenant }}' успешно завершена!",
 			"ACCOUNTING_TEMPLATE": "Шаблон бухгалтерского учета",
 			"ACTIVITY": "Активность",
 			"APPROVAL_POLICY": "Политика одобрения",
@@ -3667,7 +3667,7 @@
 			}
 		}
 	},
-	"GAUZY_MAINTENANCE": "Обслуживание Gauzy @",
+	"GAUZY_MAINTENANCE": "Обслуживание Worksuite @",
 	"LEGAL": {
 		"PRIVACY_POLICY": "Политика конфиденциальности",
 		"TERMS_AND_CONDITIONS": "Условия использования"

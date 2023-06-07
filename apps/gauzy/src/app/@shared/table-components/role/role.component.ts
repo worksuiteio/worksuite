@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { NbComponentStatus } from '@nebular/theme';
-import { IRole, RolesEnum } from '@gauzy/contracts';
+import { IRole, RolesEnum } from '@worksuite/contracts';
 
 @Component({
 	selector: 'gauzy-role',

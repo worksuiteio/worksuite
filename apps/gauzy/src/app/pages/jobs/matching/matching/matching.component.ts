@@ -13,12 +13,12 @@ import {
 	ITenant,
 	ISelectedEmployee,
 	IGetJobPresetInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Observable, combineLatest, map, switchMap, of as observableOf, BehaviorSubject } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import * as _ from 'underscore';
-import { distinctUntilChange, isEmpty, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isEmpty, isNotEmpty } from '@worksuite/common-angular';
 import {
 	JobPresetService,
 	JobSearchCategoryService,

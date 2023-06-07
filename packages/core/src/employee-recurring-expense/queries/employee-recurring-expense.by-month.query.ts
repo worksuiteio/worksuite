@@ -1,4 +1,4 @@
-import { IEmployeeRecurringExpenseByMonthFindInput } from '@gauzy/contracts';
+import { IEmployeeRecurringExpenseByMonthFindInput } from '@worksuite/contracts';
 import { IQuery } from '@nestjs/cqrs';
 
 export class EmployeeRecurringExpenseByMonthQuery implements IQuery {

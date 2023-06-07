@@ -4,7 +4,7 @@ import { EditUserProfileComponent } from './edit-user-profile/edit-user-profile.
 import { UsersComponent } from './users.component';
 import { ManageUserInviteComponent } from './manage-user-invite/manage-user-invite.component';
 import { InviteGuard } from '../../@core/guards';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@worksuite/contracts';
 import { EditUserDataComponent } from './edit-user-profile/edit-user-data/edit-user-data.component';
 import { EditUserOrganizationsComponent } from './edit-user-profile/edit-user-organizations/edit-user-organizations.component';
 import { NgxPermissionsGuard } from 'ngx-permissions';

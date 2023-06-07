@@ -1,4 +1,4 @@
-import { IFindStartDateUpdateTypeInput } from '@gauzy/contracts';
+import { IFindStartDateUpdateTypeInput } from '@worksuite/contracts';
 import { IQuery } from '@nestjs/cqrs';
 
 export class OrganizationRecurringExpenseStartDateUpdateTypeQuery

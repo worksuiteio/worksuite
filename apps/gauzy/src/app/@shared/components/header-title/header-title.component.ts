@@ -5,7 +5,7 @@ import {
 	Input
 } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { IOrganization, ISelectedEmployee, IUser, PermissionsEnum } from '@gauzy/contracts';
+import { IOrganization, ISelectedEmployee, IUser, PermissionsEnum } from '@worksuite/contracts';
 import { combineLatest } from 'rxjs';
 import { filter, tap } from 'rxjs/operators';
 import { Store } from './../../../@core';

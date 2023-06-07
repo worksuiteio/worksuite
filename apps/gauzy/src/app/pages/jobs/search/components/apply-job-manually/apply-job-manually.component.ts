@@ -17,8 +17,8 @@ import {
 	ISelectedEmployee,
 	IUser,
 	JobPostSourceEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import { JobService, Store, ToastrService } from './../../../../../@core/services';
 import { API_PREFIX } from './../../../../../@core/constants';
 import { FormHelpers } from './../../../../../@shared/forms';
@@ -211,7 +211,7 @@ export class ApplyJobManuallyComponent extends TranslationBaseComponent
 	 * @param item
 	 */
 	onProposalTemplateChange(item: IEmployeeProposalTemplate | null): void {
-		/** Generate proposal using GauzyAI */
+		/** Generate proposal using WorksuiteAI */
 		this.proposalTemplate = item || null;
 		if (isNotEmpty(item)) {
 			this.proposal$.next(true);
@@ -298,7 +298,7 @@ export class ApplyJobManuallyComponent extends TranslationBaseComponent
 			}
 			const employeeJobApplication = await this.jobService.generateEmployeeProposal(generateProposalRequest);
 
-			/** If employee proposal generated successfully from Gauzy AI */
+			/** If employee proposal generated successfully from Worksuite AI */
 			if (isNotEmpty(employeeJobApplication)) {
 				const { proposal } = employeeJobApplication;
 				this.form.patchValue({ details: proposal, proposal: proposal });
@@ -306,7 +306,7 @@ export class ApplyJobManuallyComponent extends TranslationBaseComponent
 				this.form.patchValue({ proposal: proposalTemplate, details: proposalTemplate });
 			}
 		} catch (error) {
-			/** Proposal text should be null, if proposal generation failed from Gauzy AI */
+			/** Proposal text should be null, if proposal generation failed from Worksuite AI */
 			this.form.patchValue({ proposal: null, details: null });
 			console.error('Error while generating proposal text', error);
 		} finally {

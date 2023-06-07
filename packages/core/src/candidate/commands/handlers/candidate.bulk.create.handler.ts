@@ -1,6 +1,6 @@
 import { CommandBus, CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { BadRequestException } from '@nestjs/common';
-import { ICandidate, ICandidateCreateInput } from '@gauzy/contracts';
+import { ICandidate, ICandidateCreateInput } from '@worksuite/contracts';
 import { CandidateBulkCreateCommand } from '../candidate.bulk.create.command';
 import { CandidateCreateCommand } from '../candidate.create.command';
 

@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IImageAssetCreateInput } from '@gauzy/contracts';
+import { IImageAssetCreateInput } from '@worksuite/contracts';
 
 export class ImageAssetCreateCommand implements ICommand {
 	static readonly type = '[Image Asset] Create';

@@ -23,7 +23,7 @@ import {
 	ElectronService,
 	LoggerService,
 	AboutModule,
-} from '@gauzy/desktop-ui-lib';
+} from '@worksuite/desktop-ui-lib';
 import { NbCardModule, NbButtonModule } from '@nebular/theme';
 import { RouterModule } from '@angular/router';
 import * as Sentry from '@sentry/angular';

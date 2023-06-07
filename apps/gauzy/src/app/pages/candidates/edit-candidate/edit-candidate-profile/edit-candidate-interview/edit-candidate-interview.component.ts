@@ -14,8 +14,8 @@ import {
 	IEmployee,
 	ICandidateFeedback,
 	IOrganization
-} from '@gauzy/contracts';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import {
 	CandidateFeedbacksService,

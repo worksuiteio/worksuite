@@ -1,6 +1,6 @@
 import { Controller, HttpStatus, Get, Query, UseGuards, UsePipes, ValidationPipe, Post, Body, Put, Param } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { ICandidateExperience, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { ICandidateExperience, IPagination, PermissionsEnum } from '@worksuite/contracts';
 import { UpdateResult } from 'typeorm';
 import { CrudController, PaginationParams } from './../core/crud';
 import { CandidateExperienceService } from './candidate-experience.service';

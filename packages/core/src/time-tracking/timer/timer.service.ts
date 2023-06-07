@@ -18,8 +18,8 @@ import {
 	PermissionsEnum,
 	ITimeSlot,
 	IEmployee,
-} from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
+} from '@worksuite/contracts';
+import { isNotEmpty } from '@worksuite/common';
 import { Employee, TimeLog } from './../../core/entities/internal';
 import { RequestContext } from '../../core/context';
 import { getDateRange } from './../../core/utils';

@@ -4,7 +4,7 @@ import {
 	IUserOrganization,
 	IUserOrganizationCreateInput,
 	IUserOrganizationFindInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { firstValueFrom, Observable } from 'rxjs';
 import { API_PREFIX } from '../constants/app.constants';
 

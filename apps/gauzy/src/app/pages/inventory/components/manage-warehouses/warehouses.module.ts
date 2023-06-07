@@ -18,7 +18,7 @@ import { Ng2SmartTableModule } from "ng2-smart-table";
 import { CardGridModule } from "./../../../../@shared/card-grid/card-grid.module";
 import { HeaderTitleModule } from "./../../../../@shared/components/header-title/header-title.module";
 import { LocationFormModule, LeafletMapModule } from "./../../../../@shared/forms";
-import { GauzyButtonActionModule } from "./../../../../@shared/gauzy-button-action/gauzy-button-action.module";
+import { WorksuiteButtonActionModule } from "./../../../../@shared/gauzy-button-action/gauzy-button-action.module";
 import { PaginationModule } from "./../../../../@shared/pagination/pagination.module";
 import { TagsColorInputModule } from "./../../../../@shared/tags/tags-color-input/tags-color-input.module";
 import { ThemeModule } from "./../../../../@theme/theme.module";
@@ -76,7 +76,7 @@ const NB_MODULES = [
         TagsColorInputModule,
         PaginationModule,
         CardGridModule,
-        GauzyButtonActionModule,
+        WorksuiteButtonActionModule,
         CardGridModule,
         InventoryTableComponentsModule
     ],

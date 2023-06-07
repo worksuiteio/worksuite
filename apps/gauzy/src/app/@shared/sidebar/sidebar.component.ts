@@ -1,4 +1,4 @@
-import { HelpCenterActionEnum, HelpCenterFlagEnum, IHelpCenter, IOrganization } from '@gauzy/contracts';
+import { HelpCenterActionEnum, HelpCenterFlagEnum, IHelpCenter, IOrganization } from '@worksuite/contracts';
 import {
 	Component,
 	ViewChild,

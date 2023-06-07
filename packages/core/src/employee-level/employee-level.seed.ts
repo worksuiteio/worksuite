@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IEmployeeLevelInput, IOrganization, ITenant } from '@gauzy/contracts';
+import { IEmployeeLevelInput, IOrganization, ITenant } from '@worksuite/contracts';
 import { EmployeeLevel } from './employee-level.entity';
 import { DEFAULT_EMPLOYEE_LEVELS } from './default-employee-levels';
 

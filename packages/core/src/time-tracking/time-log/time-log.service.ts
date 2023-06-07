@@ -35,10 +35,10 @@ import {
 	IDeleteTimeLog,
 	IOrganizationContact,
 	ITimeSlot
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CommandBus } from '@nestjs/cqrs';
 import { chain, pluck, reduce } from 'underscore';
-import { ArraySum, isEmpty, isNotEmpty } from '@gauzy/common';
+import { ArraySum, isEmpty, isNotEmpty } from '@worksuite/common';
 import { TenantAwareCrudService } from './../../core/crud';
 import {
 	Employee,

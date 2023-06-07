@@ -14,7 +14,7 @@ import {
 	ICandidate,
 	IEmail,
 	IImageAsset,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Exclude } from 'class-transformer';
 import { IsOptional, IsUUID } from 'class-validator';

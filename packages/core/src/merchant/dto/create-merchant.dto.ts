@@ -1,4 +1,4 @@
-import { IMerchant } from "@gauzy/contracts";
+import { IMerchant } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { RelationalWarehouseDTO } from "./../../warehouse/dto";
 import { RelationalContactDTO } from "./../../contact/dto";

@@ -12,7 +12,7 @@ import {
 	FeatureEnum,
 	IFeature,
 	IFeatureOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { BaseEntity, FeatureOrganization } from '../core/entities/internal';
 
 @Entity('feature')

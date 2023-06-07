@@ -1,5 +1,5 @@
 import { Entity, Column, OneToMany, JoinColumn, ManyToOne } from 'typeorm';
-import { IOrganizationSprint, SprintStartDayEnum } from '@gauzy/contracts';
+import { IOrganizationSprint, SprintStartDayEnum } from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	IsBoolean,

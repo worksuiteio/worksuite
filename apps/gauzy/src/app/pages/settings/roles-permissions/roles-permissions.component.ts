@@ -8,7 +8,7 @@ import {
 	IUser,
 	IRole,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { debounceTime, filter, tap, map } from 'rxjs/operators';
 import { Observable, Subject, of as observableOf, startWith, catchError } from 'rxjs';

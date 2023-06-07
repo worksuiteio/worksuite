@@ -1,7 +1,7 @@
-import { IBasePerTenantAndOrganizationEntityModel, IDateRangePicker, IEmployee, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { IBasePerTenantAndOrganizationEntityModel, IDateRangePicker, IEmployee, IPagination, PermissionsEnum } from '@worksuite/contracts';
 import { BadRequestException, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { isNotEmpty } from '@gauzy/common';
+import { isNotEmpty } from '@worksuite/common';
 import * as moment from 'moment';
 import { Brackets, Repository, SelectQueryBuilder, UpdateResult, WhereExpressionBuilder } from 'typeorm';
 import { RequestContext } from '../core/context';

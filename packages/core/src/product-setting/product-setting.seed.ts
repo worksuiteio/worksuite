@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IOrganization, IProductVariantSetting, ITenant } from '@gauzy/contracts';
+import { IOrganization, IProductVariantSetting, ITenant } from '@worksuite/contracts';
 import { ProductVariantSetting } from './product-setting.entity';
 import { faker } from '@faker-js/faker';
 import { ProductCategory } from '../product-category/product-category.entity';

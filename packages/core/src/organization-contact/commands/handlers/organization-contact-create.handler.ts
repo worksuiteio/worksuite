@@ -1,4 +1,4 @@
-import { IOrganizationContact } from '@gauzy/contracts';
+import { IOrganizationContact } from '@worksuite/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { OrganizationContactCreateCommand } from '../organization-contact-create.command';
 import { OrganizationContactService } from '../../organization-contact.service';

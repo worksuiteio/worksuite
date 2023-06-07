@@ -1,4 +1,4 @@
-import { IEventType, IEventTypeCreateInput, IPagination } from '@gauzy/contracts';
+import { IEventType, IEventTypeCreateInput, IPagination } from '@worksuite/contracts';
 import {
 	Body,
 	Controller,

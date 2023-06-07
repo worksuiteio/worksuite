@@ -1,4 +1,4 @@
-import { PermissionsEnum, IPagination, IOrganizationTeam, IUser } from '@gauzy/contracts';
+import { PermissionsEnum, IPagination, IOrganizationTeam, IUser } from '@worksuite/contracts';
 import {
 	Controller,
 	Get,

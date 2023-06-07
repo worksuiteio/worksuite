@@ -1,7 +1,7 @@
 import { CommandBus, CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { BadRequestException } from '@nestjs/common';
-import { ComponentLayoutStyleEnum, ICandidate, LanguagesEnum, RolesEnum } from '@gauzy/contracts';
-import { environment } from '@gauzy/config';
+import { ComponentLayoutStyleEnum, ICandidate, LanguagesEnum, RolesEnum } from '@worksuite/contracts';
+import { environment } from '@worksuite/config';
 import { UserCreateCommand } from './../../../user/commands';
 import { CandidateCreateCommand } from '../candidate.create.command';
 import { AuthService } from './../../../auth/auth.service';

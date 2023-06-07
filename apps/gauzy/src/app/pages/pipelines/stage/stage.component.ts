@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IPipelineStage } from '@gauzy/contracts';
+import { IPipelineStage } from '@worksuite/contracts';
 
 @Component({
   selector: 'gauzy-stage',

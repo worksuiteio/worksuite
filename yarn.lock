@@ -33382,9 +33382,9 @@ typeorm-aurora-data-api-driver@^2.4.4:
   dependencies:
     data-api-client "^1.3.0"
 
-"typeorm-express-query-builder@https://github.com/ever-co/typeorm-express-query-builder.git":
+"typeorm-express-query-builder@https://github.com/worksuiteio/typeorm-express-query-builder.git":
   version "1.5.1"
-  resolved "https://github.com/ever-co/typeorm-express-query-builder.git#b6b20e53f44b8f6639af1d2c124e9968b4b5d6a8"
+  resolved "https://github.com/worksuiteio/typeorm-express-query-builder.git#b6b20e53f44b8f6639af1d2c124e9968b4b5d6a8"
 
 typeorm@0.3.7:
   version "0.3.7"

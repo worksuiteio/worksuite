@@ -1,10 +1,10 @@
 {
-	"name": "@gauzy/auth",
+	"name": "@worksuite/auth",
 	"version": "0.1.0",
-	"description": "Ever Gauzy Platform Auth module",
+	"description": "Worksuite Worksuite Platform Auth module",
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
+		"name": "Worksuite Co. LTD",
+		"email": "ever@worksuite.co",
 		"url": "https://ever.co"
 	},
 	"license": "AGPL-3.0",
@@ -26,8 +26,8 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@gauzy/common": "^0.1.0",
-		"@gauzy/config": "^0.1.0",
+		"@worksuite/common": "^0.1.0",
+		"@worksuite/config": "^0.1.0",
 		"@nestjs/passport": "^9.0.3",
 		"bcrypt": "^5.1.0",
 		"passport": "^0.6.0",

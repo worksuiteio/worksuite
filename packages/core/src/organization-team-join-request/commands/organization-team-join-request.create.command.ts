@@ -1,6 +1,6 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IOrganizationTeamJoinRequestCreateInput, LanguagesEnum } from '@gauzy/contracts';
-import { IAppIntegrationConfig } from '@gauzy/common';
+import { IOrganizationTeamJoinRequestCreateInput, LanguagesEnum } from '@worksuite/contracts';
+import { IAppIntegrationConfig } from '@worksuite/common';
 
 export class OrganizationTeamJoinRequestCreateCommand implements ICommand {
 	static readonly type = '[Organization Team Join Request] Create';

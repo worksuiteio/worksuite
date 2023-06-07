@@ -1,4 +1,4 @@
-import { ITag } from "@gauzy/contracts";
+import { ITag } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsOptional } from "class-validator";
 

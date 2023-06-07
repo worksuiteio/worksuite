@@ -1,5 +1,5 @@
 import * as yargs from "yargs";
-import { createMigration, generateMigration, revertLastDatabaseMigration, runDatabaseMigrations } from '@gauzy/core';
+import { createMigration, generateMigration, revertLastDatabaseMigration, runDatabaseMigrations } from '@worksuite/core';
 import { pluginConfig } from "./plugin-config";
 
 yargs

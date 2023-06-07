@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
-import { IDeal, IPipeline, ComponentLayoutStyleEnum } from '@gauzy/contracts';
+import { IDeal, IPipeline, ComponentLayoutStyleEnum } from '@worksuite/contracts';
 import { PipelinesService } from '../../../@core/services/pipelines.service';
 import {
 	ActivatedRoute,

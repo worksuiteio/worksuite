@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Column, Entity, ManyToMany } from 'typeorm';
-import { IIntegration, IIntegrationType } from '@gauzy/contracts';
+import { IIntegration, IIntegrationType } from '@worksuite/contracts';
 import { BaseEntity, Integration } from '../core/entities/internal';
 
 @Entity('integration_type')

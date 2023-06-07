@@ -8,7 +8,7 @@ import {
 	IJobSearchCategory,
 	IJobSearchOccupation,
 	JobPostTypeEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Employee,
 	JobPreset,

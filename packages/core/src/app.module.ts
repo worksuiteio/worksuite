@@ -8,8 +8,8 @@ import { HeaderResolver, I18nModule } from 'nestjs-i18n';
 import { Integrations as SentryIntegrations } from '@sentry/node';
 import { Integrations as TrackingIntegrations } from '@sentry/tracing';
 import { initialize as initializeUnleash, InMemStorageProvider, UnleashConfig } from 'unleash-client';
-import { LanguagesEnum } from '@gauzy/contracts';
-import { ConfigService, environment } from '@gauzy/config';
+import { LanguagesEnum } from '@worksuite/contracts';
+import { ConfigService, environment } from '@worksuite/config';
 import * as path from 'path';
 import * as moment from 'moment';
 import { CandidateInterviewersModule } from './candidate-interviewers/candidate-interviewers.module';
@@ -132,7 +132,7 @@ import { AccountingTemplateModule } from './accounting-template/accounting-templ
 import { SeederModule } from './core/seeds/seeder.module';
 import { WarehouseModule } from './warehouse/warehouse.module';
 import { MerchantModule } from './merchant/merchant.module';
-import { GauzyCloudModule } from './gauzy-cloud/gauzy-cloud.module';
+import { WorksuiteCloudModule } from './gauzy-cloud/gauzy-cloud.module';
 import { ContactModule } from './contact/contact.module';
 import { PublicShareModule } from './public-share/public-share.module';
 import { TransformInterceptor } from './core/interceptors';
@@ -211,7 +211,7 @@ if (process.env.DB_TYPE === 'postgres') {
 					dsn: environment.sentry.dns,
 					debug: !environment.production,
 					environment: environment.production ? 'production' : 'development',
-					// TODO: we should use some internal function which returns version of Gauzy
+					// TODO: we should use some internal function which returns version of Worksuite
 					release: 'gauzy@' + process.env.npm_package_version,
 					logLevels: ['error'],
 					integrations: sentryIntegrations,
@@ -343,7 +343,7 @@ if (process.env.DB_TYPE === 'postgres') {
 		SeederModule,
 		WarehouseModule,
 		MerchantModule,
-		GauzyCloudModule,
+		WorksuiteCloudModule,
 		ContactModule,
 		PublicShareModule,
 		EmailResetModule,

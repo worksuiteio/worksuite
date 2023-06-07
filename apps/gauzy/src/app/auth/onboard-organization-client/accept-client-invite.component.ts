@@ -3,7 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import {
 	IInvite,
 	IOrganizationContactRegistrationInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { InviteService } from '../../@core/services/invite.service';
 import { ToastrService } from '../../@core/services/toastr.service';

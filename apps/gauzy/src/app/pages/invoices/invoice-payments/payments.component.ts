@@ -8,7 +8,7 @@ import {
 	InvoiceStatusTypesEnum,
 	ISelectedPayment,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import { PaymentMutationComponent } from './payment-mutation/payment-mutation.component';
 import { NbDialogService } from '@nebular/theme';

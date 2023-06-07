@@ -1,5 +1,5 @@
 import { IntersectionType, PartialType } from '@nestjs/swagger';
-import { ITagFindInput } from '@gauzy/contracts';
+import { ITagFindInput } from '@worksuite/contracts';
 import { TenantOrganizationBaseDTO } from '../../core/dto';
 import { RelationsQueryDTO } from 'shared/dto';
 

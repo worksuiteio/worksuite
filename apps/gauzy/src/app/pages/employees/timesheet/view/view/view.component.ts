@@ -8,7 +8,7 @@ import {
 	ITimesheet,
 	TimesheetStatus,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { chain } from 'underscore';
 import * as moment from 'moment';
 import { filter, Subject } from 'rxjs';

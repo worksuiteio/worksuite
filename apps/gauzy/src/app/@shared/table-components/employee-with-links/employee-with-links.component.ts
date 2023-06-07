@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ViewCell } from 'ng2-smart-table';
 import { Router } from '@angular/router';
-import { IEmployee, ISelectedEmployee } from '@gauzy/contracts';
+import { IEmployee, ISelectedEmployee } from '@worksuite/contracts';
 import { ALL_EMPLOYEES_SELECTED } from '../../../@theme/components/header/selectors/employee';
 import { Store } from '../../../@core/services/store.service';
 

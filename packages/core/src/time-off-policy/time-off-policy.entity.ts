@@ -3,7 +3,7 @@ import {
 	IEmployee,
 	ITimeOff as ITimeOffRequest,
 	ITimeOffPolicy
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsString, IsNotEmpty, IsBoolean } from 'class-validator';
 import {

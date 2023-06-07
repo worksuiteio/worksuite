@@ -13,12 +13,12 @@ import {
 	IProductTypeTranslated,
 	PermissionsEnum,
 	ProductTypesIconsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { finalize, map, Observable, Subject } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import {
 	ErrorHandlingService,
 	ProductTypeService,

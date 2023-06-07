@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IProductCategoryTranslatable, LanguagesEnum } from '@gauzy/contracts';
+import { IProductCategoryTranslatable, LanguagesEnum } from '@worksuite/contracts';
 
 export class ProductCategoryCreateCommand implements ICommand {
 	static readonly type = '[Product Category] Create';

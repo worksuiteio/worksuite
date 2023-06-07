@@ -6,7 +6,7 @@ import {
 	IContact,
 	IEmployee,
 	IOrganizationContact
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Candidate,
 	Employee,

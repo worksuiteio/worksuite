@@ -1,6 +1,6 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { BadRequestException } from '@nestjs/common';
-import { ICandidate } from '@gauzy/contracts';
+import { ICandidate } from '@worksuite/contracts';
 import { CandidateService } from '../../candidate.service';
 import { CandidateUpdateCommand } from '../candidate.update.command';
 

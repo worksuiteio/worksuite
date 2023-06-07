@@ -51,7 +51,7 @@ jobs:
                       console.log(script.server(false))
 
             - name: Build Server
-              run: 'yarn build:gauzy-server:linux:release'
+              run: 'yarn build:worksuite-server:linux:release'
               env:
                   USE_HARD_LINKS: false
                   GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -97,7 +97,7 @@ jobs:
                       console.log(script.server(false))
 
             - name: Build Server
-              run: 'yarn build:gauzy-server:mac:release'
+              run: 'yarn build:worksuite-server:mac:release'
               env:
                   USE_HARD_LINKS: false
                   GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -143,7 +143,7 @@ jobs:
                       console.log(script.server(false))
 
             - name: Build Server
-              run: 'yarn build:gauzy-server:windows:release'
+              run: 'yarn build:worksuite-server:windows:release'
               env:
                   USE_HARD_LINKS: false
                   GH_TOKEN: ${{ secrets.GH_TOKEN }}

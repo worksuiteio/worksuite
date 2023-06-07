@@ -1,6 +1,6 @@
 {
-  "projectName": "ever-gauzy",
-  "projectOwner": "ever-co",
+  "projectName": "worksuite",
+  "projectOwner": "worksuiteio",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -25,7 +25,7 @@
       "login": "evereq",
       "name": "Ruslan Konviser",
       "avatar_url": "https://avatars.githubusercontent.com/u/118497?v=4",
-      "profile": "https://github.com/ever-co",
+      "profile": "https://github.com/worksuiteio",
       "contributions": [
         "business",
         "ideas",

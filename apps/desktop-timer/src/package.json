@@ -1,21 +1,21 @@
 {
-	"name": "gauzy-desktop-timer",
-	"productName": "gauzy-desktop-timer",
+	"name": "worksuite-desktop-timer",
+	"productName": "worksuite-desktop-timer",
 	"version": "0.1.0",
-	"description": "Gauzy Desktop Timer",
+	"description": "Worksuite Desktop Timer",
 	"license": "AGPL-3.0",
 	"homepage": "https://gauzy.co",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ever-co/ever-gauzy.git"
+		"url": "https://github.com/worksuiteio/worksuite.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ever-co/ever-gauzy/issues"
+		"url": "https://github.com/worksuiteio/worksuite/issues"
 	},
 	"private": true,
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
+		"name": "Worksuite Co. LTD",
+		"email": "ever@worksuite.co",
 		"url": "https://ever.co"
 	},
 	"main": "index.js",
@@ -29,8 +29,8 @@
 	"build": {
 		"appId": "com.ever.gauzydesktoptimer",
 		"artifactName": "${name}-${version}.${ext}",
-		"productName": "Gauzy Desktop Timer",
-		"copyright": "Copyright © 2019-Present. Ever Co. LTD",
+		"productName": "Worksuite Desktop Timer",
+		"copyright": "Copyright © 2019-Present. Worksuite Co. LTD",
 		"afterSign": "tools/notarize.js",
 		"dmg": {
 			"sign": false
@@ -49,14 +49,14 @@
 		"publish": [
 			{
 				"provider": "github",
-				"repo": "ever-gauzy-desktop-timer",
+				"repo": "worksuite-desktop-timer",
 				"releaseType": "release"
 			},
 			{
 				"provider": "spaces",
 				"name": "ever",
 				"region": "sfo3",
-				"path": "/ever-gauzy-desktop-timer",
+				"path": "/worksuite-desktop-timer",
 				"acl": "public-read"
 			}
 		],
@@ -75,11 +75,11 @@
 			"entitlementsInherit": "tools/build/entitlements.mas.plist",
 			"extendInfo": {
 				"NSAppleEventsUsageDescription": "Please allow access to script browser applications to detect the current URL when triggering instant lookup.",
-				"NSCameraUsageDescription": "Please allow access to Gauzy Desktop Timer to make screenshot"
+				"NSCameraUsageDescription": "Please allow access to Worksuite Desktop Timer to make screenshot"
 			}
 		},
 		"win": {
-			"publisherName": "Ever",
+			"publisherName": "Worksuite",
 			"target": [
 				{
 					"target": "nsis",
@@ -98,7 +98,7 @@
 				"deb",
 				"tar.gz"
 			],
-			"executableName": "gauzy-desktop-timer",
+			"executableName": "worksuite-desktop-timer",
 			"artifactName": "${name}-${version}.${ext}",
 			"synopsis": "Desktop",
 			"category": "Development"
@@ -127,9 +127,9 @@
 		"@datorama/akita": "^7.1.1",
 		"@datorama/akita-ngdevtools": "^7.0.0",
 		"@electron/remote": "^2.0.8",
-		"@gauzy/contracts": "^0.1.0",
-		"@gauzy/desktop-libs": "^0.1.0",
-		"@gauzy/desktop-window": "^0.1.0",
+		"@worksuite/contracts": "^0.1.0",
+		"@worksuite/desktop-libs": "^0.1.0",
+		"@worksuite/desktop-window": "^0.1.0",
 		"@sentry/electron": "^4.4.0",
 		"@sentry/node": "^7.48.0",
 		"@sentry/tracing": "^7.48.0",

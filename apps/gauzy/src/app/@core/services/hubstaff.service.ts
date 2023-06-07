@@ -13,7 +13,7 @@ import {
 	IntegrationEnum,
 	IDateRangeActivityFilter,
 	IEntitySettingToSync,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { v4 as uuid } from 'uuid';
 import { switchMap, tap } from 'rxjs/operators';
 import { clone } from 'underscore';

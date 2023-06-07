@@ -6,7 +6,7 @@ import {
 	ValidatorConstraint,
 	ValidatorConstraintInterface
 } from "class-validator";
-import { isEmpty } from "@gauzy/common";
+import { isEmpty } from "@worksuite/common";
 import { OrganizationTeam } from "../../../core/entities/internal";
 import { RequestContext } from "../../../core/context";
 

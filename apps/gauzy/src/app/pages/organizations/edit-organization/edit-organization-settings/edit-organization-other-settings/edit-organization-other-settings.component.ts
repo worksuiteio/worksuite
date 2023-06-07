@@ -23,12 +23,12 @@ import {
 	IOrganization,
 	RegionsEnum,
 	WeekDaysEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { debounceTime, filter, map, tap } from 'rxjs/operators';
 import { NbAccordionComponent, NbAccordionItemComponent, NbThemeService } from "@nebular/theme";
-import { isEmpty } from '@gauzy/common-angular';
+import { isEmpty } from '@worksuite/common-angular';
 import {
 	AccountingTemplateService,
 	OrganizationEditStore,

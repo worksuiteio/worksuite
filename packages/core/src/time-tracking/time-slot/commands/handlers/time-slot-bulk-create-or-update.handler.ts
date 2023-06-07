@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, In } from 'typeorm';
 import * as moment from 'moment';
 import * as _ from 'underscore';
-import { isEmpty } from '@gauzy/common';
+import { isEmpty } from '@worksuite/common';
 import { TimeSlot } from './../../time-slot.entity';
 import { TimeSlotBulkCreateOrUpdateCommand } from './../time-slot-bulk-create-or-update.command';
 import { RequestContext } from '../../../../core/context';

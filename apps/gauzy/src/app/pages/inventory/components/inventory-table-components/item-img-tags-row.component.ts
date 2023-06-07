@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { getContrastColor } from '@gauzy/common-angular';
+import { getContrastColor } from '@worksuite/common-angular';
 import { ViewCell } from 'ng2-smart-table';
-import { ComponentLayoutStyleEnum } from '@gauzy/contracts';
+import { ComponentLayoutStyleEnum } from '@worksuite/contracts';
 
 @Component({
 	template: `

@@ -19,7 +19,7 @@ import {
 	ITimeOffPolicy,
 	PermissionsEnum,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { Permissions } from './../shared/decorators';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';

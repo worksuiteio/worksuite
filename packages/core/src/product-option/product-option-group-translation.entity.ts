@@ -2,7 +2,7 @@ import { Entity, Column, ManyToOne, JoinColumn, RelationId, Index } from 'typeor
 import {
 	IProductOptionGroupTranslation,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { IsString, IsEnum } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 import { TenantOrganizationBaseEntity } from '../core/entities/internal';

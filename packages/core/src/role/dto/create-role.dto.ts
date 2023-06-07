@@ -1,6 +1,6 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsNotEmpty } from "class-validator";
-import { IRoleCreateInput } from "@gauzy/contracts";
+import { IRoleCreateInput } from "@worksuite/contracts";
 import { IsRoleAlreadyExist } from "./../../shared/validators";
 import { TenantBaseDTO } from "./../../core/dto";
 

@@ -23,10 +23,10 @@ const prepareServerUi = (): {
     let appName:string = '';
     switch (os.platform()) {
         case 'win32':
-            appName = 'gauzy-server.exe';
+            appName = 'worksuite-server.exe';
             break;
         case 'darwin':
-            appName = 'gauzy-server';
+            appName = 'worksuite-server';
             break;
         default:
             break;

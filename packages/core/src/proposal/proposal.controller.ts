@@ -14,7 +14,7 @@ import {
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { UpdateResult } from 'typeorm';
-import { IProposal, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { IProposal, IPagination, PermissionsEnum } from '@worksuite/contracts';
 import { ProposalService } from './proposal.service';
 import { Proposal } from './proposal.entity';
 import { CrudController, OptionParams, PaginationParams } from './../core/crud';

@@ -4,7 +4,7 @@ import {
 	IIntegrationFilter,
 	IntegrationTypeNameEnum,
 	IntegrationTypeGroupEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { BehaviorSubject, Observable, of } from 'rxjs';
 import { IntegrationsService } from './integrations.service';
 import {

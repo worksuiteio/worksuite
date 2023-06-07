@@ -1,4 +1,4 @@
-Gauzy Server with nstudio electron
+Worksuite Server with nstudio electron
 
 how to:
 
@@ -53,5 +53,5 @@ uninstall gauzy desktop macOS
 
 ```bash
 - delete app data
-$ rm -rf ~/Library/Application Support/gauzy-server
+$ rm -rf ~/Library/Application Support/worksuite-server
 ```

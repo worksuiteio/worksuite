@@ -7,7 +7,7 @@ import {
 	ViewChild,
 	ViewContainerRef
 } from '@angular/core';
-import { ComponentLayoutStyleEnum } from '@gauzy/contracts';
+import { ComponentLayoutStyleEnum } from '@worksuite/contracts';
 
 @Component({
 	selector: 'ga-custom-component',

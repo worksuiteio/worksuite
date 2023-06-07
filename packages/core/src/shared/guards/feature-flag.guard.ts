@@ -1,5 +1,5 @@
-import { FEATURE_METADATA } from '@gauzy/common';
-import { FeatureEnum } from '@gauzy/contracts';
+import { FEATURE_METADATA } from '@worksuite/common';
+import { FeatureEnum } from '@worksuite/contracts';
 import {
     CanActivate,
     ExecutionContext,

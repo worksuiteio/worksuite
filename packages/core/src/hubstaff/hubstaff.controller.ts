@@ -5,10 +5,10 @@ import {
 	IHubstaffProject,
 	IIntegrationMap,
 	IIntegrationSetting
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiTags } from '@nestjs/swagger';
-import { ConfigService } from '@gauzy/config';
-import { Public } from '@gauzy/common';
+import { ConfigService } from '@worksuite/config';
+import { Public } from '@worksuite/common';
 import { UUIDValidationPipe } from './../shared/pipes';
 import { HubstaffService } from './hubstaff.service';
 

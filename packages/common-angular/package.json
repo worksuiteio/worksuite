@@ -1,10 +1,10 @@
 {
-	"name": "@gauzy/common-angular",
+	"name": "@worksuite/common-angular",
 	"version": "0.1.0",
-	"description": "Ever Gauzy Platform Common Angular module",
+	"description": "Worksuite Worksuite Platform Common Angular module",
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
+		"name": "Worksuite Co. LTD",
+		"email": "ever@worksuite.co",
 		"url": "https://ever.co"
 	},
 	"license": "AGPL-3.0",

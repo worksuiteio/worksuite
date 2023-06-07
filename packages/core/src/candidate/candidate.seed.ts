@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IUser, ISeedUsers, IOrganization, ITenant, ICandidate } from '@gauzy/contracts';
+import { IUser, ISeedUsers, IOrganization, ITenant, ICandidate } from '@worksuite/contracts';
 import { Candidate } from './../core/entities/internal';
 
 export const createDefaultCandidates = async (

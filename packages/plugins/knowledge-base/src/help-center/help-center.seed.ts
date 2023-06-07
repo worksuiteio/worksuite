@@ -1,4 +1,4 @@
-import { IHelpCenter, IOrganization, ITenant } from '@gauzy/contracts';
+import { IHelpCenter, IOrganization, ITenant } from '@worksuite/contracts';
 import { DataSource } from 'typeorm';
 import { HelpCenter } from './help-center.entity';
 import { DEFAULT_HELP_CENTER_MENUS } from './default-help-centers';

@@ -1,5 +1,5 @@
 import { IntersectionType, PartialType, PickType } from "@nestjs/swagger";
-import { IImageAssetUploadInput } from "@gauzy/contracts";
+import { IImageAssetUploadInput } from "@worksuite/contracts";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";
 
 /**

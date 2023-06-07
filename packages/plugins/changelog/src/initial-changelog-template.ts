@@ -1,18 +1,18 @@
-import { IChangelog } from "@gauzy/contracts";
+import { IChangelog } from "@worksuite/contracts";
 
 export const INITIAL_CHANGELOG_TEMPLATE: IChangelog[] = [
 	{
 		icon: 'cube-outline',
 		title: 'See new features',
 		date: new Date(),
-		content: 'Now you can read latest features changelog directly in Gauzy',
+		content: 'Now you can read latest features changelog directly in Worksuite',
 		isFeature: false,
 		learnMoreUrl: '',
 		imageUrl: ''
 	},
 	{
 		icon: 'globe-outline',
-		title: 'Ready to give Gauzy a try?',
+		title: 'Ready to give Worksuite a try?',
 		date: new Date(),
 		isFeature: false,
 		content: 'Customer relationship management, enterprise resource planning, sales management, supply chain management and production management',
@@ -33,7 +33,7 @@ export const INITIAL_CHANGELOG_TEMPLATE: IChangelog[] = [
 		title: 'New CRM',
 		date: new Date(),
 		isFeature: true,
-		content: 'Now you can read latest features changelog directly in Gauzy',
+		content: 'Now you can read latest features changelog directly in Worksuite',
 		learnMoreUrl: '',
 		imageUrl: 'assets/images/features/macbook-2.png'
 	},

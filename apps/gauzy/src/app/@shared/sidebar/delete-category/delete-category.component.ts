@@ -1,4 +1,4 @@
-import { IHelpCenter } from '@gauzy/contracts';
+import { IHelpCenter } from '@worksuite/contracts';
 import { Component, OnDestroy, Input, ErrorHandler } from '@angular/core';
 import { NbDialogRef } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';

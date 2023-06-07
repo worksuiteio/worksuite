@@ -9,7 +9,7 @@ import {
 import { BehaviorSubject, Observable, throwError } from 'rxjs';
 import { HubstaffService } from './../services/hubstaff.service';
 import { catchError, filter, take, switchMap, finalize } from 'rxjs/operators';
-import { HttpStatus } from '@gauzy/contracts';
+import { HttpStatus } from '@worksuite/contracts';
 
 @Injectable()
 export class HubstaffTokenInterceptor implements HttpInterceptor {

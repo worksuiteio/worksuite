@@ -4,7 +4,7 @@ import {
 	RequestApprovalStatusTypesEnum,
 	ComponentLayoutStyleEnum,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Store } from 'apps/gauzy/src/app/@core/services';
 
 @Component({

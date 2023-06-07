@@ -1,4 +1,4 @@
-import { ComponentLayoutStyleEnum } from '@gauzy/contracts';
+import { ComponentLayoutStyleEnum } from '@worksuite/contracts';
 
 export enum ComponentEnum {
 	ALL_TASKS = 'ALL_TASKS',

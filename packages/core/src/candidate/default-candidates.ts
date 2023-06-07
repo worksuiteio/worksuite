@@ -1,8 +1,8 @@
-import { ComponentLayoutStyleEnum, LanguagesEnum } from '@gauzy/contracts';
+import { ComponentLayoutStyleEnum, LanguagesEnum } from '@worksuite/contracts';
 
 export const DEFAULT_CANDIDATES = [
 	{
-		email: 'john@ever.co',
+		email: 'john@worksuite.co',
 		password: '123456',
 		firstName: 'John',
 		lastName: 'Smith',
@@ -12,7 +12,7 @@ export const DEFAULT_CANDIDATES = [
 		preferredComponentLayout: ComponentLayoutStyleEnum.TABLE
 	},
 	{
-		email: 'jaye@ever.co',
+		email: 'jaye@worksuite.co',
 		password: '123456',
 		firstName: 'Jaye',
 		lastName: 'Jeffreys',
@@ -22,7 +22,7 @@ export const DEFAULT_CANDIDATES = [
 		preferredComponentLayout: ComponentLayoutStyleEnum.TABLE
 	},
 	{
-		email: 'kasey@ever.co',
+		email: 'kasey@worksuite.co',
 		password: '123456',
 		firstName: 'Kasey',
 		lastName: 'Kraker',
@@ -32,7 +32,7 @@ export const DEFAULT_CANDIDATES = [
 		preferredComponentLayout: ComponentLayoutStyleEnum.TABLE
 	},
 	{
-		email: 'norris@ever.co',
+		email: 'norris@worksuite.co',
 		password: '123456',
 		firstName: 'Norris ',
 		lastName: 'Nesbit',
@@ -42,7 +42,7 @@ export const DEFAULT_CANDIDATES = [
 		preferredComponentLayout: ComponentLayoutStyleEnum.TABLE
 	},
 	{
-		email: 'estella@ever.co',
+		email: 'estella@worksuite.co',
 		password: '123456',
 		firstName: 'Estella',
 		lastName: 'Ennis',
@@ -52,7 +52,7 @@ export const DEFAULT_CANDIDATES = [
 		preferredComponentLayout: ComponentLayoutStyleEnum.TABLE
 	},
 	{
-		email: 'greg@ever.co',
+		email: 'greg@worksuite.co',
 		password: '123456',
 		firstName: 'Greg ',
 		lastName: 'Grise',

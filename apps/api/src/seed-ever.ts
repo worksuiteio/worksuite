@@ -1,10 +1,10 @@
-import { seedEver } from '@gauzy/core';
+import { seedWorksuite } from '@worksuite/core';
 import { pluginConfig } from './plugin-config';
 
 /*
-* Ever seeder  
+* Worksuite seeder  
 */
-seedEver(pluginConfig).catch((error: any) => {
+seedWorksuite(pluginConfig).catch((error: any) => {
 	console.log(error);
 	process.exit(1);
 });

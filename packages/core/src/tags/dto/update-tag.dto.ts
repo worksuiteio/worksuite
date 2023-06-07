@@ -1,5 +1,5 @@
 import { IntersectionType, PartialType, PickType } from '@nestjs/swagger';
-import { ITagUpdateInput } from '@gauzy/contracts';
+import { ITagUpdateInput } from '@worksuite/contracts';
 import { TenantOrganizationBaseDTO } from './../../core/dto';
 import { Tag } from './../tag.entity';
 

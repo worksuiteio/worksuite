@@ -19,7 +19,7 @@ import {
 	UpworkJobService,
 	UpworkOffersService,
 	UpworkReportService
-} from '@gauzy/integration-upwork';
+} from '@worksuite/integration-upwork';
 import { RouterModule } from 'nest-router';
 import {
 	Activity,

@@ -15,7 +15,7 @@ import { LineChartModule } from '../../../@shared/report/charts/line-chart/line-
 import { HeaderTitleModule } from '../../../@shared/components/header-title/header-title.module';
 import { SharedModule } from '../../../@shared/shared.module';
 import { DateRangeTitleModule } from '../../../@shared/components/date-range-title/date-range-title.module';
-import { GauzyFiltersModule } from '../../../@shared/timesheet/gauzy-filters/gauzy-filters.module';
+import { WorksuiteFiltersModule } from '../../../@shared/timesheet/gauzy-filters/gauzy-filters.module';
 import { ExpenseCategorySelectModule } from '../../../@shared/expenses/expense-category-select/expense-category-select.module';
 
 @NgModule({
@@ -34,7 +34,7 @@ import { ExpenseCategorySelectModule } from '../../../@shared/expenses/expense-c
 		LineChartModule,
 		HeaderTitleModule,
 		DateRangeTitleModule,
-    	GauzyFiltersModule,
+    	WorksuiteFiltersModule,
 		ExpenseCategorySelectModule
 	]
 })

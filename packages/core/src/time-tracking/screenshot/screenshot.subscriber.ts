@@ -1,5 +1,5 @@
 import { EntitySubscriberInterface, EventSubscriber, LoadEvent, RemoveEvent } from "typeorm";
-import { IScreenshot } from "@gauzy/contracts";
+import { IScreenshot } from "@worksuite/contracts";
 import { Screenshot } from "./screenshot.entity";
 import { FileStorage } from "./../../core/file-storage";
 

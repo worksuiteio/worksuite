@@ -1,4 +1,4 @@
-import { IEmployeeProposalTemplate } from "@gauzy/contracts";
+import { IEmployeeProposalTemplate } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { EmployeeFeatureDTO } from "./../../employee/dto";
 import { ProposalTemplateDTO } from "./proposal-template.dto";

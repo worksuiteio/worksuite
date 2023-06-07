@@ -1,5 +1,5 @@
 import * as path from 'path';
-import { ConfigService, environment } from '@gauzy/config';
+import { ConfigService, environment } from '@worksuite/config';
 import { ServeStaticModuleOptions } from '@nestjs/serve-static';
 
 export async function resolveServeStaticPath(

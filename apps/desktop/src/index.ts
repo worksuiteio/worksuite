@@ -23,7 +23,7 @@ log.catchErrors({
 			.then((result) => {
 				if (result.response === 1) {
 					submitIssue(
-						'https://github.com/ever-co/ever-gauzy-desktop/issues/new',
+						'https://github.com/worksuiteio/worksuite-desktop/issues/new',
 						{
 							title: `Automatic error report for Desktop App ${versions.app}`,
 							body:
@@ -48,7 +48,7 @@ import * as path from 'path';
 require('module').globalPaths.push(path.join(__dirname, 'node_modules'));
 require('sqlite3');
 
-app.setName('gauzy-desktop');
+app.setName('worksuite-desktop');
 
 console.log('Node Modules Path', path.join(__dirname, 'node_modules'));
 
@@ -67,16 +67,16 @@ import {
 	removeMainListener,
 	removeTimerListener,
 	ProviderFactory,
-} from '@gauzy/desktop-libs';
+} from '@worksuite/desktop-libs';
 import {
-	createGauzyWindow,
+	createWorksuiteWindow,
 	createSetupWindow,
 	createTimeTrackerWindow,
 	createSettingsWindow,
 	createUpdaterWindow,
 	createImageViewerWindow,
 	SplashScreen
-} from '@gauzy/desktop-window';
+} from '@worksuite/desktop-window';
 import { fork } from 'child_process';
 import { autoUpdater } from 'electron-updater';
 import { initSentry } from './sentry';
@@ -84,7 +84,7 @@ import { initSentry } from './sentry';
 initSentry();
 
 // the folder where all app data will be stored (e.g. sqlite DB, settings, cache, etc)
-// C:\Users\USERNAME\AppData\Roaming\gauzy-desktop
+// C:\Users\USERNAME\AppData\Roaming\worksuite-desktop
 process.env.GAUZY_USER_PATH = app.getPath('userData');
 log.info(`GAUZY_USER_PATH: ${process.env.GAUZY_USER_PATH}`);
 
@@ -121,15 +121,15 @@ const pathWindow = {
 };
 
 const updater = new DesktopUpdater({
-	repository: 'ever-gauzy-desktop',
-	owner: 'ever-co',
+	repository: 'worksuite-desktop',
+	owner: 'worksuiteio',
 	typeRelease: 'releases',
 });
 
 let tray = null;
 let isAlreadyRun = false;
 let onWaitingServer = false;
-let serverGauzy = null;
+let serverWorksuite = null;
 let serverDesktop = null;
 let dialogErr = false;
 
@@ -150,7 +150,7 @@ if (!gotTheLock) {
 			gauzyWindow.focus();
 			dialog.showMessageBoxSync(gauzyWindow, {
 				type: 'warning',
-				title: 'Gauzy',
+				title: 'Worksuite',
 				message: 'You already have a running instance',
 			});
 		}
@@ -186,10 +186,10 @@ async function startServer(value, restart = false) {
 		}`;
 		setEnvAdditional();
 		// require(path.join(__dirname, 'api/main.js'));
-		serverGauzy = fork(path.join(__dirname, './api/main.js'), {
+		serverWorksuite = fork(path.join(__dirname, './api/main.js'), {
 			silent: true,
 		});
-		serverGauzy.stdout.on('data', async (data) => {
+		serverWorksuite.stdout.on('data', async (data) => {
 			const msgData = data.toString();
 			console.log('log -- ', msgData);
 			setupWindow.webContents.send('setup-progress', {
@@ -199,7 +199,7 @@ async function startServer(value, restart = false) {
 				if (msgData.indexOf('Listening at http') > -1) {
 					setupWindow.hide();
 					// isAlreadyRun = true;
-					gauzyWindow = await createGauzyWindow(
+					gauzyWindow = await createWorksuiteWindow(
 						gauzyWindow,
 						serve,
 						{ ...environment, gauzyWindow: value.gauzyWindow },
@@ -218,7 +218,7 @@ async function startServer(value, restart = false) {
 			}
 		});
 
-		serverGauzy.stderr.on('data', (data) => {
+		serverWorksuite.stderr.on('data', (data) => {
 			const msgData = data.toString();
 			console.log('log error--', msgData);
 		});
@@ -248,7 +248,7 @@ async function startServer(value, restart = false) {
 	/* create main window */
 	if (value.serverConfigConnected || !value.isLocalServer) {
 		setupWindow.hide();
-		gauzyWindow = await createGauzyWindow(
+		gauzyWindow = await createWorksuiteWindow(
 			gauzyWindow,
 			serve,
 			{ ...environment, gauzyWindow: value.gauzyWindow },
@@ -483,7 +483,7 @@ ipcMain.on('server_is_ready', async () => {
 		serverDesktop = fork(path.join(__dirname, './desktop-api/main.js'));
 		try {
 			if (!gauzyWindow) {
-				gauzyWindow = await createGauzyWindow(
+				gauzyWindow = await createWorksuiteWindow(
 					gauzyWindow,
 					serve,
 					{ ...environment, gauzyWindow: appConfig.gauzyWindow },
@@ -528,7 +528,7 @@ ipcMain.on('restore', () => {
 ipcMain.on('restart_app', async (event, arg) => {
 	dialogErr = false;
 	LocalStore.updateConfigSetting(arg);
-	if (serverGauzy) serverGauzy.kill();
+	if (serverWorksuite) serverWorksuite.kill();
 	if (gauzyWindow) gauzyWindow.destroy();
 	gauzyWindow = null;
 	isAlreadyRun = false;
@@ -552,7 +552,7 @@ ipcMain.on('save_additional_setting', (event, arg) => {
 ipcMain.on('server_already_start', async () => {
 	if (!gauzyWindow && !isAlreadyRun) {
 		const configs: any = store.get('configs');
-		gauzyWindow = await createGauzyWindow(
+		gauzyWindow = await createWorksuiteWindow(
 			gauzyWindow,
 			serve,
 			{ ...environment, gauzyWindow: configs.gauzyWindow },
@@ -575,7 +575,7 @@ ipcMain.on('restart_and_update', () => {
 		app.removeAllListeners('window-all-closed');
 		autoUpdater.quitAndInstall(false);
 		if (serverDesktop) serverDesktop.kill();
-		if (serverGauzy) serverGauzy.kill();
+		if (serverWorksuite) serverWorksuite.kill();
 		app.exit(0);
 	});
 });
@@ -632,7 +632,7 @@ app.on('activate', async () => {
 	) {
 		// On macOS it's common to re-create a window in the app when the
 		// dock icon is clicked and there are no other windows open.
-		await createGauzyWindow(
+		await createWorksuiteWindow(
 			gauzyWindow,
 			serve,
 			{ ...environment },
@@ -660,7 +660,7 @@ app.on('before-quit', (e) => {
 		} catch (e) {}
 		app.exit(0);
 		if (serverDesktop) serverDesktop.kill();
-		if (serverGauzy) serverGauzy.kill();
+		if (serverWorksuite) serverWorksuite.kill();
 	}
 });
 

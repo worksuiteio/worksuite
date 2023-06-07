@@ -2,7 +2,7 @@
 //That should not be the case, sometimes due to permissions like CHANGE_SELECTED_EMPLOYEE not being available
 //we need to handle cases where No Employee is selected too
 
-import { DEFAULT_TYPE, ISelectedEmployee } from '@gauzy/contracts';
+import { DEFAULT_TYPE, ISelectedEmployee } from '@worksuite/contracts';
 
 export const ALL_EMPLOYEES_SELECTED: ISelectedEmployee = {
 	id: null,

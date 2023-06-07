@@ -1,5 +1,5 @@
 import { EntitySubscriberInterface, EventSubscriber } from "typeorm";
-import { InviteStatusEnum } from "@gauzy/contracts";
+import { InviteStatusEnum } from "@worksuite/contracts";
 import * as moment from 'moment';
 import { Invite } from "./invite.entity";
 

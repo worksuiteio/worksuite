@@ -18,7 +18,7 @@ import {
 	IOrganization,
 	IProductTranslation,
 	IProductTranslatable
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslationBaseComponent } from '../../../../@shared/language-base/translation-base.component';
 import {

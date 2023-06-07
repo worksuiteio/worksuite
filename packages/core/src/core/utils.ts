@@ -1,10 +1,10 @@
 import { sample } from 'underscore';
-import { IDateRange, IUser } from '@gauzy/contracts';
+import { IDateRange, IUser } from '@worksuite/contracts';
 import { moment } from './../core/moment-extend';
 import * as path from 'path';
 import * as fs from 'fs';
 import * as os from 'os';
-import { getConfig } from '@gauzy/config';
+import { getConfig } from '@worksuite/config';
 
 namespace Utils {
 	export function generatedLogoColor() {

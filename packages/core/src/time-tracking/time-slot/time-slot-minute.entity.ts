@@ -7,7 +7,7 @@ import {
 	Index,
 	JoinColumn
 } from 'typeorm';
-import { ITimeSlot, ITimeSlotMinute } from '@gauzy/contracts';
+import { ITimeSlot, ITimeSlotMinute } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNumber, IsDateString, IsString } from 'class-validator';
 import { TenantOrganizationBaseEntity } from './../../core/entities/internal';

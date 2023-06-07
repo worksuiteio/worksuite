@@ -5,7 +5,7 @@ import {
 	LoadEvent,
 	UpdateEvent,
 } from 'typeorm';
-import { sluggable } from '@gauzy/common';
+import { sluggable } from '@worksuite/common';
 import { RequestContext } from './../core/context';
 import { getDummyImage } from './../core/utils';
 import { OrganizationTeam } from './organization-team.entity';

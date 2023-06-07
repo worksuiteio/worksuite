@@ -1,6 +1,6 @@
 import { Controller, UseGuards, Query, Get } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { PermissionsEnum, IInvoiceEstimateHistory, IPagination } from '@gauzy/contracts';
+import { PermissionsEnum, IInvoiceEstimateHistory, IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { Permissions } from './../shared/decorators';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';

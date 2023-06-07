@@ -1,6 +1,6 @@
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { Controller, UseGuards, HttpStatus, Get, Query } from '@nestjs/common';
-import { IOrganizationDocument, IPagination } from '@gauzy/contracts';
+import { IOrganizationDocument, IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { OrganizationDocument } from './organization-document.entity';
 import { OrganizationDocumentService } from './organization-document.service';

@@ -1,4 +1,4 @@
-import { IEmailTemplateFindInput } from "@gauzy/contracts";
+import { IEmailTemplateFindInput } from "@worksuite/contracts";
 import { OmitType } from "@nestjs/mapped-types";
 import { SaveEmailTemplateDTO } from "./save-email-template.dto";
 

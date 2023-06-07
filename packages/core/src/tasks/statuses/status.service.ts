@@ -4,7 +4,7 @@ import {
 } from 'typeorm';
 import { BadRequestException, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { IOrganization, IPagination, ITaskStatus, ITaskStatusCreateInput, ITaskStatusFindInput, ITenant } from '@gauzy/contracts';
+import { IOrganization, IPagination, ITaskStatus, ITaskStatusCreateInput, ITaskStatusFindInput, ITenant } from '@worksuite/contracts';
 import { TaskStatusPrioritySizeService } from '../task-status-priority-size.service';
 import { RequestContext } from './../../core/context';
 import { TaskStatus } from './status.entity';

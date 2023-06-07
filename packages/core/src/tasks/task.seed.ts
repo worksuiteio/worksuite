@@ -2,7 +2,7 @@ import { Brackets, DataSource, WhereExpressionBuilder } from 'typeorm';
 import { faker } from '@faker-js/faker';
 import { filter, uniq } from 'underscore';
 import { lastValueFrom, map } from 'rxjs';
-import { isNotEmpty } from '@gauzy/common';
+import { isNotEmpty } from '@worksuite/common';
 import { HttpService } from '@nestjs/axios';
 import { AxiosResponse } from 'axios';
 import {
@@ -10,7 +10,7 @@ import {
 	IOrganization,
 	ITag,
 	ITenant
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	Organization,
 	OrganizationProject,
@@ -30,12 +30,12 @@ export const createDefaultTask = async (
 ) => {
 	const httpService = new HttpService();
 
-	console.log(`${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`);
+	console.log(`${GITHUB_API_URL}/repos/worksuiteio/worksuite/issues`);
 	const issues$ = httpService
-		.get(`${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`)
+		.get(`${GITHUB_API_URL}/repos/worksuiteio/worksuite/issues`)
 		.pipe(map((response: AxiosResponse<any>) => response.data));
 	const issues: any[] = await lastValueFrom(issues$);
-	console.log(`Done ${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`);
+	console.log(`Done ${GITHUB_API_URL}/repos/worksuiteio/worksuite/issues`);
 
 	let labels = [];
 	issues.forEach(async (issue) => {
@@ -104,12 +104,12 @@ export const createRandomTask = async (
 ) => {
 	const httpService = new HttpService();
 
-	console.log(`${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`);
+	console.log(`${GITHUB_API_URL}/repos/worksuiteio/worksuite/issues`);
 	const issues$ = httpService
-		.get(`${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`)
+		.get(`${GITHUB_API_URL}/repos/worksuiteio/worksuite/issues`)
 		.pipe(map((response: AxiosResponse<any>) => response.data));
 	const issues: any[] = await lastValueFrom(issues$);
-	console.log(`Done ${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`);
+	console.log(`Done ${GITHUB_API_URL}/repos/worksuiteio/worksuite/issues`);
 
 	let labels = [];
 	issues.forEach(async (issue) => {

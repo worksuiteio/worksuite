@@ -1,4 +1,4 @@
-import { IOrganizationUpdateInput } from "@gauzy/contracts";
+import { IOrganizationUpdateInput } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/swagger";
 import { CreateOrganizationDTO } from "./create-organization.dto";
 import { OrganizationPublicSettingDTO } from "./organization-public-setting.dto";

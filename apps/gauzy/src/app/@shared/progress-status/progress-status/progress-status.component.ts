@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { progressStatus } from '@gauzy/common-angular';
+import { progressStatus } from '@worksuite/common-angular';
 import { NbComponentOrCustomStatus } from '@nebular/theme';
 
 @Component({

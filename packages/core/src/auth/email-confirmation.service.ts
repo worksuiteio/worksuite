@@ -1,8 +1,8 @@
 import { BadRequestException, HttpStatus, Injectable } from '@nestjs/common';
 import { IsNull, MoreThanOrEqual } from 'typeorm';
-import { environment } from '@gauzy/config';
-import { deepMerge, IAppIntegrationConfig } from '@gauzy/common';
-import { FeatureEnum, IBasePerTenantEntityModel, IUser, IUserCodeInput, IUserEmailInput, IUserTokenInput, IVerificationTokenPayload } from '@gauzy/contracts';
+import { environment } from '@worksuite/config';
+import { deepMerge, IAppIntegrationConfig } from '@worksuite/common';
+import { FeatureEnum, IBasePerTenantEntityModel, IUser, IUserCodeInput, IUserEmailInput, IUserTokenInput, IVerificationTokenPayload } from '@worksuite/contracts';
 import { JwtPayload, sign, verify } from 'jsonwebtoken';
 import * as bcrypt from 'bcrypt';
 import * as moment from 'moment';

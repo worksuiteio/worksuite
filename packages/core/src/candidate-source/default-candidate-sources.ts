@@ -1,4 +1,4 @@
-import { ICandidateSource } from '@gauzy/contracts';
+import { ICandidateSource } from '@worksuite/contracts';
 
 export const DEFAULT_CANDIDATE_SOURCES: ICandidateSource[] = [
 	{

@@ -4,7 +4,7 @@ import { IntegrationMapSyncActivityCommand } from './../integration-map.sync-act
 import { IntegrationMapSyncEntityCommand } from './../integration-map.sync-entity.command';
 import { IntegrationMapService } from '../../integration-map.service';
 import { RequestContext } from '../../../core/context';
-import { IntegrationEntity } from '@gauzy/contracts';
+import { IntegrationEntity } from '@worksuite/contracts';
 
 @CommandHandler(IntegrationMapSyncActivityCommand)
 export class IntegrationMapSyncActivityHandler

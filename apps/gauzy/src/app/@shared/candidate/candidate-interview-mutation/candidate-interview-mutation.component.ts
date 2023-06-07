@@ -18,7 +18,7 @@ import {
 	ICandidatePersonalQualities,
 	ICandidateTechnologies,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { firstValueFrom } from 'rxjs';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

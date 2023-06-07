@@ -1,10 +1,10 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { IEmployee, IOrganization } from '@gauzy/contracts';
+import { IEmployee, IOrganization } from '@worksuite/contracts';
 import { combineLatest } from 'rxjs';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { EmployeeStore, Store } from './../../../../../@core/services';
 import { UrlPatternValidator } from './../../../../../@core/validators';
 

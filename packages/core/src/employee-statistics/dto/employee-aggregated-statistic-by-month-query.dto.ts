@@ -1,4 +1,4 @@
-import { IMonthAggregatedEmployeeStatisticsFindInput } from "@gauzy/contracts";
+import { IMonthAggregatedEmployeeStatisticsFindInput } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/mapped-types";
 import { EmployeeFeatureDTO } from "../../employee/dto";
 import { DateRangeQueryDTO } from "../../shared/dto";

@@ -5,7 +5,7 @@ import {
 	IOrganization,
 	ITenant,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CommandBus, CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { UpdateResult } from 'typeorm';
 import { TenantFeatureOrganizationCreateCommand } from './../../../tenant/commands';

@@ -14,7 +14,7 @@ import {
 } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { UpdateResult } from 'typeorm';
-import { IEmployeeProposalTemplate, IPagination, PermissionsEnum,  } from '@gauzy/contracts';
+import { IEmployeeProposalTemplate, IPagination, PermissionsEnum,  } from '@worksuite/contracts';
 import { UUIDValidationPipe } from './../shared/pipes';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';
 import { Permissions } from './../shared/decorators';

@@ -21,7 +21,7 @@ import {
 	IPagination,
 	PermissionsEnum,
 	IProductCategoryTranslatable
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ProductCategory } from './product-category.entity';
 import { ProductCategoryService } from './product-category.service';
 import { CrudController, PaginationParams } from './../core/crud';

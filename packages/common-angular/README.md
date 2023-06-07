@@ -1,10 +1,10 @@
-# `@gauzy/common-angular`
+# `@worksuite/common-angular`
 
-Common code used in Gauzy Angular projects
+Common code used in Worksuite Angular projects
 
 ## Usage
 
 ```
-const common = require('@gauzy/common-angular');
+const common = require('@worksuite/common-angular');
 
 ```

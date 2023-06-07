@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Entity, Column, ManyToOne, RelationId, Index } from 'typeorm';
-import { IAppointmentEmployee, IEmployee, IEmployeeAppointment } from '@gauzy/contracts';
+import { IAppointmentEmployee, IEmployee, IEmployeeAppointment } from '@worksuite/contracts';
 import { IsString, IsNotEmpty } from 'class-validator';
 import {
 	Employee,

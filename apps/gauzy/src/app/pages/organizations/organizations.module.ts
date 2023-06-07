@@ -30,7 +30,7 @@ import { RecurringExpenseBlockModule } from '../../@shared/expenses/recurring-ex
 import { TableComponentsModule } from '../../@shared/table-components';
 import { NgxPermissionsModule } from 'ngx-permissions';
 import { TranslateModule } from '../../@shared/translate/translate.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { CardGridModule } from '../../@shared/card-grid/card-grid.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
 
@@ -63,7 +63,7 @@ import { PaginationModule } from '../../@shared/pagination/pagination.module';
 		RecurringExpenseHistoryModule,
 		RecurringExpenseBlockModule,
 		NgxPermissionsModule.forChild(),
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		CardGridModule,
 		PaginationModule
 	],

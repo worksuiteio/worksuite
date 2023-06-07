@@ -3,7 +3,7 @@ import {
 	IPaymentReportGroupByClient,
 	IPaymentReportGroupByDate,
 	IPaymentReportGroupByProject
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Injectable } from '@nestjs/common';
 import * as moment from 'moment';
 import { chain } from 'underscore';

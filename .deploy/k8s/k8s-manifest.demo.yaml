@@ -59,7 +59,7 @@ spec:
         spec:
             containers:
                 - name: gauzy-demo-api
-                  image: registry.digitalocean.com/ever/gauzy-api-demo:latest
+                  image: registry.digitalocean.com/ever/worksuite-api-demo:latest
                   env:
                       - name: API_HOST
                         value: 0.0.0.0
@@ -105,7 +105,7 @@ spec:
         spec:
             containers:
                 - name: gauzy-demo-webapp
-                  image: registry.digitalocean.com/ever/gauzy-webapp-demo:latest
+                  image: registry.digitalocean.com/ever/worksuite-webapp-demo:latest
                   env:
                       - name: DEMO
                         value: 'true'

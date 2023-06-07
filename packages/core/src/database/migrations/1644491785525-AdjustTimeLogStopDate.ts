@@ -1,7 +1,7 @@
 import { MigrationInterface, QueryRunner } from "typeorm";
 import { chain } from 'underscore';
 import * as moment from 'moment';
-import { isEmpty, isNotEmpty } from "@gauzy/common";
+import { isEmpty, isNotEmpty } from "@worksuite/common";
     
 export class AdjustTimeLogStopDate1644491785525 implements MigrationInterface {
 

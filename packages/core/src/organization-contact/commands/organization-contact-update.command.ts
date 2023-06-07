@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IOrganizationContact, IOrganizationContactUpdateInput } from '@gauzy/contracts';
+import { IOrganizationContact, IOrganizationContactUpdateInput } from '@worksuite/contracts';
 
 export class OrganizationContactUpdateCommand implements ICommand {
 	static readonly type = '[Organization Contact] Update';

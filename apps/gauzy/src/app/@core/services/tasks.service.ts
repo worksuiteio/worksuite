@@ -7,10 +7,10 @@ import {
 	IGetTaskByEmployeeOptions,
 	IPagination,
 	IEmployee
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { tap, catchError } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
-import { toParams } from '@gauzy/common-angular';
+import { toParams } from '@worksuite/common-angular';
 import { TranslationBaseComponent } from '../../@shared/language-base/translation-base.component';
 import { ToastrService } from './toastr.service';
 import { API_PREFIX } from '../constants/app.constants';

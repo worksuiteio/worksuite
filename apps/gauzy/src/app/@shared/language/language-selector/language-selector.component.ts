@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter, forwardRef, ChangeDetectorRef } from '@angular/core';
 import { LanguagesService } from '../../../@core/services/languages.service';
-import { ILanguage } from '@gauzy/contracts';
+import { ILanguage } from '@worksuite/contracts';
 import { TranslationBaseComponent } from '../../language-base/translation-base.component';
 import { TranslateService } from '@ngx-translate/core';
 import { Store } from '../../../@core';

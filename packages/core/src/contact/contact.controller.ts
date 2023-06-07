@@ -1,6 +1,6 @@
 import { Controller, Get, HttpStatus, Query, UseGuards } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { IContact, IPagination } from '@gauzy/contracts';
+import { IContact, IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { Contact } from './contact.entity';
 import { ContactService } from './contact.service';

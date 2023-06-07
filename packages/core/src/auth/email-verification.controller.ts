@@ -11,8 +11,8 @@ import {
     ValidationPipe
 } from '@nestjs/common';
 import { ApiOperation } from '@nestjs/swagger';
-import { IAppIntegrationConfig, Public } from '@gauzy/common';
-import { FeatureEnum } from '@gauzy/contracts';
+import { IAppIntegrationConfig, Public } from '@worksuite/common';
+import { FeatureEnum } from '@worksuite/contracts';
 import { EmailConfirmationService } from './email-confirmation.service';
 import { FeatureFlagGuard } from './../shared/guards';
 import { FeatureFlag } from './../shared/decorators';

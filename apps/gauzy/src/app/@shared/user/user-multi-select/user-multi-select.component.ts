@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@worksuite/contracts';
 
 @Component({
 	selector: 'ga-user-multi-select',

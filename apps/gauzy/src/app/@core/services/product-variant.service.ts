@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IProductVariant, IVariantCreateInput, IPagination } from '@gauzy/contracts';
+import { IProductVariant, IVariantCreateInput, IPagination } from '@worksuite/contracts';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { API_PREFIX } from '../constants/app.constants';

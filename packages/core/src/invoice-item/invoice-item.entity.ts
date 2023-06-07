@@ -7,7 +7,7 @@ import {
 	IOrganizationProject,
 	IProductTranslatable,
 	ITask
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsNumber, IsString, IsOptional, IsBoolean } from 'class-validator';
 import {

@@ -23,7 +23,7 @@ import {
 	LanguagesEnum,
 	PermissionsEnum,
 	ReportGroupFilterEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudController, PaginationParams } from '../core';
 import { UUIDValidationPipe } from './../shared/pipes';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';

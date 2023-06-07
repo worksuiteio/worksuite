@@ -1,11 +1,11 @@
 import { DataSource } from 'typeorm';
-import { IOrganization, IProductVariantPrice, ITenant } from '@gauzy/contracts';
+import { IOrganization, IProductVariantPrice, ITenant } from '@worksuite/contracts';
 import { ProductVariantPrice } from './product-variant-price.entity';
 import { faker } from '@faker-js/faker';
 import { ProductCategory } from '../product-category/product-category.entity';
 import { Product } from '../product/product.entity';
 import { ProductVariant } from '../product-variant/product-variant.entity';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 
 export const createRandomProductVariantPrice = async (
 	dataSource: DataSource,

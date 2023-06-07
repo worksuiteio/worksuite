@@ -9,7 +9,7 @@ import {
 	IGetMatchingCriterions,
 	IJobPreset,
 	IMatchingCriterions
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from './../core/context';
 import { JobPresetUpworkJobSearchCriterion } from './job-preset-upwork-job-search-criterion.entity';

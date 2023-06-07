@@ -1,3 +1,3 @@
-# `@gauzy/config`
+# `@worksuite/config`
 
-Gauzy Configuration Module
+Worksuite Configuration Module

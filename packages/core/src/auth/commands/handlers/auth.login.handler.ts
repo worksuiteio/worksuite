@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IUserLoginInput, IAuthResponse } from '@gauzy/contracts';
+import { IUserLoginInput, IAuthResponse } from '@worksuite/contracts';
 import { AuthLoginCommand } from '../auth.login.command';
 import { AuthService } from '../../auth.service';
 

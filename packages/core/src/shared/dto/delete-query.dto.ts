@@ -1,4 +1,4 @@
-import { IBasePerTenantAndOrganizationEntityModel } from "@gauzy/contracts";
+import { IBasePerTenantAndOrganizationEntityModel } from "@worksuite/contracts";
 import { PickType } from "@nestjs/swagger";
 import { TenantOrganizationBaseDTO } from "../../core/dto";
 

@@ -23,7 +23,7 @@ import { MerchantRoutingModule } from './merchant-routing.module';
 import { ThemeModule } from './../../../../@theme/theme.module';
 import { CardGridModule } from './../../../../@shared/card-grid/card-grid.module';
 import { CurrencyModule } from './../../../../@shared/currency/currency.module';
-import { GauzyButtonActionModule } from './../../../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from './../../../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { HeaderTitleModule } from './../../../../@shared/components/header-title/header-title.module';
 import { LeafletMapModule, LocationFormModule } from './../../../../@shared/forms';
 import { PaginationModule } from './../../../../@shared/pagination/pagination.module';
@@ -65,7 +65,7 @@ const NB_MODULES = [
         TranslateModule,
         CardGridModule,
         CurrencyModule,
-        GauzyButtonActionModule,
+        WorksuiteButtonActionModule,
         HeaderTitleModule,
         InventoryTableComponentsModule,
         LeafletMapModule,

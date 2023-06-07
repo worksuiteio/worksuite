@@ -1,10 +1,10 @@
 import { Component, OnInit, OnDestroy, AfterViewInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { IOrganization, CrudActionEnum, PermissionsEnum } from '@gauzy/contracts';
+import { IOrganization, CrudActionEnum, PermissionsEnum } from '@worksuite/contracts';
 import { filter, map, tap } from 'rxjs/operators';
 import { Observable } from 'rxjs/internal/Observable';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import { uniq } from 'underscore';
 import {
 	OrganizationEditStore,

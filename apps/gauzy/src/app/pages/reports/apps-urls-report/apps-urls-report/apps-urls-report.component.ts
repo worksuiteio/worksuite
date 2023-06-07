@@ -7,13 +7,13 @@ import {
 	ViewChild
 } from '@angular/core';
 import { Observable } from 'rxjs/internal/Observable';
-import { IGetActivitiesInput, ITimeLogFilters } from '@gauzy/contracts';
+import { IGetActivitiesInput, ITimeLogFilters } from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy } from '@ngneat/until-destroy';
 import { DateRangePickerBuilderService, Store } from './../../../../@core/services';
 import { BaseSelectorFilterComponent } from './../../../../@shared/timesheet/gauzy-filters/base-selector-filter/base-selector-filter.component';
 import { TimesheetFilterService } from './../../../../@shared/timesheet';
-import { GauzyFiltersComponent } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
+import { WorksuiteFiltersComponent } from './../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
 
 @UntilDestroy({ checkProperties: true })
 @Component({
@@ -26,7 +26,7 @@ export class AppsUrlsReportComponent extends BaseSelectorFilterComponent
 
 	filters: IGetActivitiesInput;
 
-	@ViewChild(GauzyFiltersComponent) gauzyFiltersComponent: GauzyFiltersComponent;
+	@ViewChild(WorksuiteFiltersComponent) gauzyFiltersComponent: WorksuiteFiltersComponent;
 	datePickerConfig$: Observable<any> = this.dateRangePickerBuilderService.datePickerConfig$;
 
 	constructor(

@@ -21,7 +21,7 @@ import { AutoApproveComponent } from './auto-approve/auto-approve.component';
 import { TranslateModule } from '../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 
 @NgModule({
 	imports: [
@@ -42,7 +42,7 @@ import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy
 		NbSpinnerModule,
 		HeaderTitleModule,
 		PaginationModule,
-		GauzyButtonActionModule
+		WorksuiteButtonActionModule
 	],
 	providers: [EquipmentService],
 	declarations: [EquipmentComponent, AutoApproveComponent]

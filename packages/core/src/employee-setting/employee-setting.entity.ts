@@ -8,7 +8,7 @@ import {
 	Max,
 	IsEnum
 } from 'class-validator';
-import { IEmployeeSetting, CurrenciesEnum, IEmployee } from '@gauzy/contracts';
+import { IEmployeeSetting, CurrenciesEnum, IEmployee } from '@worksuite/contracts';
 import {
 	Employee,
 	TenantOrganizationBaseEntity

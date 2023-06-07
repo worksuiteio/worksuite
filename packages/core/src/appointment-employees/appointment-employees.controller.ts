@@ -3,7 +3,7 @@ import { AppointmentEmployee } from './appointment-employees.entity';
 import { AppointmentEmployeesService } from './appointment-employees.service';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { Controller, UseGuards, HttpStatus, Get, Param } from '@nestjs/common';
-import { IAppointmentEmployee } from '@gauzy/contracts';
+import { IAppointmentEmployee } from '@worksuite/contracts';
 import { UUIDValidationPipe } from './../shared/pipes';
 import { TenantPermissionGuard } from './../shared/guards';
 

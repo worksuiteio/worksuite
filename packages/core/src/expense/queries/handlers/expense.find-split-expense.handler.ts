@@ -1,4 +1,4 @@
-import { IPagination, ISplitExpenseOutput } from '@gauzy/contracts';
+import { IPagination, ISplitExpenseOutput } from '@worksuite/contracts';
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
 import { EmployeeService } from '../../../employee/employee.service';
 import { ExpenseService } from '../../expense.service';

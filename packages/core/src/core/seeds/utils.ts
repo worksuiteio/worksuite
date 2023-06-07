@@ -2,8 +2,8 @@ import * as fs from "fs";
 import * as path from 'path';
 import * as chalk from 'chalk';
 import * as rimraf from 'rimraf';
-import { IPluginConfig } from "@gauzy/common";
-import { environment as env } from '@gauzy/config';
+import { IPluginConfig } from "@worksuite/common";
+import { environment as env } from '@worksuite/config';
 
 /**
  * Copy ever icons
@@ -12,7 +12,7 @@ import { environment as env } from '@gauzy/config';
  * @param config
  * @returns
  */
-export function copyEverIcons(
+export function copyWorksuiteIcons(
     filename: string,
     config: Partial<IPluginConfig>,
     destDir: string = 'ever-icons'
@@ -69,7 +69,7 @@ export function copyEverIcons(
  * @param config
  * @param destDir
  */
-export async function cleanEverIcons(
+export async function cleanWorksuiteIcons(
     config: Partial<IPluginConfig>,
     destDir: string
 ) {

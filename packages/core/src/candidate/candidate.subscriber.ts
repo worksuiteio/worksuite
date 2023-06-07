@@ -1,7 +1,7 @@
 import { EntitySubscriberInterface, EventSubscriber, InsertEvent, LoadEvent } from "typeorm";
 import * as moment from 'moment';
-import { average } from "@gauzy/common";
-import { CandidateStatusEnum } from "@gauzy/contracts";
+import { average } from "@worksuite/common";
+import { CandidateStatusEnum } from "@worksuite/contracts";
 import { Candidate } from "./candidate.entity";
 
 @EventSubscriber()

@@ -1,7 +1,7 @@
 import { Column, Entity, Index } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsString } from 'class-validator';
-import { IOrganizationAward } from '@gauzy/contracts';
+import { IOrganizationAward } from '@worksuite/contracts';
 import { TenantOrganizationBaseEntity } from '../core/entities/internal';
 
 @Entity('organization_award')

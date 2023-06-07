@@ -21,7 +21,7 @@ import {
 	ProductVariantDeleteCommand
 } from './commands';
 import { Product } from '../product/product.entity';
-import { IPagination, IProductVariant, IVariantCreateInput } from '@gauzy/contracts';
+import { IPagination, IProductVariant, IVariantCreateInput } from '@worksuite/contracts';
 import { TenantPermissionGuard } from './../shared/guards';
 import { UUIDValidationPipe } from './../shared/pipes';
 

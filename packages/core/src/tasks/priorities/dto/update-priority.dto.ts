@@ -1,4 +1,4 @@
-import { ITaskPriorityUpdateInput } from '@gauzy/contracts';
+import { ITaskPriorityUpdateInput } from '@worksuite/contracts';
 import { IntersectionType, PartialType } from '@nestjs/swagger';
 import { TaskPriority } from '../priority.entity';
 import { TenantOrganizationBaseDTO } from './../../../core/dto';

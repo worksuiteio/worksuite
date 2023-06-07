@@ -8,9 +8,9 @@ import {
 	IEmployeeCreateInput,
 	CrudActionEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { filter, firstValueFrom, tap } from 'rxjs';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import {
 	EmployeesService,

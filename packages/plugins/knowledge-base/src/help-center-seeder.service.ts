@@ -1,13 +1,13 @@
 import { Injectable } from '@nestjs/common';
 import { Not } from 'typeorm';
-import { IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ITenant } from '@worksuite/contracts';
 import {
 	getDefaultOrganizations,
 	getDefaultEmployees,
 	SeedDataService,
 	Tenant,
 	Employee
-} from '@gauzy/core';
+} from '@worksuite/core';
 import { createHelpCenter } from './help-center';
 import { createHelpCenterArticle } from './help-center-article/help-center-article.seed';
 import {

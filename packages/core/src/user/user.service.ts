@@ -30,9 +30,9 @@ import {
 	LanguagesEnum,
 	PermissionsEnum,
 	RolesEnum,
-} from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
-import { ConfigService, environment as env } from '@gauzy/config';
+} from '@worksuite/contracts';
+import { isNotEmpty } from '@worksuite/common';
+import { ConfigService, environment as env } from '@worksuite/config';
 import { User } from './user.entity';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from './../core/context';
@@ -370,7 +370,7 @@ export class UserService extends TenantAwareCrudService<User> {
 	}
 
 	/**
-	 * To permanently delete your account from your Gauzy app:
+	 * To permanently delete your account from your Worksuite app:
 	 *
 	 * @param userId
 	 * @param options

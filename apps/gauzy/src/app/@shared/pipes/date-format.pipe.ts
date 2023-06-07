@@ -1,9 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { IOrganization, RegionsEnum } from '@gauzy/contracts';
+import { IOrganization, RegionsEnum } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { filter, tap } from 'rxjs/operators';
 import * as moment from 'moment';
-import { distinctUntilChange, isEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isEmpty } from '@worksuite/common-angular';
 import { Store } from '../../@core/services';
 
 @UntilDestroy({ checkProperties: true })

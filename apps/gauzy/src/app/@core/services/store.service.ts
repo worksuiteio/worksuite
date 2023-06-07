@@ -14,7 +14,7 @@ import {
 	FeatureEnum,
 	ISelectedEmployee,
 	ComponentLayoutStyleEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { StoreConfig, Store as AkitaStore, Query } from '@datorama/akita';
 import { NgxPermissionsService, NgxRolesService } from 'ngx-permissions';
 import { merge, Subject } from 'rxjs';

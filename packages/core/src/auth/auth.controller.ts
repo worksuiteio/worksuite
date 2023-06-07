@@ -16,8 +16,8 @@ import { ApiTags, ApiOperation, ApiResponse, ApiOkResponse, ApiBadRequestRespons
 import { CommandBus } from '@nestjs/cqrs';
 import { Request } from 'express';
 import { I18nLang } from 'nestjs-i18n';
-import { IAuthResponse, LanguagesEnum } from '@gauzy/contracts';
-import { Public } from '@gauzy/common';
+import { IAuthResponse, LanguagesEnum } from '@worksuite/contracts';
+import { Public } from '@worksuite/common';
 import { AuthService } from './auth.service';
 import { User as IUser } from '../user/user.entity';
 import { AuthLoginCommand, AuthRegisterCommand, SendAuthCodeCommand, VerifyAuthCodeCommand } from './commands';

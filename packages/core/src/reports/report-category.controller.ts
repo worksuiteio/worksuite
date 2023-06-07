@@ -1,6 +1,6 @@
 import { Controller, Get, HttpStatus, Query } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { IPagination } from '@gauzy/contracts';
+import { IPagination } from '@worksuite/contracts';
 import { PaginationParams } from './../core/crud';
 import { ReportCategory } from './report-category.entity';
 import { ReportCategoryService } from './report-category.service';

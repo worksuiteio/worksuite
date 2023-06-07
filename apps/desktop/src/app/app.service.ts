@@ -115,7 +115,7 @@ export class AppService {
 			.toPromise();
 	}
 
-	pushActivityCollectionToGauzy() {
+	pushActivityCollectionToWorksuite() {
 		return true;
 	}
 	collectFromAW(tpURL, start, end) {

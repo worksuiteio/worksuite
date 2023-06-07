@@ -6,9 +6,9 @@ import {
 	ICustomSmtp,
 	ICustomSmtpFindInput,
 	ICustomSmtpValidateInput
-} from '@gauzy/contracts';
-import { isEmpty, ISMTPConfig } from '@gauzy/common';
-import { environment as env } from '@gauzy/config';
+} from '@worksuite/contracts';
+import { isEmpty, ISMTPConfig } from '@worksuite/common';
+import { environment as env } from '@worksuite/config';
 import { TenantAwareCrudService } from './../core/crud';
 import { CustomSmtp } from './custom-smtp.entity';
 

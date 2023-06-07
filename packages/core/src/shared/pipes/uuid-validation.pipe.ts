@@ -10,7 +10,7 @@ import {
 	PipeTransform
 } from '@nestjs/common';
 import { isUUID } from 'class-validator';
-import { isEmpty } from '@gauzy/common';
+import { isEmpty } from '@worksuite/common';
 
 /**
  * UUID Validation Pipe

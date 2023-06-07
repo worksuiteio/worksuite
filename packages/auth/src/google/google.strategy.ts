@@ -1,5 +1,5 @@
-import { ConfigService, IEnvironment } from '@gauzy/config';
-import { IApiServerOptions } from '@gauzy/common';
+import { ConfigService, IEnvironment } from '@worksuite/config';
+import { IApiServerOptions } from '@worksuite/common';
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { Strategy, VerifyCallback } from 'passport-google-oauth20';

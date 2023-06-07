@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IOrganizationCreateInput, ITenantCreateInput, IUserRegistrationInput } from '@gauzy/contracts';
+import { IOrganizationCreateInput, ITenantCreateInput, IUserRegistrationInput } from '@worksuite/contracts';
 import { API_PREFIX } from '../constants';
 
 @Injectable({
 	providedIn: 'root'
 })
-export class GauzyCloudService {
+export class WorksuiteCloudService {
 
 	constructor(
 		private readonly _http: HttpClient

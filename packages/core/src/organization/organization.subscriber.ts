@@ -1,6 +1,6 @@
 import { EntitySubscriberInterface, EventSubscriber, InsertEvent, LoadEvent } from "typeorm";
 import { faker } from '@faker-js/faker';
-import { sluggable } from "@gauzy/common";
+import { sluggable } from "@worksuite/common";
 import { Organization } from "./organization.entity";
 import { getOrganizationDummyImage } from "./../core/utils";
 

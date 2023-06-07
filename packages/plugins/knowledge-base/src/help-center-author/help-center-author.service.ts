@@ -1,9 +1,9 @@
-import { IHelpCenterAuthor } from '@gauzy/contracts';
+import { IHelpCenterAuthor } from '@worksuite/contracts';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { TenantAwareCrudService } from '@gauzy/core';
-import { isNotEmpty } from '@gauzy/common';
+import { TenantAwareCrudService } from '@worksuite/core';
+import { isNotEmpty } from '@worksuite/common';
 import { HelpCenterAuthor } from './help-center-author.entity';
 
 @Injectable()

@@ -7,7 +7,7 @@ import {
 	Output
 } from '@angular/core';
 import L, { icon, LatLng, latLng, Layer, marker, tileLayer } from 'leaflet';
-import { convertPrecisionFloatDigit } from '@gauzy/common-angular';
+import { convertPrecisionFloatDigit } from '@worksuite/common-angular';
 import { environment } from '../../../../../environments/environment';
 
 @Component({

@@ -1,6 +1,6 @@
 import { ApiTags } from '@nestjs/swagger';
 import { Controller, Get, Query, ValidationPipe } from '@nestjs/common';
-import { Public } from '@gauzy/common';
+import { Public } from '@worksuite/common';
 import { EstimateEmailService } from './estimate-email.service';
 import { FindEstimateEmailQueryDTO } from './dto';
 

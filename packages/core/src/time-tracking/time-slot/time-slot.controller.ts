@@ -15,7 +15,7 @@ import {
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { CommandBus } from '@nestjs/cqrs';
 import { DeleteResult, FindOneOptions, UpdateResult } from 'typeorm';
-import { ITimeSlot, PermissionsEnum } from '@gauzy/contracts';
+import { ITimeSlot, PermissionsEnum } from '@worksuite/contracts';
 import { DeleteTimeSlotCommand } from './commands';
 import { TimeSlotService } from './time-slot.service';
 import { TimeSlot } from './time-slot.entity';

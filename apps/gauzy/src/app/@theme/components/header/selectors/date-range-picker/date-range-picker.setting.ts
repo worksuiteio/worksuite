@@ -1,5 +1,5 @@
 import * as moment from 'moment';
-import { IDateRangePicker, ISelectedDateRange, ITimeLogFilters, WeekDaysEnum } from "@gauzy/contracts";
+import { IDateRangePicker, ISelectedDateRange, ITimeLogFilters, WeekDaysEnum } from "@worksuite/contracts";
 
 export enum DateRangeKeyEnum {
 	TODAY = 'Today',

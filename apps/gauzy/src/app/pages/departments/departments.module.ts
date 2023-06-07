@@ -26,7 +26,7 @@ import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { TranslateModule } from '../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { TableComponentsModule } from '../../@shared/table-components/table-components.module';
 
 const COMPONENTS = [DepartmentsComponent, DepartmentsMutationComponent];
@@ -57,7 +57,7 @@ const COMPONENTS = [DepartmentsComponent, DepartmentsMutationComponent];
 		TranslateModule,
 		HeaderTitleModule,
 		PaginationModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		TableComponentsModule
 	],
 	declarations: [...COMPONENTS],

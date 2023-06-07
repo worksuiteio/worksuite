@@ -2,7 +2,7 @@ import {
 	ICandidateTechnologies,
 	ICandidatePersonalQualities,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import { CandidatePersonalQualitiesService } from 'apps/gauzy/src/app/@core/services/candidate-personal-qualities.service';
 import { FormBuilder } from '@angular/forms';

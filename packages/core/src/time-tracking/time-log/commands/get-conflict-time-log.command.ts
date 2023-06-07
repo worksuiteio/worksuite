@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IGetTimeLogConflictInput } from '@gauzy/contracts';
+import { IGetTimeLogConflictInput } from '@worksuite/contracts';
 
 export class IGetConflictTimeLogCommand implements ICommand {
 	static readonly type = '[TimeLog] get conflict';

@@ -1,4 +1,4 @@
-import { IBulkActivitiesInput } from '@gauzy/contracts';
+import { IBulkActivitiesInput } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class BulkActivitiesSaveCommand implements ICommand {

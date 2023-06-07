@@ -1,4 +1,4 @@
-import { IOrganizationContact, ProposalStatusEnum } from "@gauzy/contracts";
+import { IOrganizationContact, ProposalStatusEnum } from "@worksuite/contracts";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IsEnum, IsNotEmpty, IsObject, IsOptional, IsString } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

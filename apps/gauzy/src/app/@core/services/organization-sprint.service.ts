@@ -5,7 +5,7 @@ import {
 	ITask,
 	IOrganizationSprint,
 	IGetSprintsOptions
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { tap, catchError } from 'rxjs/operators';
 import { firstValueFrom } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';

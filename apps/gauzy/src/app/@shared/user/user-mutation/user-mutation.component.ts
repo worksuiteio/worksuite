@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { RolesEnum, IUser } from '@gauzy/contracts';
+import { RolesEnum, IUser } from '@worksuite/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { Store, ToastrService } from '../../../@core/services';
 import { BasicInfoFormComponent } from '../forms/basic-info/basic-info-form.component';

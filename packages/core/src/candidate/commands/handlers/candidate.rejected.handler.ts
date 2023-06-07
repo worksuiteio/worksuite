@@ -1,6 +1,6 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { BadRequestException, ConflictException } from '@nestjs/common';
-import { CandidateStatusEnum, ICandidate } from '@gauzy/contracts';
+import { CandidateStatusEnum, ICandidate } from '@worksuite/contracts';
 import { CandidateService } from '../../candidate.service';
 import { CandidateRejectedCommand } from '../candidate.rejected.command';
 

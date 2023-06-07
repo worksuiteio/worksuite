@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Column, Entity, JoinColumn, RelationId, ManyToOne, Index } from 'typeorm';
-import { IIntegrationMap, IIntegrationTenant } from '@gauzy/contracts';
+import { IIntegrationMap, IIntegrationTenant } from '@worksuite/contracts';
 import {
 	IntegrationTenant,
 	TenantOrganizationBaseEntity

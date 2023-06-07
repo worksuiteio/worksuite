@@ -1,8 +1,8 @@
 import { BadRequestException, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Brackets, In, Raw, Repository, WhereExpressionBuilder } from 'typeorm';
-import { IEmployee, IOrganizationContact, IOrganizationContactFindInput, IPagination } from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
+import { IEmployee, IOrganizationContact, IOrganizationContactFindInput, IPagination } from '@worksuite/contracts';
+import { isNotEmpty } from '@worksuite/common';
 import { RequestContext } from '../core/context';
 import { PaginationParams, TenantAwareCrudService } from './../core/crud';
 import { OrganizationContact } from './organization-contact.entity';

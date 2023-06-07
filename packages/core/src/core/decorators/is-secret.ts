@@ -1,4 +1,4 @@
-import { isClassInstance, isNotEmpty, isObject } from "@gauzy/common";
+import { isClassInstance, isNotEmpty, isObject } from "@worksuite/common";
 
 /**
  * Checks if value is needs to be wrap with specific character.

@@ -1,6 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Column, Entity, Index, ManyToOne, RelationId } from 'typeorm';
-import { IEmail, IEmailTemplate, IUser } from '@gauzy/contracts';
+import { IEmail, IEmailTemplate, IUser } from '@worksuite/contracts';
 import {
 	EmailTemplate,
 	TenantOrganizationBaseEntity,

@@ -17,7 +17,7 @@ import { debounceTime, filter, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 import * as moment from 'moment';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@worksuite/common-angular';
 import {
 	CrudActionEnum,
 	IDateRangePicker,
@@ -26,7 +26,7 @@ import {
 	PermissionsEnum,
 	TimeLogSourceEnum,
 	TimeLogType
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { environment } from '../../../../environments/environment';
 import {
 	ALL_EMPLOYEES_SELECTED,

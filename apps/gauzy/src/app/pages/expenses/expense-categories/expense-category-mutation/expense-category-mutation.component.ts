@@ -9,7 +9,7 @@ import {
 	ITag,
 	IOrganization,
 	IExpenseCategory
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { Store } from './../../../../@core/services';

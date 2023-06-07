@@ -12,7 +12,7 @@ import {
 	InvitationExpirationEnum,
 	IRole,
 	IOrganizationTeam
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { firstValueFrom } from 'rxjs';
 import { filter, tap } from 'rxjs/operators';
 import { NbTagComponent, NbTagInputAddEvent, NbTagInputDirective } from '@nebular/theme';

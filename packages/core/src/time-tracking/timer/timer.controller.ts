@@ -14,7 +14,7 @@ import {
 	ITimeLog,
 	ITimerStatus,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TimerService } from './timer.service';
 import { PermissionGuard, TenantPermissionGuard } from './../../shared/guards';
 import { Permissions } from './../../shared/decorators';

@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { IEmployee, IOrganization, IOrganizationContact, IOrganizationContactCreateInput } from '@gauzy/contracts';
+import { IEmployee, IOrganization, IOrganizationContact, IOrganizationContactCreateInput } from '@worksuite/contracts';
 import { UntilDestroy } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { LatLng } from 'leaflet';

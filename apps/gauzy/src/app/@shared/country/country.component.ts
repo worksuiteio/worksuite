@@ -13,10 +13,10 @@ import {
 	FormControl,
 	NG_VALUE_ACCESSOR
 } from '@angular/forms';
-import { ICountry, IOrganization } from '@gauzy/contracts';
+import { ICountry, IOrganization } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { filter, Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 import { CountryService, Store } from '../../@core/services';

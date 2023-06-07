@@ -20,7 +20,7 @@
 	],
 	"dataGroups": [
 		{
-			"name": "gauzy-api",
+			"name": "worksuite-api",
 			"version": 1,
 			"urls": ["http://localhost:4200/api/**"],
 			"cacheConfig": {

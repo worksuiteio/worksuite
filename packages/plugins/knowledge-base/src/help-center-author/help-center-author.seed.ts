@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
-import { IEmployee, IHelpCenterAuthor, ITenant } from '@gauzy/contracts';
+import { IEmployee, IHelpCenterAuthor, ITenant } from '@worksuite/contracts';
 import { HelpCenterAuthor } from './help-center-author.entity';
 import { HelpCenterArticle } from '../help-center-article/help-center-article.entity';
 

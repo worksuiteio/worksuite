@@ -1,4 +1,4 @@
-import { IOrganizationContact, IOrganizationProject, IOrganizationTeam, ITask, ITimerToggleInput, TimeLogSourceEnum, TimeLogType } from "@gauzy/contracts";
+import { IOrganizationContact, IOrganizationProject, IOrganizationTeam, ITask, ITimerToggleInput, TimeLogSourceEnum, TimeLogType } from "@worksuite/contracts";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IsBoolean, IsEnum, IsOptional, IsString, IsUUID } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../../core/dto";

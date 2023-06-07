@@ -3,7 +3,7 @@ import { IntegrationMap } from './integration-map.entity';
 import { faker } from '@faker-js/faker';
 import { IntegrationTenant } from '../integration-tenant/integration-tenant.entity';
 import { Organization } from '../organization/organization.entity';
-import { IIntegrationMap, IntegrationEntity, ITenant } from '@gauzy/contracts';
+import { IIntegrationMap, IntegrationEntity, ITenant } from '@worksuite/contracts';
 
 export const createRandomIntegrationMap = async (
 	dataSource: DataSource,

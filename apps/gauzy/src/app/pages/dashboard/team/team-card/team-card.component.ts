@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { IEmployee, IOrganizationTeam, RolesEnum } from "@gauzy/contracts";
+import { IEmployee, IOrganizationTeam, RolesEnum } from "@worksuite/contracts";
 
 @Component({
     selector: 'gauzy-team-card',

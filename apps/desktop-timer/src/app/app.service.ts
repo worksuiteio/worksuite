@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../environments/environment';
 import { firstValueFrom } from 'rxjs';
-import { UserOrganizationService } from '@gauzy/desktop-ui-lib';
+import { UserOrganizationService } from '@worksuite/desktop-ui-lib';
 
 @Injectable({
 	providedIn: 'root',
@@ -114,7 +114,7 @@ export class AppService {
 		);
 	}
 
-	pushActivityCollectionToGauzy() {
+	pushActivityCollectionToWorksuite() {
 		return true;
 	}
 	collectFromAW(tpURL, start, end) {

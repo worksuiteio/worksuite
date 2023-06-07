@@ -1,4 +1,4 @@
-import { IChangelogFindInput } from "@gauzy/contracts";
+import { IChangelogFindInput } from "@worksuite/contracts";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsOptional } from "class-validator";
 

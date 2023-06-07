@@ -7,7 +7,7 @@ import {
 	ITaskPriorityCreateInput,
 	ITaskPriorityFindInput,
 	ITaskPriorityUpdateInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudFactory, PaginationParams } from './../../core/crud';
 import { TenantPermissionGuard } from './../../shared/guards';
 import { CountQueryDTO } from './../../shared/dto';

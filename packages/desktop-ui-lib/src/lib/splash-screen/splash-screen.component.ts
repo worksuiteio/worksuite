@@ -25,7 +25,7 @@ export class SplashScreenComponent implements OnInit {
 					letter.toUpperCase()
 				),
 			version: _electronService.remote.app.getVersion(),
-			iconPath: './assets/images/logos/logo_Gauzy.svg'
+			iconPath: './assets/images/logos/logo_Worksuite.svg'
 		};
 	}
 

@@ -13,7 +13,7 @@ import {
 	IEmployeePresetInput,
 	IGetMatchingCriterions,
 	IMatchingCriterions
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { JobPresetService } from './job-preset.service';
 import { JobPreset } from './job-preset.entity';
 import { UUIDValidationPipe } from './../shared/pipes';

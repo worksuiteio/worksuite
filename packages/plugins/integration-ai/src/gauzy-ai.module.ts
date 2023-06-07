@@ -1,7 +1,7 @@
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { HttpModule } from '@nestjs/axios';
 import { Module } from '@nestjs/common';
-import { GauzyAIService } from './gauzy-ai.service';
+import { WorksuiteAIService } from './gauzy-ai.service';
 import gauzyAI from './config/gauzy-ai';
 
 @Module({
@@ -21,7 +21,7 @@ import gauzyAI from './config/gauzy-ai';
 		ConfigModule.forFeature(gauzyAI),
 	],
 	controllers: [],
-	providers: [GauzyAIService, ConfigService],
-	exports: [GauzyAIService],
+	providers: [WorksuiteAIService, ConfigService],
+	exports: [WorksuiteAIService],
 })
-export class GauzyAIModule { }
+export class WorksuiteAIModule { }

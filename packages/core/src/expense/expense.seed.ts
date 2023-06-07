@@ -6,12 +6,12 @@ import {
 	IExpenseCategory,
 	IOrganizationVendor,
 	ITenant
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as csv from 'csv-parser';
 import * as moment from 'moment';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@worksuite/config';
 import { Expense } from './../core/entities/internal';
 
 export const createDefaultExpenses = async (

@@ -6,7 +6,7 @@ import { CandidateInterviewers } from './candidate-interviewers.entity';
 import {
 	ICandidateInterviewersDeleteInput,
 	ICandidateInterviewersCreateInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 
 @Injectable()
 export class CandidateInterviewersService extends TenantAwareCrudService<CandidateInterviewers> {

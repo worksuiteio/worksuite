@@ -3,7 +3,7 @@ import {
 	IOrganization,
 	IUserOrganizationCreateInput,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { filter, tap, debounceTime } from 'rxjs/operators';
 import { Subject, firstValueFrom } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';

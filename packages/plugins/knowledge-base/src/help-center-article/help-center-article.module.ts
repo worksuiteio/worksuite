@@ -1,7 +1,7 @@
 import { CqrsModule } from '@nestjs/cqrs';
 import { forwardRef, Module, OnModuleInit } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { TenantModule, UserModule } from '@gauzy/core';
+import { TenantModule, UserModule } from '@worksuite/core';
 import { HelpCenterArticle } from './help-center-article.entity';
 import { HelpCenterArticleService } from './help-center-article.service';
 import { HelpCenterArticleController } from './help-center-article.controller';

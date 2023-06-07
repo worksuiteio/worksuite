@@ -5,7 +5,7 @@ import {
 	IFeatureOrganizationUpdateInput,
 	IFeatureOrganizationFindInput,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { BehaviorSubject, EMPTY, from, Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 import * as _ from 'underscore';

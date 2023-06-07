@@ -1,5 +1,5 @@
-import { parseToBoolean } from "@gauzy/common";
-import { ITimeLogFilters, ITimeLogTodayFilters } from "@gauzy/contracts";
+import { parseToBoolean } from "@worksuite/common";
+import { ITimeLogFilters, ITimeLogTodayFilters } from "@worksuite/contracts";
 import { ApiPropertyOptional, IntersectionType } from "@nestjs/swagger";
 import { Transform, TransformFnParams } from "class-transformer";
 import { IsOptional } from "class-validator";

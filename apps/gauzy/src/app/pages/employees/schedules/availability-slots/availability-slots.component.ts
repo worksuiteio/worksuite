@@ -16,14 +16,14 @@ import {
 	ISelectedEmployee,
 	StatusTypesEnum,
 	WeekDaysEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { filter, tap, debounceTime } from 'rxjs/operators';
 import { combineLatest, Subject, firstValueFrom } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { NgxPermissionsService } from 'ngx-permissions';
-import { distinctUntilChange, isEmpty, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isEmpty, isNotEmpty } from '@worksuite/common-angular';
 import { TranslationBaseComponent } from '../../../../@shared/language-base/translation-base.component';
 import {
 	AvailabilitySlotsService,

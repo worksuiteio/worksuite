@@ -1,4 +1,4 @@
-import { IEquipmentSharing, IImageAsset } from "@gauzy/contracts";
+import { IEquipmentSharing, IImageAsset } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsBoolean, IsNotEmpty, IsNumber, IsOptional, IsString } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

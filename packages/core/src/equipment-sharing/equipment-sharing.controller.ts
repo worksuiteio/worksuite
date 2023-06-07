@@ -15,7 +15,7 @@ import {
 import { CrudController, PaginationParams } from './../core/crud';
 import { EquipmentSharing } from './equipment-sharing.entity';
 import { EquipmentSharingService } from './equipment-sharing.service';
-import { IEquipmentSharing, IPagination, PermissionsEnum, RequestApprovalStatusTypesEnum } from '@gauzy/contracts';
+import { IEquipmentSharing, IPagination, PermissionsEnum, RequestApprovalStatusTypesEnum } from '@worksuite/contracts';
 import { Post } from '@nestjs/common';
 import { CommandBus } from '@nestjs/cqrs';
 import {

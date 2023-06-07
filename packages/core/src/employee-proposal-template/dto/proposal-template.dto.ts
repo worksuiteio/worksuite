@@ -1,4 +1,4 @@
-import { IEmployeeProposalTemplate } from "@gauzy/contracts";
+import { IEmployeeProposalTemplate } from "@worksuite/contracts";
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IsBoolean, IsNotEmpty, IsOptional, IsString } from "class-validator";
 import { TenantOrganizationBaseDTO } from "./../../core/dto";

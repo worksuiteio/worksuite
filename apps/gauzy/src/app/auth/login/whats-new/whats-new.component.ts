@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 import { UntilDestroy, untilDestroyed } from "@ngneat/until-destroy";
 import { Observable } from "rxjs";
-import { IChangelog } from "@gauzy/contracts";
+import { IChangelog } from "@worksuite/contracts";
 import { ChangelogService } from "../../../@core";
 import { tap } from "rxjs/operators";
 

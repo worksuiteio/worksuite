@@ -24,7 +24,7 @@ import { CardGridModule } from '../../../@shared/card-grid/card-grid.module';
 import { BackNavigationModule } from '../../../@shared/back-navigation/back-navigation.module';
 import { TranslateModule } from '../../../@shared/translate/translate.module';
 import { HeaderTitleModule } from '../../../@shared/components/header-title/header-title.module';
-import { GauzyButtonActionModule } from '../../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { PaginationModule } from '../../../@shared/pagination/pagination.module';
 
 @NgModule({
@@ -50,7 +50,7 @@ import { PaginationModule } from '../../../@shared/pagination/pagination.module'
 		NbDialogModule.forChild(),
 		TranslateModule,
 		HeaderTitleModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
     PaginationModule
 	],
 	declarations: [EventTypeComponent],

@@ -7,10 +7,10 @@ import {
 	IInvoiceFindInput,
 	IInvoiceUpdateInput,
 	IPagination
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { firstValueFrom } from 'rxjs';
 import { BehaviorSubject } from 'rxjs';
-import { toParams } from '@gauzy/common-angular';
+import { toParams } from '@worksuite/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { NbDialogRef, NbThemeService } from '@nebular/theme';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { firstValueFrom } from 'rxjs';
-import { ITag } from '@gauzy/contracts';
+import { ITag } from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { Store, TagsService } from '../../@core/services';
 import { NotesWithTagsComponent } from '../table-components';

@@ -28,7 +28,7 @@ import { TranslateModule } from '../../@shared/translate/translate.module';
 import { EmployeesService } from '../../@core/services';
 import { HeaderTitleModule } from '../../@shared/components/header-title/header-title.module';
 import { PaginationModule } from '../../@shared/pagination/pagination.module';
-import { GauzyButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
+import { WorksuiteButtonActionModule } from '../../@shared/gauzy-button-action/gauzy-button-action.module';
 import { SharedModule } from '../../@shared/shared.module';
 
 @NgModule({
@@ -54,7 +54,7 @@ import { SharedModule } from '../../@shared/shared.module';
 		NbSpinnerModule,
 		HeaderTitleModule,
 		PaginationModule,
-		GauzyButtonActionModule,
+		WorksuiteButtonActionModule,
 		NbTooltipModule
 	],
 	providers: [

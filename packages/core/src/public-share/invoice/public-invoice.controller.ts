@@ -10,9 +10,9 @@ import {
 } from '@nestjs/common';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { CommandBus, QueryBus } from '@nestjs/cqrs';
-import { Public } from '@gauzy/common';
+import { Public } from '@worksuite/common';
 import { FindOptionsWhere, UpdateResult } from 'typeorm';
-import { HttpStatus, IInvoice } from '@gauzy/contracts';
+import { HttpStatus, IInvoice } from '@worksuite/contracts';
 import { Invoice } from './../../core/entities/internal';
 import { PublicTransformInterceptor } from './../public-transform.interceptor';
 import { FindPublicInvoiceQuery } from './queries';

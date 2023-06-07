@@ -4,8 +4,8 @@ import * as remoteMain from '@electron/remote/main';
 import * as url from 'url';
 const Store = require('electron-store');
 const store = new Store();
-export async function createGauzyWindow(gauzyWindow, serve, config, filePath) {
-	log.info('createGauzyWindow started');
+export async function createWorksuiteWindow(gauzyWindow, serve, config, filePath) {
+	log.info('createWorksuiteWindow started');
 
 	let mainWindowSettings: Electron.BrowserWindowConstructorOptions = null;
 
@@ -52,7 +52,7 @@ export async function createGauzyWindow(gauzyWindow, serve, config, filePath) {
 
 	initMainListener();
 
-	log.info('createGauzyWindow completed');
+	log.info('createWorksuiteWindow completed');
 
 	return gauzyWindow;
 }
@@ -76,7 +76,7 @@ const windowSetting = () => {
 		height: sizes.height,
 		x: 0,
 		y: 0,
-		title: 'Gauzy Desktop',
+		title: 'Worksuite Desktop',
 		show: false
 	};
 

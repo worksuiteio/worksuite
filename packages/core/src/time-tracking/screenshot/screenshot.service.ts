@@ -1,7 +1,7 @@
 import { ForbiddenException, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FindOptionsWhere, Repository } from 'typeorm';
-import { IScreenshot, PermissionsEnum } from '@gauzy/contracts';
+import { IScreenshot, PermissionsEnum } from '@worksuite/contracts';
 import { RequestContext } from './../../core/context';
 import { TenantAwareCrudService } from './../../core/crud';
 import { Screenshot } from './screenshot.entity';

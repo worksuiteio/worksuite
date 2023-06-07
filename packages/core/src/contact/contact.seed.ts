@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
-import { IContact, IOrganization, ITenant } from '@gauzy/contracts';
+import { IContact, IOrganization, ITenant } from '@worksuite/contracts';
 import { Contact } from './../core/entities/internal';
 
 export const createRandomContacts = async (

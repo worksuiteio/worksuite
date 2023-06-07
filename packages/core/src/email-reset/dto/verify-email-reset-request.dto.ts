@@ -1,4 +1,4 @@
-import { IUserCodeInput } from '@gauzy/contracts';
+import { IUserCodeInput } from '@worksuite/contracts';
 import { UserCodeDTO } from '../../user/dto';
 
 /**

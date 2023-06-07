@@ -1,4 +1,4 @@
-import { ICountry } from '@gauzy/contracts';
+import { ICountry } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsString } from 'class-validator';
 import { Column, Entity, Index } from 'typeorm';

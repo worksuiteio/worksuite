@@ -1,10 +1,10 @@
-# `@gauzy/common`
+# `@worksuite/common`
 
-Common code used internally in different Gauzy API packages.
+Common code used internally in different Worksuite API packages.
 
 ## Usage
 
 ```
-const common = require('@gauzy/common');
+const common = require('@worksuite/common');
 
 ```

@@ -9,8 +9,8 @@ import interactionPlugin, { DateClickArg } from '@fullcalendar/interaction';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import * as moment from 'moment';
 import { debounceTime, filter, tap } from 'rxjs/operators';
-import { distinctUntilChange } from '@gauzy/common-angular';
-import { IOrganization } from '@gauzy/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
+import { IOrganization } from '@worksuite/contracts';
 import { CandidateInterviewService, Store } from '../../../@core/services';
 
 @UntilDestroy({ checkProperties: true })

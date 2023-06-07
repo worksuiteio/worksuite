@@ -9,8 +9,8 @@ import {
 	IRecurringExpenseDeleteInput,
 	IRecurringExpenseOrderFields,
 	IPagination
-} from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { toParams } from '@worksuite/common-angular';
 import { firstValueFrom } from 'rxjs';
 import { API_PREFIX } from '../constants/app.constants';
 

@@ -1,10 +1,10 @@
-# `@gauzy/contracts`
+# `@worksuite/contracts`
 
-Common contracts used internally in different Gauzy API and UI packages.
+Common contracts used internally in different Worksuite API and UI packages.
 
 ## Usage
 
 ```
-const common = require('@gauzy/contracts');
+const common = require('@worksuite/contracts');
 
 ```

@@ -11,14 +11,14 @@ import {
 	DiscountTaxTypeEnum,
 	ITag,
 	IInvoiceItemCreateInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { firstValueFrom } from 'rxjs';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import { Router, ActivatedRoute } from '@angular/router';
 import { NbDialogService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { compareDate, distinctUntilChange } from '@gauzy/common-angular';
+import { compareDate, distinctUntilChange } from '@worksuite/common-angular';
 import * as moment from 'moment';
 import { InvoiceEmailMutationComponent } from '../invoice-email/invoice-email-mutation.component';
 import {

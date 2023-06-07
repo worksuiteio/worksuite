@@ -1,4 +1,4 @@
-import { LanguagesEnum, TranslatePropertyInput } from '@gauzy/contracts';
+import { LanguagesEnum, TranslatePropertyInput } from '@worksuite/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
 import { IsNotEmpty, IsOptional, IsString, ValidateNested } from 'class-validator';

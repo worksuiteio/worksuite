@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
-import { IOrganization, IPipeline, ITenant } from '@gauzy/contracts';
+import { IOrganization, IPipeline, ITenant } from '@worksuite/contracts';
 import { Pipeline } from './pipeline.entity';
 
 export const createDefaultPipeline = async (

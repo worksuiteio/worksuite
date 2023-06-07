@@ -8,7 +8,7 @@ import {
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IIntegrationTenant } from '@gauzy/contracts';
+import { IIntegrationTenant } from '@worksuite/contracts';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';
 import { TenantPermissionGuard } from './../shared/guards';
 import { IntegrationTenant } from './integration-tenant.entity';

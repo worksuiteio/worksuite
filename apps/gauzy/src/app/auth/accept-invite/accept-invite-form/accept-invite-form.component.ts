@@ -16,7 +16,7 @@ import {
 	IUserRegistrationInput,
 	ITag,
 	ITenant
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { MatchValidator } from '../../../@core/validators';
 import { FormHelpers } from '../../../@shared/forms';

@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { IOrganization, IRequestApprovalTeam, ITenant } from '@gauzy/contracts';
+import { IOrganization, IRequestApprovalTeam, ITenant } from '@worksuite/contracts';
 import { RequestApprovalTeam } from './request-approval-team.entity';
 import { faker } from '@faker-js/faker';
 import { ApprovalPolicy, OrganizationTeam, RequestApproval } from './../core/entities/internal';

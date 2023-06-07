@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ICandidateLevelInput } from '@gauzy/contracts';
+import { ICandidateLevelInput } from '@worksuite/contracts';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

@@ -55,7 +55,7 @@ import * as moment from 'moment';
 import { LegalModule } from './legal/legal.module';
 import { Router } from '@angular/router';
 import { FeatureToggleModule } from 'ngx-feature-toggle';
-import { IFeatureToggle, LanguagesEnum } from '@gauzy/contracts';
+import { IFeatureToggle, LanguagesEnum } from '@worksuite/contracts';
 import { HttpLoaderFactory } from './@shared/translate/translate.module';
 import { FeatureService, GoogleMapsLoaderService } from './@core/services';
 import { AppInitService } from './@core/services/app-init-service';
@@ -63,7 +63,7 @@ import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { CookieService } from 'ngx-cookie-service';
 import { NgxDaterangepickerMd } from 'ngx-daterangepicker-material';
 
-// TODO: we should use some internal function which returns version of Gauzy;
+// TODO: we should use some internal function which returns version of Worksuite;
 const version = '0.1.0';
 
 export const cloudinary = {
@@ -98,7 +98,7 @@ if (environment.SENTRY_DSN && environment.SENTRY_DSN === 'DOCKER_SENTRY_DSN') {
 				routingInstrumentation: Sentry.routingInstrumentation,
 			}),
 		],
-		// TODO: we should use some internal function which returns version of Gauzy
+		// TODO: we should use some internal function which returns version of Worksuite
 		release: 'gauzy@' + version,
 		// set tracesSampleRate to 1.0 to capture 100% of transactions for performance monitoring
 		tracesSampleRate: 1.0,

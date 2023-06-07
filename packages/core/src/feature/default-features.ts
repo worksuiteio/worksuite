@@ -1,5 +1,5 @@
-import { gauzyToggleFeatures } from '@gauzy/config';
-import { FeatureEnum, IFeatureCreateInput } from '@gauzy/contracts';
+import { gauzyToggleFeatures } from '@worksuite/config';
+import { FeatureEnum, IFeatureCreateInput } from '@worksuite/contracts';
 
 const features = gauzyToggleFeatures;
 
@@ -349,7 +349,7 @@ export const DEFAULT_FEATURES: IFeatureCreateInput[] = [
 			{
 				name: 'Help Center',
 				code: FeatureEnum.FEATURE_ORGANIZATION_HELP_CENTER,
-				description: 'Find out more about how to use Gauzy',
+				description: 'Find out more about how to use Worksuite',
 				image: 'help.png',
 				link: 'help',
 				isEnabled: features.FEATURE_ORGANIZATION_HELP_CENTER,

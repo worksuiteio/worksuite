@@ -1,7 +1,7 @@
 import { AfterContentChecked, ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { ISelectedEmployee, PermissionsEnum } from '@gauzy/contracts';
+import { ISelectedEmployee, PermissionsEnum } from '@worksuite/contracts';
 import { NbRouteTab } from '@nebular/theme';
 import { tap } from 'rxjs/operators';
 import { Store } from '../../@core/services';

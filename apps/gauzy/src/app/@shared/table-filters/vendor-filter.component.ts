@@ -1,6 +1,6 @@
 import {Component, OnChanges, SimpleChanges} from '@angular/core';
 import { DefaultFilter } from 'ng2-smart-table';
-import { IOrganizationVendor } from '@gauzy/contracts';
+import { IOrganizationVendor } from '@worksuite/contracts';
 
 @Component({
     template: `

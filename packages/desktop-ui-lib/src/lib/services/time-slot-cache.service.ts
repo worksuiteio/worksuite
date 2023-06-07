@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AbstractCacheService } from './abstract-cache.service';
-import { ITimeSlot } from '@gauzy/contracts';
+import { ITimeSlot } from '@worksuite/contracts';
 import { StorageService } from './storage.service';
 import { Store } from '../services';
 

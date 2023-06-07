@@ -5,7 +5,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { NbDialogService } from '@nebular/theme';
 import * as moment from 'moment';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { IEmployee, IEmployeeAppointment } from '@gauzy/contracts';
+import { IEmployee, IEmployeeAppointment } from '@worksuite/contracts';
 import { EmployeeAppointmentService, EmployeesService } from '../../../@core/services';
 import { TranslationBaseComponent } from '../../../@shared/language-base/translation-base.component';
 import { AlertModalComponent } from '../../../@shared/alert-modal/alert-modal.component';

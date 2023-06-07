@@ -13,7 +13,7 @@ import {
 	BadRequestException
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IKPI, IPagination } from '@gauzy/contracts';
+import { IKPI, IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { GoalKPI } from './goal-kpi.entity';
 import { GoalKpiService } from './goal-kpi.service';

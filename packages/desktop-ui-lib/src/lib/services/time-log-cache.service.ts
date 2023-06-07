@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ICountsStatistics } from '@gauzy/contracts';
+import { ICountsStatistics } from '@worksuite/contracts';
 import { StorageService } from './storage.service';
 import { AbstractCacheService } from './abstract-cache.service';
 import { Store } from '../services';

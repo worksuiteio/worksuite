@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { FileStorageProviderEnum, ITenantSetting, IUser, PermissionsEnum, SMTPSecureEnum } from '@gauzy/contracts';
+import { FileStorageProviderEnum, ITenantSetting, IUser, PermissionsEnum, SMTPSecureEnum } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
-import { isNotEmpty } from '@gauzy/common-angular';
+import { isNotEmpty } from '@worksuite/common-angular';
 import { filter, tap } from 'rxjs/operators';
 import { Subject } from 'rxjs/internal/Subject';
 import { FileStorageService, Store, TenantService, ToastrService } from '../../../@core/services';

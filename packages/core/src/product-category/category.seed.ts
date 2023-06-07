@@ -3,7 +3,7 @@ import { ProductCategory } from './product-category.entity';
 import { faker } from '@faker-js/faker';
 import * as categories from './product-category.seed.json';
 import { ProductCategoryTranslation } from './product-category-translation.entity';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@worksuite/contracts';
 
 export const createCategories = async (
 	dataSource: DataSource,

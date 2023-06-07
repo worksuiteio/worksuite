@@ -5,7 +5,7 @@ import {
 	IEditEntityByMemberInput,
 	IEmployee,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Store } from '../../../@core/services';
 
 @Component({

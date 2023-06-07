@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import {
 	IInvoiceEstimateHistory,
 	IInvoiceEstimateHistoryFindInput
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { firstValueFrom } from 'rxjs';
 import { API_PREFIX } from '../constants/app.constants';
 

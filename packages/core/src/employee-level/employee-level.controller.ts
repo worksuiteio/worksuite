@@ -9,7 +9,7 @@ import {
 	BadRequestException
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { IEmployeeLevel, IPagination } from '@gauzy/contracts';
+import { IEmployeeLevel, IPagination } from '@worksuite/contracts';
 import { CrudController } from './../core/crud';
 import { EmployeeLevel } from './employee-level.entity';
 import { EmployeeLevelService } from './employee-level.service';

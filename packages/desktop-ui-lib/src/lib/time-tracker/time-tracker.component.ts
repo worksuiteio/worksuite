@@ -28,8 +28,8 @@ import {
 	PermissionsEnum,
 	ProjectOwnerEnum,
 	TaskStatusEnum
-} from '@gauzy/contracts';
-import { compressImage } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { compressImage } from '@worksuite/common-angular';
 import { Store, ErrorHandlerService, NativeNotificationService, ToastrNotificationService } from '../services';
 
 @UntilDestroy({ checkProperties: true })
@@ -855,7 +855,7 @@ export class TimeTrackerComponent implements OnInit, AfterViewInit {
 						};
 						const notification = {
 							message: 'Idle time successfully deleted',
-							title: 'Gauzy',
+							title: 'Worksuite',
 						};
 						const isReadyForDeletion =
 							!this._isOffline && payload.timeslotIds.length > 0;

@@ -5,7 +5,7 @@ import {
 	LanguagesEnum,
 	EmailTemplateNameEnum,
 	IEmailTemplate
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { RequestContext } from './../../../core/context';
 import { EmailTemplate } from './../../email-template.entity';
 import { EmailTemplateService } from '../../email-template.service';

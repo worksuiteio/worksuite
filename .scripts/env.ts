@@ -10,7 +10,7 @@ export type Env = Readonly<{
 	// Set to true if build / runs in Docker
 	IS_DOCKER: boolean;
 
-	// Base URL of Gauzy UI website
+	// Base URL of Worksuite UI website
 	CLIENT_BASE_URL: string;
 
 	// Base API URL
@@ -83,13 +83,13 @@ export const env: Env = cleanEnv(
 
 		DEMO: bool({ default: false }),
 
-		DEMO_SUPER_ADMIN_EMAIL: str({ default: 'admin@ever.co' }),
+		DEMO_SUPER_ADMIN_EMAIL: str({ default: 'admin@worksuite.co' }),
 		DEMO_SUPER_ADMIN_PASSWORD: str({ default: 'admin' }),
 
-		DEMO_ADMIN_EMAIL: str({ default: 'local.admin@ever.co' }),
+		DEMO_ADMIN_EMAIL: str({ default: 'local.admin@worksuite.co' }),
 		DEMO_ADMIN_PASSWORD: str({ default: 'admin' }),
 
-		DEMO_EMPLOYEE_EMAIL: str({ default: 'employee@ever.co' }),
+		DEMO_EMPLOYEE_EMAIL: str({ default: 'employee@worksuite.co' }),
 		DEMO_EMPLOYEE_PASSWORD: str({ default: '123456' }),
 
 		CHATWOOT_SDK_TOKEN: str({ default: '' }),

@@ -16,8 +16,8 @@ import {
 	AccountingTemplateTypeEnum,
 	IOrganization,
 	LanguagesEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange } from '@worksuite/common-angular';
 import { AccountingTemplateService, Store } from '../../@core/services';
 
 @UntilDestroy({ checkProperties: true })

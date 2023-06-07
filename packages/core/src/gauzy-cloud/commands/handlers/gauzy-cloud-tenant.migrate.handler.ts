@@ -1,22 +1,22 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { catchError, tap } from 'rxjs/operators';
 import { of as observableOf } from 'rxjs';
-import { ITenant } from '@gauzy/contracts';
-import { GauzyCloudService } from '../../gauzy-cloud.service';
+import { ITenant } from '@worksuite/contracts';
+import { WorksuiteCloudService } from '../../gauzy-cloud.service';
 import { RoleService } from './../../../role/role.service';
-import { GauzyCloudTenantMigrateCommand } from './../gauzy-cloud-tenant.migrate.command';
+import { WorksuiteCloudTenantMigrateCommand } from './../gauzy-cloud-tenant.migrate.command';
 import { RolePermissionService } from './../../../role-permission/role-permission.service';
 
-@CommandHandler(GauzyCloudTenantMigrateCommand)
-export class GauzyCloudTenantMigrateHandler implements ICommandHandler<GauzyCloudTenantMigrateCommand> {
+@CommandHandler(WorksuiteCloudTenantMigrateCommand)
+export class WorksuiteCloudTenantMigrateHandler implements ICommandHandler<WorksuiteCloudTenantMigrateCommand> {
 
 	constructor(
-		private readonly _gauzyCloudService: GauzyCloudService,
+		private readonly _gauzyCloudService: WorksuiteCloudService,
 		private readonly _roleService: RoleService,
 		private readonly _rolePermissionService: RolePermissionService
 	) {}
 
-	public async execute(command: GauzyCloudTenantMigrateCommand): Promise<any> {
+	public async execute(command: WorksuiteCloudTenantMigrateCommand): Promise<any> {
 		const { input, token } = command;
 		return this._gauzyCloudService.migrateTenant(input, token).pipe(
 			tap(async (response: any) => {

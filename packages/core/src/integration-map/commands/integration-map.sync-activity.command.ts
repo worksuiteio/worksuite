@@ -1,4 +1,4 @@
-import { IIntegrationMapSyncActivity } from '@gauzy/contracts';
+import { IIntegrationMapSyncActivity } from '@worksuite/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class IntegrationMapSyncActivityCommand implements ICommand {

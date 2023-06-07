@@ -9,7 +9,7 @@ import {
 	IImportHistory,
 	ImportTypeEnum,
 	ImportStatusEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { Subject } from 'rxjs';
 import { Observable } from 'rxjs/internal/Observable';
 import { saveAs } from 'file-saver';

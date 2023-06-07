@@ -3,7 +3,7 @@ import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { JwtPayload } from 'jsonwebtoken';
 import { Request } from 'express';
-import { environment } from '@gauzy/config';
+import { environment } from '@worksuite/config';
 import { UserService } from './../../user/user.service';
 
 @Injectable()

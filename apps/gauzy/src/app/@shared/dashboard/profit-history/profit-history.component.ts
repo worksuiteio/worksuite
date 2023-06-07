@@ -4,14 +4,14 @@ import { DateViewComponent } from '../../table-components/date-view/date-view.co
 import { Store } from '../../../@core/services/store.service';
 import { ExpenseTableComponent } from './table-components/expense-table.component';
 import { IncomeTableComponent } from './table-components/income-table.component';
-import { IEmployeeStatisticsHistory } from '@gauzy/contracts';
+import { IEmployeeStatisticsHistory } from '@worksuite/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { debounceTime, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 import { NbDialogRef } from '@nebular/theme';
 import { PaginationFilterBaseComponent } from '../../pagination/pagination-filter-base.component';
 import { Subject } from 'rxjs/internal/Subject';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@worksuite/common-angular';
 
 @UntilDestroy({ checkProperties: true })
 @Component({

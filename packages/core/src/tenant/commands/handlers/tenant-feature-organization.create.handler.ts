@@ -1,4 +1,4 @@
-import { IFeatureOrganization } from '@gauzy/contracts';
+import { IFeatureOrganization } from '@worksuite/contracts';
 import { forwardRef, Inject } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { FeatureOrganizationService } from './../../../feature/feature-organization.service';

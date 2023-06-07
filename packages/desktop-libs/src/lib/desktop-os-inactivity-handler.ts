@@ -36,7 +36,7 @@ export class DesktopOsInactivityHandler {
 				this._windowFocus();
 				this._startedAt = new Date();
 				this._dialog = new DesktopDialog(
-					'Gauzy',
+					'Worksuite',
 					'Are you still working?',
 					powerManager.window
 				);
@@ -74,7 +74,7 @@ export class DesktopOsInactivityHandler {
 					if (!this._inactivityResultAccepted) {
 						const dialog = new DialogAcknowledgeInactivity(
 							new DesktopDialog(
-								'Gauzy',
+								'Worksuite',
 								'Inactivity Handler',
 								powerManager.window
 							)
@@ -94,7 +94,7 @@ export class DesktopOsInactivityHandler {
 				if (!res)
 					this._notify.customNotification(
 						'Tracker was stopped due to inactivity!',
-						'Gauzy'
+						'Worksuite'
 					);
 				this._inactivityResultAccepted = true;
 			}

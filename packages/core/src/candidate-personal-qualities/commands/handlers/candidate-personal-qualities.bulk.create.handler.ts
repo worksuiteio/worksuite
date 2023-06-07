@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { ICandidatePersonalQualitiesCreateInput } from '@gauzy/contracts';
+import { ICandidatePersonalQualitiesCreateInput } from '@worksuite/contracts';
 import { CandidatePersonalQualitiesBulkCreateCommand } from '../candidate-personal-qualities.bulk.create.command';
 import { CandidatePersonalQualitiesService } from '../../candidate-personal-qualities.service';
 import { CandidatePersonalQualities } from '../../candidate-personal-qualities.entity';

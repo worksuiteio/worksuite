@@ -13,7 +13,7 @@ import {
 	UsePipes
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IOrganizationVendor, IPagination } from '@gauzy/contracts';
+import { IOrganizationVendor, IPagination } from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { OrganizationVendorService } from './organization-vendor.service';
 import { OrganizationVendor } from './organization-vendor.entity';

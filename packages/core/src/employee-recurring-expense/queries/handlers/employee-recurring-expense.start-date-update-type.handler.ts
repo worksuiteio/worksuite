@@ -1,4 +1,4 @@
-import { IStartUpdateTypeInfo } from '@gauzy/contracts';
+import { IStartUpdateTypeInfo } from '@worksuite/contracts';
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
 import { FindRecurringExpenseStartDateUpdateTypeHandler } from '../../../shared/handlers/recurring-expense.find-update-type.handler';
 import { EmployeeRecurringExpense } from '../../employee-recurring-expense.entity';

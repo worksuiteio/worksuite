@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ViewCell } from 'ng2-smart-table';
-import { IOrganization, IProject } from '@gauzy/contracts';
+import { IOrganization, IProject } from '@worksuite/contracts';
 
 @Component({
 	selector: 'ngx-project',

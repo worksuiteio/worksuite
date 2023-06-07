@@ -9,7 +9,7 @@ import {
 	IGoalGeneralSetting,
 	KeyResultNumberUnitsEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { KeyResultService } from '../../../@core/services/keyresult.service';
 import { Subject } from 'rxjs';

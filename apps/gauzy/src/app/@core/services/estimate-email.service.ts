@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { IEstimateEmailFindInput, IEstimateEmail } from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+import { IEstimateEmailFindInput, IEstimateEmail } from '@worksuite/contracts';
+import { toParams } from '@worksuite/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

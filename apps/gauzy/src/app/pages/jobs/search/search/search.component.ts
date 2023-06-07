@@ -17,8 +17,8 @@ import {
 	JobPostTypeEnum,
 	JobSearchTabsEnum,
 	PermissionsEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange, isEmpty, isNotEmpty, toUTC } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange, isEmpty, isNotEmpty, toUTC } from '@worksuite/common-angular';
 import { NbDialogService, NbTabComponent } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';

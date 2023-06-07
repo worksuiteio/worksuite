@@ -1,9 +1,9 @@
-import { GauzyCloudOrganizationMigrateHandler } from './gauzy-cloud-organization.migrate.handler';
-import { GauzyCloudTenantMigrateHandler } from './gauzy-cloud-tenant.migrate.handler';
-import { GauzyCloudUserMigrateHandler } from './gauzy-cloud-user.migrate.handler';
+import { WorksuiteCloudOrganizationMigrateHandler } from './gauzy-cloud-organization.migrate.handler';
+import { WorksuiteCloudTenantMigrateHandler } from './gauzy-cloud-tenant.migrate.handler';
+import { WorksuiteCloudUserMigrateHandler } from './gauzy-cloud-user.migrate.handler';
 
 export const CommandHandlers = [
-    GauzyCloudUserMigrateHandler,
-    GauzyCloudTenantMigrateHandler,
-    GauzyCloudOrganizationMigrateHandler
+    WorksuiteCloudUserMigrateHandler,
+    WorksuiteCloudTenantMigrateHandler,
+    WorksuiteCloudOrganizationMigrateHandler
 ];

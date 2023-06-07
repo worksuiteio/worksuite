@@ -8,7 +8,7 @@ import {
 	IIncome,
 	IMonthAggregatedSplitExpense,
 	IStatisticSum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
 import * as moment from 'moment';
 import { EmployeeService } from '../../../employee/employee.service';

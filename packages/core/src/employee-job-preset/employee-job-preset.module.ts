@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { CqrsModule } from '@nestjs/cqrs';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { RouterModule } from 'nest-router';
-import { GauzyAIModule } from '@gauzy/integration-ai';
+import { WorksuiteAIModule } from '@worksuite/integration-ai';
 import { EmployeeModule } from './../employee/employee.module';
 import { Handlers } from './commands/handlers';
 import { EmployeePresetController } from './employee-preset.controller';
@@ -32,7 +32,7 @@ import { JobSearchPresetController } from './job-search-preset.controller';
 		]),
 		EmployeeModule,
 		CqrsModule,
-		GauzyAIModule
+		WorksuiteAIModule
 	],
 	controllers: [
 		JobSearchOccupationController,

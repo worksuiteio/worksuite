@@ -1,5 +1,5 @@
 import { Entity, Column, OneToMany } from 'typeorm';
-import { ProductTypesIconsEnum } from '@gauzy/contracts';
+import { ProductTypesIconsEnum } from '@worksuite/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import {
 	Product,

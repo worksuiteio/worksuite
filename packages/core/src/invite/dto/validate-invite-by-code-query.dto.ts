@@ -1,4 +1,4 @@
-import { IUserInviteCodeConfirmationInput } from "@gauzy/contracts";
+import { IUserInviteCodeConfirmationInput } from "@worksuite/contracts";
 import { IntersectionType } from "@nestjs/swagger";
 import { UserCodeDTO, UserEmailDTO } from "./../../user/dto";
 

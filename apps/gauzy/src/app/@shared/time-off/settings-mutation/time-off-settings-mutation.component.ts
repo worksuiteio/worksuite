@@ -5,7 +5,7 @@ import {
 	IOrganization,
 	IOrganizationTeam,
 	ITimeOffPolicy
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { EmployeesService } from '../../../@core/services';
 import { takeUntil } from 'rxjs/operators';
 import { Store } from '../../../@core/services/store.service';

@@ -18,7 +18,7 @@ import { CrudController } from './../core/crud';
 import { KeyResultService } from './keyresult.service';
 import { TenantPermissionGuard } from './../shared/guards';
 import { BulkBodyLoadTransformPipe, UUIDValidationPipe } from './../shared/pipes';
-import { IKeyResult } from '@gauzy/contracts';
+import { IKeyResult } from '@worksuite/contracts';
 import { CreateKeyresultDTO, KeyresultBultInputDTO, UpdateKeyresultDTO } from './dto';
 
 @ApiTags('KeyResults')

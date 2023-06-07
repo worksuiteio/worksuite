@@ -1,4 +1,4 @@
-import { IDateRangePicker } from "@gauzy/contracts";
+import { IDateRangePicker } from "@worksuite/contracts";
 import { ApiPropertyOptional, OmitType } from "@nestjs/swagger";
 import { IsDateString, IsOptional } from "class-validator";
 import { IsBeforeDate } from "./../../shared/validators";

@@ -6,7 +6,7 @@ import {
 	NB_AUTH_OPTIONS,
 } from '@nebular/auth';
 import { TranslateService } from '@ngx-translate/core';
-import { LanguagesEnum } from '@gauzy/contracts';
+import { LanguagesEnum } from '@worksuite/contracts';
 import { ElectronService } from '../electron/services';
 
 @Component({

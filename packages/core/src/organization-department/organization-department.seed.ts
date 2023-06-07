@@ -3,7 +3,7 @@ import { OrganizationDepartment } from './organization-department.entity';
 import { faker } from '@faker-js/faker';
 import { Tag } from '../tags/tag.entity';
 import { DEFAULT_ORGANIZATION_DEPARTMENTS } from './default-organization-departments';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@worksuite/contracts';
 
 export const createDefaultOrganizationDepartments = async (
 	dataSource: DataSource,

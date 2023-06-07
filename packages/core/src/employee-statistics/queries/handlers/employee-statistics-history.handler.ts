@@ -7,7 +7,7 @@ import {
 	IEmployeeStatisticsHistoryFindInput,
 	RecurringExpenseDefaultCategoriesEnum,
 	IDateRangePicker
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { EmployeeStatisticsHistoryQuery } from '../employee-statistics-history.query';
 
 /**

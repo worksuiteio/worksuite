@@ -1,5 +1,5 @@
 import { BadRequestException, createParamDecorator, ExecutionContext } from '@nestjs/common';
-import { FileStorageProviderEnum, UploadedFile } from '@gauzy/contracts';
+import { FileStorageProviderEnum, UploadedFile } from '@worksuite/contracts';
 import { FileStorage } from './file-storage';
 
 export const UploadedFileStorage = createParamDecorator(

@@ -1,6 +1,6 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsOptional, IsString, IsUrl, ValidateIf } from "class-validator";
-import { FileStorageProviderEnum, IWasabiFileStorageProviderConfig } from "@gauzy/contracts";
+import { FileStorageProviderEnum, IWasabiFileStorageProviderConfig } from "@worksuite/contracts";
 import { Transform, TransformFnParams } from "class-transformer";
 import { IsSecret } from "./../../../core/decorators";
 

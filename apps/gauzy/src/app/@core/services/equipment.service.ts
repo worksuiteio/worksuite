@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IEquipment, IEquipmentFindInput } from '@gauzy/contracts';
+import { IEquipment, IEquipmentFindInput } from '@worksuite/contracts';
 import { firstValueFrom } from 'rxjs';
 import { API_PREFIX } from '../constants/app.constants';
 

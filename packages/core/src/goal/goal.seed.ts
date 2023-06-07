@@ -2,7 +2,7 @@ import { Goal } from './goal.entity';
 import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
 import { GoalTimeFrame } from '../goal-time-frame/goal-time-frame.entity';
-import { GoalLevelEnum, IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { GoalLevelEnum, IEmployee, IOrganization, ITenant } from '@worksuite/contracts';
 import { OrganizationTeam } from '../organization-team/organization-team.entity';
 import { DEFAULT_GOALS } from './default-goals';
 

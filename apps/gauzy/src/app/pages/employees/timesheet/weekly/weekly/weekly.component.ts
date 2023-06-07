@@ -11,15 +11,15 @@ import {
 	IOrganizationProject,
 	ITimeLogFilters,
 	PermissionsEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange, isEmpty } from '@gauzy/common-angular';
+} from '@worksuite/contracts';
+import { distinctUntilChange, isEmpty } from '@worksuite/common-angular';
 import { TranslateService } from '@ngx-translate/core';
 import { moment } from './../../../../../@core/moment-extend';
 import { DateRangePickerBuilderService, Store } from './../../../../../@core/services';
 import { TimesheetService, TimesheetFilterService } from './../../../../../@shared/timesheet';
 import { EditTimeLogModalComponent, ViewTimeLogComponent } from './../../../../../@shared/timesheet';
 import { BaseSelectorFilterComponent } from './../../../../../@shared/timesheet/gauzy-filters/base-selector-filter/base-selector-filter.component';
-import { GauzyFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
+import { WorksuiteFiltersComponent } from './../../../../../@shared/timesheet/gauzy-filters/gauzy-filters.component';
 
 interface WeeklyDayData {
 	project?: IOrganizationProject;
@@ -45,7 +45,7 @@ export class WeeklyComponent extends BaseSelectorFilterComponent
 
 	futureDateAllowed: boolean;
 
-	@ViewChild(GauzyFiltersComponent) gauzyFiltersComponent: GauzyFiltersComponent;
+	@ViewChild(WorksuiteFiltersComponent) gauzyFiltersComponent: WorksuiteFiltersComponent;
 	datePickerConfig$: Observable<any> = this.dateRangePickerBuilderService.datePickerConfig$;
 
 	payloads$: BehaviorSubject<ITimeLogFilters> = new BehaviorSubject(null);

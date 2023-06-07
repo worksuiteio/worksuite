@@ -1,4 +1,4 @@
-import { IGoalTemplate } from "@gauzy/contracts";
+import { IGoalTemplate } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { IsObject, IsOptional, IsString } from "class-validator";
 

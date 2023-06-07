@@ -21,7 +21,7 @@ import {
 	PermissionsEnum,
 	RolesEnum,
 	StatusTypesEnum
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { TimeOffRequest } from './time-off-request.entity';
 import { TimeOffRequestService } from './time-off-request.service';

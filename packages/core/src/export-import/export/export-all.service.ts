@@ -10,9 +10,9 @@ import * as csv from 'csv-writer';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as fse from 'fs-extra';
-import { ConfigService } from '@gauzy/config';
-import { getEntitiesFromPlugins } from '@gauzy/plugin';
-import { isFunction, isNotEmpty } from '@gauzy/common';
+import { ConfigService } from '@worksuite/config';
+import { getEntitiesFromPlugins } from '@worksuite/plugin';
+import { isFunction, isNotEmpty } from '@worksuite/common';
 import {
 	AccountingTemplate,
 	Activity,

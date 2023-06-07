@@ -42,7 +42,7 @@ export class DesktopUpdater {
 			const localUpdate = new LocalUpdate();
 			const dialog = new DialogLocalUpdate(
 				new DesktopDialog(
-					'Gauzy',
+					'Worksuite',
 					'Please select folder with update files',
 					this._settingWindow
 				)
@@ -120,7 +120,7 @@ export class DesktopUpdater {
 			if (setting && !setting.automaticUpdate) return;
 			const dialog = new DialogConfirmUpgradeDownload(
 				new DesktopDialog(
-					'Gauzy',
+					'Worksuite',
 					'Update Ready to Download',
 					this._gauzyWindow
 				)
@@ -145,7 +145,7 @@ export class DesktopUpdater {
 			if (setting && !setting.automaticUpdate) return;
 			const dialog = new DialogConfirmInstallDownload(
 				new DesktopDialog(
-					'Gauzy',
+					'Worksuite',
 					'Update Ready to Install',
 					this._gauzyWindow
 				)

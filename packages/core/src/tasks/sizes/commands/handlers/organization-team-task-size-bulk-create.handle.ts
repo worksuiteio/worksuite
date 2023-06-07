@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { ITaskStatus } from '@gauzy/contracts';
+import { ITaskStatus } from '@worksuite/contracts';
 import { OrganizationTeamTaskSizeBulkCreateCommand } from '../organization-team-task-size-bulk-create.command';
 import { TaskSizeService } from './../../size.service';
 

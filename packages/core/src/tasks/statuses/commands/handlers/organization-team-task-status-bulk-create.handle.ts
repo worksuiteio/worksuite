@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { ITaskStatus } from '@gauzy/contracts';
+import { ITaskStatus } from '@worksuite/contracts';
 import { OrganizationTeamTaskStatusBulkCreateCommand } from './../organization-team-task-status-bulk-create.command';
 import { TaskStatusService } from './../../status.service';
 

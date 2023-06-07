@@ -12,7 +12,7 @@ import {
 	IEmployeeAward,
 	IEmployeeLevel,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import {
 	switchMap,
 	map,

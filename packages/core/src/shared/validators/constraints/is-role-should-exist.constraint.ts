@@ -6,7 +6,7 @@ import {
 	ValidatorConstraint,
 	ValidatorConstraintInterface
 } from "class-validator";
-import { IRole } from "@gauzy/contracts";
+import { IRole } from "@worksuite/contracts";
 import { Role } from "../../../core/entities/internal";
 import { RequestContext } from "../../../core/context";
 

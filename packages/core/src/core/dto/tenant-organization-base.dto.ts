@@ -9,7 +9,7 @@ import {
 import {
 	IOrganization,
 	IBasePerTenantAndOrganizationEntityModel,
-} from '@gauzy/contracts';
+} from '@worksuite/contracts';
 import { TenantBaseDTO } from './tenant-base.dto';
 import { IsOrganizationBelongsToUser } from './../../shared/validators';
 

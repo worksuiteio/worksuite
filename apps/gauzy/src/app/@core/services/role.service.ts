@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom, Observable } from 'rxjs';
-import { IRole, IPagination, IRoleCreateInput, IRoleFindInput } from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+import { IRole, IPagination, IRoleCreateInput, IRoleFindInput } from '@worksuite/contracts';
+import { toParams } from '@worksuite/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

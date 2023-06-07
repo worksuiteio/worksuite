@@ -1,4 +1,4 @@
-import { IUserTokenInput } from "@gauzy/contracts";
+import { IUserTokenInput } from "@worksuite/contracts";
 import { ApiProperty } from "@nestjs/swagger";
 import { Transform, TransformFnParams } from "class-transformer";
 import { IsNotEmpty, IsString } from "class-validator";

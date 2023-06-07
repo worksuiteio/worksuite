@@ -1,4 +1,4 @@
-import { ICandidateFeedback } from '@gauzy/contracts';
+import { ICandidateFeedback } from '@worksuite/contracts';
 
 export const DEFAULT_CANDIDATE_FEEDBACKS: ICandidateFeedback[] = [
 	{

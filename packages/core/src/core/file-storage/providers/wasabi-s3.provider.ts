@@ -1,9 +1,9 @@
-import { FileStorageOption, FileStorageProviderEnum, UploadedFile } from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
+import { FileStorageOption, FileStorageProviderEnum, UploadedFile } from '@worksuite/contracts';
+import { isNotEmpty } from '@worksuite/common';
 import * as multerS3 from 'multer-s3';
 import { basename, join } from 'path';
 import * as moment from 'moment';
-import { environment } from '@gauzy/config';
+import { environment } from '@worksuite/config';
 import * as AWS from 'aws-sdk';
 import { StorageEngine } from 'multer';
 import { Provider } from './provider';
