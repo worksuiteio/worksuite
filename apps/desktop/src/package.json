@@ -7,10 +7,10 @@
 	"homepage": "https://gauzy.co",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ever-co/ever-gauzy.git"
+		"url": "https://github.com/worksuiteio/worksuite.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ever-co/ever-gauzy/issues"
+		"url": "https://github.com/worksuiteio/worksuite/issues"
 	},
 	"private": true,
 	"author": {
@@ -58,14 +58,14 @@
 		"publish": [
 			{
 				"provider": "github",
-				"repo": "ever-gauzy-desktop",
+				"repo": "worksuite-desktop",
 				"releaseType": "release"
 			},
 			{
 				"provider": "spaces",
 				"name": "ever",
 				"region": "sfo3",
-				"path": "/ever-gauzy-desktop",
+				"path": "/worksuite-desktop",
 				"acl": "public-read"
 			}
 		],

@@ -18,26 +18,19 @@ module.exports.server = (isProd) => {
             let newVersion = stdout.trim();
             console.log('latest tag', newVersion);
             if (newVersion) {
-				// let's remove "v" from version, i.e. first character
+                // let's remove "v" from version, i.e. first character
                 newVersion = newVersion.substring(1);
                 package.version = newVersion;
 
-				if (!isProd) {
-					package.build.publish = [
-						{
-							"provider": "github",
-							"repo": "ever-gauzy-server",
-							"releaseType": "prerelease"
-						},
-						{
-							"provider": "spaces",
-							"name": "ever",
-							"region": "sfo3",
-							"path": "/ever-gauzy-server-pre",
-							"acl": "public-read"
-						}
-					];
-				}
+                if (!isProd) {
+                    package.build.publish = [
+                        {
+                            "provider": "github",
+                            "repo": "worksuite-server",
+                            "releaseType": "prerelease"
+                        }
+                    ];
+                }
 
                 fs.writeFileSync('./apps/server/src/package.json', JSON.stringify(package, null, 2));
 
@@ -66,26 +59,19 @@ module.exports.desktop = (isProd) => {
             let newVersion = stdout.trim();
             console.log('latest tag', newVersion);
             if (newVersion) {
-				// let's remove "v" from version, i.e. first character
+                // let's remove "v" from version, i.e. first character
                 newVersion = newVersion.substring(1);
                 package.version = newVersion;
 
-				if (!isProd) {
-					package.build.publish = [
-						{
-							"provider": "github",
-							"repo": "ever-gauzy-desktop",
-							"releaseType": "prerelease"
-						},
-						{
-							"provider": "spaces",
-							"name": "ever",
-							"region": "sfo3",
-							"path": "/ever-gauzy-desktop-pre",
-							"acl": "public-read"
-						}
-					];
-				}
+                if (!isProd) {
+                    package.build.publish = [
+                        {
+                            "provider": "github",
+                            "repo": "worksuite-desktop",
+                            "releaseType": "prerelease"
+                        }
+                    ];
+                }
 
                 fs.writeFileSync('./apps/desktop/src/package.json', JSON.stringify(package, null, 2));
 
@@ -105,42 +91,35 @@ module.exports.desktopTimer = (isProd) => {
         let currentVersion = package.version;
 
         exec('git fetch --tags && git tag --sort version:refname | tail -1', (error, stdout) => {
-        if (error) {
-            console.error(`exec error: ${error}`);
-            return;
-        }
+            if (error) {
+                console.error(`exec error: ${error}`);
+                return;
+            }
 
-        let newVersion = stdout.trim();
-        console.log('latest tag', newVersion);
-        if (newVersion) {
-			// let's remove "v" from version, i.e. first character
-            newVersion = newVersion.substring(1);
-            package.version = newVersion;
+            let newVersion = stdout.trim();
+            console.log('latest tag', newVersion);
+            if (newVersion) {
+                // let's remove "v" from version, i.e. first character
+                newVersion = newVersion.substring(1);
+                package.version = newVersion;
 
-			if (!isProd) {
-				package.build.publish = [
-					{
-						"provider": "github",
-						"repo": "ever-gauzy-desktop-timer",
-						"releaseType": "prerelease"
-					},
-					{
-						"provider": "spaces",
-						"name": "ever",
-						"region": "sfo3",
-						"path": "/ever-gauzy-desktop-timer-pre",
-						"acl": "public-read"
-					}
-				];
-			}
+                if (!isProd) {
+                    package.build.publish = [
+                        {
+                            "provider": "github",
+                            "repo": "worksuite-desktop-timer",
+                            "releaseType": "prerelease"
+                        }
+                    ];
+                }
 
-            fs.writeFileSync('./apps/desktop-timer/src/package.json', JSON.stringify(package, null, 2));
+                fs.writeFileSync('./apps/desktop-timer/src/package.json', JSON.stringify(package, null, 2));
 
-            let updated = require('../apps/desktop-timer/src/package.json');
-            console.log('Version updated to version', updated.version);
-        } else {
-            console.log('Latest tag is not found. build desktop-timer app with default version', currentVersion);
-        }
-    });
+                let updated = require('../apps/desktop-timer/src/package.json');
+                console.log('Version updated to version', updated.version);
+            } else {
+                console.log('Latest tag is not found. build desktop-timer app with default version', currentVersion);
+            }
+        });
     }
 }

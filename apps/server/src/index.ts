@@ -65,8 +65,8 @@ let tray: Tray;
 let isServerRun: boolean;
 
 const updater = new DesktopUpdater({
-	repository: 'ever-gauzy-server',
-	owner: 'ever-co',
+	repository: 'worksuite-server',
+	owner: 'worksuiteio',
 	typeRelease: 'releases',
 });
 

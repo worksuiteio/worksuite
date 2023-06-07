@@ -146,7 +146,7 @@
 		"swagger-ui-express": "^4.1.4",
 		"typeorm": "0.3.7",
 		"typeorm-aurora-data-api-driver": "^2.4.4",
-		"typeorm-express-query-builder": "https://github.com/ever-co/typeorm-express-query-builder.git",
+		"typeorm-express-query-builder": "https://github.com/worksuiteio/typeorm-express-query-builder.git",
 		"underscore": "^1.13.3",
 		"unleash-client": "^3.16.1",
 		"unzipper": "^0.10.11",

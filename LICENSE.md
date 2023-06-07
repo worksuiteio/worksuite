@@ -4,8 +4,8 @@ Copyright © 2019-present, Ever Co. LTD. All rights reserved.
 
 This document represent official information about our licensing, make sure you read and understand it before start using software and source code.
 
-- Check more detailed information about licensing in our [Wiki](https://github.com/ever-co/ever-gauzy/wiki/Licensing).
-- You can also ask any questions in the [Issue](https://github.com/ever-co/ever-gauzy/issues/3686) or [Contact Us](https://github.com/ever-co/ever-gauzy#contact-us).
+- Check more detailed information about licensing in our [Wiki](https://github.com/worksuiteio/worksuite/wiki/Licensing).
+- You can also ask any questions in the [Issue](https://github.com/worksuiteio/worksuite/issues/3686) or [Contact Us](https://github.com/worksuiteio/worksuite#contact-us).
 
 This software is available under an Open Source Licenses ("Community Edition"). It is suitable if your business can comply with the requirements of corresponding open-source licenses, see more information below (e.g. requirements to release your modifications under the same open-source licenses for the benefits of our community).
 
@@ -13,13 +13,13 @@ Alternatively, commercial versions of the software must be used in accordance wi
 
 In addition, Ever Co. LTD holds copyright and/or sufficient licenses to all components of the Gauzy Platform, and therefore can grant, at its sole discretion, the ability for companies, individuals, or organizations to create proprietary modules which may be dynamically linked at runtime with the portions of Gauzy Platform which fall under our copyright/license umbrella.
 
-We support the open-source community. If you're building awesome non-profit/open-source projects, we're happy to help and will provide (subject to [acceptance criteria](https://github.com/ever-co/ever-gauzy/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects)) Ever Gauzy Enterprise edition license and free hosting option! Feel free to contact us at <mailto:ever@ever.co> to make a request. More details explained in our [Wiki](https://github.com/ever-co/ever-gauzy/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects).
+We support the open-source community. If you're building awesome non-profit/open-source projects, we're happy to help and will provide (subject to [acceptance criteria](https://github.com/worksuiteio/worksuite/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects)) Ever Gauzy Enterprise edition license and free hosting option! Feel free to contact us at <mailto:ever@ever.co> to make a request. More details explained in our [Wiki](https://github.com/worksuiteio/worksuite/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects).
 
 **The default Gauzy™ Platform license, without a valid Gauzy™ Platform Small Business or Gauzy™ Platform Enterprise License agreement, is the Gauzy™ Platform Community Edition License.**
 
 ### _Gauzy Platform Community Edition_ License
 
-Gauzy™ Platform Community Edition available at https://github.com/ever-co/ever-gauzy released under [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.txt).
+Gauzy™ Platform Community Edition available at https://github.com/worksuiteio/worksuite released under [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.txt).
 
 If you decide to choose the Gauzy™ Platform Community Edition License, you must comply with the following terms:
 
@@ -37,7 +37,7 @@ For example, for AGPL v3 (strongest copyleft license we use) conditions can be s
 -   Contributors provide an express grant of patent rights.
 -   When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.
 
-Feel free to [Contact Us](https://github.com/ever-co/ever-gauzy#contact-us) for an additional information about used open-source licenses!
+Feel free to [Contact Us](https://github.com/worksuiteio/worksuite#contact-us) for an additional information about used open-source licenses!
 
 ### _Gauzy Platform Small Business_ License
 
