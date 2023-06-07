@@ -34,7 +34,7 @@ log.catchErrors({
 			.then((result) => {
 				if (result.response === 1) {
 					submitIssue(
-						'https://github.com/ever-co/ever-gauzy-desktop-timer/issues/new',
+						'https://github.com/worksuiteio/worksuite-desktop-timer/issues/new',
 						{
 							title: `Automatic error report for Desktop Timer App ${versions.app}`,
 							body:
@@ -115,8 +115,8 @@ const args = process.argv.slice(1);
 const notificationWindow: BrowserWindow = null;
 const serverGauzy = null;
 const updater = new DesktopUpdater({
-	repository: 'ever-gauzy-desktop-timer',
-	owner: 'ever-co',
+	repository: 'worksuite-desktop-timer',
+	owner: 'worksuiteio',
 	typeRelease: 'releases',
 });
 args.some((val) => val === '--serve');

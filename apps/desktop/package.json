@@ -6,10 +6,10 @@
 	"homepage": "https://gauzy.co",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ever-co/ever-gauzy.git"
+		"url": "https://github.com/worksuiteio/worksuite.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ever-co/ever-gauzy/issues"
+		"url": "https://github.com/worksuiteio/worksuite/issues"
 	},
 	"private": true,
 	"author": {
@@ -88,7 +88,7 @@
 		"twing": "^5.0.2",
 		"typeorm": "0.3.7",
 		"typeorm-aurora-data-api-driver": "^2.4.4",
-		"typeorm-express-query-builder": "https://github.com/ever-co/typeorm-express-query-builder.git",
+		"typeorm-express-query-builder": "https://github.com/worksuiteio/typeorm-express-query-builder.git",
 		"underscore": "^1.13.3"
 	},
 	"optionalDependencies": {

@@ -3,7 +3,7 @@
 	"npmClient": "yarn",
 	"version": "0.1.0",
 	"changelog": {
-		"repo": "ever-co/ever-gauzy",
+		"repo": "worksuiteio/worksuite",
 		"cacheDir": ".changelog",
 		"labels": {}
 	},

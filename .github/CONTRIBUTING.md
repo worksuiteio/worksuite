@@ -20,7 +20,7 @@ If you can, please provide more information about your environment such as brows
 
 ## Feature requests
 
-You are more than welcome to submit future requests here https://github.com/ever-co/feature-requests/issues
+You are more than welcome to submit future requests here https://github.com/worksuiteio/feature-requests/issues
 
 ## Legal
 
