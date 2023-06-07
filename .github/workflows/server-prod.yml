@@ -1,4 +1,4 @@
-name: Server Build Prod
+name: Desktop Server Build Prod
 
 on:
     workflow_run:

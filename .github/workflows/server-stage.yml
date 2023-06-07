@@ -1,4 +1,4 @@
-name: Server Build Stage
+name: Desktop Server Build Stage
 
 on:
     workflow_run:
