@@ -42,13 +42,6 @@ jobs:
                   username: ${{ github.repository_owner }}
                   password: ${{ secrets.GH_TOKEN }}
 
-            - name: Install doctl
-              uses: digitalocean/action-doctl@v2
-              with:
-                  token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
-
-            - name: Log in to DigitalOcean Container Registry with short-lived credentials
-              run: doctl registry login --expiry-seconds 3600
 
             - name: Build
               uses: docker/build-push-action@v3
@@ -60,7 +53,7 @@ jobs:
                   tags: |
                       ghcr.io/worksuiteio/gauzy-api-stage:latest
                       worksuiteio/gauzy-api-stage:latest
-                      registry.digitalocean.com/ever/gauzy-api-stage:latest
+
                   cache-from: type=registry,ref=worksuiteio/gauzy-api-stage:latest
                   cache-to: type=inline
 
@@ -72,9 +65,7 @@ jobs:
               run: |
                   docker push worksuiteio/gauzy-api-stage:latest
 
-            - name: Push to DigitalOcean Registry
-              run: |
-                  docker push registry.digitalocean.com/ever/gauzy-api-stage:latest
+
 
             - name: Push to Github Registry
               run: |
@@ -117,13 +108,6 @@ jobs:
                   username: ${{ github.repository_owner }}
                   password: ${{ secrets.GH_TOKEN }}
 
-            - name: Install doctl
-              uses: digitalocean/action-doctl@v2
-              with:
-                  token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
-
-            - name: Log in to DigitalOcean Container Registry with short-lived credentials
-              run: doctl registry login --expiry-seconds 3600
 
             - name: Build and push
               uses: docker/build-push-action@v3
@@ -134,7 +118,7 @@ jobs:
                   tags: |
                       ghcr.io/worksuiteio/gauzy-webapp-stage:latest
                       worksuiteio/gauzy-webapp-stage:latest
-                      registry.digitalocean.com/ever/gauzy-webapp-stage:latest
+
                   cache-from: type=registry,ref=worksuiteio/gauzy-webapp-stage:latest
                   cache-to: type=inline
 
@@ -142,9 +126,7 @@ jobs:
               run: |
                   docker push worksuiteio/gauzy-webapp-stage:latest
 
-            - name: Push to DigitalOcean Registry
-              run: |
-                  docker push registry.digitalocean.com/ever/gauzy-webapp-stage:latest
+
 
             - name: Push to Github Registry
               run: |
